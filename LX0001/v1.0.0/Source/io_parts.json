@@ -149,72 +149,6 @@
     "group": "usb"
   },
   {
-    "ref": "R8",
-    "libname": "Device:R",
-    "value": "100k",
-    "footprint": "Resistor_SMD:R_0603_1608Metric",
-    "lcsc": "C25803",
-    "pins": {
-      "1": "USB_5V",
-      "2": "VBUS_SENSE"
-    },
-    "sch": [
-      325.12,
-      111.75999999999999
-    ],
-    "place": [
-      2.0,
-      1.25,
-      0.0
-    ],
-    "side": "Top",
-    "group": "usb"
-  },
-  {
-    "ref": "R9",
-    "libname": "Device:R",
-    "value": "150k",
-    "footprint": "Resistor_SMD:R_0603_1608Metric",
-    "lcsc": "C22807",
-    "pins": {
-      "1": "VBUS_SENSE",
-      "2": "GND"
-    },
-    "sch": [
-      50.8,
-      162.56
-    ],
-    "place": [
-      2.0,
-      3.5,
-      0.0
-    ],
-    "side": "Top",
-    "group": "usb"
-  },
-  {
-    "ref": "C4",
-    "libname": "Device:C",
-    "value": "100nF 50V",
-    "footprint": "Capacitor_SMD:C_0603_1608Metric",
-    "lcsc": "C14663",
-    "pins": {
-      "1": "VBUS_SENSE",
-      "2": "GND"
-    },
-    "sch": [
-      142.24,
-      162.56
-    ],
-    "place": [
-      21.4,
-      10.3,
-      0.0
-    ],
-    "side": "Bottom",
-    "group": "usb"
-  },
-  {
     "ref": "C6",
     "libname": "Device:C",
     "value": "1uF 50V",
@@ -231,94 +165,6 @@
     "place": [
       5.0,
       18.7,
-      0.0
-    ],
-    "side": "Bottom",
-    "group": "usb"
-  },
-  {
-    "ref": "R25",
-    "libname": "Device:R",
-    "value": "100k",
-    "footprint": "Resistor_SMD:R_0603_1608Metric",
-    "lcsc": "C25803",
-    "pins": {
-      "1": "CC1",
-      "2": "CC1_SENSE"
-    },
-    "sch": [
-      325.12,
-      111.75999999999999
-    ],
-    "place": [
-      3.5,
-      3.8,
-      0.0
-    ],
-    "side": "Bottom",
-    "group": "usb"
-  },
-  {
-    "ref": "R26",
-    "libname": "Device:R",
-    "value": "100k",
-    "footprint": "Resistor_SMD:R_0603_1608Metric",
-    "lcsc": "C25803",
-    "pins": {
-      "1": "CC2",
-      "2": "CC2_SENSE"
-    },
-    "sch": [
-      50.8,
-      162.56
-    ],
-    "place": [
-      0.9,
-      2.65,
-      90.0
-    ],
-    "side": "Bottom",
-    "group": "usb"
-  },
-  {
-    "ref": "C15",
-    "libname": "Device:C",
-    "value": "100nF 50V",
-    "footprint": "Capacitor_SMD:C_0603_1608Metric",
-    "lcsc": "C14663",
-    "pins": {
-      "1": "CC1_SENSE",
-      "2": "GND"
-    },
-    "sch": [
-      142.24,
-      162.56
-    ],
-    "place": [
-      14.62,
-      9.76,
-      0.0
-    ],
-    "side": "Bottom",
-    "group": "usb"
-  },
-  {
-    "ref": "C16",
-    "libname": "Device:C",
-    "value": "100nF 50V",
-    "footprint": "Capacitor_SMD:C_0603_1608Metric",
-    "lcsc": "C14663",
-    "pins": {
-      "1": "CC2_SENSE",
-      "2": "GND"
-    },
-    "sch": [
-      233.68,
-      162.56
-    ],
-    "place": [
-      14.91,
-      11.34,
       0.0
     ],
     "side": "Bottom",
@@ -712,7 +558,7 @@
     "footprint": "Package_TO_SOT_SMD:SOT-23-5",
     "lcsc": "C7484",
     "pins": {
-      "1": "DATA_OE_N",
+      "1": "GND",
       "2": "GPIO16",
       "3": "GND",
       "4": "DATA16_5V",
@@ -819,95 +665,6 @@
     "group": "outputs"
   },
   {
-    "ref": "Q4",
-    "libname": "Transistor_BJT:MMBT3904",
-    "value": "MMBT3904",
-    "footprint": "Package_TO_SOT_SMD:SOT-23",
-    "lcsc": "C20526",
-    "pins": {
-      "1": "DATA_ENABLE_B",
-      "2": "GND",
-      "3": "DATA_OE_N"
-    },
-    "sch": [
-      142.24,
-      111.75999999999999
-    ],
-    "place": [
-      42.93,
-      11.39,
-      0.0
-    ],
-    "side": "Bottom",
-    "group": "outputs"
-  },
-  {
-    "ref": "R19",
-    "libname": "Device:R",
-    "value": "10k",
-    "footprint": "Resistor_SMD:R_0603_1608Metric",
-    "lcsc": "C25804",
-    "pins": {
-      "1": "DATA_ENABLE",
-      "2": "DATA_ENABLE_B"
-    },
-    "sch": [
-      233.68,
-      111.75999999999999
-    ],
-    "place": [
-      38.31,
-      3.67,
-      90.0
-    ],
-    "side": "Bottom",
-    "group": "outputs"
-  },
-  {
-    "ref": "R20",
-    "libname": "Device:R",
-    "value": "100k",
-    "footprint": "Resistor_SMD:R_0603_1608Metric",
-    "lcsc": "C25803",
-    "pins": {
-      "1": "DATA_ENABLE_B",
-      "2": "GND"
-    },
-    "sch": [
-      325.12,
-      111.75999999999999
-    ],
-    "place": [
-      41.99,
-      7.18,
-      90.0
-    ],
-    "side": "Bottom",
-    "group": "outputs"
-  },
-  {
-    "ref": "R21",
-    "libname": "Device:R",
-    "value": "10k",
-    "footprint": "Resistor_SMD:R_0603_1608Metric",
-    "lcsc": "C25804",
-    "pins": {
-      "1": "+5V_DATA",
-      "2": "DATA_OE_N"
-    },
-    "sch": [
-      50.8,
-      162.56
-    ],
-    "place": [
-      37.09,
-      13.55,
-      0.0
-    ],
-    "side": "Bottom",
-    "group": "outputs"
-  },
-  {
     "ref": "SW1",
     "libname": "Switch:SW_Push",
     "value": "TS-1088-AR02016",
@@ -936,7 +693,7 @@
     "footprint": "Package_TO_SOT_SMD:SOT-23-5",
     "lcsc": "C7484",
     "pins": {
-      "1": "DATA_OE_N",
+      "1": "GND",
       "2": "GPIO17",
       "3": "GND",
       "4": "DATA17_5V",
@@ -1094,7 +851,7 @@
     "lcsc": "C55251566",
     "pins": {
       "1": "DATA17_OUT",
-      "2": "LED_VCC"
+      "2": "VSYS"
     },
     "sch": [
       0,
@@ -1214,27 +971,6 @@
       0.0
     ],
     "side": "Bottom",
-    "group": "test"
-  },
-  {
-    "ref": "TP5",
-    "libname": "Connector:TestPoint",
-    "value": "USB_FAULT",
-    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
-    "lcsc": "",
-    "pins": {
-      "1": "USB_FAULT"
-    },
-    "sch": [
-      0,
-      0
-    ],
-    "place": [
-      7.2,
-      3.3,
-      0.0
-    ],
-    "side": "Top",
     "group": "test"
   },
   {

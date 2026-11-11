@@ -1,0 +1,38 @@
+{
+  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
+  "revision": "v1.0.0",
+  "board_mm": [
+    60,
+    20,
+    1.6
+  ],
+  "min_exported_pth_drill_mm": 0.3,
+  "exported_pth_tools_mm": {
+    "1": 0.3,
+    "2": 0.6
+  },
+  "gerber_archive_matches_directory": true,
+  "all_placements_match_CPL": true,
+  "BOM_matches_fitted_parts": true,
+  "assembly_faces": {
+    "Bottom": 44,
+    "Top": 39
+  },
+  "fitted_parts": 83,
+  "BOM_lines": 46,
+  "CPL_origin_CAD_mm": [
+    0,
+    20
+  ],
+  "wired_usb_tvs_copper_models_current": true,
+  "zero_open_connections": true,
+  "zero_DRC_findings_including_warnings_and_exclusions": true,
+  "zero_schematic_parity_findings": true,
+  "zero_ERC_findings": true,
+  "independent_drill_paste_check_pass": true,
+  "minimum_drill_paste_clearance_mm": 0.1,
+  "routing_via_count": 180,
+  "normal_component_pin_in_paste_apertures": 4,
+  "protected_RF_crystal_flash_routing_items_preserved": 237,
+  "hardware_qualified": false
+}

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_sch</source>
-    <date>2026-11-11T23:01:34</date>
+    <date>2026-11-11T23:47:47</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -112,9 +112,9 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/">
+    <sheet number="7" name="/USB-C data and passive 5 V input/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/">
       <title_block>
-        <title>USB-C data and source detection</title>
+        <title>USB-C data and passive 5 V input</title>
         <company>Luxio</company>
         <rev>1.0.0</rev>
         <date>2026-11-11</date>
@@ -130,9 +130,9 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/">
+    <sheet number="8" name="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/">
       <title_block>
-        <title>Wired priority and USB current limiting</title>
+        <title>Automatic wired priority</title>
         <company>Luxio</company>
         <rev>1.0.0</rev>
         <date>2026-11-11</date>
@@ -148,25 +148,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="9" name="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/">
-      <title_block>
-        <title>Wired priority and USB current limiting (continued)</title>
-        <company>Luxio</company>
-        <rev>1.0.0</rev>
-        <date>2026-11-11</date>
-        <source>power_2.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-        <comment number="5" value=""/>
-        <comment number="6" value=""/>
-        <comment number="7" value=""/>
-        <comment number="8" value=""/>
-        <comment number="9" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="10" name="/3.3 V buck and 5 V logic boost/" tstamps="/e56069c7-d353-52a8-98ba-46e7df5ba552/">
+    <sheet number="9" name="/3.3 V buck and 5 V logic boost/" tstamps="/e56069c7-d353-52a8-98ba-46e7df5ba552/">
       <title_block>
         <title>3.3 V buck and 5 V logic boost</title>
         <company>Luxio</company>
@@ -184,7 +166,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="11" name="/3.3 V buck and 5 V logic boost (continued)/" tstamps="/89a6d6d2-4402-5bd2-b720-1b3def215788/">
+    <sheet number="10" name="/3.3 V buck and 5 V logic boost (continued)/" tstamps="/89a6d6d2-4402-5bd2-b720-1b3def215788/">
       <title_block>
         <title>3.3 V buck and 5 V logic boost (continued)</title>
         <company>Luxio</company>
@@ -202,7 +184,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="12" name="/Two 5 V data outputs and strip terminals/" tstamps="/4b7d1566-4a97-528a-a39d-6b0dda183da7/">
+    <sheet number="11" name="/Two 5 V data outputs and strip terminals/" tstamps="/4b7d1566-4a97-528a-a39d-6b0dda183da7/">
       <title_block>
         <title>Two 5 V data outputs and strip terminals</title>
         <company>Luxio</company>
@@ -220,7 +202,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="13" name="/Centered BOOT / GPIO18 button/" tstamps="/48ddfd47-6a11-5da7-9975-cf52d074211d/">
+    <sheet number="12" name="/Centered BOOT / GPIO18 button/" tstamps="/48ddfd47-6a11-5da7-9975-cf52d074211d/">
       <title_block>
         <title>Centered BOOT / GPIO18 button</title>
         <company>Luxio</company>
@@ -238,7 +220,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="14" name="/Production and recovery test pads/" tstamps="/4c4b81f0-2e12-526e-b8e6-0f7984bd812a/">
+    <sheet number="13" name="/Production and recovery test pads/" tstamps="/4c4b81f0-2e12-526e-b8e6-0f7984bd812a/">
       <title_block>
         <title>Production and recovery test pads</title>
         <company>Luxio</company>
@@ -1101,32 +1083,6 @@
         </unit>
       </units>
     </comp>
-    <comp ref="C4">
-      <value>100nF 50V</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
-      <property name="Sheetfile" value="usb.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
-      <tstamps>f96293da-02f9-5314-82f4-bc3d8605c9da</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="C6">
       <value>1uF 50V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -1138,64 +1094,12 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C15849"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
+      <property name="Sheetname" value="USB-C data and passive 5 V input"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
+      <sheetpath names="/USB-C data and passive 5 V input/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
       <tstamps>ce4dac11-f12a-5599-aca7-7d1959e8c434</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="C15">
-      <value>100nF 50V</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
-      <property name="Sheetfile" value="usb.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
-      <tstamps>681c11bc-2649-5c12-b83f-44217b99b402</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="C16">
-      <value>100nF 50V</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
-      <property name="Sheetfile" value="usb.kicad_sch"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
-      <tstamps>f4e08d06-012a-528a-ac2c-f4a6d5f37ca4</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1216,11 +1120,11 @@
       </fields>
       <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
       <property name="LCSC" value="C37616412"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
+      <property name="Sheetname" value="USB-C data and passive 5 V input"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
       <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
+      <sheetpath names="/USB-C data and passive 5 V input/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
       <tstamps>937e0027-4a1d-5494-ba8b-d18ababe5c66</tstamps>
       <units>
         <unit name="A">
@@ -1257,11 +1161,11 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23186"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
+      <property name="Sheetname" value="USB-C data and passive 5 V input"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
+      <sheetpath names="/USB-C data and passive 5 V input/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
       <tstamps>0a58270d-0b36-5ea7-8ea4-009bd0e95011</tstamps>
       <units>
         <unit name="A">
@@ -1283,11 +1187,11 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23186"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
+      <property name="Sheetname" value="USB-C data and passive 5 V input"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
+      <sheetpath names="/USB-C data and passive 5 V input/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
       <tstamps>26bf392b-5569-56ce-a8a4-fe73d1a95cef</tstamps>
       <units>
         <unit name="A">
@@ -1309,11 +1213,11 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23345"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
+      <property name="Sheetname" value="USB-C data and passive 5 V input"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
+      <sheetpath names="/USB-C data and passive 5 V input/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
       <tstamps>b0f0af97-dd9a-5e99-87cb-96e28c2b8994</tstamps>
       <units>
         <unit name="A">
@@ -1335,116 +1239,12 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C23345"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
+      <property name="Sheetname" value="USB-C data and passive 5 V input"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
+      <sheetpath names="/USB-C data and passive 5 V input/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
       <tstamps>7ec5d1a4-5cac-5c6d-8e19-cecdedd6e99c</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R8">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25803</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
-      <property name="Sheetfile" value="usb.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
-      <tstamps>613d5413-1556-5120-a73b-12e1deee5d51</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R9">
-      <value>150k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C22807</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C22807"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
-      <property name="Sheetfile" value="usb.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
-      <tstamps>45e1e8ce-46d2-5bbb-9ee6-9334ca85d142</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R25">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25803</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
-      <property name="Sheetfile" value="usb.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
-      <tstamps>38edc140-d132-5b84-a7f8-d2934744c1c4</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R26">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25803</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
-      <property name="Sheetfile" value="usb.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
-      <tstamps>b1ff0258-56e2-5d8e-a4e8-6dcaae90fedd</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1465,11 +1265,11 @@
       </fields>
       <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
       <property name="LCSC" value="C7519"/>
-      <property name="Sheetname" value="USB-C data and source detection"/>
+      <property name="Sheetname" value="USB-C data and passive 5 V input"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <property name="ki_keywords" value="usb ethernet video"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/USB-C data and source detection/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
+      <sheetpath names="/USB-C data and passive 5 V input/" tstamps="/21931364-2536-5524-9470-7bcaa1932f5d/"/>
       <tstamps>8efc7fd7-ec32-5cdc-9f31-9874dbd06385</tstamps>
       <units>
         <unit name="A">
@@ -1495,11 +1295,11 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C307331"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>81622931-dfb4-516f-9adf-a220ef0fcbb9</tstamps>
       <units>
         <unit name="A">
@@ -1521,12 +1321,38 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="LCSC" value="C307331"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>aa53744f-c81b-51af-8535-3e8f52e52820</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>1nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C1588</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1588"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <tstamps>2a0d9996-afea-52ed-adee-65b316daa310</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1547,11 +1373,11 @@
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="LCSC" value="C81598"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
       <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>9a828c13-07a4-5583-b444-494476bc1965</tstamps>
       <units>
         <unit name="A">
@@ -1573,11 +1399,11 @@
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="LCSC" value="C183158"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="fuse"/>
       <property name="ki_fp_filters" value="*Fuse*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>2898b8df-2d3c-5dab-8f03-493c100221d7</tstamps>
       <units>
         <unit name="A">
@@ -1599,11 +1425,11 @@
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="LCSC" value="C55251566"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>e3191d67-974d-5d3e-98be-dddf55ff46cd</tstamps>
       <units>
         <unit name="A">
@@ -1625,11 +1451,11 @@
       </fields>
       <libsource lib="Transistor_FET" part="CSD18543Q3A" description="35A Id, 60V Vds, NexFET N-Channel Power MOSFET, 8.1mOhm Ron, Qg Typ 11.1nC, VSON-8 3.3x3.3mm"/>
       <property name="LCSC" value="C840100"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="NexFET Power MOSFET N-MOS"/>
       <property name="ki_fp_filters" value="VSON*3.3x3.3mm*P0.65mm*NexFET*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>2723116d-02be-5238-8d77-3d1e8a7a8091</tstamps>
       <units>
         <unit name="A">
@@ -1654,11 +1480,11 @@
       </fields>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
       <property name="LCSC" value="C20526"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="NPN Transistor"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>651610b9-d18e-5674-b267-55caa49fd4e4</tstamps>
       <units>
         <unit name="A">
@@ -1681,11 +1507,11 @@
       </fields>
       <libsource lib="Transistor_FET" part="CSD18543Q3A" description="35A Id, 60V Vds, NexFET N-Channel Power MOSFET, 8.1mOhm Ron, Qg Typ 11.1nC, VSON-8 3.3x3.3mm"/>
       <property name="LCSC" value="C840100"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="NexFET Power MOSFET N-MOS"/>
       <property name="ki_fp_filters" value="VSON*3.3x3.3mm*P0.65mm*NexFET*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>f32d0475-9b5d-5b03-9fe0-7e371bbb13e0</tstamps>
       <units>
         <unit name="A">
@@ -1710,38 +1536,12 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>1aa127f7-89d0-54f2-b6c4-7e2b0fb94d3b</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R11">
-      <value>30.1k 1%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C23000</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C23000"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
-      <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
-      <tstamps>5dc739cc-883f-5ebc-a026-fd1f30e759b1</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1762,11 +1562,11 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25819"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>0999c35b-eec2-53dc-a500-489c756dd1fe</tstamps>
       <units>
         <unit name="A">
@@ -1788,38 +1588,12 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>69b84dd1-9a9d-5c14-98e1-f415f0063240</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R31">
-      <value>30.1k 1%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C23000</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C23000"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
-      <property name="Sheetfile" value="power.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
-      <tstamps>7a1cb58a-b8f2-59b9-be1e-91f9919a0cb4</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -1840,11 +1614,11 @@
       </fields>
       <libsource lib="Power_Management" part="LM74700" description="Low Iq reverse battery protection ideal diode controller, SOT-23-6"/>
       <property name="LCSC" value="C2941042"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="ideal-diode or-ing"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>59964357-264f-5c98-bdc5-893317655ef9</tstamps>
       <units>
         <unit name="A">
@@ -1860,29 +1634,32 @@
       </units>
     </comp>
     <comp ref="U4">
-      <value>TPS2553DBVR</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <value>TPS22965DSGR</value>
+      <footprint>Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</footprint>
       <fields>
-        <field name="LCSC">C55266</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="LCSC">C122837</field>
+        <field name="Footprint">Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="LX0001" part="TPS2553DBVR" description=""/>
-      <property name="LCSC" value="C55266"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <libsource lib="LX0001" part="TPS22965DSGR" description=""/>
+      <property name="LCSC" value="C122837"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>a96c6fcc-5cf2-57ba-a365-8ab92073b146</tstamps>
       <units>
         <unit name="A">
           <pins>
             <pin num="1"/>
-            <pin num="3"/>
             <pin num="2"/>
+            <pin num="3"/>
             <pin num="4"/>
             <pin num="5"/>
+            <pin num="9"/>
             <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
           </pins>
         </unit>
       </units>
@@ -1898,11 +1675,11 @@
       </fields>
       <libsource lib="Power_Management" part="LM74700" description="Low Iq reverse battery protection ideal diode controller, SOT-23-6"/>
       <property name="LCSC" value="C2941042"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting"/>
+      <property name="Sheetname" value="Automatic wired priority"/>
       <property name="Sheetfile" value="power.kicad_sch"/>
       <property name="ki_keywords" value="ideal-diode or-ing"/>
       <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/Wired priority and USB current limiting/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
+      <sheetpath names="/Automatic wired priority/" tstamps="/586f023a-1b2c-554f-8394-9a9c182a2763/"/>
       <tstamps>7d2bfcfb-9dcd-52fe-be6d-305d4df666e5</tstamps>
       <units>
         <unit name="A">
@@ -1913,376 +1690,6 @@
             <pin num="5"/>
             <pin num="2"/>
             <pin num="4"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="D5">
-      <value>BZT52C12</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <fields>
-        <field name="LCSC">C43491</field>
-        <field name="Footprint">Diode_SMD:D_SOD-123</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
-      <property name="LCSC" value="C43491"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="diode"/>
-      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>89864a90-e071-5417-a5d7-544509f10535</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="Q5">
-      <value>2N7002</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <fields>
-        <field name="LCSC">C8545</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="LCSC" value="C8545"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>f1b0fa6e-88e2-571e-bfd4-7324ab4096bc</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="3"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="Q6">
-      <value>CMSA80P06A</value>
-      <footprint>LX0001:CMSA80P06A_DFN5x6</footprint>
-      <fields>
-        <field name="LCSC">C22364965</field>
-        <field name="Footprint">LX0001:CMSA80P06A_DFN5x6</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_FET" part="Si7141DP" description="-60A Id, -20V Vds, 1.9 mOhm Ron, PowerPAK-8"/>
-      <property name="LCSC" value="C22364965"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <property name="ki_fp_filters" value="PowerPAK*SO*Single*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>620813f5-ada7-5ebe-a0b1-bdd260de498f</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="4"/>
-            <pin num="5"/>
-            <pin num="1"/>
-            <pin num="2"/>
-            <pin num="3"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="Q7">
-      <value>MMBT5551</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <fields>
-        <field name="LCSC">C2145</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_BJT" part="MMBT5551L" description="0.6A Ic, 160V Vce, NPN Transistor, SOT-23"/>
-      <property name="LCSC" value="C2145"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="NPN Transistor"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>876b6a18-883e-5fe6-ab95-f6cf1e90743e</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="3"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="Q8">
-      <value>MMBT5551</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <fields>
-        <field name="LCSC">C2145</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_BJT" part="MMBT5551L" description="0.6A Ic, 160V Vce, NPN Transistor, SOT-23"/>
-      <property name="LCSC" value="C2145"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="NPN Transistor"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>f5ca5d4c-1934-5ee1-8d18-fd4aa78f75ea</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="3"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R32">
-      <value>30.1k 1%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C23000</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C23000"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>ba30d1fc-fa16-515e-8f3a-06d5437cb1a3</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R33">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25803</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>5d601b41-4b23-573c-bb0d-db7d9e21dc40</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R34">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25803</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>f0139c9f-aa29-5c64-8985-e68dc804afac</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R35">
-      <value>2.2k 0.25W</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
-      <fields>
-        <field name="LCSC">C17948</field>
-        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C17948"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>4e5dd536-9a56-50f9-96de-f06991d871cf</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R36">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>42a13025-131d-5555-9364-c065c9e25dbe</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R37">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25803</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>8fffaf0d-87eb-5e8c-93d1-ba90a09617f1</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R38">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>dfe54364-a283-5c21-a788-6b42f6c2337b</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R39">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25803</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>4ddde50f-be0b-5ae5-8042-710519aeae9b</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R40">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25803</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="Wired priority and USB current limiting (continued)"/>
-      <property name="Sheetfile" value="power_2.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Wired priority and USB current limiting (continued)/" tstamps="/0695204f-4dda-540e-a7cf-ce2aabc14a71/"/>
-      <tstamps>764725d8-01d7-52e0-ac6c-a02eb235c02f</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
           </pins>
         </unit>
       </units>
@@ -2839,33 +2246,6 @@
         </unit>
       </units>
     </comp>
-    <comp ref="Q4">
-      <value>MMBT3904</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <fields>
-        <field name="LCSC">C20526</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
-      <property name="LCSC" value="C20526"/>
-      <property name="Sheetname" value="Two 5 V data outputs and strip terminals"/>
-      <property name="Sheetfile" value="outputs.kicad_sch"/>
-      <property name="ki_keywords" value="NPN Transistor"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
-      <sheetpath names="/Two 5 V data outputs and strip terminals/" tstamps="/4b7d1566-4a97-528a-a39d-6b0dda183da7/"/>
-      <tstamps>739bba7d-6bd8-5567-af6f-c6b92482a43d</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="3"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="R16">
       <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
@@ -2935,84 +2315,6 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Two 5 V data outputs and strip terminals/" tstamps="/4b7d1566-4a97-528a-a39d-6b0dda183da7/"/>
       <tstamps>7ac38526-2d41-5b1b-9f7e-98b3dc9870ad</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R19">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="Two 5 V data outputs and strip terminals"/>
-      <property name="Sheetfile" value="outputs.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Two 5 V data outputs and strip terminals/" tstamps="/4b7d1566-4a97-528a-a39d-6b0dda183da7/"/>
-      <tstamps>75559f47-0ba3-5083-b5a6-4bfc7a6922e3</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R20">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25803</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25803"/>
-      <property name="Sheetname" value="Two 5 V data outputs and strip terminals"/>
-      <property name="Sheetfile" value="outputs.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Two 5 V data outputs and strip terminals/" tstamps="/4b7d1566-4a97-528a-a39d-6b0dda183da7/"/>
-      <tstamps>a13ec0dc-0b46-56d9-9c3b-d0027c9e39ed</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="R21">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="Two 5 V data outputs and strip terminals"/>
-      <property name="Sheetfile" value="outputs.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Two 5 V data outputs and strip terminals/" tstamps="/4b7d1566-4a97-528a-a39d-6b0dda183da7/"/>
-      <tstamps>2ec930a0-edeb-51fe-b4a2-12ae1df231f2</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -3306,32 +2608,6 @@
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Production and recovery test pads/" tstamps="/4c4b81f0-2e12-526e-b8e6-0f7984bd812a/"/>
       <tstamps>ca69de2d-0c27-57cf-9449-9610bfc648af</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="TP5">
-      <value>USB_FAULT</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <fields>
-        <field name="LCSC"/>
-        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC" value=""/>
-      <property name="Sheetname" value="Production and recovery test pads"/>
-      <property name="Sheetfile" value="test.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/Production and recovery test pads/" tstamps="/4c4b81f0-2e12-526e-b8e6-0f7984bd812a/"/>
-      <tstamps>1df7b921-36c7-51b1-8b7d-e1b6bc45d3d9</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -3713,26 +2989,6 @@
         <pin num="2" name="A2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="D_Zener">
-      <description>Zener diode</description>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Zener</field>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description">Zener diode</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="Fuse">
       <description>Fuse</description>
       <footprints>
@@ -3837,21 +3093,24 @@
         <pin num="3" name="GND" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="LX0001" part="TPS2553DBVR">
+    <libpart lib="LX0001" part="TPS22965DSGR">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">TPS2553DBVR</field>
+        <field name="Value">TPS22965DSGR</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <pins>
-        <pin num="1" name="IN" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="EN" type="input"/>
-        <pin num="4" name="~{FAULT}" type="open_collector"/>
-        <pin num="5" name="ILIM" type="passive"/>
-        <pin num="6" name="OUT" type="power_out"/>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="VIN" type="passive"/>
+        <pin num="3" name="ON" type="input"/>
+        <pin num="4" name="VBIAS" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="CT" type="passive"/>
+        <pin num="7" name="VOUT" type="passive"/>
+        <pin num="8" name="VOUT" type="power_out"/>
+        <pin num="9" name="EP" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="MCU_Espressif" part="ESP32-S3">
@@ -4050,44 +3309,6 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_BJT" part="MMBT5551L">
-      <description>0.6A Ic, 160V Vce, NPN Transistor, SOT-23</description>
-      <docs>www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">MMBT5551L</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF</field>
-        <field name="Description">0.6A Ic, 160V Vce, NPN Transistor, SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Transistor_FET" part="2N7002">
-      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
-      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">2N7002</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
-        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Transistor_FET" part="CSD18543Q3A">
       <description>35A Id, 60V Vds, NexFET N-Channel Power MOSFET, 8.1mOhm Ron, Qg Typ 11.1nC, VSON-8 3.3x3.3mm</description>
       <docs>https://www.ti.com/lit/ds/symlink/csd18543q3a.pdf</docs>
@@ -4100,27 +3321,6 @@
         <field name="Footprint">Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET</field>
         <field name="Datasheet">https://www.ti.com/lit/ds/symlink/csd18543q3a.pdf</field>
         <field name="Description">35A Id, 60V Vds, NexFET N-Channel Power MOSFET, 8.1mOhm Ron, Qg Typ 11.1nC, VSON-8 3.3x3.3mm</field>
-      </fields>
-      <pins>
-        <pin num="1" name="S" type="passive"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="S" type="passive"/>
-        <pin num="4" name="G" type="input"/>
-        <pin num="5" name="D" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Transistor_FET" part="Si7141DP">
-      <description>-60A Id, -20V Vds, 1.9 mOhm Ron, PowerPAK-8</description>
-      <docs>https://www.vishay.com/docs/65596/si7141dp.pdf</docs>
-      <footprints>
-        <fp>PowerPAK*SO*Single*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">Si7141DP</field>
-        <field name="Footprint">Package_SO:PowerPAK_SO-8_Single</field>
-        <field name="Datasheet">https://www.vishay.com/docs/65596/si7141dp.pdf</field>
-        <field name="Description">-60A Id, -20V Vds, 1.9 mOhm Ron, PowerPAK-8</field>
       </fields>
       <pins>
         <pin num="1" name="S" type="passive"/>
@@ -4208,7 +3408,6 @@
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
-      <node ref="R21" pin="1" pintype="passive"/>
       <node ref="TP8" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="VCC_5" pintype="power_in"/>
       <node ref="U9" pin="5" pinfunction="VCC_5" pintype="power_in"/>
@@ -4257,57 +3456,30 @@
     <net code="12" name="CC1" class="Default">
       <node ref="J1" pin="A5" pinfunction="CC1_A5" pintype="bidirectional"/>
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="R25" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="CC1_SENSE" class="Default">
-      <node ref="C15" pin="1" pintype="passive"/>
-      <node ref="R25" pin="2" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="GPIO1_6" pintype="bidirectional"/>
-    </net>
-    <net code="14" name="CC2" class="Default">
+    <net code="13" name="CC2" class="Default">
       <node ref="J1" pin="B5" pinfunction="CC2_B5" pintype="bidirectional"/>
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="15" name="CC2_SENSE" class="Default">
-      <node ref="C16" pin="1" pintype="passive"/>
-      <node ref="R26" pin="2" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="GPIO2_7" pintype="bidirectional"/>
-    </net>
-    <net code="16" name="DATA16_5V" class="Default">
+    <net code="14" name="DATA16_5V" class="Default">
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="U8" pin="4" pintype="tri_state"/>
     </net>
-    <net code="17" name="DATA16_OUT" class="Default">
+    <net code="15" name="DATA16_OUT" class="Default">
       <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="18" name="DATA17_5V" class="Default">
+    <net code="16" name="DATA17_5V" class="Default">
       <node ref="R27" pin="1" pintype="passive"/>
       <node ref="U9" pin="4" pintype="tri_state"/>
     </net>
-    <net code="19" name="DATA17_OUT" class="Default">
+    <net code="17" name="DATA17_OUT" class="Default">
       <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="R27" pin="2" pintype="passive"/>
       <node ref="R28" pin="1" pintype="passive"/>
     </net>
-    <net code="20" name="DATA_ENABLE" class="Default">
-      <node ref="R19" pin="1" pintype="passive"/>
-      <node ref="U1" pin="27" pinfunction="GPIO21_27" pintype="bidirectional"/>
-    </net>
-    <net code="21" name="DATA_ENABLE_B" class="Default">
-      <node ref="Q4" pin="1" pinfunction="B_1" pintype="input"/>
-      <node ref="R19" pin="2" pintype="passive"/>
-      <node ref="R20" pin="1" pintype="passive"/>
-    </net>
-    <net code="22" name="DATA_OE_N" class="Default">
-      <node ref="Q4" pin="3" pinfunction="C_3" pintype="passive"/>
-      <node ref="R21" pin="2" pintype="passive"/>
-      <node ref="U8" pin="1" pintype="input"/>
-      <node ref="U9" pin="1" pintype="input"/>
-    </net>
-    <net code="23" name="DC_FUSED" class="Default">
+    <net code="18" name="DC_FUSED" class="Default">
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="F1" pin="2" pintype="passive"/>
@@ -4317,60 +3489,59 @@
       <node ref="U3" pin="3" pinfunction="EN_3" pintype="input"/>
       <node ref="U3" pin="6" pinfunction="ANODE_6" pintype="power_in"/>
     </net>
-    <net code="24" name="DC_GATE" class="Default">
+    <net code="19" name="DC_GATE" class="Default">
       <node ref="Q1" pin="4" pinfunction="G_4" pintype="input"/>
       <node ref="U3" pin="5" pinfunction="GATE_5" pintype="output"/>
     </net>
-    <net code="25" name="DC_IN" class="Default">
+    <net code="20" name="DC_IN" class="Default">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
     </net>
-    <net code="26" name="DC_SENSE_B" class="Default">
+    <net code="21" name="DC_SENSE_B" class="Default">
       <node ref="Q2" pin="1" pinfunction="B_1" pintype="input"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
     </net>
-    <net code="27" name="DC_SENSE_R" class="Default">
+    <net code="22" name="DC_SENSE_R" class="Default">
       <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="R38" pin="1" pintype="passive"/>
     </net>
-    <net code="28" name="DC_VCAP" class="Default">
+    <net code="23" name="DC_VCAP" class="Default">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="VCAP_1" pintype="passive"/>
     </net>
-    <net code="29" name="ESP_EN" class="Default">
+    <net code="24" name="ESP_EN" class="Default">
       <node ref="C111" pin="1" pintype="passive"/>
       <node ref="R100" pin="2" pintype="passive"/>
       <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="CHIP_PU_4" pintype="input"/>
     </net>
-    <net code="30" name="FLASH_CLK" class="Default">
+    <net code="25" name="FLASH_CLK" class="Default">
       <node ref="R105" pin="2" pintype="passive"/>
       <node ref="U10" pin="6" pinfunction="CLK_6" pintype="input"/>
     </net>
-    <net code="31" name="FLASH_CS" class="Default">
+    <net code="26" name="FLASH_CS" class="Default">
       <node ref="R110" pin="2" pintype="passive"/>
       <node ref="U1" pin="32" pinfunction="SPICS0_32" pintype="bidirectional"/>
       <node ref="U10" pin="1" pinfunction="~{CS}_1" pintype="input"/>
     </net>
-    <net code="32" name="FLASH_IO0" class="Default">
+    <net code="27" name="FLASH_IO0" class="Default">
       <node ref="U1" pin="35" pinfunction="SPID_35" pintype="bidirectional"/>
       <node ref="U10" pin="5" pinfunction="DI/IO_{0}_5" pintype="bidirectional"/>
     </net>
-    <net code="33" name="FLASH_IO1" class="Default">
+    <net code="28" name="FLASH_IO1" class="Default">
       <node ref="U1" pin="34" pinfunction="SPIQ_34" pintype="bidirectional"/>
       <node ref="U10" pin="2" pinfunction="DO/IO_{1}_2" pintype="bidirectional"/>
     </net>
-    <net code="34" name="FLASH_IO2" class="Default">
+    <net code="29" name="FLASH_IO2" class="Default">
       <node ref="U1" pin="31" pinfunction="SPIWP_31" pintype="bidirectional"/>
       <node ref="U10" pin="3" pinfunction="~{WP}/IO_{2}_3" pintype="bidirectional"/>
     </net>
-    <net code="35" name="FLASH_IO3" class="Default">
+    <net code="30" name="FLASH_IO3" class="Default">
       <node ref="U1" pin="30" pinfunction="SPIHD_30" pintype="bidirectional"/>
       <node ref="U10" pin="7" pinfunction="~{HOLD}/~{RESET}/IO_{3}_7" pintype="bidirectional"/>
     </net>
-    <net code="36" name="GND" class="Default">
+    <net code="31" name="GND" class="Default">
       <node ref="ANT1" pin="3" pinfunction="GND_3" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C100" pin="2" pintype="passive"/>
@@ -4393,10 +3564,8 @@
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C14" pin="2" pintype="passive"/>
-      <node ref="C15" pin="2" pintype="passive"/>
-      <node ref="C16" pin="2" pintype="passive"/>
       <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A2_2" pintype="passive"/>
@@ -4409,10 +3578,6 @@
       <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="L104" pin="2" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="E_2" pintype="passive"/>
-      <node ref="Q4" pin="2" pinfunction="E_2" pintype="passive"/>
-      <node ref="Q5" pin="2" pinfunction="S_2" pintype="passive"/>
-      <node ref="Q7" pin="2" pinfunction="E_2" pintype="passive"/>
-      <node ref="Q8" pin="2" pinfunction="E_2" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R102" pin="2" pintype="passive"/>
       <node ref="R103" pin="2" pintype="passive"/>
@@ -4421,199 +3586,143 @@
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="R20" pin="2" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="R29" pin="2" pintype="passive"/>
-      <node ref="R31" pin="2" pintype="passive"/>
-      <node ref="R33" pin="2" pintype="passive"/>
-      <node ref="R37" pin="2" pintype="passive"/>
-      <node ref="R39" pin="2" pintype="passive"/>
-      <node ref="R40" pin="2" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="57" pinfunction="GND_57" pintype="power_in"/>
       <node ref="U10" pin="4" pinfunction="GND_4" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND_2" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="GND_2" pintype="power_in"/>
-      <node ref="U4" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="EP_9" pintype="passive"/>
       <node ref="U5" pin="2" pinfunction="GND_2" pintype="power_in"/>
       <node ref="U6" pin="2" pinfunction="GND_2" pintype="power_in"/>
       <node ref="U7" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U8" pin="1" pintype="input"/>
       <node ref="U8" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U9" pin="1" pintype="input"/>
       <node ref="U9" pin="3" pinfunction="GND_3" pintype="power_in"/>
       <node ref="Y1" pin="2" pinfunction="G_2" pintype="passive"/>
       <node ref="Y1" pin="4" pinfunction="G_4" pintype="passive"/>
     </net>
-    <net code="37" name="GPIO16" class="Default">
+    <net code="32" name="GPIO16" class="Default">
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="TP6" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="22" pinfunction="XTAL_32K_N_22" pintype="passive"/>
       <node ref="U8" pin="2" pintype="input"/>
     </net>
-    <net code="38" name="GPIO17" class="Default">
+    <net code="33" name="GPIO17" class="Default">
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="TP7" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="23" pinfunction="GPIO17_23" pintype="bidirectional"/>
       <node ref="U9" pin="2" pintype="input"/>
     </net>
-    <net code="39" name="GPIO18_BUTTON" class="Default">
+    <net code="34" name="GPIO18_BUTTON" class="Default">
       <node ref="D4" pin="2" pintype="passive"/>
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="TP10" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="24" pinfunction="GPIO18_24" pintype="bidirectional"/>
     </net>
-    <net code="40" name="LED_VCC" class="Default">
-      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
-      <node ref="Q6" pin="5" pinfunction="D_5" pintype="passive"/>
-      <node ref="R40" pin="1" pintype="passive"/>
-    </net>
-    <net code="41" name="RF_50" class="RF50,Default">
+    <net code="35" name="RF_50" class="RF50,Default">
       <node ref="ANT1" pin="1" pinfunction="FEED_1" pintype="passive"/>
       <node ref="C115" pin="1" pintype="passive"/>
       <node ref="L102" pin="2" pinfunction="2_2" pintype="passive"/>
     </net>
-    <net code="42" name="RF_CHIP" class="Default">
+    <net code="36" name="RF_CHIP" class="Default">
       <node ref="C114" pin="1" pintype="passive"/>
       <node ref="L102" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="LNA_IN_1" pintype="bidirectional"/>
     </net>
-    <net code="43" name="SPICLK" class="Default">
+    <net code="37" name="SPICLK" class="Default">
       <node ref="R105" pin="1" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="SPICLK_33" pintype="bidirectional"/>
     </net>
-    <net code="44" name="STRAP45" class="Default">
+    <net code="38" name="STRAP45" class="Default">
       <node ref="R102" pin="1" pintype="passive"/>
       <node ref="U1" pin="51" pinfunction="GPIO45_51" pintype="bidirectional"/>
     </net>
-    <net code="45" name="STRAP46" class="Default">
+    <net code="39" name="STRAP46" class="Default">
       <node ref="R103" pin="1" pintype="passive"/>
       <node ref="U1" pin="52" pinfunction="GPIO46_52" pintype="bidirectional"/>
     </net>
-    <net code="46" name="STRIP_DC_BASE" class="Default">
-      <node ref="Q8" pin="1" pinfunction="B_1" pintype="input"/>
-      <node ref="R38" pin="2" pintype="passive"/>
-      <node ref="R39" pin="1" pintype="passive"/>
-    </net>
-    <net code="47" name="STRIP_GATE" class="Default">
-      <node ref="D5" pin="2" pinfunction="A_2" pintype="passive"/>
-      <node ref="Q6" pin="4" pinfunction="G_4" pintype="input"/>
-      <node ref="R34" pin="2" pintype="passive"/>
-      <node ref="R35" pin="1" pintype="passive"/>
-    </net>
-    <net code="48" name="STRIP_PULLDOWN" class="Default">
-      <node ref="Q7" pin="3" pinfunction="C_3" pintype="passive"/>
-      <node ref="Q8" pin="3" pinfunction="C_3" pintype="passive"/>
-      <node ref="R35" pin="2" pintype="passive"/>
-    </net>
-    <net code="49" name="STRIP_USB_BASE" class="Default">
-      <node ref="Q7" pin="1" pinfunction="B_1" pintype="input"/>
-      <node ref="R36" pin="2" pintype="passive"/>
-      <node ref="R37" pin="1" pintype="passive"/>
-    </net>
-    <net code="50" name="UART_RX" class="Default">
+    <net code="40" name="UART_RX" class="Default">
       <node ref="TP12" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="50" pinfunction="U0RXD_50" pintype="bidirectional"/>
     </net>
-    <net code="51" name="UART_TX" class="Default">
+    <net code="41" name="UART_TX" class="Default">
       <node ref="TP11" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="49" pinfunction="U0TXD_49" pintype="bidirectional"/>
     </net>
-    <net code="52" name="USB_5V" class="Default">
+    <net code="42" name="USB_5V" class="Default">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="J1" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
       <node ref="J1" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
       <node ref="J1" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
       <node ref="J1" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="VBUS_5" pintype="passive"/>
-      <node ref="U4" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="VIN_2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="VBIAS_4" pintype="power_in"/>
     </net>
-    <net code="53" name="USB_DM" class="Default">
+    <net code="43" name="USB_DM" class="Default">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="25" pinfunction="GPIO19/USB_D-_25" pintype="bidirectional"/>
     </net>
-    <net code="54" name="USB_DM_CONN" class="Default">
+    <net code="44" name="USB_DM_CONN" class="Default">
       <node ref="J1" pin="A7" pinfunction="D-_A7" pintype="bidirectional"/>
       <node ref="J1" pin="B7" pinfunction="D-_B7" pintype="bidirectional"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="I/O1_1" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="I/O1_6" pintype="passive"/>
     </net>
-    <net code="55" name="USB_DP" class="Default">
+    <net code="45" name="USB_DP" class="Default">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="GPIO20/USB_D+_26" pintype="bidirectional"/>
     </net>
-    <net code="56" name="USB_DP_CONN" class="Default">
+    <net code="46" name="USB_DP_CONN" class="Default">
       <node ref="J1" pin="A6" pinfunction="D+_A6" pintype="bidirectional"/>
       <node ref="J1" pin="B6" pinfunction="D+_B6" pintype="bidirectional"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="I/O2_3" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="I/O2_4" pintype="passive"/>
     </net>
-    <net code="57" name="USB_ENABLE" class="Default">
+    <net code="47" name="USB_ENABLE" class="Default">
       <node ref="Q2" pin="3" pinfunction="C_3" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="U4" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="ON_3" pintype="input"/>
     </net>
-    <net code="58" name="USB_FAULT" class="Default">
-      <node ref="TP5" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="U4" pin="4" pinfunction="~{FAULT}_4" pintype="open_collector"/>
-    </net>
-    <net code="59" name="USB_GATE" class="Default">
+    <net code="48" name="USB_GATE" class="Default">
       <node ref="Q3" pin="4" pinfunction="G_4" pintype="input"/>
       <node ref="U5" pin="5" pinfunction="GATE_5" pintype="output"/>
     </net>
-    <net code="60" name="USB_HIGH_CURRENT" class="Default">
-      <node ref="Q5" pin="1" pinfunction="G_1" pintype="input"/>
-      <node ref="R33" pin="1" pintype="passive"/>
-      <node ref="U1" pin="11" pinfunction="GPIO6_11" pintype="bidirectional"/>
+    <net code="49" name="USB_SLEW" class="Default">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="CT_6" pintype="passive"/>
     </net>
-    <net code="61" name="USB_ILIM" class="Default">
-      <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="R32" pin="1" pintype="passive"/>
-      <node ref="U4" pin="5" pinfunction="ILIM_5" pintype="passive"/>
-    </net>
-    <net code="62" name="USB_ILIM_HIGH" class="Default">
-      <node ref="Q5" pin="3" pinfunction="D_3" pintype="passive"/>
-      <node ref="R32" pin="2" pintype="passive"/>
-    </net>
-    <net code="63" name="USB_ILIM_MID" class="Default">
-      <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="R31" pin="1" pintype="passive"/>
-    </net>
-    <net code="64" name="USB_LIMITED" class="Default">
+    <net code="50" name="USB_SWITCHED" class="Default">
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="Q3" pin="1" pinfunction="S_1" pintype="passive"/>
       <node ref="Q3" pin="2" pinfunction="S_2" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="S_3" pintype="passive"/>
-      <node ref="U4" pin="6" pinfunction="OUT_6" pintype="power_out"/>
+      <node ref="U4" pin="7" pinfunction="VOUT_7" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="VOUT_8" pintype="power_out"/>
       <node ref="U5" pin="3" pinfunction="EN_3" pintype="input"/>
       <node ref="U5" pin="6" pinfunction="ANODE_6" pintype="power_in"/>
     </net>
-    <net code="65" name="USB_STRIP_EN" class="Default">
-      <node ref="R36" pin="1" pintype="passive"/>
-      <node ref="U1" pin="10" pinfunction="GPIO5_10" pintype="bidirectional"/>
-    </net>
-    <net code="66" name="USB_VCAP" class="Default">
+    <net code="51" name="USB_VCAP" class="Default">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="U5" pin="1" pinfunction="VCAP_1" pintype="passive"/>
     </net>
-    <net code="67" name="VBUS_SENSE" class="Default">
-      <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="U1" pin="9" pinfunction="GPIO4_9" pintype="bidirectional"/>
-    </net>
-    <net code="68" name="VDD3P3_RF" class="Default">
+    <net code="52" name="VDD3P3_RF" class="Default">
       <node ref="C102" pin="1" pintype="passive"/>
       <node ref="L100" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VDD3P3_2" pintype="power_in"/>
       <node ref="U1" pin="3" pinfunction="VDD3P3_3" pintype="passive"/>
     </net>
-    <net code="69" name="VDD_SPI" class="Default">
+    <net code="53" name="VDD_SPI" class="Default">
       <node ref="C108" pin="1" pintype="passive"/>
       <node ref="C109" pin="1" pintype="passive"/>
       <node ref="C110" pin="1" pintype="passive"/>
@@ -4621,112 +3730,126 @@
       <node ref="U1" pin="29" pinfunction="VDD_SPI_29" pintype="power_in"/>
       <node ref="U10" pin="8" pinfunction="VCC_8" pintype="power_in"/>
     </net>
-    <net code="70" name="VSYS" class="Default">
+    <net code="54" name="VSYS" class="Default">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="A1_1" pintype="passive"/>
-      <node ref="D5" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="Q1" pin="5" pinfunction="D_5" pintype="passive"/>
       <node ref="Q3" pin="5" pinfunction="D_5" pintype="passive"/>
-      <node ref="Q6" pin="1" pinfunction="S_1" pintype="passive"/>
-      <node ref="Q6" pin="2" pinfunction="S_2" pintype="passive"/>
-      <node ref="Q6" pin="3" pinfunction="S_3" pintype="passive"/>
-      <node ref="R34" pin="1" pintype="passive"/>
       <node ref="TP9" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="CATHODE_4" pintype="input"/>
       <node ref="U5" pin="4" pinfunction="CATHODE_4" pintype="input"/>
       <node ref="U6" pin="4" pinfunction="EN_4" pintype="input"/>
       <node ref="U6" pin="5" pinfunction="VIN_5" pintype="power_in"/>
     </net>
-    <net code="71" name="XTAL_N" class="Default">
+    <net code="55" name="XTAL_N" class="Default">
       <node ref="C113" pin="1" pintype="passive"/>
       <node ref="U1" pin="53" pinfunction="XTAL_N_53" pintype="output"/>
       <node ref="Y1" pin="3" pinfunction="3_3" pintype="passive"/>
     </net>
-    <net code="72" name="XTAL_P" class="Default">
+    <net code="56" name="XTAL_P" class="Default">
       <node ref="L101" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="U1" pin="54" pinfunction="XTAL_P_54" pintype="input"/>
     </net>
-    <net code="73" name="XTAL_P_CRYSTAL" class="Default">
+    <net code="57" name="XTAL_P_CRYSTAL" class="Default">
       <node ref="C112" pin="1" pintype="passive"/>
       <node ref="L101" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="Y1" pin="1" pinfunction="1_1" pintype="passive"/>
     </net>
-    <net code="74" name="unconnected-(J1-SBU1-PadA8)" class="Default">
+    <net code="58" name="unconnected-(J1-SBU1-PadA8)" class="Default">
       <node ref="J1" pin="A8" pinfunction="SBU1_A8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(J1-SBU2-PadB8)" class="Default">
+    <net code="59" name="unconnected-(J1-SBU2-PadB8)" class="Default">
       <node ref="J1" pin="B8" pinfunction="SBU2_B8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(U1-GPIO3-Pad8)" class="Default">
+    <net code="60" name="unconnected-(U1-GPIO1-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="GPIO1_6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-GPIO2-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="GPIO2_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-GPIO3-Pad8)" class="Default">
       <node ref="U1" pin="8" pinfunction="GPIO3_8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U1-GPIO7-Pad12)" class="Default">
+    <net code="63" name="unconnected-(U1-GPIO4-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="GPIO4_9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-GPIO5-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="GPIO5_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-GPIO6-Pad11)" class="Default">
+      <node ref="U1" pin="11" pinfunction="GPIO6_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-GPIO7-Pad12)" class="Default">
       <node ref="U1" pin="12" pinfunction="GPIO7_12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U1-GPIO8-Pad13)" class="Default">
+    <net code="67" name="unconnected-(U1-GPIO8-Pad13)" class="Default">
       <node ref="U1" pin="13" pinfunction="GPIO8_13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U1-GPIO9-Pad14)" class="Default">
+    <net code="68" name="unconnected-(U1-GPIO9-Pad14)" class="Default">
       <node ref="U1" pin="14" pinfunction="GPIO9_14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U1-GPIO10-Pad15)" class="Default">
+    <net code="69" name="unconnected-(U1-GPIO10-Pad15)" class="Default">
       <node ref="U1" pin="15" pinfunction="GPIO10_15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U1-GPIO11-Pad16)" class="Default">
+    <net code="70" name="unconnected-(U1-GPIO11-Pad16)" class="Default">
       <node ref="U1" pin="16" pinfunction="GPIO11_16" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U1-GPIO12-Pad17)" class="Default">
+    <net code="71" name="unconnected-(U1-GPIO12-Pad17)" class="Default">
       <node ref="U1" pin="17" pinfunction="GPIO12_17" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U1-GPIO13-Pad18)" class="Default">
+    <net code="72" name="unconnected-(U1-GPIO13-Pad18)" class="Default">
       <node ref="U1" pin="18" pinfunction="GPIO13_18" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U1-GPIO14-Pad19)" class="Default">
+    <net code="73" name="unconnected-(U1-GPIO14-Pad19)" class="Default">
       <node ref="U1" pin="19" pinfunction="GPIO14_19" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U1-GPIO33-Pad38)" class="Default">
+    <net code="74" name="unconnected-(U1-GPIO21-Pad27)" class="Default">
+      <node ref="U1" pin="27" pinfunction="GPIO21_27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-GPIO33-Pad38)" class="Default">
       <node ref="U1" pin="38" pinfunction="GPIO33_38" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U1-GPIO34-Pad39)" class="Default">
+    <net code="76" name="unconnected-(U1-GPIO34-Pad39)" class="Default">
       <node ref="U1" pin="39" pinfunction="GPIO34_39" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U1-GPIO35-Pad40)" class="Default">
+    <net code="77" name="unconnected-(U1-GPIO35-Pad40)" class="Default">
       <node ref="U1" pin="40" pinfunction="GPIO35_40" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U1-GPIO36-Pad41)" class="Default">
+    <net code="78" name="unconnected-(U1-GPIO36-Pad41)" class="Default">
       <node ref="U1" pin="41" pinfunction="GPIO36_41" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(U1-GPIO37-Pad42)" class="Default">
+    <net code="79" name="unconnected-(U1-GPIO37-Pad42)" class="Default">
       <node ref="U1" pin="42" pinfunction="GPIO37_42" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="90" name="unconnected-(U1-GPIO38-Pad43)" class="Default">
+    <net code="80" name="unconnected-(U1-GPIO38-Pad43)" class="Default">
       <node ref="U1" pin="43" pinfunction="GPIO38_43" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="91" name="unconnected-(U1-MTCK-Pad44)" class="Default">
+    <net code="81" name="unconnected-(U1-MTCK-Pad44)" class="Default">
       <node ref="U1" pin="44" pinfunction="MTCK_44" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="92" name="unconnected-(U1-MTDI-Pad47)" class="Default">
+    <net code="82" name="unconnected-(U1-MTDI-Pad47)" class="Default">
       <node ref="U1" pin="47" pinfunction="MTDI_47" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="93" name="unconnected-(U1-MTDO-Pad45)" class="Default">
+    <net code="83" name="unconnected-(U1-MTDO-Pad45)" class="Default">
       <node ref="U1" pin="45" pinfunction="MTDO_45" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="94" name="unconnected-(U1-MTMS-Pad48)" class="Default">
+    <net code="84" name="unconnected-(U1-MTMS-Pad48)" class="Default">
       <node ref="U1" pin="48" pinfunction="MTMS_48" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="95" name="unconnected-(U1-SPICLK_N-Pad36)" class="Default">
+    <net code="85" name="unconnected-(U1-SPICLK_N-Pad36)" class="Default">
       <node ref="U1" pin="36" pinfunction="SPICLK_N_36" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="96" name="unconnected-(U1-SPICLK_P-Pad37)" class="Default">
+    <net code="86" name="unconnected-(U1-SPICLK_P-Pad37)" class="Default">
       <node ref="U1" pin="37" pinfunction="SPICLK_P_37" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="97" name="unconnected-(U1-SPICS1-Pad28)" class="Default">
+    <net code="87" name="unconnected-(U1-SPICS1-Pad28)" class="Default">
       <node ref="U1" pin="28" pinfunction="SPICS1_28" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="98" name="unconnected-(U1-XTAL_32K_P-Pad21)" class="Default">
+    <net code="88" name="unconnected-(U1-XTAL_32K_P-Pad21)" class="Default">
       <node ref="U1" pin="21" pinfunction="XTAL_32K_P_21" pintype="passive+no_connect"/>
     </net>
-    <net code="99" name="unconnected-(U7-NC-Pad6)" class="Default">
+    <net code="89" name="unconnected-(U7-NC-Pad6)" class="Default">
       <node ref="U7" pin="6" pinfunction="NC_6" pintype="no_connect"/>
     </net>
   </nets>

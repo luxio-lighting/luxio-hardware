@@ -77,3 +77,8 @@ USB_C_GCT_USB4215_03_A_preview.wrl (selected release USB)
   Manufacturer Rev A 2024-04-26: nominal body 8.94 x 6.50 x 3.16 mm,
   four shell stakes 0.80 mm deep, no locating pegs. Mouth +Y in footprint.
   Corners, shell walls, tongue and contacts are approximate cosmetics.
+
+TPS22965_DSG0008A_preview.wrl: approximate2x2mm body,0.8mm maxheight,
+0.5mm leadpitch from TI DSG0008A drawing in Assets/power/tps22965.pdf.
+Generated geometric preview; not a manufacturer STEP model. No geometry
+or pad positions in the PCB are changed by this model.

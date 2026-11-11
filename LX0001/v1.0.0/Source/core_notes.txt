@@ -11,28 +11,21 @@ assigned electrical pin was checked against the footprint's pad numbers.
 
 PIN ASSIGNMENT / FIRMWARE CONTRACT
 GPIO0 / physical5 = BOOT, external10k pullup. Root schematic owns button.
-GPIO1 / physical6 = CC1_SENSE, ADC1_CH0.
-GPIO2 / physical7 = CC2_SENSE, ADC1_CH1.
-GPIO4 / physical9 = VBUS_SENSE, ADC1_CH3.
-GPIO5 / physical10 = USB_STRIP_EN output.
-GPIO6 / physical11 = USB_HIGH_CURRENT output.
+GPIO1/2/4/5/6: unused, unconnected.
 GPIO16 / physical22 = LED data output1. Native symbol names pin XTAL_32K_N;
 this is also GPIO16. No external32kHz crystal is populated.
 GPIO17 / physical23 = LED data output2.
 GPIO18 / physical24 = GPIO18_BUTTON input.
 GPIO19 / physical25 = USB_DM.
 GPIO20 / physical26 = USB_DP.
-GPIO21 / physical27 = DATA_ENABLE output.
+GPIO21 / physical27: unused, unconnected.
 U0TXD / physical49 = UART_TX (GPIO43).
 U0RXD / physical50 = UART_RX (GPIO44).
 GPIO45 / physical51 has10k pulldown: select3.3V flash supply at reset.
 GPIO46 / physical52 has10k pulldown: permits ROM download when BOOT low.
 GPIO3 strapping pin is left at default; no external load.
-Firmware must initially keep USB_STRIP_EN, USB_HIGH_CURRENT and DATA_ENABLE
-low until the main power-path conditions are validated. These three nets
-are normal non-strapping GPIOs. Root IO circuitry must give safe external
-pulldowns during boot/reset. Configure4MB flash, PSRAM disabled; validate
-flash boot at conservative40MHz DIO before qualifying higher modes/speeds.
+Power selection and data enables operate without firmware. Configure4MB flash,
+PSRAM disabled; validate flash boot at40MHz DIO before higher modes/speeds.
 
 POWER AND RESET
 Provide3.3V with at least500mA available at the MCU, including WiFi bursts.
@@ -164,7 +157,7 @@ INDEPENDENT INTEGRATION AUDIT
 The generated hierarchical schematic was exported with KiCad CLI to XML.
 200 assigned core,USB,data-output andbuttonpins matched parts.json exactly.
 Manufacturer pin maps for USBLC6-2SC6 and AHCT1G125 were checked;
-3V3-to5V translation,default-disabled OE logic,andBAT54C button-isolation
+3V3-to5V translation,always-enabled OE wiring,andBAT54C button-isolation
 polarity are correct. This verifies connectivity, not firmware or PCB routing.
 The initial automatic placement had RF bypass and clock-series components
 too far from MCU pins. Core placement recommendations are recorded in
@@ -175,9 +168,8 @@ rest of3V3 distribution. Ground-via proximity matters as much as distance.
 Keep flash SPI under30mm and prefer40MHzDIO for initial bringup. USB is full-speed12Mbps, with ESD near the connector and22ohm series
 resistors. Final routing uses several layer transitions and is not claimed
 to be a calibrated90ohm differential pair; validate USB signal integrity
-and enumeration on the assembled board across representative cables/hosts. Firmware must establish available USB current
-and strip voltage mode before enabling strip/data. Hardware cannot detect
-whether an attached strip is5V,12V or24V.
+and enumeration on the assembled board across representative cables/hosts. A suitably rated5V adapter supplies USB power without negotiation or a board
+current limiter. Hardware cannot identify strip voltage; output follows source.
 
 Layout update: five optional 0-ohm data/CS tuning links removed for density.
 R105 clock series footprint and R110 CS pull-up retained. Direct point-to-point

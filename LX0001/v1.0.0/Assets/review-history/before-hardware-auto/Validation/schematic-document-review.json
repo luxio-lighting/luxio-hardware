@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-11",
+  "schematic_pdf_sha256": "f65d72f469c73abd994d23e2b34b155a892ccb83c52aeb1ec70b7aab62701ca4",
+  "pages": 14,
+  "erc_findings": 0,
+  "visual_review": "All fourteen pages reviewed at overview scale, component pages inspected at readable resolution. J1 moved upward on USB schematic page to separate its GND labels from R4 USB_DP_CONN label; fixed area re-rendered and checked. Native schematic/PCB coordinates are independent.",
+  "scope": "Schematic document review; not PCB routing or physical qualification.",
+  "designators": 121,
+  "bare_test_pads": 11,
+  "final_page_review": "Four-layer update: changed root, RF, power and test sheets re-rendered and visually inspected on2026-11-11. No overlaps or clipping. Other ten sheets retain previously reviewed layout.",
+  "reviewed_schematic_sha256": {
+    "flash.kicad_sch": "d9d1f47590221e8454ecfc463b8086a6028631c0c9aa220f780d6ea22aaa1439",
+    "core_2.kicad_sch": "66fd0dfdde44c794956b55caeee0129935ce85fbcce6def5803b72b7e3ebeb75",
+    "power.kicad_sch": "037400105eb3f917a15fc39c44159decee6e946c4b76158814773a15d336a1d8",
+    "test.kicad_sch": "9813b6b09b28659069970fc6d06ee3f313ac0426db60e1e4baff53b05f10a127",
+    "usb.kicad_sch": "2d4749ae2fb193a6dff3b83dd96f5e8dd4d27256c428cd4b2233b0e184b434ef",
+    "outputs.kicad_sch": "36774ec53d94ec8023b8d5fcfe8d747e37850175222ba094324ed26077eb02cc",
+    "regulators_2.kicad_sch": "2457030d9cc5cc9d19c84b8ffff4e4e42dbe1dcf646425da3c8c8c2728063f6b",
+    "power_2.kicad_sch": "ce9dee4bdc93b4585e2c46ea0aba9216a846006d8af4ecf5c094ca716d65da96",
+    "core.kicad_sch": "a230e5df84f524485d793ec2bae377f1fdd60a271364a9dd37e416a1ae7d1dce",
+    "LX0001.kicad_sch": "a188c6952a3c40861c28ee4796e0fc04fb178fd23f2ce9d0b2a61323794434b6",
+    "regulators.kicad_sch": "1c40c3083cd6af8b93c16200b2262420ad6f3bfeeed9c3e6dedcad9b414f26d3",
+    "button.kicad_sch": "5d42c35a508a14db8a263467778dad06a03ee7e39a4c3a86ddeb9684b1715f8c",
+    "mcu.kicad_sch": "ac3fcd0d11dd62adff256d09552b12b84368181af0ca195842ebaf8814e71c13",
+    "rf.kicad_sch": "93a2fe3e8b15f923a06acf9edfa7ceab1271914b25370d1526a92689835c66db"
+  },
+  "regeneration_note": "Current PDF regenerated from the identical reviewed schematic sources; every reviewed source hash rechecked after the 60 mm input-layout revision."
+}

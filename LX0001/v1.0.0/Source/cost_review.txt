@@ -1,139 +1,55 @@
-LX0001 v1.0.0 I/O BOM verification and indicative component cost
-Reviewed: 2026-11-11
+LX0001 automatic hardware revision — component cost estimate
 
-Scope: Source/io_parts.json only. This is not the complete board BOM or a
-JLCPCB assembly quote. Prices are USD per component from JLCPCB public part
-page price tiers retrieved on the review date. Prices for 100 boards use
-100 times the installed quantity of each part number. Waste/spares, feeder
-fees, assembly, PCB fabrication, shipping, and taxes are excluded. Stock is
-a snapshot; final order availability and order minimums require quoting.
+83 fitted parts / 46 supplier codes per board.
+100-board component estimate: USD12.8304/board; USD1283.0400 for100 boards.
+No PCB, assembly, feeders, attrition, shipping or tax included.
+Existing parts use their dated2026-11-11 snapshots; newU4/C18 fetched for this revision.
+Stock/prices are not reserved. See bom_sourcing.json for every tier and observation time.
 
-All 25 selected I/O part numbers returned JLCPCB inventory and part identity.
-No replacement is required based on this inventory snapshot. LCSC retail
-stock differs: C13585/C15849 showed zero and two Sunlord pages returned no
-product data; the original parts are stocked by JLCPCB for assembly.
-
-JLCPCB public page fields retained in Assets/io/jlcpcb_evidence.json.
-LCSC identity, specification, and retail-price fields retained separately
-in Assets/io/supplier_evidence.json. Page-level preMinPurchaseNum is a
-pre-order purchase minimum, not assumed to be the PCBA installation minimum.
-
-Code         Qty/PCB  Qty/100  USD/each  USD/PCB  JLC stock  MPN
-C13585             1      100    0.1011   0.1011    3522304  CL31A106KBHNNNE
-  https://jlcpcb.com/partdetail/C13585
-C14663             6      600    0.0058   0.0348   35157502  CC0603KRX7R9BB104
-  https://jlcpcb.com/partdetail/C14663
-C14890             1      100    0.0018   0.0018      34785  0603WAF7322T5E
-  https://jlcpcb.com/partdetail/C14890
-C15849             1      100    0.0112   0.0112   12197530  CL10A105KB8NNNC
-  https://jlcpcb.com/partdetail/C15849
-C37616412          1      100    0.5640   0.5640       1592  USB4215-03-A
-  https://jlcpcb.com/partdetail/C37616412
-C20526             1      100    0.0103   0.0103    4232549  MMBT3904(RANGE:100-300)
-  https://jlcpcb.com/partdetail/C20526
-C2135              1      100    0.0246   0.0246     169214  BAT54C
-  https://jlcpcb.com/partdetail/C2135
-C22775             2      200    0.0021   0.0042    8760109  0603WAF1000T5E
-  https://jlcpcb.com/partdetail/C22775
-C22807             1      100    0.0017   0.0017     691184  0603WAF1503T5E
-  https://jlcpcb.com/partdetail/C22807
-C23186             2      200    0.0015   0.0030   19806212  0603WAF5101T5E
-  https://jlcpcb.com/partdetail/C23186
-C23345             2      200    0.0017   0.0034    5608643  0603WAF220JT5E
-  https://jlcpcb.com/partdetail/C23345
-C2480              1      100    0.0192   0.0192    1522831  SS14
-  https://jlcpcb.com/partdetail/C2480
-C25803             9      900    0.0029   0.0261   15290614  0603WAF1003T5E
-  https://jlcpcb.com/partdetail/C25803
-C25804             5      500    0.0022   0.0110   43783647  0603WAF1002T5E
-  https://jlcpcb.com/partdetail/C25804
-C31850             1      100    0.0042   0.0042    2562597  0603WAF2202T5E
-  https://jlcpcb.com/partdetail/C31850
-C32347484          1      100    0.8500   0.8500        998  LMR51410YFDBVR
-  https://jlcpcb.com/partdetail/C32347484
-C38117             1      100    0.0493   0.0493      38981  SWPA4030S100MT
-  https://jlcpcb.com/partdetail/C38117
-C45783             4      400    0.0842   0.3368    3763770  CL21A226MAQNNNE
-  https://jlcpcb.com/partdetail/C45783
-C55251566          3      300    0.1660   0.4980      20085  2060-452-HDGC
-  https://jlcpcb.com/partdetail/C55251566
-C57269             1      100    0.0466   0.0466      28970  SWPA4030S4R7MT
-  https://jlcpcb.com/partdetail/C57269
-C720477            1      100    0.0414   0.0414     923499  TS-1088-AR02016
-  https://jlcpcb.com/partdetail/C720477
-C7470946           1      100    0.0403   0.0403      10517  SMBJ24A
-  https://jlcpcb.com/partdetail/C7470946
-C7484              2      200    0.0695   0.1390      35241  SN74AHCT1G125DBVR
-  https://jlcpcb.com/partdetail/C7484
-C7519              1      100    0.1192   0.1192      26182  USBLC6-2SC6
-  https://jlcpcb.com/partdetail/C7519
-C84817             1      100    0.0823   0.0823      27489  MT3608
-  https://jlcpcb.com/partdetail/C84817
-
-Indicative I/O installed-parts subtotal: USD 3.0235 per board;
-USD 302.35 for 100 boards, before excluded costs above.
-
-CONNECTORS AND SWITCH
-HDGC C55251566: 9 A AC/DC, 320 V, body 7.9 x 11.5 mm, height 4.5 mm.
-Three per board gives 300 pieces; JLC 150+ tier USD 0.1660 each, USD 0.4980
-per board. A purchase of 100 connectors alone uses 50+ tier USD 0.1872 each.
-The connector rating does not establish a PCB current rating.
-See Source/connector_notes.txt and Assets/connectors manufacturer drawing.
-
-Selected USB connector: GCT USB4215-03-A / C37616412, USB 2.0 16 contacts,
-5 A / 48 V connector rating. Peg-free; four 0.80 +/-0.20 mm shell stakes
-remain recessed in the 1.6 mm PCB. Exact lands and opposite-side masked
-annulus method: Assets/io/C37616412_footprint_notes.txt. JLC snapshot:
-canPresaleNumber=1453, overseasStockCount=1592; USD 0.5640 each at 100.
-This supersedes HDGC C2936195 (peg holes collide when centered) and HRO
-C165948. Old footprint/PDF files are historical reference, not selected parts.
-The rating does not authorize 5 A from an arbitrary USB source; source
-advertisement and the controller's configured USB limit still apply.
-
-XUNPU TS-1088-AR02016 C720477:3.9x3.0mm body,2.0mm height,1.6N
-operation,50mA12V SPST. Copied footprint lands 1.05 x 2.0 mm at x=+/-2.225
-match the manufacturer drawing:5.5mm outer width minus3.4mm inner gap
-gives two1.05mm-wide lands and4.45 mm center distance. Pin1 left,2 right.
-The switch footprint property Value still contains an older TS-1088-xR025
-family label; BOM/schematic value identifies the correct2.0mm-height part.
-
-ACTIVE PART AND DIODE CHECKS
-C2135 JSCJ BAT54C, SOT-23, common cathode: pins 1 and 2 are separate
-anodes; pin 3 is common cathode. Verified visually in manufacturer page 1
-and against KiCad Diode:BAT54C. Connection to BUTTON_COMMON on 3 pulls
-both BOOT and GPIO18 low through independent diodes when SW1 closes.
-Do not replace with BAT54A(common anode) or BAT54S(series).
-
-C7519 ST USBLC6-2SC6, SOT-23-6L: pins1/6 I/O1,2GND,3/4I/O2,5VBUS.
-C32347484 TI LMR51410YFDBVR, SOT-23-6:1CB,2GND,3FB,4EN,5VIN,6SW;
-1A,1.1MHz FPWM variant,4-42V operating input.
-C84817 Aerosemi MT3608, SOT-23-6:1SW,2GND,3FB,4EN,5VIN,6NC.
-C7484 TI SN74AHCT1G125DBVR, SOT-23-5:1/OE,2A,3GND,4Y,5VCC;
-4.5-5.5V supply; TTL-compatible input. Two devices per board.
-C20526 JSCJ MMBT3904(RANGE:100-300), SOT-23:1base,2emitter,3collector.
-C2480 MDD SS14, SMA/DO-214AC,1A40V. Marked band denotes cathode;
-KiCad diode symbol/footprint pad1 is cathode.
-C7470946 SHAOXIN SMBJ24A, SMB/DO-214AA, unidirectional24V TVS.
-Do not substitute SMBJ24CA(bidirectional) without separate review.
-All above io_parts pin/net mappings agree with manufacturer pinouts.
-The replacement USB has the same logical A/B pin assignments.
-Manufacturer PDFs are saved in Assets/io.
-
-PASSIVE CHECKS
-C14663 YAGEO CC0603KRX7R9BB104 is100nF50V X7R0603.
-C13585 Samsung CL31A106KBHNNNE is10uF50V X5R1206.
-C15849 Samsung CL10A105KB8NNNC is1uF50V X5R0603; label any retained
-C15849 as 1 uF 50 V, although a 16 V minimum at this position was conservative.
-C45783 Samsung CL21A226MAQNNNE is22uF25V X5R0805.
-C38117 Sunlord SWPA4030S100MT:10uH1.5Arms,4x4x3mm; data-sheet
-conservative saturation figure1.95A, newer supplier typical value2.4A.
-C57269 Sunlord SWPA4030S4R7MT:4.7uH2Arms,4x4x3mm; conservative
-saturation2.9A, newer supplier typical3.2A. Exact selected Sunlord family
-matches KiCad L_Sunlord_SWPA4030S footprint.
-Retained resistor C-codes/0603 values agree with supplier part numbers.
-
-COST DECISION
-Retain the selected verified parts. No lower-priced substitute was declared
-pin-compatible without manufacturer evidence. Savings from replacing a part
-must include JLC extended-part setup fees and not just its unit price.
-The subtotal here intentionally excludes MCU/RF and power-mux parts.
+LCSC       Qty/board UnitUSD  Cost/board Ref
+C122837        1 0.1969 0.1969 U4
+C127620        1 0.0443 0.0443 ANT1
+C13585         1 0.1011 0.1011 C8
+C14663         3 0.0058 0.0174 C9,C14,C17
+C14890         1 0.0018 0.0018 R14
+C1525          7 0.0031 0.0217 C101,C102,C103,C104,C105,C108,C110
+C1549          2 0.0018 0.0036 C112,C113
+C15849         1 0.0112 0.0112 C6
+C1588          1 0.0082 0.0082 C18
+C161414        2 0.0125 0.0250 C114,C115
+C17168         1 0.0012 0.0012 R105
+C179173        1 1.0674 1.0674 U10
+C18216         1 0.0228 0.0228 L100
+C183158        1 0.0844 0.0844 F1
+C19702         2 0.0177 0.0354 C100,C107
+C20526         1 0.0103 0.0103 Q2
+C2135          1 0.0246 0.0246 D4
+C22775         2 0.0021 0.0042 R16,R27
+C23186         2 0.0015 0.0030 R1,R2
+C23345         2 0.0017 0.0034 R3,R4
+C2480          1 0.0192 0.0192 D2
+C25744         5 0.0010 0.0050 R100,R101,R102,R103,R110
+C25803         7 0.0029 0.0203 R22,R17,R18,R28,R29,R10,R13
+C25804         3 0.0022 0.0066 R15,R24,R30
+C25819         1 0.0016 0.0016 R12
+C2913192       1 2.0662 2.0662 U1
+C2941042       2 2.0515 4.1030 U3,U5
+C307331        2 0.0085 0.0170 C5,C7
+C31850         1 0.0042 0.0042 R23
+C32347484      1 0.8500 0.8500 U6
+C37616412      1 0.5640 0.5640 J1
+C38117         1 0.0493 0.0493 L1
+C45783         4 0.0842 0.3368 C10,C11,C12,C13
+C52923         3 0.0057 0.0171 C106,C109,C111
+C55251566      3 0.1660 0.4980 J2,J3,J4
+C57269         1 0.0466 0.0466 L2
+C655034        1 0.0532 0.0532 Y1
+C720477        1 0.0414 0.0414 SW1
+C7470946       1 0.0403 0.0403 D3
+C7484          2 0.0695 0.1390 U8,U9
+C7519          1 0.1192 0.1192 U2
+C81598         1 0.0124 0.0124 D1
+C840100        2 0.9694 1.9388 Q1,Q3
+C84817         1 0.0823 0.0823 U7
+C913699        1 0.0944 0.0944 L101
+C98043         1 0.0166 0.0166 L102

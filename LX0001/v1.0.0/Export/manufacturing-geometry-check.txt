@@ -1,7 +1,7 @@
 PASS: independent drill / solder-paste geometry check.
 Board: /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_pcb
-SHA256: a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01
-237 drilled items (231 vias), 384 paste apertures, 91008 comparisons.
+SHA256: d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5
+186 drilled items (180 vias), 320 paste apertures, 59520 comparisons.
 Via-in-paste allowlist: empty. Net equality does not suppress any intersection.
 Minimum routing-via drill/paste clearance: 0.100 mm (1nm numerical allowance).
 Reviewed connector pin-in-paste slots: 4. These are J1 component stakes, not routing vias.

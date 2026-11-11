@@ -1,0 +1,100 @@
+{
+  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
+  "unchanged_since_commit": "d17fe18",
+  "models": [
+    {
+      "reference": "J1",
+      "models": [
+        [
+          "${KIPRJMOD}/libraries/models/USB_C_C37616412_library.step",
+          [
+            0.0,
+            0.0,
+            1.58
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "reference": "J2",
+      "models": [
+        [
+          "${KIPRJMOD}/libraries/models/HDGC_2060_452_C55251566.step",
+          [
+            -0.0025,
+            2.8275,
+            2.3
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "reference": "J3",
+      "models": [
+        [
+          "${KIPRJMOD}/libraries/models/HDGC_2060_452_C55251566.step",
+          [
+            -0.0025,
+            2.8275,
+            2.3
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "reference": "J4",
+      "models": [
+        [
+          "${KIPRJMOD}/libraries/models/HDGC_2060_452_C55251566.step",
+          [
+            -0.0025,
+            2.8275,
+            2.3
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            1.0
+          ]
+        ]
+      ]
+    }
+  ],
+  "pass": true,
+  "U4": "Approximate 2x2x0.8mm package preview; see Source/libraries/models/README.txt"
+}

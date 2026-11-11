@@ -1,69 +1,28 @@
 {
-  "board_sha256": "a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01",
-  "renderer": "KiCad 10.0.7 native raytracer",
-  "copper_layers": 4,
+  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
+  "renderer": "KiCad10 native raytracer",
   "board_mm": [
     60,
     20,
     1.6
   ],
-  "body_models": "HDGC and USB use aligned JLCEDA/EasyEDA STEP models; USB is a shared model. Other custom bodies may be approximate; manufacturer drawings govern enclosure dimensions",
+  "camera_top_rotation_degrees": [
+    -54.735610317,
+    0,
+    45
+  ],
+  "camera_bottom_rotation_degrees": [
+    125.264389683,
+    0,
+    -45
+  ],
+  "orthographic": true,
+  "visual_review": "Inspected top/underside isometric renders. Connector models retained; U4 approximate body shown. Inputs and mounting geometry unchanged.",
   "views": {
-    "preview-top.png": "d6083f275f30f2564c490ee40f728ce00501f110af063f40a9d5727e37a50cc9",
-    "preview-bottom.png": "9dc6173b93977ac5450d00ee28a908c450661d59e7046c3c223c20a6815a64f7",
-    "preview-centered-input-end.png": "d128d971471a7dba043d4a0b4f253f1b56f6ce50cd625a6b8b44b9fc7ea48b49",
-    "preview-isometric-top.png": "3a75e31dfa3be71ba9a22c467751785e7ebe99763e51ee1a5b23a4d8937f9f16",
-    "preview-isometric-bottom.png": "18340ba9d2ac5ffe39600613700c78b6336e283fc9b3b297b6a49ff57d23351c"
-  },
-  "input_connector_centers_CAD_mm": {
-    "J1": [
-      2.75,
-      5.25
-    ],
-    "J2": [
-      6.5,
-      15.25
-    ]
-  },
-  "input_connector_side": "Top",
-  "visual_review": "Matched top and bottom isometric views inspected. Bottom is the exact 180-degree board-local long-axis flip of the accepted top view, retaining camera framing and zoom. Input remains bottom left and output top right. Physical board unchanged.",
-  "top_camera": {
-    "side": "top",
-    "projection": "orthographic",
-    "rotate_deg": [
-      -54.735610317,
-      0,
-      45
-    ],
-    "zoom": 1.15,
-    "pixels": [
-      2000,
-      1200
-    ],
-    "projected_unit_axis_lengths": [
-      0.8164965809289622,
-      0.816496580928962,
-      0.8164965809252538
-    ],
-    "isometric_equal_axis_scale_check": true,
-    "orientation": "USB bottom left; outputs top right",
-    "rotation_reference": "https://github.com/KiCad/kicad-source-mirror/blob/10.0/common/gal/3d/camera.cpp"
-  },
-  "bottom_camera": {
-    "side": "top",
-    "projection": "orthographic",
-    "rotate_deg": [
-      125.264389683,
-      0,
-      -45
-    ],
-    "zoom": 1.15,
-    "pixels": [
-      2000,
-      1200
-    ],
-    "transform": "R_bottom = R_top * Rx(180 degrees); board-local X is the long axis",
-    "long_axis_flip_matrix_check": true,
-    "orientation": "Input bottom left; output top right; underside faces camera"
+    "preview-top.png": "6fd704af73582370bdb7225da421b7054c0ab41ee6d69783232ba7a4dfb4f3e5",
+    "preview-bottom.png": "20cc1db4ac42d85725c47d7d28910f3fc4086bdefba020b86851ef81dd6a2396",
+    "preview-centered-input-end.png": "9fe83c1718e90352c074940a36ba08c8d9f189d00a1f6dfb442eaf8324c0b672",
+    "preview-isometric-top.png": "8803ce8d0741195bded0086006e57c7a59f9aa6fdb8998bc1ee63a011d2724f2",
+    "preview-isometric-bottom.png": "e983650b394e20b938818957fceaa99653b0b0e9bae306dfcab64e33155f6c15"
   }
 }

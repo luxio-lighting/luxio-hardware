@@ -26,3 +26,7 @@ Full-stack local TVS return estimate (KiCad Python, then NumPy/SciPy Python):
     --report /tmp/tvs.txt --json-output /tmp/tvs.json
 Commands above are shown across lines for readability. Copper resistance
 estimates do not establish thermal ratings or transient performance.
+
+package_release.py packages already-exported, hash-checked fabrication data and
+reviews for the automatic-hardware revision. Run export_manufacturing.py and
+refresh copper/routing/model review evidence first; stale hashes fail closed.

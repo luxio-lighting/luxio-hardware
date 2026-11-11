@@ -1,10 +1,10 @@
 LX0001 current-path review — actual saved copper
-PCB SHA256: a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01
+PCB SHA256: d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5
 Board: /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_pcb
 Status: Routed PCB: zero unconnected items in a fresh KiCad DRC
-Generated UTC: 2026-11-11T22:02:43.811500+00:00
+Generated UTC: 2026-11-11T22:48:49.002151+00:00
 
-At 5 A (35 um outer / 15.2 um inner copper): modeled loop 8.4660 mOhm, 42.330 mV drop, 0.2117 W copper loss.
+At 5 A (35 um outer / 15.2 um inner copper): modeled loop 6.1405 mOhm, 30.702 mV drop, 0.1535 W copper loss.
 This is an electrical copper estimate, not a thermal rating or 5 A qualification.
 Connectors, solder joints, fuse element and MOSFET package/channel losses are excluded.
 
@@ -12,22 +12,20 @@ Per-net copper results (5 A, 20 C copper resistivity):
 Net        Terminals       Outer um R mOhm   Drop mV   Loss W
 DC_IN       J2->F1           35    0.2794     1.397   0.0070
 DC_FUSED    F1->Q1           35    0.2026     1.013   0.0051
-VSYS        Q1->Q6           35    2.1811    10.905   0.0545
-LED_VCC     Q6->J4           35    0.7778     3.889   0.0194
-GND         J3->J2           35    5.0253    25.126   0.1256
+VSYS        Q1->J4           35    3.5209    17.605   0.0880
+GND         J3->J2           35    2.1376    10.688   0.0534
 
-USB load-path copper results (1.384 A worst-case clamp, 20 C):
-At 35 um outer / 15.2 um inner copper: USB loop 92.8653 mOhm, 128.526 mV drop, 0.1779 W copper loss.
-USB_5V        J1->U4  35 um: 3.9119 mOhm; 5.414 mV; 0.00749 W.
-USB_LIMITED   U4->Q3  35 um: 78.7426 mOhm; 108.980 mV; 0.15083 W.
-VSYS          Q3->Q6  35 um: 3.7008 mOhm; 5.122 mV; 0.00709 W.
-LED_VCC       Q6->J4  35 um: 0.7778 mOhm; 1.076 mV; 0.00149 W.
-GND           J3->J1  35 um: 5.7322 mOhm; 7.933 mV; 0.01098 W.
-TPS2553 switch resistance, USB connector/cable and Q3 channel resistance are excluded from this copper-only USB loop.
+USB load-path copper results (3 A design ceiling; no onboard clamp, 20 C):
+At 35 um outer / 15.2 um inner copper: USB loop 53.6302 mOhm, 160.891 mV drop, 0.4827 W copper loss.
+USB_5V        J1->U4  35 um: 2.9456 mOhm; 8.837 mV; 0.02651 W.
+USB_SWITCHED  U4->Q3  35 um: 43.7053 mOhm; 131.116 mV; 0.39335 W.
+VSYS          Q3->J4  35 um: 5.0406 mOhm; 15.122 mV; 0.04537 W.
+GND           J3->J1  35 um: 1.9386 mOhm; 5.816 mV; 0.01745 W.
+TPS22965 switch resistance, USB connector/cable and Q3 channel resistance are excluded from this copper-only USB loop.
 
 Interlayer current distribution:
 VSYS, 35 um: largest modeled routing-via current 0.533 A at (23.800, 19.150) mm, drill 0.30 mm.
-GND, 35 um: largest modeled routing-via current 1.905 A at (18.900, 13.600) mm, drill 0.30 mm.
+GND, 35 um: largest modeled routing-via current 1.338 A at (15.000, 12.000) mm, drill 0.30 mm.
 GND: 4 plated component slots also included using their actual plated perimeter.
 
 Model and practical limits:
@@ -41,7 +39,7 @@ Copper resistance rises with temperature; actual copper/plating tolerances are n
 
 Approximate additional device loss at 5 A / 25 C:
 Q1: up to 0.248 W from 9.9 mOhm; F1: about 0.168 W from its typical 6.7 mOhm.
-Q6: up to 0.375 W at 10 V gate drive, or 0.575 W at 4.5 V, before hot-RDS(on) increase.
+Q6 strip switch removed; output is directly connected to VSYS.
 These figures omit connector/contact resistance and do not bound enclosure temperature.
 The final PCB/case needs 5/12/24 V load-temperature and fault-clearing measurements.
 
@@ -50,6 +48,6 @@ Other DRC categories: {}
 This copper report does not waive mechanical, RF, assembly or other manufacturing checks.
 
 Evidence: /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Export/current-path-model
-Mesh SHA256: 198c7f488d3a9d6c83c78c908326740f72e98397ea1e7cf8eeb94306ef812cfe
+Mesh SHA256: e78ca91f407f9733118a16c71d17ec699f553fc5605f9eaa4d4cd54dfa04c7c4
 Solver SHA256: 819d5f6d07c56f635e683273504e98779cd893ea8ba2d40a73b5f5469e5b7f1f
 Re-run after any routing, via, footprint or copper-fill change.

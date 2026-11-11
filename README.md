@@ -46,17 +46,23 @@ depending on firmware and strip type.
 
 - A powered two-wire input supplies both controller and strip and takes
   priority over USB. USB remains available for data.
-- USB alone powers the controller at 5 V. Firmware must explicitly enable
-  strip power, and only for a configured 5 V strip.
+- USB alone automatically powers both the controller and LED output at 5 V.
 - A 12 V or 24 V strip requires a matching wired supply. The board cannot
   automatically identify a strip's rated voltage and does not convert the
   output supply to a different strip voltage.
-- USB current is limited to about 0.44 A by default, or about 1.28 A after
-  firmware verifies a suitable Type-C source. The controller and strip share
-  that budget. The 5 A wired-input target does not apply to USB power.
+- USB has no onboard current limiter or power negotiation. Use a regulated
+  5 V adapter and cable rated for the controller plus strip load. The USB
+  connector design ceiling is 3 A total, pending thermal validation; it is
+  not a current clamp. Use the wired input for the 5 A strip design target.
+- Both 5 V data buffers are always enabled. Hardware pull-downs hold their
+  inputs low during reset. GPIO5, GPIO6 and GPIO21 are unused.
+- Power selection and data-buffer enables require no firmware changes.
+  Firmware still generates the LED data on GPIO16/17.
 
 Firmware is not included. See the [firmware interface](LX0001/v1.0.0/Source/firmware-interface.txt)
-for pin assignments, startup sequencing, source-current sensing and boot recovery.
+for pin assignments and boot recovery. A computer USB port can be used for
+data with wired power present. USB-only strip loading does not enforce host
+enumeration or suspend current budgets.
 Hold the button during reset or power-up to enter ROM download mode; pressing
 it alone does not reset a running controller.
 
@@ -85,11 +91,12 @@ verify enclosure fit. [Model provenance and alignment](LX0001/v1.0.0/Source/conn
 [Download the JLCPCB release package](LX0001/v1.0.0/Export/LX0001-v1.0.0-JLCPCB.zip).
 Upload the Gerber ZIP, BOM and CPL together, using the included
 [order settings](LX0001/v1.0.0/Export/JLCPCB-order-settings.txt). The current
-release contains 109 fitted components: 50 top and 59 bottom; L104 is DNP.
+release contains 83 fitted components; L104 is DNP. The component-only estimate
+is $12.83 per board for 100 boards, excluding PCB and assembly costs.
 
 The saved design passes ERC, DRC, schematic/PCB parity and the independent
 drill-to-paste check, with zero open connections or mechanical DRC exceptions.
-All 231 routing vias have 0.30 mm drills. Copper-loss estimates include all
+All routing vias have 0.30 mm drills. Copper-loss estimates include all
 four layers; they are not thermal qualification.
 
 **Status: fabrication data checked; hardware not yet production-qualified.**

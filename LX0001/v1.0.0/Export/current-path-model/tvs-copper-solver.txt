@@ -1,9 +1,9 @@
 LX0001 full-stack copper-only DC estimate
-PCB SHA256: a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01
+PCB SHA256: d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5
 Copper layers, um: [35.0, 15.2, 15.2, 35.0]
 20 C resistivity; 20 um via plating; ideal equipotential component terminals.
 Excludes connectors, solder, fuse elements, semiconductor resistance and heating.
 Raster discretization is approximate. This is not thermal or surge qualification.
 
-GND: 4.4745 mOhm; 4.475 mV; 0.00447 W at 1.0 A; residual 9.9e-11
-TOTAL: 4.4745 mOhm; 4.475 mV; 0.00447 W
+GND: 1.8749 mOhm; 1.875 mV; 0.00187 W at 1.0 A; residual 9.9e-11
+TOTAL: 1.8749 mOhm; 1.875 mV; 0.00187 W

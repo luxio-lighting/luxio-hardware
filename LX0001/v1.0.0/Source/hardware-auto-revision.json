@@ -1,0 +1,103 @@
+{
+  "revision": "1.0.0",
+  "base_commit": "d17fe18",
+  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
+  "request": "Firmware-independent power and data enables; automatically supply USB5 V to strip; no USB current limiter; assume suitably rated5 V adapters.",
+  "removed_references": [
+    "C15",
+    "C16",
+    "C4",
+    "D5",
+    "Q4",
+    "Q5",
+    "Q6",
+    "Q7",
+    "Q8",
+    "R11",
+    "R19",
+    "R20",
+    "R21",
+    "R25",
+    "R26",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R40",
+    "R8",
+    "R9",
+    "TP5"
+  ],
+  "added_references": [
+    "C18"
+  ],
+  "replaced": {
+    "U4": {
+      "old": "TPS2553DBVR / C55266",
+      "new": "TPS22965DSGR / C122837"
+    }
+  },
+  "moved": {
+    "C6": {
+      "reason": "Local input bypass for U4",
+      "CAD_mm": [
+        1.3,
+        6.2
+      ],
+      "side": "Bottom"
+    }
+  },
+  "unused_GPIO": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    21
+  ],
+  "fitted_parts": 83,
+  "assembly_faces": {
+    "Top": 39,
+    "Bottom": 44
+  },
+  "BOM_supplier_codes": 46,
+  "board_mm": [
+    60,
+    20,
+    1.6
+  ],
+  "USB_design_ceiling_A_total": 3,
+  "USB_onboard_current_limit": false,
+  "wired_design_target_A_strip": 5,
+  "hardware_qualified": false,
+  "power_truth_table": [
+    {
+      "USB": false,
+      "wired": false,
+      "output": "off"
+    },
+    {
+      "USB": true,
+      "wired": false,
+      "output": "USB5 V",
+      "ESP32_required": false
+    },
+    {
+      "USB": false,
+      "wired": true,
+      "output": "wired5\u201324 V",
+      "ESP32_required": false
+    },
+    {
+      "USB": true,
+      "wired": true,
+      "output": "wired5\u201324 V; USBdata only",
+      "ESP32_required": false
+    }
+  ]
+}

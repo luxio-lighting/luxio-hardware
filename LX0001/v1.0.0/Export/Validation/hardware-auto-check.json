@@ -1,0 +1,60 @@
+{
+  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
+  "checked_at_utc": "2026-11-11T22:50:01.216446+00:00",
+  "scope": "Static schematic/connection-table topology audit plus clean schematic-PCB parity; not a physical power-sequencing test",
+  "expected_pin_mappings": {
+    "R10": {
+      "1": "USB_5V",
+      "2": "USB_ENABLE"
+    },
+    "Q2": {
+      "1": "DC_SENSE_B",
+      "2": "GND",
+      "3": "USB_ENABLE"
+    },
+    "D1": {
+      "1": "DC_SENSE_R",
+      "2": "DC_FUSED"
+    },
+    "R12": {
+      "1": "DC_SENSE_R",
+      "2": "DC_SENSE_B"
+    },
+    "R13": {
+      "1": "DC_SENSE_B",
+      "2": "GND"
+    },
+    "J4": {
+      "1": "VSYS",
+      "2": "DATA17_OUT"
+    },
+    "C18": {
+      "1": "USB_SLEW",
+      "2": "GND"
+    },
+    "U4": {
+      "1": "USB_5V",
+      "2": "USB_5V",
+      "3": "USB_ENABLE",
+      "4": "USB_5V",
+      "5": "GND",
+      "6": "USB_SLEW",
+      "7": "USB_SWITCHED",
+      "8": "USB_SWITCHED",
+      "9": "GND"
+    }
+  },
+  "unused_GPIO": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    21
+  ],
+  "data_output_enable": "Both grounded",
+  "USB_limit": "None; external adapter/cable must be correctly rated",
+  "wired_priority": "D1/R12/Q2 disables U4 when DC_FUSED is powered",
+  "no_firmware_control_required": true,
+  "pass": true
+}

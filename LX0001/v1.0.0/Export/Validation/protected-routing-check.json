@@ -1,6 +1,6 @@
 {
-  "board_sha256": "a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01",
-  "previous_board_sha256": "5e2647da8a07183817b8afe8653a33e74431a2a2f8be0739faa74d6de65cd53f",
+  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
+  "previous_board_sha256": "a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01",
   "protected_nets": [
     "ANT_FEED",
     "ANT_TUNE",

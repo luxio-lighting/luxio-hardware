@@ -1,155 +1,57 @@
-LX0001 v1.0.0 power design review — 2026-11-11
+LX0001 v1.0.0 — automatic hardware power review
 
-Scope and status
-This is a design and document review, not a measured production qualification.
-The design target is 5 A continuous LED output from a regulated 5–24 V wired
-supply. USB supplies the controller and, when firmware enables it within the
-source budget, a 5 V strip. No circuitry identifies a strip's rated voltage.
-12/24 V strips require the corresponding wired supply. The 5 V boost powers
-only the logic buffers; it does not increase the strip supply voltage.
+Design review only; assembled electrical and thermal qualification remains open.
+Wired design target: 5 A strip load, 5–24 V regulated input. USB design ceiling:
+3 A total at 5 V, bounded by connector/cable/adapter ratings, not an onboard clamp.
 
-Implemented files
-power_parts.json contains 29 power-path parts, all group=power. Existing
-regulators, logic buffers, USB sensing and ESD parts are in io_parts.json.
-CMSA80P06A_DFN5x6.kicad_mod is the selected strip MOSFET footprint. All its
-drain leads and central exposed drain are numbered 5, matching the symbol.
-The Si7141DP symbol is used for its pin map only; the actual BOM part is
-CMSA80P06A, LCSC C22364965. MMBT5551L is the KiCad symbol name; the actual
-Q7/Q8 orderable part is JSCJ MMBT5551(RANGE:200-300), C2145.
+Paths
+DC_IN -> F1 -> DC_FUSED -> Q1/U3 ideal diode -> VSYS -> J4 VCC.
+USB_5V -> U4 TPS22965 load switch -> USB_SWITCHED -> Q3/U5 ideal diode -> VSYS.
+The separate Q6 strip switch and Q7/Q8 gate drivers are removed. VSYS is directly
+routed to output, so USB automatically supplies 5 V to a connected strip.
+There is no strip-voltage identification; 12/24 V strips need matching wired power.
 
-Wired and USB source selection
-DC_IN -> F1 -> DC_FUSED -> Q1/U3 ideal diode -> VSYS.
-USB_5V -> U4 current limiter -> USB_LIMITED -> Q3/U5 ideal diode -> VSYS.
-U3/U5 LM74700 pins: 1 VCAP, 2 GND, 3 EN, 4 CATHODE, 5 GATE, 6 ANODE.
-Q1/Q3 source pads1–3 connect to the respective input, gate4 to GATE, drain5
-to VSYS. C5/C7 are 100 nF between VCAP and ANODE, not from VCAP to ground.
-The two 60 V MOSFETs are oriented so their body diodes permit input-to-VSYS
-startup and block VSYS-to-input current when their controllers turn them off.
+D1/R12/Q2 detect DC_FUSED and pull USB_ENABLE low; R10 enables USB when wired
+power is absent. This gives wired priority even for wired 5.0 V versus USB 5.2 V.
+U4's ON input is hardware-controlled. U3/U5 EN remains connected to its own anode.
+LM74700 shutdown alone cannot disconnect forward current through the MOSFET body
+diode, hence U4 is retained as a switch. It has no current-limit control.
+Q3/U5 isolate U4 from the 24 V VSYS rail and block backfeeding into USB.
 
-D1/R12/Q2 detect wired voltage and pull U4 EN low. D1 cathode=pin1 faces
-DC_SENSE_R, anode=pin2 faces DC_FUSED. This provides wired priority even
-when wired input is 5.0 V and USB is 5.2 V. With DC absent, R10 enables USB.
-The priority sense is before Q1, so VSYS cannot hold wired-present falsely
-active through the reverse-blocking path. Q3/U5 separate the 6 V USB switch
-from the 24 V system rail. Retain this stage: a Schottky substitution would
-reduce already limited low-USB startup headroom and needs a new leakage and
-reverse-voltage analysis. There is no validated low-cost drop-in alternative
-identified here. Switching transients and reverse current require bench tests.
+U4 TPS22965DSGR (C122837) pin audit against TI SLVSBJ0F:
+1/2 VIN = USB_5V; 3 ON = USB_ENABLE; 4 VBIAS = USB_5V; 5 GND;
+6 CT = USB_SLEW; 7/8 VOUT = USB_SWITCHED; exposed pad9 = GND.
+C18 = 1 nF / 50 V, from CT to ground. At 5 V, approximate 10–90% rise time
+is (0.38*1000 + 34) us/V * 5 V = 2.07 ms. This controls startup slew, not
+steady load current. C6 is placed beside U4 and provides input bypass. VIN/VBIAS range covers 5.25 V USB.
+TPS22965 output discharge is isolated from VSYS by Q3's reverse-blocking path.
+No Type-C controller or ESP32 current sensing is fitted; R1/R2 retain passive Rd.
+The external adapter must provide overload/short-circuit protection for USB power.
 
-USB current selection and firmware requirements
-U4 TPS2553DBVR: 1 IN, 2 GND, 3 EN, 4 active-low FAULT, 5 ILIM, 6 OUT.
-FAULT is an unused open-drain indication in this design.
-R11+R31=60.2 kohm; Q5 off selects the default limit. USB_HIGH_CURRENT turns
-Q5 on and puts R32=30.1 kohm in parallel, giving 20.0667 kohm. R33 makes
-the high-current setting default off through reset. Q5 pins=1G,2S,3D.
-Calculated TPS2553 limits including resistor ±1%:
-  default: minimum 388.6 mA, typical 437.2 mA, maximum 492.8 mA;
-  high: minimum 1.186 A, typical 1.279 A, maximum 1.384 A.
-These are current-limit trip bounds, not guaranteed usable load budgets.
-Allow margin below the minimum limit and account for controller consumption.
-High mode requires a confirmed Type-C source advertising at least 1.5 A.
-The 3 A advertisement does not raise this hardware limit further. CC ADC
-thresholds must include Rd tolerance and calibrated ESP32 ADC error.
-USB default current, enumeration and suspend rules still require firmware;
-the approximately 493 mA hardware ceiling does not enforce the 100 mA
-preconfiguration state or suspend consumption. Keep LEDs and Wi-Fi off
-until permitted by the available power budget. A 0.6 A peak on 3.3 V can
-exceed the default USB budget at low VBUS after conversion losses.
+U8/U9 OE pins are grounded. R18/R29 pull GPIO16/17 low during high-impedance reset.
+The 5 V buffer rail derives from VSYS through the 3.3 V buck and logic boost.
+There is no separately switchable strip rail or GPIO data-enable transistor.
+Disconnect board power before connecting strip cables; power sequencing and
+startup/shutdown waveforms still need measurement with representative strips.
 
-Strip enable and 12 V gate clamp
-Q6 source=VSYS, drain=LED_VCC. Its body diode points LED_VCC-to-VSYS, so
-it blocks forward supply when off. This is not a reverse-blocking output;
-do not externally power LED_VCC. R34 pulls the gate to source (default off).
-D5 BZT52C12 cathode1=VSYS, anode2=STRIP_GATE clamps |VGS| near12 V.
-Q7 or Q8 sinks the gate through R35=2.2 kohm/0.25 W. Both NPNs use
-1 base,2 emitter,3 collector; the 160 V rating gives ample drain-node margin.
-Q7 is controlled by USB_STRIP_EN; Q8 automatically enables on wired power.
-R38 is 10 kohm, changed from47 kohm during audit to improve saturation
-margin at wired5 V. R36 is10 kohm; both base nets have100 kohm pulldowns.
-At24 V, R35 dissipates about65 mW and the zener about65 mW. R38 dissipates
-about50 mW. At5 V there is no zener conduction and |VGS| is about4.7 V.
-At the lowest USB voltage, |VGS| can be below the MOSFET's4.5 V RDS(on)
-test point; USB current is limited, but this corner needs measurement.
-R40 discharges the unloaded output slowly; it is not an active discharge.
-Firmware must keep DATA_ENABLE low until LED_VCC is valid, set data pins
-low before enabling the buffers, and disable data before removing strip
-power. This prevents data-line parasitic powering of an unpowered strip.
+Regulators and remaining protection
+U6 LMR51410: 1 BST,2 GND,3 FB,4 EN,5 VIN,6 SW. Divider 100k/32k targets3.3 V.
+Minimum guaranteed VIN is4.0 V: measure VSYS headroom under low VBUS and cable drop.
+U7 MT3608: 1 SW,2 GND,3 FB,4 EN,5 IN,6 NC. Divider73.2k/10k targets4.992 V.
+Only the data buffers use the 5 V boost; LED power is not converted.
+U3/U5 LM74700: 1 VCAP,2 GND,3 EN,4 CATHODE,5 GATE,6 ANODE.
+Q1/Q3 CSD18543Q3A: source1–3,gate4,drain5. C5/C7 connect VCAP to ANODE.
+F1 8 A/32 V fuse protects the wired path; it is not a precise5 A limiter.
+At5 A Q1 loss is up to0.248 W at25 C using9.9 mOhm; F1 typical cold loss0.168 W.
+Q6 loss is eliminated. At3 A TPS22965 typical16 mOhm loss is0.144 W, plusQ3,
+copper and connector losses. Use current_path_review.txt for extracted copper.
+These estimates do not establish temperature limits in the intended enclosure.
 
-Regulators and power dissipation
-U6 LMR51410YFDBVR uses pins1 BST,2 GND,3 FB,4 EN,5 VIN,6 SW.
-The100 kohm upper and32 kohm lower divider targets3.3 V from its0.8 V FB.
-U7 MT3608 uses1 SW,2 GND,3 FB,4 EN,5 IN,6 NC. The73.2 kohm/10 kohm
-divider targets4.992 V from its0.6 V FB. D2 cathode faces+5V_DATA.
-LMR51410 requires at least4.0 V input for guaranteed operation. USB cable,
-TPS2553 and ideal-diode drops must leave that at VSYS during controller
-startup and Wi-Fi bursts. Low-VBUS testing is essential.
-
-CMSA80P06A is60 V with±20 V gate rating. Maximum room-temperature RDS(on)
-is15 milliohm at−10 V and23 milliohm at−4.5 V. At5 A that is0.375 W or
-0.575 W respectively, before hot-resistance increase. Q1's9.9 milliohm
-maximum at10 V adds roughly0.25 W at5 A. F1 contributes about0.17 W from
-its6.7 milliohm typical cold resistance. Provide substantial copper around
-all three; these numbers do not prove an enclosed20×60 mm PCB's rating.
-F1 S1206-FA-8.0A is an8 A/32 V fast fuse with150 A interrupt rating. It
-is a fault fuse, not a precise5 A limiter. Its documented8 A reference
-board uses70 micrometre copper and7.5 mm traces. The input supply must
-also support controller current in addition to5 A LED current, especially
-at5 V. Use the prescribed trace/pour design and test steady temperature.
-
-Q6 footprint basis
-The manufacturer's CA07N2 page4 provides package geometry, not a suggested
-land pattern. Lands were derived from5.85×5.05 mm nominal body,6.15 mm lead
-span and1.27 mm lead pitch. Central drain land=3.6×4.2 mm, six paste windows
-giving about62% coverage. Confirm solder joints and stencil performance
-on first articles. Do not substitute an arbitrary SO8 footprint.
-
-Validation performed and remaining
-Exported the generated hierarchical schematic with KiCad10 to XML netlist.
-All342 explicitly assigned pins matched parts.json exactly (129 parts at
-review time). Compared library pin names against manufacturer pin tables
-for LM74700,CSD18543Q3A,TPS2553,LMR51410,MT3608,MMBT5551 and2N7002;
-no mismatches found. R38's value-only change does not alter connectivity.
-This does not replace routing/DRC or hardware testing. Measure5 A thermal
-rise at5/12/24 V in the actual enclosure, voltage drops, source hot-plug
-priority at5.0 V DC versus5.2 V USB, reverse leakage, USB low-VBUS startup,
-current limits, output inrush and short-circuit/fuse behavior. Validate
-data-high voltage and signal integrity with real strip cables.
-
-100-board price and stock snapshot
-JLCPCB live API observed2026-11-11 11:34:09 UTC. Prices USD per component
-at required order tier; exclude attrition, PCB, assembly, feeder fees,tax.
-Part                         Required   Available    Unit price
-C2941042 LM74700              200        18,980       2.0515
-C840100 CSD18543Q3A           200         1,755       0.9694
-C55266 TPS2553               100        53,376       0.3351
-C22364965 CMSA80P06A          100         7,397       0.2779
-C183158 8A fuse              100         2,122       0.0844
-C2145 MMBT5551               200     1,204,070       0.0147
-C8545 2N7002                 100     5,956,121       0.0154
-C43491 BZT52C12              100       197,568       0.0211
-C23000 30.1k                 300        25,091       0.0016
-C17948 2.2k/1206             100       201,478       0.0053
-Snapshot JSON files in Assets/power include endpoint URLs and timestamps.
-Prices/stock are not reserved. Q1/Q3 and U3/U5 dominate power-stage cost.
-
-Primary sources and local assets
-TI current-limit equations and package map:
-https://www.ti.com/lit/ds/symlink/tps2553.pdf
-Assets/power/TPS2553-current.pdf (RevG, revisedOctober2026)
+Sources
+https://www.ti.com/lit/ds/symlink/tps22965.pdf (saved Assets/power/tps22965.pdf)
 https://www.ti.com/lit/ds/symlink/lm74700-q1.pdf
 https://www.ti.com/lit/ds/symlink/csd18543q3a.pdf
 https://www.ti.com/lit/ds/symlink/lmr51410.pdf
-Assets/power/lm74700-q1.pdf,csd18543q3a.pdf,lmr51410.pdf,mt3608.pdf
-CMS manufacturer datasheet, current four-page version:
-https://datasheet.lcsc.com/datasheet/pdf/4f57521ff0ceb686c5423a06c8050cec.pdf?productCode=C22364965
-Assets/power/CMSA80P06A-current.pdf
-JSCJ MMBT5551 exact datasheet verified through browser PDF extraction:
-https://datasheet.lcsc.com/lcsc/2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--MMBT5551_C2145.pdf
-Assets/power/MMBT5551-JSCJ-source.txt documents pin verification; the MSK
-PDF is a separate vendor reference only, not the selected JSCJ product.
-SART manufacturer fuse family datasheet (includes8.0 A row):
-https://atta.szlcsc.com/upload/public/pdf/source/20200518/C553927_973B56EC5C441B8CE4AD351D147EC34C.pdf
-Assets/power/S1206-FA-8A.pdf
-JLCPCB part details and exact public inventory endpoint:
-https://jlcpcb.com/partdetail/Cmos-CMSA80P06A/C22364965
-https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C22364965
+https://jlcpcb.com/partdetail/TexasInstruments-TPS22965DSGR/C122837
+https://jlcpcb.com/partdetail/CL10B102KB8NNNC/C1588
+Previous GPIO-controlled design notes are archived under Assets/review-history.

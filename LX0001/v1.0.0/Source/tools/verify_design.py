@@ -163,13 +163,19 @@ if not args.geometry_only:
       for a in pads:
        if a.GetNetname()!=net:errors.append(f'{ref}.{pin} PCB {a.GetNetname()}, expected {net}')
     byref={v['ref']:v for v in parts};u=byref['U1']['pins']
-    for pin,net in {'5':'BOOT','22':'GPIO16','23':'GPIO17','24':'GPIO18_BUTTON','25':'USB_DM','26':'USB_DP','27':'DATA_ENABLE','10':'USB_STRIP_EN','11':'USB_HIGH_CURRENT','29':'VDD_SPI','57':'GND'}.items():
+    for pin,net in {'5':'BOOT','22':'GPIO16','23':'GPIO17','24':'GPIO18_BUTTON','25':'USB_DM','26':'USB_DP','29':'VDD_SPI','57':'GND'}.items():
      if u.get(pin)!=net:errors.append('ESP32 physical pin mapping incorrect '+pin)
     assert byref['U10']['value']=='W25Q32JVSSIQ' and byref['U1']['value']=='ESP32-S3'
     assert byref['D4']['pins']=={'1':'BOOT','2':'GPIO18_BUTTON','3':'BUTTON_COMMON'}
     assert byref['J2']['pins']=={'1':'GND','2':'DC_IN'}
     assert byref['J3']['pins']=={'1':'DATA16_OUT','2':'GND'}
-    assert byref['J4']['pins']=={'1':'LED_VCC','2':'DATA17_OUT'}
+    assert byref['J4']['pins']=={'1':'VSYS','2':'DATA17_OUT'}
+    assert all(pin not in u for pin in ['6','7','9','10','11','27'])
+    assert byref['U4']['value']=='TPS22965DSGR'
+    assert byref['U4']['pins']=={'1':'USB_5V','2':'USB_5V','3':'USB_ENABLE','4':'USB_5V','5':'GND','6':'USB_SLEW','7':'USB_SWITCHED','8':'USB_SWITCHED','9':'GND'}
+    assert byref['U8']['pins']['1']=='GND' and byref['U9']['pins']['1']=='GND'
+    assert not ({'Q4','Q5','Q6','Q7','Q8'} & set(byref))
+    assert byref['R1']['pins']=={'1':'CC1','2':'GND'} and byref['R2']['pins']=={'1':'CC2','2':'GND'}
     assert byref['U8']['pins']['5']=='+5V_DATA' and byref['U9']['pins']['5']=='+5V_DATA'
     assert not any('PSRAM' in q['value'].upper() for q in parts)
     assert b.GetCopperLayerCount()==4

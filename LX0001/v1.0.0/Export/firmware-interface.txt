@@ -1,0 +1,31 @@
+LX0001 v1.0.0 — firmware interface, automatic hardware revision
+
+No firmware-controlled power selection, USB current setting or data enable.
+GPIO1, GPIO2, GPIO4, GPIO5, GPIO6 and GPIO21 are unused and unconnected.
+
+GPIO16 / physical pin22: LED data 1, through always-enabled 5 V AHCT buffer.
+GPIO17 / physical pin23: LED data 2 or clock, through always-enabled 5 V AHCT buffer.
+GPIO18 / physical pin24: active-low user button input, isolated from BOOT by D4.
+GPIO0 / physical pin5: BOOT, with external pull-up and the shared button.
+GPIO19 / physical pin25: native USB D-.
+GPIO20 / physical pin26: native USB D+.
+GPIO43/44: UART recovery TX/RX test pads. Flash, clock and strap pins are reserved.
+
+100 kohm pull-downs hold buffer inputs low while ESP32 pins are high impedance.
+Output enables are tied to GND. Configure GPIO16/17 for the desired LED protocol;
+there is no GPIO21 enable sequence. Firmware still generates the LED data.
+Use GPIO18 as an input and debounce it. Do not drive the button net high.
+Hold SW1 during power-on or while pulsing ESP_EN low to enter ROM download mode.
+Pressing SW1 alone does not reset a running controller. Flash is 4 MB, no PSRAM.
+
+USB-only: controller and LED output automatically receive USB 5 V power.
+Wired 5–24 V input: supplies both controller and LED output and disables USB power;
+USB data remains connected. This works with the ESP32 held in reset.
+Neither strip voltage nor adapter current capability is detected. No USB PD.
+No onboard USB current clamp or USB advertisement negotiation. Use a regulated
+5 V adapter and cable rated for the total controller plus strip load. The USB
+connector design ceiling is 3 A total, pending first-article thermal testing;
+this is not a current limit. Use wired input for the 5 A strip design target.
+A computer USB port is suitable for data with wired power present; automatic
+strip loading on USB alone does not enforce host enumeration/suspend budgets.
+Do not feed external power into the LED output terminal.

@@ -42,7 +42,7 @@ def symbol(lib,name):
     return s
 # Custom component only where KiCad has no exact symbol.
 custom={}
-for name,pins in {'TPS2553DBVR': [('1','IN','power_in','L'),('2','GND','power_in','B'),('3','EN','input','L'),('4','~{FAULT}','open_collector','R'),('5','ILIM','passive','R'),('6','OUT','power_out','R')], 'LMR51410YFDBVR': [('1','CB','passive','R'),('2','GND','power_in','B'),('3','FB','input','R'),('4','EN','input','L'),('5','VIN','power_in','L'),('6','SW','power_out','R')], 'RFECA3216060A1T': [('1','FEED','passive','L'),('2','TUNE','passive','R'),('3','GND','passive','B')]}.items():
+for name,pins in {'TPS22965DSGR': [('1','VIN','power_in','L'),('2','VIN','passive','L'),('3','ON','input','L'),('4','VBIAS','power_in','L'),('5','GND','power_in','B'),('6','CT','passive','R'),('7','VOUT','passive','R'),('8','VOUT','power_out','R'),('9','EP','passive','B')], 'LMR51410YFDBVR': [('1','CB','passive','R'),('2','GND','power_in','B'),('3','FB','input','R'),('4','EN','input','L'),('5','VIN','power_in','L'),('6','SW','power_out','R')], 'RFECA3216060A1T': [('1','FEED','passive','L'),('2','TUNE','passive','R'),('3','GND','passive','B')]}.items():
     body=['symbol',q(name),['pin_names',['offset','0.8']],['in_bom','yes'],['on_board','yes'],['property',q('Reference'),q('U'),['at','0','8','0'],['effects',['font',['size','1.27','1.27']]]],['property',q('Value'),q(name),['at','0','10','0'],['effects',['font',['size','1.27','1.27']]]]]
     draw=['symbol',q(name+'_0_1'),['rectangle',['start','-6.35','6.35'],['end','6.35','-6.35'],['stroke',['width','0.254'],['type','default']],['fill',['type','background']]]]
     pp=['symbol',q(name+'_1_1')]; counters={'L':0,'R':0}
@@ -62,7 +62,7 @@ for p in parts:
         p['group']='mcu' if r=='U1' else 'rf' if r in ['ANT1','C114','C115','C116','L102','L103','L104'] else 'flash' if r=='U10' or r in ['C108','C109','C110'] or (r.startswith('R1') and int(r[1:])>=104) else 'core'
     if p['ref']=='J2':p['place']=[6.5,10,270]
     if p['ref']=='J3':p['place']=[53.5,5.75,90];p['pins']={'1':'DATA16_OUT','2':'GND'}
-    if p['ref']=='J4':p['place']=[53.5,14.25,90];p['pins']={'1':'LED_VCC','2':'DATA17_OUT'}
+    if p['ref']=='J4':p['place']=[53.5,14.25,90];p['pins']={'1':'VSYS','2':'DATA17_OUT'}
 placement=json.loads((HW/'placement.json').read_text()) if (HW/'placement.json').exists() else {}
 for p in parts:
     if p['ref'] in placement:
@@ -84,12 +84,12 @@ group_info={
  'core':('MCU power, straps and 40 MHz clock',['+3V3','VDD3P3_RF'], '3.3 V power, local bypassing, boot straps and 40 MHz crystal.\nGPIO45 and GPIO46 pulled LOW. Boot recovery: hold SW1 and pulse EN low.'),
  'flash':('4 MB flash and SPI termination',['VDD_SPI'], 'W25Q32JVSSIQ, 32 Mbit = 4 MB, no PSRAM.\nVDD_SPI is the ESP32 flash supply. R105 reserves clock-series tuning.'),
  'rf':('2.4 GHz ceramic antenna and RF matching',[], 'Walsin RFECA3216060A1T. Preserve the 8 x 3 mm edge clearance on ALL copper layers.\nRF matching values are initial values; tune on assembled PCB in final enclosure.'),
- 'usb':('USB-C data and source detection',['USB_5V'], 'USB 2.0 device / 5 V sink; no PD. Separate 5.1k CC pull-downs.\nFirmware must obey enumeration, suspend and Type-C advertised current.'),
- 'power':('Wired priority and USB current limiting',['DC_FUSED','VSYS','LED_VCC'], '5-24 V regulated wired supply has hardware priority over USB.\nReverse-blocking paths isolate sources. Design target 5 A continuous wired output.'),
+ 'usb':('USB-C data and passive 5 V input',['USB_5V'], 'USB 2.0 device / 5 V sink; no PD. Separate 5.1k CC pull-downs.\nNo current negotiation or onboard USB current limiter; use a suitably rated 5 V adapter.'),
+ 'power':('Automatic wired priority',['DC_FUSED','VSYS'], '5-24 V regulated wired supply has hardware priority over USB.\nReverse-blocking paths isolate sources. Design target 5 A continuous wired output.'),
  'regulators':('3.3 V buck and 5 V logic boost',['+5V_DATA'], '3.3 V buck from VSYS; boost 3.3 V to 4.99 V for AHCT buffers only.\nStrip output follows selected input voltage; no 12/24 V boost from USB.'),
- 'outputs':('Two 5 V data outputs and strip terminals',[], 'GPIO16 / GPIO17 -> AHCT buffers -> 100-ohm series resistors.\nDATA_ENABLE defaults low; set both data outputs low before enabling buffers.'),
+ 'outputs':('Two 5 V data outputs and strip terminals',[], 'GPIO16 / GPIO17 -> AHCT buffers -> 100-ohm series resistors.\nBuffers always enabled in hardware; 100k input pull-downs hold data low during reset.'),
  'button':('Centered BOOT / GPIO18 button',[], 'SW1 pulls BOOT and GPIO18 low through separate Schottky diodes.\nFirmware uses GPIO18 as an input. BOOT must be held low during reset for download.'),
- 'test':('Production and recovery test pads',[], 'Test-point map for recovery, power rails and data.\nUse common ground. Firmware/configuration needed for USB budget and LED enable.')}
+ 'test':('Production and recovery test pads',[], 'Test-point map for recovery, power rails and data.\nUse common ground. Power selection and data enables need no firmware control.')}
 # Split larger sections across A3 pages, keeping the MCU alone for readable pin names.
 groups=[]
 for slug,(title,flags,note) in group_info.items():

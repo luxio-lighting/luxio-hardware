@@ -1,14 +1,7 @@
-LX0001 D3 TVS return review — 60 x 20 mm input revision
+LX0001 TVS return copper review
 
-PCB SHA256: a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01
-All four saved copper layers modeled, 0.1 mm grid, 35/15.2/15.2/35 um copper,
-20 C resistivity and 20 um assumed via plating. D3 ground to J2 ground:
-4.4745 mOhm copper-only DC resistance. Mesh is connected and the numerical
-solve converged. See Export/current-path-model/tvs-copper-results.json.
-
-Earlier outer-only models excluded required internal ground paths and could
-not assess this return. Those results are historical, not an open PCB net.
-This full-stack DC estimate excludes inductance, device clamping, solder and
-connector resistance. It does not establish a surge rating. Hardware transient
-measurements in the intended wiring/enclosure are required for surge claims.
-SMBJ24A evidence: Assets/io/C7470946_SMBJ24A.pdf.
+PCB SHA256: d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5
+All four copper layers;0.1mm grid;35/15.2/15.2/35um copper;20um assumed via plating.
+D3 ground to J2 ground: 1.8749 mOhm at20C. Connected mesh; converged solve.
+DC copper estimate only: excludes inductance, clamping, contacts and solder.
+No surge rating established. Hardware transient measurements remain required.

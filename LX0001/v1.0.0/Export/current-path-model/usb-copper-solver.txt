@@ -1,13 +1,12 @@
 LX0001 full-stack copper-only DC estimate
-PCB SHA256: a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01
+PCB SHA256: d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5
 Copper layers, um: [35.0, 15.2, 15.2, 35.0]
 20 C resistivity; 20 um via plating; ideal equipotential component terminals.
 Excludes connectors, solder, fuse elements, semiconductor resistance and heating.
 Raster discretization is approximate. This is not thermal or surge qualification.
 
-USB_5V: 3.9119 mOhm; 5.414 mV; 0.00749 W at 1.384 A; residual 7.7e-11
-USB_LIMITED: 78.7426 mOhm; 108.980 mV; 0.15083 W at 1.384 A; residual 7.8e-11
-VSYS: 3.7008 mOhm; 5.122 mV; 0.00709 W at 1.384 A; residual 8.8e-11
-LED_VCC: 0.7778 mOhm; 1.076 mV; 0.00149 W at 1.384 A; residual 8.9e-11
-GND: 5.7322 mOhm; 7.933 mV; 0.01098 W at 1.384 A; residual 1e-10
-TOTAL: 92.8653 mOhm; 128.526 mV; 0.17788 W
+USB_5V: 2.9456 mOhm; 8.837 mV; 0.02651 W at 3.0 A; residual 8.3e-11
+USB_SWITCHED: 43.7053 mOhm; 131.116 mV; 0.39335 W at 3.0 A; residual 1e-10
+VSYS: 5.0406 mOhm; 15.122 mV; 0.04537 W at 3.0 A; residual 9.8e-11
+GND: 1.9386 mOhm; 5.816 mV; 0.01745 W at 3.0 A; residual 9.9e-11
+TOTAL: 53.6302 mOhm; 160.891 mV; 0.48267 W

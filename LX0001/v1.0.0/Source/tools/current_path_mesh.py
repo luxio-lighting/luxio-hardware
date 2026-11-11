@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("board", type=Path)
 parser.add_argument("--output", required=True, type=Path)
 parser.add_argument("--resolution", type=float, default=0.1, help="Grid pitch in mm")
-parser.add_argument("--nets", nargs="+", choices=["DC_IN", "DC_FUSED", "USB_5V", "USB_LIMITED", "VSYS", "LED_VCC", "GND"])
+parser.add_argument("--nets", nargs="+", choices=["DC_IN", "DC_FUSED", "USB_5V", "USB_SWITCHED", "VSYS", "LED_VCC", "GND"])
 parser.add_argument("--power-source", choices=["wired", "usb"], default="wired")
 parser.add_argument("--ground-source-ref", help="Override GND injection component for a local return-path assessment")
 parser.add_argument("--ground-sink-ref", help="Override GND return component")
@@ -52,12 +52,11 @@ ny = int(round((ymax - ymin) / step))
 segments = {
     "DC_IN": ("J2", "F1"),
     "DC_FUSED": ("F1", "Q1"),
-    "VSYS": ("Q1", "Q6"),
-    "LED_VCC": ("Q6", "J4"),
+    "VSYS": ("Q1", "J4"),
     "GND": ("J3", "J2"),
 }
 if args.power_source == "usb":
-    segments = {"USB_5V": ("J1", "U4"), "USB_LIMITED": ("U4", "Q3"), "VSYS": ("Q3", "Q6"), "LED_VCC": ("Q6", "J4"), "GND": ("J3", "J1")}
+    segments = {"USB_5V": ("J1", "U4"), "USB_SWITCHED": ("U4", "Q3"), "VSYS": ("Q3", "J4"), "GND": ("J3", "J1")}
 if args.ground_source_ref or args.ground_sink_ref:
     segments["GND"] = (args.ground_source_ref or segments["GND"][0], args.ground_sink_ref or segments["GND"][1])
 result = {

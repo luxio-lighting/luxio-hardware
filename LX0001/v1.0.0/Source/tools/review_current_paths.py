@@ -25,7 +25,7 @@ parser.add_argument('--evidence-dir', type=Path, default=root / 'Export/current-
 parser.add_argument('--resolution', type=float, default=0.1)
 parser.add_argument('--copper-um', type=float, nargs='+', default=[35])
 parser.add_argument('--allow-unrouted', action='store_true')
-parser.add_argument('--include-usb', action='store_true', help='Also model the USB load loop at the worst-case 1.384 A current clamp')
+parser.add_argument('--include-usb', action='store_true', help='Also model the USB load loop at the 3 A USB connector design ceiling (no onboard current clamp)')
 parser.add_argument('--kicad-python', default='/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/bin/python3.9')
 parser.add_argument('--kicad-cli', default='/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli')
 args = parser.parse_args()
@@ -61,17 +61,17 @@ if args.include_usb:
     usb_mesh_path = args.evidence_dir / 'usb-copper-mesh.json'
     usb_result_path = args.evidence_dir / 'usb-copper-results.json'
     subprocess.run([args.kicad_python, str(folder / 'current_path_mesh.py'), str(args.board), '--output', str(usb_mesh_path), '--resolution', str(args.resolution), '--power-source', 'usb', '--full-stack'], check=True)
-    subprocess.run([sys.executable, str(folder / 'current_stack_solve.py'), str(usb_mesh_path), '--report', str(args.evidence_dir / 'usb-copper-solver.txt'), '--json-output', str(usb_result_path), '--current-a', '1.384', '--copper-um'] + [str(v) for v in args.copper_um], check=True)
+    subprocess.run([sys.executable, str(folder / 'current_stack_solve.py'), str(usb_mesh_path), '--report', str(args.evidence_dir / 'usb-copper-solver.txt'), '--json-output', str(usb_result_path), '--current-a', '3', '--copper-um'] + [str(v) for v in args.copper_um], check=True)
     usb_results = json.loads(usb_result_path.read_text())
     assert usb_results['successful'] and usb_results['board_sha256'] == board_hash
     assert hashlib.sha256(args.board.read_bytes()).hexdigest() == board_hash, 'PCB changed during USB model'
-    lines += ['', 'USB load-path copper results (1.384 A worst-case clamp, 20 C):']
+    lines += ['', 'USB load-path copper results (3 A design ceiling; no onboard clamp, 20 C):']
     for total in usb_results['totals']:
         lines.append(f"At 35 um outer / 15.2 um inner copper: USB loop {total['resistance_mohm']:.4f} mOhm, {total['drop_mv']:.3f} mV drop, {total['loss_w']:.4f} W copper loss.")
     for name, segment in usb_results['segments'].items():
         for row in segment['results']:
             lines.append(f"{name:12} {segment['source_ref']:>3}->{segment['sink_ref']:<3} {row['copper_um']:g} um: {row['resistance_mohm']:.4f} mOhm; {row['drop_mv']:.3f} mV; {row['loss_w']:.5f} W.")
-    lines.append('TPS2553 switch resistance, USB connector/cable and Q3 channel resistance are excluded from this copper-only USB loop.')
+    lines.append('TPS22965 switch resistance, USB connector/cable and Q3 channel resistance are excluded from this copper-only USB loop.')
 lines += ['', 'Interlayer current distribution:']
 for name in ['VSYS', 'GND']:
     for row in results['segments'][name]['results']:
@@ -82,7 +82,7 @@ for name in ['VSYS', 'GND']:
         component_holes = [v for v in row['via_currents'] if v.get('kind') == 'plated_component_hole']
         if component_holes:
             lines.append(f"{name}: {len(component_holes)} plated component slots also included using their actual plated perimeter.")
-lines += ['', 'Model and practical limits:', f"Grid {mesh['resolution_mm']:g} mm; copper rho 1.724e-8 ohm-m at 20 C.", f"Nominal board 1.6 mm; actual saved copper layer spacing; assumed via/slot wall {results['via_plating_um']:g} um.", 'Saved filled zones, tracks and pads were extracted without changing the PCB.', 'Terminal pads on each named component are ideal equipotential nodes.', 'Rasterization approximates narrow copper and current crowding; it is not a temperature simulation.', 'The model includes all four copper layers (35/15.2/15.2/35 um), adjacent-layer barrel lengths and plated connector slots. Internal ground paths are included.', 'Copper resistance rises with temperature; actual copper/plating tolerances are not measured.', '', 'Approximate additional device loss at 5 A / 25 C:', 'Q1: up to 0.248 W from 9.9 mOhm; F1: about 0.168 W from its typical 6.7 mOhm.', 'Q6: up to 0.375 W at 10 V gate drive, or 0.575 W at 4.5 V, before hot-RDS(on) increase.', 'These figures omit connector/contact resistance and do not bound enclosure temperature.', 'The final PCB/case needs 5/12/24 V load-temperature and fault-clearing measurements.', '', f"Fresh DRC: {unconnected} unconnected items; electrical error types checked: {len(violations)}.", f"Other DRC categories: {dict(collections.Counter(v['type'] for v in drc.get('violations', []) if v['type'] not in electrical))}", 'This copper report does not waive mechanical, RF, assembly or other manufacturing checks.', '', f'Evidence: {args.evidence_dir.resolve()}', f"Mesh SHA256: {results['mesh_sha256']}", f"Solver SHA256: {results['solver_sha256']}", 'Re-run after any routing, via, footprint or copper-fill change.', '']
+lines += ['', 'Model and practical limits:', f"Grid {mesh['resolution_mm']:g} mm; copper rho 1.724e-8 ohm-m at 20 C.", f"Nominal board 1.6 mm; actual saved copper layer spacing; assumed via/slot wall {results['via_plating_um']:g} um.", 'Saved filled zones, tracks and pads were extracted without changing the PCB.', 'Terminal pads on each named component are ideal equipotential nodes.', 'Rasterization approximates narrow copper and current crowding; it is not a temperature simulation.', 'The model includes all four copper layers (35/15.2/15.2/35 um), adjacent-layer barrel lengths and plated connector slots. Internal ground paths are included.', 'Copper resistance rises with temperature; actual copper/plating tolerances are not measured.', '', 'Approximate additional device loss at 5 A / 25 C:', 'Q1: up to 0.248 W from 9.9 mOhm; F1: about 0.168 W from its typical 6.7 mOhm.', 'Q6 strip switch removed; output is directly connected to VSYS.', 'These figures omit connector/contact resistance and do not bound enclosure temperature.', 'The final PCB/case needs 5/12/24 V load-temperature and fault-clearing measurements.', '', f"Fresh DRC: {unconnected} unconnected items; electrical error types checked: {len(violations)}.", f"Other DRC categories: {dict(collections.Counter(v['type'] for v in drc.get('violations', []) if v['type'] not in electrical))}", 'This copper report does not waive mechanical, RF, assembly or other manufacturing checks.', '', f'Evidence: {args.evidence_dir.resolve()}', f"Mesh SHA256: {results['mesh_sha256']}", f"Solver SHA256: {results['solver_sha256']}", 'Re-run after any routing, via, footprint or copper-fill change.', '']
 if args.report.exists():
     history = root / 'Assets/review-history'
     history.mkdir(parents=True, exist_ok=True)

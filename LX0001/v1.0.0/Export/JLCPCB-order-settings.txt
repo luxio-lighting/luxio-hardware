@@ -46,7 +46,6 @@ reviewed short, low-current escapes may use 0.127 mm (including the short BUCK_F
 USB power includes short 0.40 mm branches and internal-layer segments; see
 the full-stack copper estimate in Source/current_path_review.txt. Main wired
 input and ground spines are 2.0 mm, with a 1.8 mm approach to the fuse.
-The DATA_ENABLE escape near (31.8,11.5) mm uses 0.130 mm copper over 1.2 mm.
 NPTH-to-copper minimum 0.20 mm. USB shell holes are plated slots.
 Minimum drill is 0.30 mm. Signal vias use 0.45/0.30 mm (pad/drill);
 power and ground banks retain 0.60/0.30 mm where specified in the board.

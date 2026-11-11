@@ -17,10 +17,11 @@ Test USB alone, wired alone at 5/12/24 V, and both sources in both insertion ord
 Measure input/output voltages and reverse leakage into each disconnected source.
 With 5.0 V wired and 5.2 V USB, wired must retain priority. Check handover for
 oscillation, overshoot and resets; a reset-free handover is not guaranteed.
-USB alone must leave LED_VCC off until firmware explicitly enables a 5 V strip.
-With a wired source present, LED_VCC must follow that source automatically.
-Verify the USB current-limit bands listed in firmware-interface.txt, source
-advertisement sensing, enumeration/suspend behavior and LED brightness limiting.
+USB alone must automatically apply USB 5 V to output, including with ESP32 held
+in reset. With wired power present, output must follow wired input automatically.
+Verify passive CC attachment in both orientations and all power functions with
+GPIO1/2/4/5/6/21 unused. No onboard current clamp is expected. Test adapter fault
+protection and USB load temperature up to3 A total including controller load.
 Use a USB analyzer or suitable test source; do not infer compliance from USB boot.
 
 3. Load and temperature
@@ -28,7 +29,7 @@ Measure loaded input/output voltage and component/connector/solder temperatures
 at 1 A, 3 A and 5 A using 5, 12 and 24 V wired supplies. Allow thermal equilibrium
 in the intended enclosure and at the intended worst-case ambient. Compare the
 measured temperature rise with actual component, connector and enclosure limits.
-Record fuse, Q1, Q6 and regulator temperatures and thermal-camera images. The 8 A
+Record fuse, Q1, U4, Q3 and regulator temperatures and thermal-camera images. The 8 A
 fuse is fault protection; it is not a precise 5 A output-current limiter. Verify
 fault clearing with the intended external supply and wiring. Copper-resistance
 estimates exclude connector contacts, solder joints and hot-device resistance.
@@ -36,7 +37,8 @@ estimates exclude connector contacts, solder joints and hot-device resistance.
 4. Data, clock and RF
 Scope both buffered outputs at the terminal using representative strip cables.
 Check 5 V amplitude, edge ringing, idle-low behavior and simultaneous channels.
-Verify no data drive before the buffers' DATA_ENABLE sequence. Exercise SW1 as
+Verify both data outputs idle low during reset; scope startup and shutdown for
+glitches or parasitic powering. No data-enable GPIO is used. Exercise SW1 as
 GPIO18 input and confirm it does not clamp other signals or reset the running MCU.
 Start flash at 40 MHz DIO; perform repeated reads/writes and cold boots over the
 input-voltage and temperature range before selecting 80 MHz/QIO operation.
