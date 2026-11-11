@@ -13,7 +13,7 @@
     "preview-bottom.png": "9dc6173b93977ac5450d00ee28a908c450661d59e7046c3c223c20a6815a64f7",
     "preview-centered-input-end.png": "d128d971471a7dba043d4a0b4f253f1b56f6ce50cd625a6b8b44b9fc7ea48b49",
     "preview-isometric-top.png": "3a75e31dfa3be71ba9a22c467751785e7ebe99763e51ee1a5b23a4d8937f9f16",
-    "preview-isometric-bottom.png": "64f62d72045492023b1f7781c6ddcdab0a50573bf1c3321a316af723067b5202"
+    "preview-isometric-bottom.png": "18340ba9d2ac5ffe39600613700c78b6336e283fc9b3b297b6a49ff57d23351c"
   },
   "input_connector_centers_CAD_mm": {
     "J1": [
@@ -26,7 +26,7 @@
     ]
   },
   "input_connector_side": "Top",
-  "visual_review": "Corrected isometric top view inspected: USB bottom left, outputs top right, all three unit axes have equal projected lengths. Existing bottom and input-end views retained. Models and physical board unchanged.",
+  "visual_review": "Matched top and bottom isometric views inspected. Bottom is the exact 180-degree board-local long-axis flip of the accepted top view, retaining camera framing and zoom. Input remains bottom left and output top right. Physical board unchanged.",
   "top_camera": {
     "side": "top",
     "projection": "orthographic",
@@ -48,5 +48,22 @@
     "isometric_equal_axis_scale_check": true,
     "orientation": "USB bottom left; outputs top right",
     "rotation_reference": "https://github.com/KiCad/kicad-source-mirror/blob/10.0/common/gal/3d/camera.cpp"
+  },
+  "bottom_camera": {
+    "side": "top",
+    "projection": "orthographic",
+    "rotate_deg": [
+      125.264389683,
+      0,
+      -45
+    ],
+    "zoom": 1.15,
+    "pixels": [
+      2000,
+      1200
+    ],
+    "transform": "R_bottom = R_top * Rx(180 degrees); board-local X is the long axis",
+    "long_axis_flip_matrix_check": true,
+    "orientation": "Input bottom left; output top right; underside faces camera"
   }
 }

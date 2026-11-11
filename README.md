@@ -11,7 +11,7 @@ outputs, Wi-Fi, native USB and automatic wired-input priority.
 
 ![LX0001 isometric top view, USB bottom left and outputs top right](LX0001/v1.0.0/Export/preview-isometric-top.png)
 
-**Underside — isometric**
+**Underside — same view, flipped 180° around the long axis**
 
 ![LX0001 bottom isometric view](LX0001/v1.0.0/Export/preview-isometric-bottom.png)
 
