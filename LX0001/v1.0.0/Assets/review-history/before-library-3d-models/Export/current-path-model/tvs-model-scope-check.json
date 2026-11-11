@@ -1,0 +1,10 @@
+{
+  "board_sha256": "4ce0b67978240a0ccec6042da28f95543a1dae4d79b496f4ef42788cd2bd2c51",
+  "model_scope": "All four saved copper layers; actual stackup thicknesses and interlayer barrel lengths",
+  "D3_to_J2_connected": true,
+  "resistance_mohm": 4.474507405389748,
+  "current_a": 1,
+  "surge_qualified": false,
+  "evidence": "tvs-copper-results.json",
+  "historical_note": "Prior outer-only model omitted required internal ground paths. This revision uses all four saved layers."
+}

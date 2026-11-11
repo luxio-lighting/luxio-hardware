@@ -1,0 +1,36 @@
+LX0001 release-export review — 60 x 20 mm, v1.0.0
+
+BOM/CPL headers and units follow JLCPCB KiCad export conventions:
+https://jlcpcb.com/help/article/how-to-generate-the-bom-and-centroid-file-from-kicad
+https://jlcpcb.com/help/article/pick-place-file-for-pcb-assembly
+
+109 fitted references: 50 top and 59 bottom. BOM is unchanged.
+DNP L104, bare test pads and mounting holes are excluded. Hybrid SMT/PIP J1
+is included. Every placement matches placement.json; no extra bottom mirror.
+Supplier-specific rotation still needs normal JLC placement-preview review.
+
+Gerber, Excellon and CPL use the lower-left origin CAD(0,20).
+Outline x=0..60,y=0..20. Exported X=CAD X; Y=20-CAD Y.
+J1 CAD(2.75,5.25) -> CPL(2.75,14.75), Top, -90 degrees.
+J2 CAD(6.5,15.25) -> CPL(6.5,4.75), Top, -90 degrees.
+Four copper layers: F.Cu / In1.Cu / In2.Cu / B.Cu.
+
+Export requires zero DRC findings/exclusions, opens, schematic parity findings
+and ERC findings, plus independent connectivity and drill/paste verification.
+231 vias: 0.30 mm drill; minimum annulus 0.075 mm; minimum drill/paste
+clearance 0.10 mm. No routing-via paste exception. Four USB shell stakes
+intersect only their own top-side component PIP apertures. Both-side mask
+openings and unobstructed bottom fillets; no mechanical overlap exception.
+Fresh staged Gerber export prevents stale files entering the archive.
+
+Direct GND/V+ input and GND/D16/D17/V+ output silkscreen labels are outside
+housings and paste lands. BOOT sits above the centered button; IN/OUT mark
+the ends. Bottom branding reads LUXIO LX0001 / v1.0.0 5-24V.
+Native top, bottom and input-end 3D renders were inspected. Connector models
+are approximate. Zero silk/text DRC findings. Manufacturing data is ready
+for first articles; hardware qualification and enclosure testing remain.
+
+RF, flash and crystal route preservation is checked independently in
+Export/Validation/protected-routing-check.json. Input power/USB routing was
+reworked and is assessed using all four saved copper layers. See
+current_path_review.txt and tvs_return_review.txt for model scope/limits.

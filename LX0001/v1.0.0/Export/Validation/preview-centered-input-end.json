@@ -1,22 +1,30 @@
 {
-  "board_sha256": "224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7",
-  "renderer": "KiCad10.0.7 native raytracer",
+  "board_sha256": "a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01",
+  "renderer": "KiCad 10.0.7 native raytracer",
   "copper_layers": 4,
-  "body_models": "Some custom component bodies are approximate preview models; manufacturer drawings govern enclosure dimensions",
+  "board_mm": [
+    60,
+    20,
+    1.6
+  ],
+  "body_models": "HDGC and USB use aligned JLCEDA/EasyEDA STEP models; USB is a shared model. Other custom bodies may be approximate; manufacturer drawings govern enclosure dimensions",
   "views": {
-    "preview-top.png": "9a1ccb8d1b770a42efa90bd467d52cce3b27e0dc8d8cd3cce85423f425ae19de",
-    "preview-bottom.png": "8a61b24a06b2abd887b273101e1e259ae81509edec37e01be9a6b0dcf4a68ad0",
-    "preview-centered-input-end.png": "d001ac2484b5384d37b611b08b6d38a4fdd28644c8dfc59bcfa9b5d59d44dc33"
+    "preview-top.png": "d6083f275f30f2564c490ee40f728ce00501f110af063f40a9d5727e37a50cc9",
+    "preview-bottom.png": "9dc6173b93977ac5450d00ee28a908c450661d59e7046c3c223c20a6815a64f7",
+    "preview-centered-input-end.png": "d128d971471a7dba043d4a0b4f253f1b56f6ce50cd625a6b8b44b9fc7ea48b49",
+    "preview-isometric-top.png": "b1ef03067bb45547b80d67fe47c365cd2608f7811cbd00ef1360d72904276491",
+    "preview-isometric-bottom.png": "64f62d72045492023b1f7781c6ddcdab0a50573bf1c3321a316af723067b5202"
   },
-  "input_connector_centers_board_mm": {
-    "J2": [
-      6.5,
-      10
-    ],
+  "input_connector_centers_CAD_mm": {
     "J1": [
       2.75,
-      10
+      5.25
+    ],
+    "J2": [
+      6.5,
+      15.25
     ]
   },
-  "visual_review": "Native top, bottom and input-end renders inspected after the 0.30 mm drill revision. Input terminal and underside USB remain centered at y=10 mm; approximate component bodies remain unchanged."
+  "input_connector_side": "Top",
+  "visual_review": "Isometric top, isometric bottom and input-end native renders inspected. Inputs side by side at the same end, USB shell annuli unobstructed. Button centered at (30,10)."
 }

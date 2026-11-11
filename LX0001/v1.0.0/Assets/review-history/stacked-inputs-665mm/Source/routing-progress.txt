@@ -1,0 +1,13 @@
+LX0001 v1.0.0 four-layer routing complete — 66.5 x 20 mm revision
+
+The saved PCB has zero unconnected items, zero DRC findings or exclusions,
+zero schematic parity differences and clean ERC. All 249 routing vias have
+0.30 mm drills and pass the independent 0.10 mm drill/paste clearance check.
+The four former USB shell/terminal mounting errors have been physically removed.
+USB shell apertures remain normal component-side pin-in-paste mounting.
+See Export/drc.json, Export/erc.json and manufacturing-geometry-check.json.
+
+Current revision record: usb-mounting-revision.json. The earlier drill revision
+is recorded historically in via030-revision.json. Re-upload current Gerbers
+AND CPL together: the common plot/drill/CPL origin moved to CAD(-6.5,20).
+Historical release: Assets/review-history/usb-overlap-before-665mm.

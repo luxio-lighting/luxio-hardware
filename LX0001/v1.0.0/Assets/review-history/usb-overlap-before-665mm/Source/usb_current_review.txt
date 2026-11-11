@@ -1,0 +1,39 @@
+LX0001 USB copper design basis — 0.30 mm drill revision
+
+Updated UTC: 2026-11-11T16:05:32.301121+00:00
+USB load current bound used: 1.384 A, the reviewed upper TPS2553 high-current clamp.
+Wired 5 A spines are separate and must not be narrowed to these USB values.
+
+Primary guidance: Texas Instruments SNVA054C (AN-1229), section 6.1, pages 10–11.
+https://www.ti.com/lit/an/snva054c/snva054c.pdf
+Local PDF SHA256: 2ddd88ce573c9a68a0b171ac18de40c3e32870b0711cc2502795c1837e99e35c
+TI relates current capacity to permitted temperature rise and ambient/component heating.
+Its 1 oz outer-copper rule of thumb for moderate rise yields 0.42184 mm at 1.384 A.
+Prefer 0.45 mm or wider for sustained USB routing;0.6 mm is retained where room permits.
+Short 0.4 mm package escapes can be assessed by their actual resistance and copper loss.
+Neither a width rule nor the resistor-network model establishes enclosure temperature.
+
+Computed copper values at 20 C,35 um thickness, rho 1.724e-8 ohm-m:
+Width mm   Resistance mOhm/mm   Drop mV/mm at 1.384 A   Loss mW/mm
+0.35       1.407347              1.947768                2.695711
+0.40       1.231429              1.704297                2.358747
+0.45       1.094603              1.514931                2.096664
+0.60       0.820952              1.136198                1.572498
+
+For a 0.4 mm trace, 50 mm total series length is 61.57 mOhm and 0.1179 W at 1.384 A.
+That is a length illustration, not a measured or final LX0001 route.
+At higher copper temperature the resistance/loss increase; manufacturing tolerances remain.
+A 0.30 mm finished drill with 20 um plating and 1.6 mm barrel has about 1.37 mOhm copper resistance.
+At1.384 A this is only a few mW, but final model must include actual via count and current sharing.
+
+Final-board evidence workflow:
+Run Source/tools/review_current_paths.py --board <final-board> --include-usb after zero-gap DRC.
+This extracts saved pads/tracks/filled zones and models USB_5V J1→U4, USB_LIMITED U4→Q3,
+VSYS Q3→Q6, LED_VCC Q6→J4 and GND J3→J1 at 1.384 A.
+Report actual PCB hash, dimensions, path resistance, voltage drop, losses and limitations.
+USB cable, connector contacts, TPS2553 switch resistance and MOSFET channels are separate losses.
+Bench validation in the actual case remains necessary for final temperature qualification.
+
+Current results are in Source/current_path_review.txt and
+Export/current-path-model/usb-copper-results.json, keyed to the saved PCB hash.
+Earlier provisional results are archived under Assets/review-history.

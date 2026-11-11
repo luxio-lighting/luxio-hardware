@@ -1,0 +1,247 @@
+{
+  "positions": {
+    "U10": [
+      33.0,
+      4.0,
+      0.0,
+      "Top"
+    ],
+    "R106": [
+      27.34,
+      7.69,
+      0.0,
+      "Top"
+    ],
+    "C101": [
+      15.7,
+      10.1,
+      0,
+      "Top"
+    ],
+    "Y1": [
+      21.8,
+      2.4,
+      0.0,
+      "Top"
+    ],
+    "C106": [
+      22.3,
+      5.3,
+      0,
+      "Top"
+    ],
+    "C109": [
+      25.31,
+      15.45,
+      0.0,
+      "Top"
+    ],
+    "R100": [
+      22.32,
+      5.26,
+      0.0,
+      "Top"
+    ],
+    "R102": [
+      26.63,
+      4.83,
+      90.0,
+      "Top"
+    ],
+    "R103": [
+      27.66,
+      4.26,
+      90.0,
+      "Top"
+    ],
+    "C102": [
+      17.4,
+      9.1,
+      270,
+      "Top"
+    ],
+    "R104": [
+      27.73,
+      12.49,
+      0.0,
+      "Top"
+    ],
+    "C108": [
+      25.48,
+      17.54,
+      0.0,
+      "Top"
+    ],
+    "L101": [
+      20.4,
+      5.0,
+      0,
+      "Top"
+    ],
+    "C112": [
+      19.12,
+      3.58,
+      90.0,
+      "Top"
+    ],
+    "R108": [
+      29.81,
+      13.12,
+      0.0,
+      "Top"
+    ],
+    "C104": [
+      24.4,
+      5.3,
+      0,
+      "Top"
+    ],
+    "C103": [
+      21.12,
+      14.8,
+      180,
+      "Top"
+    ],
+    "R101": [
+      18.63,
+      15.45,
+      90.0,
+      "Top"
+    ],
+    "C114": [
+      17.7,
+      7.4,
+      90.0,
+      "Top"
+    ],
+    "ANT1": [
+      14.5,
+      1.5,
+      0,
+      "Top"
+    ],
+    "C111": [
+      16.93,
+      11.41,
+      90.0,
+      "Top"
+    ],
+    "C110": [
+      38.8,
+      2.1,
+      0,
+      "Top"
+    ],
+    "U1": [
+      22.2,
+      10.0,
+      0.0,
+      "Top"
+    ],
+    "C115": [
+      15.1,
+      7.4,
+      90.0,
+      "Top"
+    ],
+    "R109": [
+      27.85,
+      13.61,
+      0.0,
+      "Top"
+    ],
+    "C107": [
+      27.0,
+      2.0,
+      90,
+      "Top"
+    ],
+    "C100": [
+      16.36,
+      15.66,
+      0.0,
+      "Top"
+    ],
+    "L100": [
+      15.7,
+      8.7,
+      0,
+      "Top"
+    ],
+    "R105": [
+      32.1,
+      7.5,
+      0.0,
+      "Top"
+    ],
+    "C105": [
+      18.4,
+      5.3,
+      180,
+      "Top"
+    ],
+    "L102": [
+      16.4,
+      7.72,
+      180.0,
+      "Top"
+    ],
+    "R110": [
+      25.28,
+      2.93,
+      0.0,
+      "Top"
+    ],
+    "C113": [
+      24.46,
+      1.15,
+      90.0,
+      "Top"
+    ],
+    "R107": [
+      30.04,
+      7.58,
+      0.0,
+      "Top"
+    ],
+    "L104": [
+      11.1,
+      1.5,
+      0,
+      "Top"
+    ]
+  },
+  "lock_before_packing": [
+    "U1",
+    "U10",
+    "Y1",
+    "ANT1",
+    "L100",
+    "L101",
+    "L102",
+    "L104",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C108",
+    "C109",
+    "C110",
+    "C112",
+    "C113",
+    "C114",
+    "C115"
+  ],
+  "notes": [
+    "Coordinates in mm; rotations are KiCad degrees; final element is side. These are recommendations from a read-only board audit; root owns final layout.",
+    "C105 bypasses VDDA55/56. C104 bypasses CPU46. C103 bypasses RTC20. C106 provides supplemental VDDA1uF. C107 is bulk decoupling and can move if needed.",
+    "C10518.4/5.3, C10217.4/9.1 and L10015.7/8.7 avoid native footprint courtyard overlaps. Horizontal L10120.4/5.0 fits between the crystal and MCU courtyards.",
+    "Do not lock pullups, straps or SPI series resistors at their current positions before critical decouplers and the crystal are locked. R100 and C111 may need moving from their earlier positions.",
+    "The 200 assigned core/USB/data/button pins in exported hierarchical KiCad XML match parts.json. AHCT125 supply, common OE drive, USBLC6 pinmap, native USB pins and BAT54C button polarity were independently checked.",
+    "Route each small bypass directly to its designated power pin and a very short ground via. Keep the VDD_SPI power route short and flash SPI routes below30mm, preferably much shorter and ground-referenced.",
+    "U5/Q3 relocation from under the crystal to the lower board region is recommended. Keep grounded copper under the clock and RF feed, except the antenna6x6mm keepout.",
+    "This artifact is not a final placement or routing signoff. Later parent placement overrides take precedence."
+  ]
+}

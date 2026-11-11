@@ -1,3 +1,27 @@
+LX0001 connector models and local preview models
+
+Selected connector STEP models (applied to both PCB and library footprints):
+- HDGC_2060_452_C55251566.step: original model linked to C55251566,
+  JLCEDA/EasyEDA Official Library. Housing 7.90 x 11.50 mm, total height
+  4.50 mm. Offset (-0.0025, 2.8275, 2.30) mm centers the body and places
+  solder terminals on the board surface. Scale 1; no rotation.
+- USB_C_C37616412_library.step: original shared model linked to C37616412
+  (GCT USB4215-03-A). Upstream title USB-C-SMD_GT-USB-7010B, not a
+  manufacturer-authenticated GCT model. Body 8.94 x 6.50 x 3.16 mm and
+  shell centers match the GCT drawing. Offset (0,0,1.58) mm; scale 1;
+  no rotation. Model stake depth 0.90 mm is within drawing 0.80 +/-0.20 mm.
+
+Source: JLCEDA/EasyEDA Official Library
+https://lceda.cn/
+https://easyeda.com/
+Original metadata, models, hashes and dimensions are retained under
+Assets/connectors/JLCEDA-C55251566 and JLCEDA-C37616412. Native STEP units
+are millimetres. Manufacturer drawings and real parts govern enclosure fit.
+Model alignment is recorded in Source/connector-model-update.json.
+
+The older HDGC and GCT preview WRLs below are superseded, retained as history.
+Other small custom parts still use the approximate preview models below.
+
 LX0001 local APPROXIMATE 3D PREVIEW MODELS
 Created 2026-11-11 for the intermediate KiCad 3D view.
 

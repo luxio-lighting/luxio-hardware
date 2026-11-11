@@ -1,0 +1,65 @@
+{
+  "revision": "v1.0.0",
+  "change": "Extend input end 6.5 mm and separate USB shell holes from J2",
+  "previous_board_sha256": "224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7",
+  "board_sha256": "5e2647da8a07183817b8afe8653a33e74431a2a2f8be0739faa74d6de65cd53f",
+  "size_mm": [
+    66.5,
+    20,
+    1.6
+  ],
+  "cad_outline_mm": [
+    -6.5,
+    0,
+    60,
+    20
+  ],
+  "plot_drill_CPL_origin_mm": [
+    -6.5,
+    20
+  ],
+  "input_connector_centers_CAD_mm": {
+    "J1": [
+      -3.75,
+      10
+    ],
+    "J2": [
+      6.5,
+      10
+    ]
+  },
+  "shell_slot_centers_CAD_mm": [
+    [
+      -4.9,
+      5.68
+    ],
+    [
+      -0.9,
+      5.68
+    ],
+    [
+      -4.9,
+      14.32
+    ],
+    [
+      -0.9,
+      14.32
+    ]
+  ],
+  "USB_shell_mask": "Both sides open; paste on component side only",
+  "USB_power_bridge_width_mm": 0.4,
+  "USB_power_bridge_scope": "Short front-layer bridge; copper loss re-evaluated on final board",
+  "vias": 249,
+  "via_drills_mm": [
+    0.3
+  ],
+  "changes": [
+    "J1 moved -6.5 mm in X",
+    "USB data, CC, VBUS and current-detection routes reconnected",
+    "Obsolete USB track stubs removed",
+    "U2 ESD ground island connected with a tented 0.30 mm via",
+    "Main 5 A tracks, RF and flash routing retained",
+    "No DRC exceptions permitted by exporter"
+  ],
+  "historical_release": "Assets/review-history/usb-overlap-before-665mm"
+}

@@ -10,6 +10,7 @@ import argparse
 import hashlib
 import json
 import math
+import re
 from pathlib import Path
 import pcbnew as pcb
 
@@ -21,6 +22,7 @@ parser.add_argument("--nets", nargs="+", choices=["DC_IN", "DC_FUSED", "USB_5V",
 parser.add_argument("--power-source", choices=["wired", "usb"], default="wired")
 parser.add_argument("--ground-source-ref", help="Override GND injection component for a local return-path assessment")
 parser.add_argument("--ground-sink-ref", help="Override GND return component")
+parser.add_argument("--full-stack", action="store_true", help="Include both internal layers using saved copper thicknesses")
 args = parser.parse_args()
 assert 0.02 <= args.resolution <= 0.5, "Use a resolution between0.02 and0.5mm"
 board_path = args.board.resolve()
@@ -29,6 +31,16 @@ board = pcb.LoadBoard(str(board_path))
 assert board.GetCopperLayerCount() in [2,4]
 # Conservative outer-copper-only model: ignore parallel internal ground paths.
 # Through-barrel resistance uses the full board thickness.
+layers = [pcb.F_Cu, pcb.In1_Cu, pcb.In2_Cu, pcb.B_Cu] if args.full_stack else [pcb.F_Cu, pcb.B_Cu]
+assert not args.full_stack or board.GetCopperLayerCount() == 4
+stack = re.findall(r'(?:\(layer "(F.Cu|In1.Cu|In2.Cu|B.Cu|dielectric [123])"\s+\(type "[^\"]+"\)\s+\(thickness ([\d.]+)\))', board_bytes.decode())
+copper_thickness, copper_z, cursor = {}, {}, 0.0
+for name, value in stack:
+    height = float(value)
+    if name.endswith(".Cu"):
+        copper_thickness[name] = height * 1000
+        copper_z[name] = cursor + height / 2
+    cursor += height
 box = board.GetBoardEdgesBoundingBox()
 step = args.resolution
 xmin = math.floor(pcb.ToMM(box.GetLeft()) / step) * step
@@ -56,10 +68,12 @@ result = {
     "rasterizer_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
     "resolution_mm": step,
     "origin_mm": [xmin, ymin],
-    "shape": [2, ny, nx],
-    "layer_order": ["F.Cu", "B.Cu"],
+    "shape": [len(layers), ny, nx],
+    "layer_order": [board.GetLayerName(l) for l in layers],
+    "copper_thickness_um": [copper_thickness[board.GetLayerName(l)] for l in layers],
+    "copper_z_mm": [copper_z[board.GetLayerName(l)] for l in layers],
     "actual_copper_layers": board.GetCopperLayerCount(),
-    "model_scope": "Outer copper only; internal parallel paths excluded (conservative for retained 5A outer spines)",
+    "model_scope": "All four copper layers and saved stackup" if args.full_stack else "Outer copper only; internal parallel paths excluded",
     "geometry": "Saved filled zones plus existing tracks, vias and copper pads; no refill or PCB changes",
     "terminal_assumption": "All same-net pads of each named terminal component are equipotential; internal component resistance excluded",
     "segments": {},
@@ -68,7 +82,7 @@ for net, (source_ref, sink_ref) in segments.items():
     if args.nets and net not in args.nets:
         continue
     data = {"source_ref": source_ref, "sink_ref": sink_ref, "masks": [], "vias": [], "source": [], "sink": [], "zones": []}
-    for layer_index, layer in enumerate([pcb.F_Cu, pcb.B_Cu]):
+    for layer_index, layer in enumerate(layers):
         zones = [z for z in board.Zones() if z.GetNetname() == net and z.IsOnLayer(layer)]
         for zone in zones:
             assert zone.IsFilled(), f"Unfilled zone on {net}; refill and save the PCB before analysis"

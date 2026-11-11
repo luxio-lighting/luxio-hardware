@@ -1,0 +1,34 @@
+** Drc report for LX0001.kicad_pcb **
+** Created on 2026-11-11T21:31:37 **
+** Report includes: Errors, Warnings **
+
+** Found 4 DRC violations **
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(1.6000 mm, 14.3200 mm): PTH pad SH [GND] of J1
+    @(6.5000 mm, 10.0000 mm): Footprint J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(5.6000 mm, 14.3200 mm): PTH pad SH [GND] of J1
+    @(6.5000 mm, 10.0000 mm): Footprint J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(1.6000 mm, 5.6800 mm): PTH pad SH [GND] of J1
+    @(6.5000 mm, 10.0000 mm): Footprint J2
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(5.6000 mm, 5.6800 mm): PTH pad SH [GND] of J1
+    @(6.5000 mm, 10.0000 mm): Footprint J2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

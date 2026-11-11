@@ -1,0 +1,53 @@
+{
+  "part": "HDGC 2060-452-HDGC",
+  "lcsc": "C55251566",
+  "source": "JLCEDA/EasyEDA Official Library",
+  "source_url": "https://easyeda.com/api/products/C55251566/components?version=6.4.19.5",
+  "model_uuid": "46c5997f7da1417fa92e63b62e3ed636",
+  "model_title": "CONN-SMD_2060-452-HDGC",
+  "step_url": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/46c5997f7da1417fa92e63b62e3ed636",
+  "mesh_url": "https://modules.easyeda.com/3dmodel/46c5997f7da1417fa92e63b62e3ed636",
+  "format": "STEP AP214",
+  "retrieved_utc": "2026-11-11T21:53:25.116223+00:00",
+  "mesh_housing_dimensions_mm": [
+    7.9,
+    11.5,
+    4.4
+  ],
+  "mesh_total_dimensions_mm": [
+    7.91,
+    13.15,
+    4.5
+  ],
+  "mesh_total_bounds_mm": [
+    [
+      -3.9575,
+      3.9525
+    ],
+    [
+      -8.577499,
+      4.5725
+    ],
+    [
+      -2.3,
+      2.2
+    ]
+  ],
+  "drawing_nominal_body_width_length_height_mm": [
+    7.9,
+    11.5,
+    4.5
+  ],
+  "notes": [
+    "Housing XY dimensions and total height agree with the saved manufacturer drawing.",
+    "Original model coordinates require registration to the custom KiCad footprint.",
+    "OBJ has embedded EasyEDA material records rather than a conventional separate MTL file.",
+    "Exact supplier part model retrieved; live JLCPCB order preview unavailable for byte-for-byte comparison.",
+    "PCB and production outputs unchanged."
+  ],
+  "files_sha256": {
+    "EasyEDA-C55251566-original.json": "0b4da37b2cae850ed76b533fb1991acbd39e73192115ba2f76dce01829d9f0b2",
+    "HDGC_2060_452_C55251566.step": "9dbd1c53232c4418db1ae4778d374984a2ec308703bf3582d7ce54b83c0ce15d",
+    "HDGC_2060_452_C55251566_preview.obj": "6d14af26f64bf85d02a05d61956473868d20aed067714090e6552a2be53edcdd"
+  }
+}

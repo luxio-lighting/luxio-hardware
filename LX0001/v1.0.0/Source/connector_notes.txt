@@ -47,9 +47,10 @@ Coordinates use KiCad's top view, zero rotation, with +Y down the page:
 - F.Fab WIRE text labels the entry end. Pin-1 chamfer is a CAD convention.
 - Rear and front pads of each pin must receive the same net. Prefer copper
   connections to both lands; do not rely on the terminal to bridge a PCB rail.
-- A simplified local 3D preview model is attached. Its housing envelope
-  follows the drawing; cosmetic details are approximate. See
-  libraries/models/README.txt. It is not a manufacturer enclosure model.
+- The original JLCEDA/EasyEDA STEP model linked to C55251566 is attached.
+  Its body dimensions and total height match the drawing. Model registration
+  and source metadata: connector-model-update.json and
+  ../Assets/connectors/JLCEDA-C55251566. Validate enclosure fit with real parts.
 
 Drawing registration limitation:
 Pad sizes, X pitch, and Y gap are explicitly dimensioned. The manufacturer
@@ -65,7 +66,7 @@ Placement implications:
 - Our courtyards require at least 8.50 mm between adjacent footprint origins;
   this yields 16.40 mm total body width and fits a 20 mm board.
 - Keep wires and insertion/removal tool access clear beyond the entry end.
-- For a 60 x 20 mm board with connectors at its short ends, rotate these
+- For this 60 x 20 mm board with connectors at its short ends, rotate these
   footprints so wire entry faces the board end. Check final pad order from
   the component-side view rather than assuming the rotation's pin order.
 - This footprint was independently derived from the HDGC drawing, not copied

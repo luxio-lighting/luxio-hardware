@@ -23,7 +23,7 @@ for sign in [-1,1]:
    gap=offset/1000-.153;gaps.append(gap);break
 assert len(gaps)==2 and all(.199<=g<=.202 for g in gaps),gaps
 for layer in layers:
- for x,y in [(9,17),(42,3)]:
+ for x,y in [(9.5,8),(42,3)]:
   assert any(z.GetIsRuleArea() and z.IsOnLayer(layer) and z.GetDoNotAllowTracks() and z.GetDoNotAllowVias() and z.GetDoNotAllowZoneFills() and all(z.Outline().Contains(p.VECTOR2I(p.FromMM(x+dx),p.FromMM(y+dy))) for dx,dy in [(0,0),(2.2,0),(-2.2,0),(0,2.2),(0,-2.2)]) for z in b.Zones()),(layer,x,y)
  if layer!=p.F_Cu:
   assert any(z.GetIsRuleArea() and z.IsOnLayer(layer) and z.GetDoNotAllowTracks() and z.GetDoNotAllowVias() and z.GetDoNotAllowZoneFills() and z.Outline().Contains(p.VECTOR2I(p.FromMM(14.5),p.FromMM(1.5))) for z in b.Zones()),layer

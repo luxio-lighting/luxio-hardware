@@ -1,0 +1,24 @@
+{
+  "power_source": "wired",
+  "board_path": "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_pcb",
+  "board_sha256": "224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7",
+  "mesh_sha256": "56da9a43bfce9e0a225ac0e4696605ad228ae31a291c5c7aa2c641d39088bf3b",
+  "solver_sha256": "56c827748c50460a35f88636ed4137f2c3f617abaec976e0950daec417f2ea40",
+  "resolution_mm": 0.1,
+  "current_a": 15.2,
+  "copper_um": [
+    35.0
+  ],
+  "resistivity_ohm_m": 1.724e-08,
+  "board_thickness_mm": 1.6,
+  "via_plating_um": 20.0,
+  "segments": {
+    "GND": {
+      "connected": false,
+      "source_ref": "D3",
+      "sink_ref": "J2"
+    }
+  },
+  "totals": [],
+  "successful": false
+}

@@ -1,0 +1,85 @@
+LX0001 v1.0.0 — fabrication and assembly intent
+
+Board: 60.0 x 20.0 mm, four copper layers, FR-4, 1.6 mm nominal.
+JLC04161H-7628: 35 um outer copper, 15.2 um inner copper.
+L1 signals/power; L2 predominantly ground with local signal/power routing
+outside the protected RF reference area; L3 signals/ground; L4 signals/power.
+Dielectrics: 0.2104 mm 7628 / 1.065 mm core / 0.2104 mm 7628. Black solder mask BOTH sides; white silkscreen. Lead-free
+ENIG finish for fine-pitch QFN/RF assembly. Components on BOTH sides. Supply
+a panel with tooling rails/fiducials suitable for JLCPCB standard two-side PCBA;
+array/rail design belongs to the assembler and must preserve the RF keepout.
+Do not change copper thickness without rechecking QFN clearances and RF geometry.
+
+M2 mounting: two 2.2 mm NPTH at (9.5,8.0) and (42.0,3.0) mm measured from the
+top-left board corner. Use heads/standoffs no larger than 4.4 mm diameter.
+The associated copper/trace/via clearance is 4.6 mm diameter. Add enclosure
+strain relief for wiring and USB insertion. No metal/case wall over the antenna.
+The BOOT/USER button actuator is centered at (30.0,10.0) mm.
+CAD outline: x=0..60, y=0..20. Gerber, drill and CPL share origin (0,20);
+CPL is (CAD X,20-CAD Y). Both input connectors are on TOP at the left end.
+
+Input J2 and output J3/J4 are HDGC 2060-452-HDGC, JLCPCB C55251566. Connector
+pin numbering is assigned by this design because the mechanical part is
+unpolarized. Use schematic, top assembly drawing and silkscreen for wiring.
+Viewed from the top with input left/output right, output order from top to
+bottom is GND, GPIO16 (5 V logic), GPIO17 (5 V logic), VCC. Input is GND then
+VCC from top to bottom. Output VCC follows selected input voltage; it is not
+regulated to a strip's required voltage. Choose a matching external supply.
+
+J1 USB-C is on top next to J2 at the input end; GCT USB4215-03-A, C37616412.
+Its four metal shell stakes are 0.80 +/-0.20 mm deep inside the 1.6 mm PCB.
+There are no plastic locating pegs. All four plated shell slots clear J2 and
+other component bodies. Shell annuli have mask openings on BOTH sides and
+paste only on the TOP component side. Opposite-side fillets are unobstructed.
+Normal hybrid SMT/PIP assembly applies; no mounting DRC exception is required.
+J1 center is (2.75,5.25), rotation -90 degrees; mouth x=-0.50.
+J2 center is (6.50,15.25), rotation -90 degrees; wire entry face x=0.75.
+The connector openings are at the same board end, with a 1.25 mm difference
+in their front-face positions. Allow for this in enclosure openings.
+See Assets/io/C37616412_footprint_notes.txt for manufacturer dimensions.
+Keep manufacturer front/rear terminal lands and verify the assembler's body
+origin against the annotated mechanical drawings, especially the HDGC terminal
+whose body-to-pad registration is graphical rather than dimensioned.
+
+Minimum electrical clearance 0.127 mm. Ordinary signal width is 0.15 mm;
+reviewed short, low-current escapes may use 0.127 mm (including the short BUCK_FB_LOW neck).
+USB power includes short 0.40 mm branches and internal-layer segments; see
+the full-stack copper estimate in Source/current_path_review.txt. Main wired
+input and ground spines are 2.0 mm, with a 1.8 mm approach to the fuse.
+The DATA_ENABLE escape near (31.8,11.5) mm uses 0.130 mm copper over 1.2 mm.
+NPTH-to-copper minimum 0.20 mm. USB shell holes are plated slots.
+Minimum drill is 0.30 mm. Signal vias use 0.45/0.30 mm (pad/drill);
+power and ground banks retain 0.60/0.30 mm where specified in the board.
+The 0.075 mm radial annulus on 0.45 mm vias meets JLCPCB's preferred
+0.15 mm pad-minus-drill diameter difference. Order the 0.30 mm minimum
+via-hole option; no 0.20 or 0.25 mm drill remains.
+Tent ordinary vias with mask. Keep routing-via drills
+at least 0.10 mm from solder-paste apertures. Do not expose through vias in QFN solder
+paste apertures without a filled/capped-via process and updated stencil review.
+
+The ceramic antenna is Walsin RFECA3216060A1T, C127620, at (14.5,1.5) mm.
+Preserve its Type1 8 x 3 mm middle-edge clearance window: x=10.5..18.5 mm,
+y=0..3 mm. L2/L3/bottom copper, pads and vias are prohibited there; top copper
+contains only the deliberate manufacturer antenna lands and feed pattern.
+The split FEED/GND lands and opposite tuning land are specified by Walsin
+ASC_RFECA3216060A1T_V09 page 3, saved as
+Assets/core/Walsin-RFECA3216060A1T-V09.pdf. L104 is an optional DNP antenna
+tuning position; do not populate its 0-ohm candidate without RF measurement.
+Maintain continuous L2 ground beneath the RF feed outside this window.
+L2 x14..20, y3..8.5 mm is protected against signal routing.
+The grounded coplanar feed is 0.306 mm wide with 0.200 mm ground clearance;
+JLC calculator nominal 50 ohms on L1 referenced to L2 for this stackup.
+The unreferenced antenna-window exit and matching pads are transitions.
+The router-only reference-ground protection must not remove the final ground
+pour. See Source/antenna_routing_proposal.json and Source/core_notes.txt.
+Matching values are initial reference values. Antenna matching, feed impedance
+and radiated performance need first-article measurement in the intended case.
+The short feed exit differs from the manufacturer's test-board geometry.
+A stackup calculation does not replace RF matching measurements or radio
+certification. The former RFANT corner antenna is superseded.
+
+JLCPCB BOM/CPL use selected supplier C-codes. Cost/stock evidence is a dated
+snapshot, not a reservation. The component-only estimate excludes PCB, ENIG,
+assembly, setup, feeder fees, attrition, tax and shipping. Obtain the live quote
+and review assembly rotations, substitutions and bottom-side mirroring before
+accepting a manufacturing order. No fabrication order is placed by this task.

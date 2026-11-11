@@ -1,0 +1,79 @@
+{
+  "status": "validated_private_proposal_not_applied_to_main_placement_json",
+  "positions": {
+    "C4": {
+      "place": [
+        21.4,
+        10.3,
+        0
+      ],
+      "side": "B"
+    },
+    "C111": {
+      "place": [
+        17.1,
+        11.98,
+        90
+      ],
+      "side": "F"
+    }
+  },
+  "reason": "Move the VBUS ADC filter under U1 to free left-side via exits; shift EN capacitor left to clear USB control escapes. C4 clears the proposed UART test pads at y8.5.",
+  "via_diameter_drill_mm": [
+    0.45,
+    0.2
+  ],
+  "escape_width_mm": 0.15,
+  "via_anchors_mm": {
+    "BOOT": [
+      17.95,
+      9.4
+    ],
+    "CC1_SENSE": [
+      19.65,
+      9.3
+    ],
+    "CC2_SENSE": [
+      17.95,
+      10.2
+    ],
+    "VBUS_SENSE": [
+      19.65,
+      10.7
+    ],
+    "USB_STRIP_EN": [
+      17.95,
+      11.0
+    ],
+    "USB_HIGH_CURRENT": [
+      17.95,
+      11.8
+    ],
+    "GPIO16": [
+      22.3,
+      14.4
+    ],
+    "GPIO17": [
+      22.8,
+      15.0
+    ],
+    "GPIO18_BUTTON": [
+      23.3,
+      14.7
+    ]
+  },
+  "validation": {
+    "baseline": "/tmp/lx0001-bank-base.kicad_pcb",
+    "protected_baseline_uuids_preserved": 432,
+    "added_locked_items": 27,
+    "baseline_check": "/tmp/lx0001-left-check/drc.json",
+    "current_board_private_check": "/tmp/lx0001-left-check/main-drc.json",
+    "new_electrical_or_courtyard_violations": 0,
+    "expected_warnings": "Unfinished escape vias/tracks; four existing USB PTH courtyard exceptions. These are fanouts, not completed routing.",
+    "usb_route_integration_check": "/tmp/lx0001-combined-final-check/usb-direct-drc.json",
+    "gpio18_anchor_update": "Anchor moved down0.3mm to14.7 to permit the validated direct USB pair. Integrated board passed DRC and independent drill/paste geometry checks."
+  },
+  "tool": "tools/mcu_left_fanout.py",
+  "authored_uuid_prefix": "c0a7c0de-",
+  "preserved_other_author_prefix": "a4710001-"
+}

@@ -1,0 +1,45 @@
+{
+  "part": "GCT USB4215-03-A",
+  "lcsc": "C37616412",
+  "upstream_model_title": "USB-C-SMD_GT-USB-7010B",
+  "uuid": "e55eb8a39d2f4950b43c352c8b7c2422",
+  "source": "JLCEDA/EasyEDA Official Library",
+  "metadata_url": "https://easyeda.com/api/products/C37616412/components?version=6.4.19.5",
+  "step_url": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/e55eb8a39d2f4950b43c352c8b7c2422",
+  "mesh_url": "https://modules.easyeda.com/3dmodel/e55eb8a39d2f4950b43c352c8b7c2422",
+  "body_envelope_mm": [
+    8.94,
+    6.5,
+    3.16
+  ],
+  "shell_centers_model_xy_mm": [
+    [
+      -4.32,
+      -1.15
+    ],
+    [
+      4.32,
+      -1.15
+    ],
+    [
+      -4.32,
+      2.85
+    ],
+    [
+      4.32,
+      2.85
+    ]
+  ],
+  "body_z_offset_mm": 1.58,
+  "shell_depth_after_offset_mm": 0.9,
+  "manufacturer_shell_depth_mm": [
+    0.6,
+    1.0
+  ],
+  "note": "C37616412 (USB4215-03-A) is linked upstream to a shared model titled USB-C-SMD_GT-USB-7010B. Its body envelope and four shell-stake centers match the GCT drawing; it is not a manufacturer-authenticated GCT model.",
+  "files_sha256": {
+    "C37616412_USB-C-SMD_GT-USB-7010B_preview.obj": "46238974b6b80ff60cd7d967ea719d66f819f3220774a8b05f54b5bf8748d96b",
+    "EasyEDA-C37616412-original.json": "e13256c9664e86d12983fbfadf33d6a95f6f248fef634b1cf09408ba1bc13c77",
+    "C37616412_USB-C-SMD_GT-USB-7010B.step": "c26f2b44d77f8315901b96d2c5b5e21fd8b4ab04cc8adc8002f9279553a11924"
+  }
+}

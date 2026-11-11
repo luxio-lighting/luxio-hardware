@@ -1,0 +1,57 @@
+{
+  "status": "Implemented four-layer layout; native PCB authoritative",
+  "copper_layers": 4,
+  "antenna_origin_mm": [
+    14.5,
+    1.5,
+    0
+  ],
+  "tuner_origin_mm": [
+    11.1,
+    1.5,
+    0
+  ],
+  "antenna_clearance_all_layers_mm": [
+    [
+      10.5,
+      0
+    ],
+    [
+      18.5,
+      0
+    ],
+    [
+      18.5,
+      3
+    ],
+    [
+      10.5,
+      3
+    ]
+  ],
+  "antenna_exception": "Only intentional top-side manufacturer feed, ground and tuning pattern",
+  "rf_reference_layer": "In1.Cu",
+  "rf_reference_track_keepout_mm": [
+    [
+      14,
+      3
+    ],
+    [
+      20,
+      3
+    ],
+    [
+      20,
+      8.5
+    ],
+    [
+      14,
+      8.5
+    ]
+  ],
+  "grounded_coplanar_width_mm": 0.306,
+  "ground_gap_mm": 0.2,
+  "stackup": "JLC04161H-7628",
+  "impedance_target_ohms": 50,
+  "qualification": "Calculated uniform-line geometry, not measured antenna/matching performance"
+}

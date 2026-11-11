@@ -1,0 +1,24 @@
+{
+  "method": "Fresh D3-to-J2 outer-copper mesh/solver on the final board; prior revision scope checks retained. Full four-layer KiCad DRC reports zero open nets.",
+  "results": [
+    {
+      "board": "before_030_revision",
+      "board_sha256": "addd7d033dda781dd301ad4edfb754c7abc086c58657c1940fa5bc8a12fa27a0",
+      "outer_only_D3_to_J2_connected": false,
+      "reachable_cells": 2415
+    },
+    {
+      "board": "after_030_revision",
+      "board_sha256": "224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7",
+      "outer_only_D3_to_J2_connected": false,
+      "reachable_cells": 2425
+    },
+    {
+      "board": "after_665mm_USB_revision",
+      "board_sha256": "5e2647da8a07183817b8afe8653a33e74431a2a2f8be0739faa74d6de65cd53f",
+      "outer_only_D3_to_J2_connected": false,
+      "fresh_solver_evidence": "tvs-copper-results.json"
+    }
+  ],
+  "interpretation": "Outer-only model excludes required internal ground return paths on both revisions; no TVS copper resistance or surge rating can be derived from this model."
+}

@@ -1,0 +1,17 @@
+{
+  "board_sha256": "224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7",
+  "min_exported_pth_drill_mm": 0.3,
+  "exported_pth_tools_mm": {
+    "1": 0.3,
+    "2": 0.6
+  },
+  "gerber_archive_matches_directory": true,
+  "revised_component_placements_match_CPL": true,
+  "wired_and_usb_copper_models_current": true,
+  "zero_open_connections": true,
+  "zero_electrical_drc_errors": true,
+  "mechanical_DRC_exceptions": 4,
+  "independent_drill_paste_check_pass": true,
+  "minimum_drill_paste_clearance_mm": 0.1,
+  "revision": "v1.0.0"
+}

@@ -1,0 +1,9 @@
+{
+  "size_mm": [60, 20, 1.6],
+  "input_centerline_y_mm": 10,
+  "mounting_holes": {
+    "H1": [9, 17],
+    "H2": [42, 3]
+  },
+  "antenna_clearance": [[10.5, 0], [18.5, 0], [18.5, 3], [10.5, 3]]
+}

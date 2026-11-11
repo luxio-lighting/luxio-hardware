@@ -2,7 +2,7 @@ LX0001 v1.0.0 — fabrication and assembly intent
 
 Board: 60.0 x 20.0 mm, four copper layers, FR-4, 1.6 mm nominal.
 JLC04161H-7628: 35 um outer copper, 15.2 um inner copper.
-L1 signals/power; L2 predominantly ground with a few short signal bridges
+L1 signals/power; L2 predominantly ground with local signal/power routing
 outside the protected RF reference area; L3 signals/ground; L4 signals/power.
 Dielectrics: 0.2104 mm 7628 / 1.065 mm core / 0.2104 mm 7628. Black solder mask BOTH sides; white silkscreen. Lead-free
 ENIG finish for fine-pitch QFN/RF assembly. Components on BOTH sides. Supply
@@ -10,11 +10,13 @@ a panel with tooling rails/fiducials suitable for JLCPCB standard two-side PCBA;
 array/rail design belongs to the assembler and must preserve the RF keepout.
 Do not change copper thickness without rechecking QFN clearances and RF geometry.
 
-M2 mounting: two 2.2 mm NPTH at (9.0,17.0) and (42.0,3.0) mm measured from the
+M2 mounting: two 2.2 mm NPTH at (9.5,8.0) and (42.0,3.0) mm measured from the
 top-left board corner. Use heads/standoffs no larger than 4.4 mm diameter.
 The associated copper/trace/via clearance is 4.6 mm diameter. Add enclosure
 strain relief for wiring and USB insertion. No metal/case wall over the antenna.
-The centered BOOT/USER button actuator is at (30.0,10.0) mm on the top side.
+The BOOT/USER button actuator is centered at (30.0,10.0) mm.
+CAD outline: x=0..60, y=0..20. Gerber, drill and CPL share origin (0,20);
+CPL is (CAD X,20-CAD Y). Both input connectors are on TOP at the left end.
 
 Input J2 and output J3/J4 are HDGC 2060-452-HDGC, JLCPCB C55251566. Connector
 pin numbering is assigned by this design because the mechanical part is
@@ -24,21 +26,26 @@ bottom is GND, GPIO16 (5 V logic), GPIO17 (5 V logic), VCC. Input is GND then
 VCC from top to bottom. Output VCC follows selected input voltage; it is not
 regulated to a strip's required voltage. Choose a matching external supply.
 
-J1 USB-C is centered underside at the input end; GCT USB4215-03-A, C37616412.
-Its four metal shell stakes are only 0.80 +/-0.20 mm deep and stay recessed
-inside the 1.6 mm PCB. There are no plastic locating pegs. Shell annuli have
-component-side mask/paste openings only; top annuli remain mask-covered.
-A nominal 0.13 mm annulus/body-edge overlap with the top terminal is an
-intentional opposite-side mechanical exception. Do not form a top-side solder
-fillet under the terminal; inspect the first article after PIP reflow.
-Exact derivation: Assets/io/C37616412_footprint_notes.txt. The earlier HDGC
-C2936195 and HRO C165948 USB choices are superseded reference evidence.
+J1 USB-C is on top next to J2 at the input end; GCT USB4215-03-A, C37616412.
+Its four metal shell stakes are 0.80 +/-0.20 mm deep inside the 1.6 mm PCB.
+There are no plastic locating pegs. All four plated shell slots clear J2 and
+other component bodies. Shell annuli have mask openings on BOTH sides and
+paste only on the TOP component side. Opposite-side fillets are unobstructed.
+Normal hybrid SMT/PIP assembly applies; no mounting DRC exception is required.
+J1 center is (2.75,5.25), rotation -90 degrees; mouth x=-0.50.
+J2 center is (6.50,15.25), rotation -90 degrees; wire entry face x=0.75.
+The connector openings are at the same board end, with a 1.25 mm difference
+in their front-face positions. Allow for this in enclosure openings.
+See Assets/io/C37616412_footprint_notes.txt for manufacturer dimensions.
 Keep manufacturer front/rear terminal lands and verify the assembler's body
 origin against the annotated mechanical drawings, especially the HDGC terminal
 whose body-to-pad registration is graphical rather than dimensioned.
 
 Minimum electrical clearance 0.127 mm. Ordinary signal width is 0.15 mm;
 reviewed short, low-current escapes may use 0.127 mm (including the short BUCK_FB_LOW neck).
+USB power includes short 0.40 mm branches and internal-layer segments; see
+the full-stack copper estimate in Source/current_path_review.txt. Main wired
+input and ground spines are 2.0 mm, with a 1.8 mm approach to the fuse.
 The DATA_ENABLE escape near (31.8,11.5) mm uses 0.130 mm copper over 1.2 mm.
 NPTH-to-copper minimum 0.20 mm. USB shell holes are plated slots.
 Minimum drill is 0.30 mm. Signal vias use 0.45/0.30 mm (pad/drill);

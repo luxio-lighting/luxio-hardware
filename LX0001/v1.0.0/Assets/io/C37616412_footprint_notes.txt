@@ -24,30 +24,28 @@ Courtyard x +/-5.07, y=-4.25..+3.50 (plus 0.025 stroke).
 The 5.15 distance from front stake center to signal-land rear edge, 4.00
 stake-row pitch and 2.10 mouth-to-front-stake distance determine registration.
 
-Centered board integration: load native footprint, flip to bottom, rotate
-+90 degrees, place at (2.75,10.00). Mouth is x=-0.50. Body spans x=-0.50..6.00,
-y=5.53..14.47. Shell centers are (1.60,5.68),(5.60,5.68),(1.60,14.32),
-(5.60,14.32). Signal lands span x=5.60..6.75. USB component courtyard spans
-x=-0.75..7.00,y=4.93..15.07. J2 centered (6.50,10),rotation270 has body
-x=0.75..12.25,y=6.05..13.95 and terminal copper y=7..9 / 11..13.
-The USB shell lands are 0.82 mm from the nearest J2 copper band.
+60 x 20 mm board integration, v1.0.0 revision 2026-11-11:
+Load native footprint on top, rotate -90 degrees, place at (2.75,5.25).
+Board outline x=0..60,y=0..20. Fabrication origin (0,20): CPL=(X,20-Y).
+Mouth x=-0.50 (0.50 mm beyond input edge). Body x=-0.50..6.00,
+y=0.78..9.72. Shell centers (1.60,0.93),(5.60,0.93),(1.60,9.57),
+(5.60,9.57). J2 is also on top at (6.50,15.25), rotation -90;
+its body spans x=0.75..12.25,y=11.30..19.20. Nominal body-to-body gap
+across the width is 1.58 mm. Both connectors open toward the input end;
+J2's face sits 1.25 mm farther inward than the USB mouth.
+All shell holes and annuli clear J2 and other component bodies.
+Shell masks open on BOTH sides; F.Paste only. Normal hybrid SMT/PIP assembly
+applies, with no courtyard exception or opposite-side fillet restriction.
+Previous 66.5 mm geometry: Assets/review-history/stacked-inputs-665mm.
 
-Intentional opposite-side mechanical overlap:
-The shell annuli extend 0.13 mm under J2's nominal plastic-body edge;
-the metal stakes themselves do NOT reach the top board surface. Nominal
-1.6 mm board leaves 0.60 mm at the maximum 1.00 mm stake depth. Even a
-1.44 mm finished board leaves 0.44 mm. Native shell pads have F.Paste and
-F.Mask only, and *.Cu; when flipped, their paste/mask openings are B-side
-only. There is no intentional top-side annular mask/paste opening or top
-solder fillet. Mask absence is NOT a claim that a large slotted hole can
-be perfectly tented. Assembly must keep PIP solder within the slot and
-component-side fillet; verify the first article's top surface stays clear
-of terminal housing. This geometric opposite-side courtyard overlap is
-intentional; it does not waive electrical clearance. Maintain 1.6 mm PCB.
-
-Approximate preview model USB_C_GCT_USB4215_03_A_preview.wrl uses the stated
-nominal envelope and 0.80 mm stake depth. Cosmetic details are simplified;
-use the manufacturer drawing, not this model, for enclosure certification.
+Attached STEP: Source/libraries/models/USB_C_C37616412_library.step.
+The exact C37616412 library record links to the shared model
+USB-C-SMD_GT-USB-7010B. Its 8.94 x 6.50 x 3.16 mm body and shell centers
+match the GCT drawing. The 0.90 mm stake depth is within 0.80 +/-0.20 mm.
+Offset (0,0,1.58) mm; no rotation/scaling. This is a library visualization,
+not a manufacturer-authenticated GCT enclosure model. Original metadata and
+source files: Assets/connectors/JLCEDA-C37616412. The older simplified WRL
+is retained as history and is no longer attached.
 
 Superseded: HDGC C2936195 and HRO C165948 footprints/PDFs are historical
 comparison evidence only. The HDGC plastic peg holes collide with terminal

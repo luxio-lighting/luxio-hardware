@@ -1,0 +1,58 @@
+{
+  "revision": "v1.0.0",
+  "change": "Restore 60 x 20 mm; put USB-C and wired input side by side on top at input end",
+  "board_sha256": "a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01",
+  "board_mm": [
+    60,
+    20,
+    1.6
+  ],
+  "input_connectors": {
+    "J1": {
+      "center_mm": [
+        2.75,
+        5.25
+      ],
+      "side": "Top",
+      "mouth_x_mm": -0.5
+    },
+    "J2": {
+      "center_mm": [
+        6.5,
+        15.25
+      ],
+      "side": "Top",
+      "wire_entry_x_mm": 0.75
+    }
+  },
+  "mounting_holes": {
+    "H1": [
+      9.5,
+      8
+    ],
+    "H2": [
+      42,
+      3
+    ]
+  },
+  "button_center_mm": [
+    30,
+    10
+  ],
+  "minimum_drill_mm": 0.3,
+  "via_count": 231,
+  "via_pad_counts": {
+    "0.45": 177,
+    "0.6": 54
+  },
+  "assembly_faces": {
+    "Bottom": 59,
+    "Top": 50
+  },
+  "power_routing": "2.0 mm DC input spine, with 1.8 mm fuse approach; 2.0 mm input ground spine. USB short 0.4 mm branches retained and assessed using all four copper layers.",
+  "rf_and_flash_routing": "Preserved; no generic route allowed through RF reference keepouts",
+  "historical_release": "Assets/review-history/stacked-inputs-665mm",
+  "fitted_component_count": 109,
+  "layout_revision_board_sha256": "4ce0b67978240a0ccec6042da28f95543a1dae4d79b496f4ef42788cd2bd2c51",
+  "subsequent_model_only_update": "connector-model-update.json"
+}

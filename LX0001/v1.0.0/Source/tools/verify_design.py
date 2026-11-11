@@ -118,13 +118,13 @@ for hole in holes:
         point = [p.ToMM(item.GetPosition().x), p.ToMM(item.GetPosition().y)]
         detail = {'type': 'via_paste_clearance_below_minimum' if hole['kind'] == 'via' and clearance_iu else 'drill_overlaps_paste_aperture', 'required_clearance_mm': args.minimum_via_paste_clearance_mm if hole['kind'] == 'via' else 0, 'measured_gap_mm': p.ToMM(gap_iu), 'drill_kind': hole['kind'], 'drill_uuid': item.m_Uuid.AsString(), 'drill_net': item.GetNetname(), 'drill_reference': hole['reference'], 'drill_pad': hole['number'], 'drill_position_mm': point, 'drill_size_mm': hole['hole_mm'], 'aperture_uuid': aperture['uuid'], 'aperture_reference': aperture['reference'], 'aperture_pad': aperture['number'], 'aperture_net': aperture['net'], 'paste_layer': p.LayerName(aperture['layer']), 'same_net': bool(item.GetNetname()) and item.GetNetname() == aperture['net']}
         # The four connector stakes are plated slotted component pins, not vias.
-        # Their own B.Paste openings implement the documented GCT pin-in-paste
+        # Their own F.Paste openings implement the documented GCT pin-in-paste
         # mounting. This cannot waive a via or a hole crossing another aperture.
-        expected_slots = {(1.6, 5.68): [0.6, 1.8], (1.6, 14.32): [0.6, 1.8], (5.6, 5.68): [0.6, 1.4], (5.6, 14.32): [0.6, 1.4]}
-        own_connector_pip = hole['kind'] == 'plated_pad_hole' and hole['reference'] == 'J1' and hole['number'] == 'SH' and aperture['uuid'] == item.m_Uuid.AsString() and aperture['layer'] == p.B_Paste
+        expected_slots = {(1.6, 0.93): [0.6, 1.8], (1.6, 9.57): [0.6, 1.8], (5.6, 0.93): [0.6, 1.4], (5.6, 9.57): [0.6, 1.4]}
+        own_connector_pip = hole['kind'] == 'plated_pad_hole' and hole['reference'] == 'J1' and hole['number'] == 'SH' and aperture['uuid'] == item.m_Uuid.AsString() and aperture['layer'] == p.F_Paste
         if own_connector_pip:
             position_key = tuple(round(value, 5) for value in point)
-            if hole['footprint_value'] == 'USB4215-03-A' and hole['footprint_name'] == 'USB_C_GCT_USB4215_03_A' and b.GetDesignSettings().GetBoardThickness() == p.FromMM(1.6) and position_key in expected_slots and hole['hole_mm'] == expected_slots[position_key] and not item.IsOnLayer(p.F_Paste) and not item.IsOnLayer(p.F_Mask) and item.IsOnLayer(p.B_Mask) and item.GetNetname() == 'GND':
+            if hole['footprint_value'] == 'USB4215-03-A' and hole['footprint_name'] == 'USB_C_GCT_USB4215_03_A' and b.GetDesignSettings().GetBoardThickness() == p.FromMM(1.6) and position_key in expected_slots and hole['hole_mm'] == expected_slots[position_key] and not item.IsOnLayer(p.B_Paste) and item.IsOnLayer(p.F_Mask) and item.IsOnLayer(p.B_Mask) and item.GetNetname() == 'GND':
                 detail['type'] = 'reviewed_component_pin_in_paste'
                 detail['source'] = 'Assets/io/C37616412_footprint_notes.txt; manufacturer USB4215 drawing Rev A, 2024-04-26'
                 reviewed_pin_in_paste.append(detail)
@@ -173,7 +173,7 @@ if not args.geometry_only:
     assert byref['U8']['pins']['5']=='+5V_DATA' and byref['U9']['pins']['5']=='+5V_DATA'
     assert not any('PSRAM' in q['value'].upper() for q in parts)
     assert b.GetCopperLayerCount()==4
-    assert fps['J1'].GetLayer()==p.B_Cu
+    assert fps['J1'].GetLayer()==p.F_Cu
     assert (p.ToMM(fps['SW1'].GetPosition().x),p.ToMM(fps['SW1'].GetPosition().y))==(30.0,10.0)
     assert set(fps)==set(byref)|{'H1','H2'}
     for ref,pos in json.loads((src/'mechanical.json').read_text())['mounting_holes'].items():

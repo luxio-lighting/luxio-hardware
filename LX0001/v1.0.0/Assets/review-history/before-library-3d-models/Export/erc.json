@@ -1,0 +1,101 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-11T22:35:55",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698",
+            "violations": []
+        },
+        {
+            "path": "/ESP32-S3 / no PSRAM/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/d2bd5143-ffb5-54b4-b9ca-707e0f84c2e0",
+            "violations": []
+        },
+        {
+            "path": "/MCU power, straps and 40 MHz clock/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/8fc05e70-8005-57bc-90d0-ba7472f93a25",
+            "violations": []
+        },
+        {
+            "path": "/MCU power, straps and 40 MHz clock (continued)/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/216303c3-39fa-5ca8-b5ac-4e4ca4c9eb54",
+            "violations": []
+        },
+        {
+            "path": "/4 MB flash and SPI termination/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/92905f2d-3497-558b-9ff2-480ec1888af2",
+            "violations": []
+        },
+        {
+            "path": "/2.4 GHz ceramic antenna and RF matching/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/f5a33fca-714f-593b-8e2e-0b7c2fc58591",
+            "violations": []
+        },
+        {
+            "path": "/USB-C data and source detection/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/21931364-2536-5524-9470-7bcaa1932f5d",
+            "violations": []
+        },
+        {
+            "path": "/Wired priority and USB current limiting/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/586f023a-1b2c-554f-8394-9a9c182a2763",
+            "violations": []
+        },
+        {
+            "path": "/Wired priority and USB current limiting (continued)/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/0695204f-4dda-540e-a7cf-ce2aabc14a71",
+            "violations": []
+        },
+        {
+            "path": "/3.3 V buck and 5 V logic boost/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/e56069c7-d353-52a8-98ba-46e7df5ba552",
+            "violations": []
+        },
+        {
+            "path": "/3.3 V buck and 5 V logic boost (continued)/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/89a6d6d2-4402-5bd2-b720-1b3def215788",
+            "violations": []
+        },
+        {
+            "path": "/Two 5 V data outputs and strip terminals/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/4b7d1566-4a97-528a-a39d-6b0dda183da7",
+            "violations": []
+        },
+        {
+            "path": "/Centered BOOT / GPIO18 button/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/48ddfd47-6a11-5da7-9975-cf52d074211d",
+            "violations": []
+        },
+        {
+            "path": "/Production and recovery test pads/",
+            "uuid_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/4c4b81f0-2e12-526e-b8e6-0f7984bd812a",
+            "violations": []
+        }
+    ],
+    "source": "LX0001.kicad_sch"
+}

@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-11-11T21:31:31",
+    "date": "2026-11-11T23:01:57",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -33,98 +33,5 @@
     "schematic_parity": [],
     "source": "LX0001.kicad_pcb",
     "unconnected_items": [],
-    "violations": [
-        {
-            "description": "PTH inside courtyard",
-            "items": [
-                {
-                    "description": "PTH pad SH [GND] of J1",
-                    "pos": {
-                        "x": 1.6,
-                        "y": 14.32
-                    },
-                    "uuid": "ccb5f338-8394-4234-b47a-03bc945614a4"
-                },
-                {
-                    "description": "Footprint J2",
-                    "pos": {
-                        "x": 6.5,
-                        "y": 10.0
-                    },
-                    "uuid": "0772b306-4e84-4dda-b707-ee9958d2539d"
-                }
-            ],
-            "severity": "error",
-            "type": "pth_inside_courtyard"
-        },
-        {
-            "description": "PTH inside courtyard",
-            "items": [
-                {
-                    "description": "PTH pad SH [GND] of J1",
-                    "pos": {
-                        "x": 5.6,
-                        "y": 14.32
-                    },
-                    "uuid": "69827bae-4e84-45d8-96ae-5b9148f7316f"
-                },
-                {
-                    "description": "Footprint J2",
-                    "pos": {
-                        "x": 6.5,
-                        "y": 10.0
-                    },
-                    "uuid": "0772b306-4e84-4dda-b707-ee9958d2539d"
-                }
-            ],
-            "severity": "error",
-            "type": "pth_inside_courtyard"
-        },
-        {
-            "description": "PTH inside courtyard",
-            "items": [
-                {
-                    "description": "PTH pad SH [GND] of J1",
-                    "pos": {
-                        "x": 1.6,
-                        "y": 5.68
-                    },
-                    "uuid": "da3706f1-1c76-4f76-b6fd-a6ef70853b5c"
-                },
-                {
-                    "description": "Footprint J2",
-                    "pos": {
-                        "x": 6.5,
-                        "y": 10.0
-                    },
-                    "uuid": "0772b306-4e84-4dda-b707-ee9958d2539d"
-                }
-            ],
-            "severity": "error",
-            "type": "pth_inside_courtyard"
-        },
-        {
-            "description": "PTH inside courtyard",
-            "items": [
-                {
-                    "description": "PTH pad SH [GND] of J1",
-                    "pos": {
-                        "x": 5.6,
-                        "y": 5.68
-                    },
-                    "uuid": "2358804b-1820-460b-84a1-53b629ad324b"
-                },
-                {
-                    "description": "Footprint J2",
-                    "pos": {
-                        "x": 6.5,
-                        "y": 10.0
-                    },
-                    "uuid": "0772b306-4e84-4dda-b707-ee9958d2539d"
-                }
-            ],
-            "severity": "error",
-            "type": "pth_inside_courtyard"
-        }
-    ]
+    "violations": []
 }

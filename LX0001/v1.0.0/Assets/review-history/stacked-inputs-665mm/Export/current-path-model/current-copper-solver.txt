@@ -1,0 +1,20 @@
+LX0001 copper-only DC estimate
+
+Board: /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_pcb
+SHA256: 5e2647da8a07183817b8afe8653a33e74431a2a2f8be0739faa74d6de65cd53f
+Grid: 0.1mm; copper resistivity: 1.724e-08ohm-m at20°C
+Via model: 1.6mm barrel, 20.0µm wall, actual drill diameter
+Saved filled polygons, tracks and pads; ideal equipotential terminal pads.
+Excludes connectors, solder, fuse element, MOSFET resistance and regulator losses.
+Grid discretization can miss narrow features. No thermal or current-rating claim.
+
+DC_IN        35µm:   1.5028mΩ,    7.514mV, 0.03757W at5A; residual9.2e-08
+DC_FUSED     35µm:   0.2026mΩ,    1.013mV, 0.00506W at5A; residual7.2e-08
+VSYS         35µm:   2.1855mΩ,   10.927mV, 0.05464W at5A; residual9.3e-08
+LED_VCC      35µm:   0.7778mΩ,    3.889mV, 0.01944W at5A; residual9.2e-08
+GND          35µm:  16.1261mΩ,   80.630mV, 0.40315W at5A; residual9.8e-08
+
+SUM 35µm: 20.7947mΩ, 103.974mV, 0.51987W
+
+Re-extract after any routing, footprint, via or zone-fill change.
+This report does not establish continuous current capability or safe fault behavior.

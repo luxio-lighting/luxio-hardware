@@ -1,0 +1,58 @@
+{
+  "size_mm": [
+    66.5,
+    20,
+    1.6
+  ],
+  "input_centerline_y_mm": 10,
+  "mounting_holes": {
+    "H1": [
+      9,
+      17
+    ],
+    "H2": [
+      42,
+      3
+    ]
+  },
+  "antenna_clearance": [
+    [
+      10.5,
+      0
+    ],
+    [
+      18.5,
+      0
+    ],
+    [
+      18.5,
+      3
+    ],
+    [
+      10.5,
+      3
+    ]
+  ],
+  "cad_outline_mm": [
+    -6.5,
+    0,
+    60,
+    20
+  ],
+  "coordinate_note": "Existing CAD coordinates retained. Add 6.5 mm to X for dimensions from left board edge. CPL uses x+6.5,20-y.",
+  "mounting_holes_from_top_left_mm": {
+    "H1": [
+      15.5,
+      17
+    ],
+    "H2": [
+      48.5,
+      3
+    ]
+  },
+  "button_from_top_left_mm": [
+    36.5,
+    10
+  ],
+  "button_lengthwise_offset_mm": 3.25
+}

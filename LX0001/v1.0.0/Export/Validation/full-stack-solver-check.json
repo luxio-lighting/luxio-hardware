@@ -1,0 +1,30 @@
+{
+  "solver_sha256": "819d5f6d07c56f635e683273504e98779cd893ea8ba2d40a73b5f5469e5b7f1f",
+  "cases": [
+    {
+      "case": "one_outer_square",
+      "expected_ohm": 0.0004925714285714286,
+      "measured_ohm": 0.0004925714285714286,
+      "pass": true
+    },
+    {
+      "case": "parallel_outer_inner",
+      "expected_ohm": 0.00034342629482071713,
+      "measured_ohm": 0.0003434262948207172,
+      "pass": true
+    },
+    {
+      "case": "full_barrel",
+      "expected_ohm": 0.0013300721833638474,
+      "measured_ohm": 0.0013300721833638476,
+      "pass": true
+    },
+    {
+      "case": "disconnected_layers",
+      "expected_ohm": null,
+      "measured_ohm": null,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

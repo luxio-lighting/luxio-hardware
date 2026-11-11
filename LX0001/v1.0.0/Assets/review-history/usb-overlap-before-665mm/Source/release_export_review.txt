@@ -1,0 +1,73 @@
+LX0001 release-export review — 2026-11-11
+Reviewed exporter: Source/tools/export_manufacturing.py.
+Accepted four-layer placement is recorded in placement.json. C5/C7 are now
+0402 100nF50V C307331. R2 and U5 moved; TP3 uses a0.5mm bare test pad.
+
+BOM/CPL conventions verified against primary JLCPCB guides:
+https://jlcpcb.com/help/article/how-to-generate-the-bom-and-centroid-file-from-kicad
+https://jlcpcb.com/help/article/pick-place-file-for-pcb-assembly
+https://jlcpcb.com/help/article/how-to-generate-bom-and-centroid-files-from-kicad-8
+
+BOM headers Comment, Designator, Footprint, LCSC Part #, Quantity are suitable.
+Comma-separated designator groups and per-board quantities match parts.json.
+DNP parts and bare test pads/mounting holes are excluded from assembly.
+CPL headers Designator, Mid X, Mid Y, Layer, Rotation contain millimetre
+coordinates, Top/Bottom side names and native KiCad rotation values. JLC's
+KiCad guide does not require an additional bottom-coordinate mirror.
+Custom terminal and USB footprint origins are centered on their bodies.
+Supplier-specific zero-angle alignment still requires review of the JLC
+placement preview and assembly drawing; native KiCad angles alone do not
+prove the orientation used in every supplier catalogue.
+
+The accepted placement exports 109 distinct active assembly references:
+52 top and 57 bottom. These exactly match 109 active BOM references, with no
+missing or extra designators. Hybrid SMT/PIP USB J1 is included by --smd-only
+because its footprint is classified as an SMT assembly part. J2/J3/J4 are
+also included. The common lower-left fabrication origin maps board y to 20-y:
+C4 board(21.4,10.3) -> CPL(21.4,9.7), Bottom, 0 degrees;
+C111 board(26.6,4.8) -> CPL(26.6,15.2), Bottom, 90 degrees;
+R103 board(23.0,3.4) -> CPL(23.0,16.6), Bottom, 0 degrees;
+U2 board(9.75,12.85) -> CPL(9.75,7.15), Bottom, 0 degrees;
+R1 board(9.0,4.8) -> CPL(9.0,15.2), Top, 0 degrees;
+R12 board(9.0,2.4) -> CPL(9.0,17.6), Top, 90 degrees;
+J1 -> CPL(2.75,10), Bottom, 90 degrees;
+J2 -> CPL(6.5,10), Top, -90 degrees (equivalent 270 degrees).
+Gerber, Excellon and CPL exports share the drill/plot origin.
+Gerber copper order: F.Cu / In1.Cu / In2.Cu / B.Cu.
+Order the exact four-layer stackup in fabrication-intent.txt.
+
+Fabrication export is gated by zero unrouted connections, zero schematic
+parity issues, clean ERC and the independent connectivity/paste audit.
+Routing-via drills require at least 0.10 mm clearance from every actual paste
+aperture, with a 1 nm numerical allowance. No routing-via paste exception exists.
+The four exact, documented GCT shell-stake pin-in-paste/courtyard cases remain
+reviewed component-mounting exceptions. Any change to them blocks release.
+Gerbers are generated in a fresh staging directory before the archive is
+written, preventing stale files from entering a new fabrication package.
+This review does not bypass those gates or claim prototype qualification.
+
+Silkscreen uses direct top-side GND/V+ input labels and GND/D16/D17/V+ output
+labels, outside terminal housings and paste lands. BOOT is above the centered
+button; IN/OUT identify the connector ends. IN is at (3.6, 4.9), clear of the
+relocated R1/R12 and the recessed USB stakes. Bottom branding is two lines:
+  LUXIO LX0001
+  v1.0.0 5-24V
+It is centered at (22.95, 1.55); actual strokes occupy x 18.7607..27.1012 and
+y 0.3933..2.6313, clear of the relocated bottom R103. All 10 labels use 0.8 mm
+text height and 0.15 mm strokes. Top and mirrored-bottom render inspection
+passed, with zero silk/text DRC findings. Rerun add_silkscreen.py after any
+component or exposed-via move and validate the final promoted board.
+
+0.30 mm drill revision (version remains v1.0.0):
+All 246 routing vias now have 0.30 mm holes. The 206 smaller via pads
+remain 0.45 mm; the 40 larger pads remain 0.60 mm. JLCPCB publishes a
+minimum via pad-minus-drill difference of 0.10 mm, with 0.15 mm preferred:
+https://jlcpcb.com/capabilities/pcb-capabilities/
+Minimum annulus is explicitly 0.075 mm; all other copper, hole spacing,
+antenna and independent 0.10 mm drill/paste constraints are retained.
+C114 shifted +0.05 mm in X; R102 shifted -0.02 mm in X; R100 shifted
+-0.02 mm in X / -0.04 mm in Y. CPL and placement.json were regenerated.
+Local BOOT and DATA_ENABLE traces were adjusted. RF signal traces, crystal
+traces and the main 5 A power spines were preserved. Detailed item changes
+are recorded in via030-revision.json; the previous release is archived in
+Assets/review-history/via020-before-030-revision.

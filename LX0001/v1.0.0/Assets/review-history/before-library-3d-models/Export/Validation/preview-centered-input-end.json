@@ -1,0 +1,28 @@
+{
+  "board_sha256": "4ce0b67978240a0ccec6042da28f95543a1dae4d79b496f4ef42788cd2bd2c51",
+  "renderer": "KiCad 10.0.7 native raytracer",
+  "copper_layers": 4,
+  "board_mm": [
+    60,
+    20,
+    1.6
+  ],
+  "body_models": "Some custom bodies are approximate; manufacturer drawings govern enclosure dimensions",
+  "views": {
+    "preview-top.png": "700254d24f5f2c4024d13757c9863d655db7bfb199202b43e4305267391ea421",
+    "preview-bottom.png": "db9c560dd83577eeb2fe7521d89adcaeb308d3c90dfd287ede5e41f048054889",
+    "preview-centered-input-end.png": "f46097284ff3e713dc4d6e40741925e8750c5a965f0bb059196a45ffb34430df"
+  },
+  "input_connector_centers_CAD_mm": {
+    "J1": [
+      2.75,
+      5.25
+    ],
+    "J2": [
+      6.5,
+      15.25
+    ]
+  },
+  "input_connector_side": "Top",
+  "visual_review": "Top, bottom and input-end native renders inspected. Inputs side by side at the same end, USB shell annuli unobstructed. Button centered at (30,10)."
+}

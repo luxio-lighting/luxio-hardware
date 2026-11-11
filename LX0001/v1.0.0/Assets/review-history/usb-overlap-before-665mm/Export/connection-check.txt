@@ -1,0 +1,3 @@
+121 electrical footprints; 2 mounting holes; 329 mapped pins checked.
+PASS: schematic netlist, PCB and connection table agree.
+Pin-specific checks: ESP32-S3/no PSRAM/4MB flash, two 5V outputs, isolated dual-pin button, wired/USB terminals.

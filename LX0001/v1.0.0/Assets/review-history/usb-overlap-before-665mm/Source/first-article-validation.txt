@@ -1,0 +1,52 @@
+LX0001 v1.0.0 — first-article acceptance
+
+These measurements have NOT been performed. CAD/ERC/DRC checks do not establish
+the 5 A continuous thermal rating, antenna match, USB compliance or assembly yield.
+Build a small first-article lot before releasing all 100 boards.
+
+1. Assembly and recovery
+Compare JLCPCB's placement preview against assembly drawings, especially the
+custom terminal, USB, fuse, MOSFET and antenna footprints. Inspect QFN wetting,
+paste bridges, crystal orientation and the recessed USB shell stakes. Check shorts before
+power-up. Use a current-limited supply and confirm approximately 3.3 V and 5.0 V
+at the controller and AHCT rails. Hold SW1 and pulse ESP_EN low; confirm ROM USB
+download and UART recovery. Read back the 4 MB flash identifier; disable PSRAM.
+
+2. Power paths
+Test USB alone, wired alone at 5/12/24 V, and both sources in both insertion orders.
+Measure input/output voltages and reverse leakage into each disconnected source.
+With 5.0 V wired and 5.2 V USB, wired must retain priority. Check handover for
+oscillation, overshoot and resets; a reset-free handover is not guaranteed.
+USB alone must leave LED_VCC off until firmware explicitly enables a 5 V strip.
+With a wired source present, LED_VCC must follow that source automatically.
+Verify the USB current-limit bands listed in firmware-interface.txt, source
+advertisement sensing, enumeration/suspend behavior and LED brightness limiting.
+Use a USB analyzer or suitable test source; do not infer compliance from USB boot.
+
+3. Load and temperature
+Measure loaded input/output voltage and component/connector/solder temperatures
+at 1 A, 3 A and 5 A using 5, 12 and 24 V wired supplies. Allow thermal equilibrium
+in the intended enclosure and at the intended worst-case ambient. Compare the
+measured temperature rise with actual component, connector and enclosure limits.
+Record fuse, Q1, Q6 and regulator temperatures and thermal-camera images. The 8 A
+fuse is fault protection; it is not a precise 5 A output-current limiter. Verify
+fault clearing with the intended external supply and wiring. Copper-resistance
+estimates exclude connector contacts, solder joints and hot-device resistance.
+
+4. Data, clock and RF
+Scope both buffered outputs at the terminal using representative strip cables.
+Check 5 V amplitude, edge ringing, idle-low behavior and simultaneous channels.
+Verify no data drive before the buffers' DATA_ENABLE sequence. Exercise SW1 as
+GPIO18 input and confirm it does not clamp other signals or reset the running MCU.
+Start flash at 40 MHz DIO; perform repeated reads/writes and cold boots over the
+input-voltage and temperature range before selecting 80 MHz/QIO operation.
+Measure crystal frequency/startup. Tune RF and antenna matching with a VNA and
+validate Wi-Fi performance in the final enclosure. The installed matching values
+are initial values, not measured values for this PCB and enclosure.
+
+5. Release record
+Record hardware/source revision, BOM substitutions, firmware revision, input
+supplies, cables, case, ambient, instruments and results. Update the RF BOM if
+tuning requires it, rerun ERC/DRC/netlist checks and regenerate all manufacturing
+outputs after any layout or component change. Archive the accepted JLCPCB quote,
+placement preview and first-article results with the production release.

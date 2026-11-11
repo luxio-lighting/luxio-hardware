@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-11",
+  "status": "FABRICATION DATA CHECKED; UNBUILT FIRST ARTICLE; NOT PRODUCTION-QUALIFIED",
+  "board_mm": [
+    66.5,
+    20,
+    1.6
+  ],
+  "copper_layers": 4,
+  "soldermask": "black",
+  "assembled_parts": 109,
+  "bom_lines": 52,
+  "open_connections": 0,
+  "electrical_drc_errors": 0,
+  "erc_findings": 0,
+  "documented_mechanical_flags": 0,
+  "source_sha256": {
+    "Source/LX0001.kicad_dru": "57b2e96d86ae4283566cc5be0d2a4e260417f2370e46dcaf95885431f04816f9",
+    "Source/LX0001.kicad_pcb": "5e2647da8a07183817b8afe8653a33e74431a2a2f8be0739faa74d6de65cd53f",
+    "Source/LX0001.kicad_pro": "8ca1021d385bddc7c40e71c27637c0b99dc026baf2e0259402e9833196e3d03e",
+    "Source/LX0001.kicad_sch": "02565ad7ebab194a132c4e1bd90bcfb7a1fc75d70d4acd15aa027dcfdf1282b7",
+    "Source/button.kicad_sch": "5d42c35a508a14db8a263467778dad06a03ee7e39a4c3a86ddeb9684b1715f8c",
+    "Source/core.kicad_sch": "a230e5df84f524485d793ec2bae377f1fdd60a271364a9dd37e416a1ae7d1dce",
+    "Source/core_2.kicad_sch": "66fd0dfdde44c794956b55caeee0129935ce85fbcce6def5803b72b7e3ebeb75",
+    "Source/flash.kicad_sch": "d9d1f47590221e8454ecfc463b8086a6028631c0c9aa220f780d6ea22aaa1439",
+    "Source/mcu.kicad_sch": "ac3fcd0d11dd62adff256d09552b12b84368181af0ca195842ebaf8814e71c13",
+    "Source/outputs.kicad_sch": "36774ec53d94ec8023b8d5fcfe8d747e37850175222ba094324ed26077eb02cc",
+    "Source/power.kicad_sch": "037400105eb3f917a15fc39c44159decee6e946c4b76158814773a15d336a1d8",
+    "Source/power_2.kicad_sch": "ce9dee4bdc93b4585e2c46ea0aba9216a846006d8af4ecf5c094ca716d65da96",
+    "Source/regulators.kicad_sch": "1c40c3083cd6af8b93c16200b2262420ad6f3bfeeed9c3e6dedcad9b414f26d3",
+    "Source/regulators_2.kicad_sch": "2457030d9cc5cc9d19c84b8ffff4e4e42dbe1dcf646425da3c8c8c2728063f6b",
+    "Source/rf.kicad_sch": "93a2fe3e8b15f923a06acf9edfa7ceab1271914b25370d1526a92689835c66db",
+    "Source/test.kicad_sch": "9813b6b09b28659069970fc6d06ee3f313ac0426db60e1e4baff53b05f10a127",
+    "Source/usb.kicad_sch": "2d4749ae2fb193a6dff3b83dd96f5e8dd4d27256c428cd4b2233b0e184b434ef",
+    "Source/parts.json": "f01f42a6613e343c1186aae78f1ee5a74739195e7c25ef266fdf9b742c6eb379",
+    "Source/connections.csv": "abf25422605582870eed3c8ae8a77f4a7fd2f214c59914fcb8272ffacd68c43b"
+  }
+}

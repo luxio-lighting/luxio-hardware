@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-11-11T20:31:39.940962+00:00",
+  "board": "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_pcb",
+  "board_sha256": "224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7",
+  "checker_sha256": "f7bc9c33b3ab4fdee1a760568980d44b62ee37c42f2ca8603fc77287a510cc39",
+  "kicad_version": "10.0.7",
+  "method": "Independent geometric intersection of each physical drill shape with each actual paste aperture, including pad rotation, inherited/local paste margins, paste-only aperture pads, both board faces and all net combinations. No CAD edits or DRC result reuse.",
+  "geometry_policy": "Routing-via drills must clear paste by the configured minimum; a1nm numerical allowance accepts the nominal boundary. Other component holes are checked for overlap. Unsupported expanded custom/trapezoid/chamfered pads fail explicitly.",
+  "minimum_via_paste_clearance_mm": 0.1,
+  "numerical_clearance_tolerance_mm": 1e-06,
+  "via_in_paste_allowlist": [],
+  "holes_checked": 252,
+  "vias_checked": 246,
+  "paste_apertures_checked": 384,
+  "pair_comparisons": 96768,
+  "reviewed_component_pin_in_paste_features": [
+    {
+      "type": "reviewed_component_pin_in_paste",
+      "required_clearance_mm": 0,
+      "measured_gap_mm": 0.0,
+      "drill_kind": "plated_pad_hole",
+      "drill_uuid": "ccb5f338-8394-4234-b47a-03bc945614a4",
+      "drill_net": "GND",
+      "drill_reference": "J1",
+      "drill_pad": "SH",
+      "drill_position_mm": [
+        1.6,
+        14.32
+      ],
+      "drill_size_mm": [
+        0.6,
+        1.8
+      ],
+      "aperture_uuid": "ccb5f338-8394-4234-b47a-03bc945614a4",
+      "aperture_reference": "J1",
+      "aperture_pad": "SH",
+      "aperture_net": "GND",
+      "paste_layer": "B.Paste",
+      "same_net": true,
+      "source": "Assets/io/C37616412_footprint_notes.txt; manufacturer USB4215 drawing Rev A, 2024-04-26"
+    },
+    {
+      "type": "reviewed_component_pin_in_paste",
+      "required_clearance_mm": 0,
+      "measured_gap_mm": 0.0,
+      "drill_kind": "plated_pad_hole",
+      "drill_uuid": "69827bae-4e84-45d8-96ae-5b9148f7316f",
+      "drill_net": "GND",
+      "drill_reference": "J1",
+      "drill_pad": "SH",
+      "drill_position_mm": [
+        5.6,
+        14.32
+      ],
+      "drill_size_mm": [
+        0.6,
+        1.4
+      ],
+      "aperture_uuid": "69827bae-4e84-45d8-96ae-5b9148f7316f",
+      "aperture_reference": "J1",
+      "aperture_pad": "SH",
+      "aperture_net": "GND",
+      "paste_layer": "B.Paste",
+      "same_net": true,
+      "source": "Assets/io/C37616412_footprint_notes.txt; manufacturer USB4215 drawing Rev A, 2024-04-26"
+    },
+    {
+      "type": "reviewed_component_pin_in_paste",
+      "required_clearance_mm": 0,
+      "measured_gap_mm": 0.0,
+      "drill_kind": "plated_pad_hole",
+      "drill_uuid": "da3706f1-1c76-4f76-b6fd-a6ef70853b5c",
+      "drill_net": "GND",
+      "drill_reference": "J1",
+      "drill_pad": "SH",
+      "drill_position_mm": [
+        1.6,
+        5.68
+      ],
+      "drill_size_mm": [
+        0.6,
+        1.8
+      ],
+      "aperture_uuid": "da3706f1-1c76-4f76-b6fd-a6ef70853b5c",
+      "aperture_reference": "J1",
+      "aperture_pad": "SH",
+      "aperture_net": "GND",
+      "paste_layer": "B.Paste",
+      "same_net": true,
+      "source": "Assets/io/C37616412_footprint_notes.txt; manufacturer USB4215 drawing Rev A, 2024-04-26"
+    },
+    {
+      "type": "reviewed_component_pin_in_paste",
+      "required_clearance_mm": 0,
+      "measured_gap_mm": 0.0,
+      "drill_kind": "plated_pad_hole",
+      "drill_uuid": "2358804b-1820-460b-84a1-53b629ad324b",
+      "drill_net": "GND",
+      "drill_reference": "J1",
+      "drill_pad": "SH",
+      "drill_position_mm": [
+        5.6,
+        5.68
+      ],
+      "drill_size_mm": [
+        0.6,
+        1.4
+      ],
+      "aperture_uuid": "2358804b-1820-460b-84a1-53b629ad324b",
+      "aperture_reference": "J1",
+      "aperture_pad": "SH",
+      "aperture_net": "GND",
+      "paste_layer": "B.Paste",
+      "same_net": true,
+      "source": "Assets/io/C37616412_footprint_notes.txt; manufacturer USB4215 drawing Rev A, 2024-04-26"
+    }
+  ],
+  "violations": [],
+  "pass": true,
+  "primary_references": [
+    "https://raw.githubusercontent.com/KiCad/kicad-source-mirror/10.0/pcbnew/plot_board_layers.cpp",
+    "https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html#working-with-pads",
+    "https://gct.co/connector/usb4215"
+  ]
+}

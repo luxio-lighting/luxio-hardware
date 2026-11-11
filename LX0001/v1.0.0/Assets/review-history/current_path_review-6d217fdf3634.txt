@@ -1,0 +1,55 @@
+LX0001 current-path review — actual saved copper
+PCB SHA256: 4ce0b67978240a0ccec6042da28f95543a1dae4d79b496f4ef42788cd2bd2c51
+Board: /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_pcb
+Status: Routed PCB: zero unconnected items in a fresh KiCad DRC
+Generated UTC: 2026-11-11T21:42:46.219790+00:00
+
+At 5 A (35 um outer / 15.2 um inner copper): modeled loop 8.4660 mOhm, 42.330 mV drop, 0.2117 W copper loss.
+This is an electrical copper estimate, not a thermal rating or 5 A qualification.
+Connectors, solder joints, fuse element and MOSFET package/channel losses are excluded.
+
+Per-net copper results (5 A, 20 C copper resistivity):
+Net        Terminals       Outer um R mOhm   Drop mV   Loss W
+DC_IN       J2->F1           35    0.2794     1.397   0.0070
+DC_FUSED    F1->Q1           35    0.2026     1.013   0.0051
+VSYS        Q1->Q6           35    2.1811    10.905   0.0545
+LED_VCC     Q6->J4           35    0.7778     3.889   0.0194
+GND         J3->J2           35    5.0253    25.126   0.1256
+
+USB load-path copper results (1.384 A worst-case clamp, 20 C):
+At 35 um outer / 15.2 um inner copper: USB loop 92.8653 mOhm, 128.526 mV drop, 0.1779 W copper loss.
+USB_5V        J1->U4  35 um: 3.9119 mOhm; 5.414 mV; 0.00749 W.
+USB_LIMITED   U4->Q3  35 um: 78.7426 mOhm; 108.980 mV; 0.15083 W.
+VSYS          Q3->Q6  35 um: 3.7008 mOhm; 5.122 mV; 0.00709 W.
+LED_VCC       Q6->J4  35 um: 0.7778 mOhm; 1.076 mV; 0.00149 W.
+GND           J3->J1  35 um: 5.7322 mOhm; 7.933 mV; 0.01098 W.
+TPS2553 switch resistance, USB connector/cable and Q3 channel resistance are excluded from this copper-only USB loop.
+
+Interlayer current distribution:
+VSYS, 35 um: largest modeled routing-via current 0.533 A at (23.800, 19.150) mm, drill 0.30 mm.
+GND, 35 um: largest modeled routing-via current 1.905 A at (18.900, 13.600) mm, drill 0.30 mm.
+GND: 4 plated component slots also included using their actual plated perimeter.
+
+Model and practical limits:
+Grid 0.1 mm; copper rho 1.724e-8 ohm-m at 20 C.
+Nominal board 1.6 mm; actual saved copper layer spacing; assumed via/slot wall 20 um.
+Saved filled zones, tracks and pads were extracted without changing the PCB.
+Terminal pads on each named component are ideal equipotential nodes.
+Rasterization approximates narrow copper and current crowding; it is not a temperature simulation.
+The model includes all four copper layers (35/15.2/15.2/35 um), adjacent-layer barrel lengths and plated connector slots. Internal ground paths are included.
+Copper resistance rises with temperature; actual copper/plating tolerances are not measured.
+
+Approximate additional device loss at 5 A / 25 C:
+Q1: up to 0.248 W from 9.9 mOhm; F1: about 0.168 W from its typical 6.7 mOhm.
+Q6: up to 0.375 W at 10 V gate drive, or 0.575 W at 4.5 V, before hot-RDS(on) increase.
+These figures omit connector/contact resistance and do not bound enclosure temperature.
+The final PCB/case needs 5/12/24 V load-temperature and fault-clearing measurements.
+
+Fresh DRC: 0 unconnected items; electrical error types checked: 0.
+Other DRC categories: {}
+This copper report does not waive mechanical, RF, assembly or other manufacturing checks.
+
+Evidence: /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Export/current-path-model
+Mesh SHA256: aaa53e1e095c57f163cb478a36583c98b348e8213784c8ef2d79ff5178b7378b
+Solver SHA256: 819d5f6d07c56f635e683273504e98779cd893ea8ba2d40a73b5f5469e5b7f1f
+Re-run after any routing, via, footprint or copper-fill change.

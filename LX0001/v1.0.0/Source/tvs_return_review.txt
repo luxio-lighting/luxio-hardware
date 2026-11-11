@@ -1,17 +1,14 @@
-LX0001 D3 TVS return review — 0.30 mm revision
+LX0001 D3 TVS return review — 60 x 20 mm input revision
 
-PCB SHA256: 224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7
-Full four-layer KiCad DRC reports zero unconnected items. The D3 placement,
-pads and substantial ground-return tracks are preserved from the prior release.
-One nearby auxiliary GND via moved 0.04 mm north to retain drill/paste clearance.
+PCB SHA256: a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01
+All four saved copper layers modeled, 0.1 mm grid, 35/15.2/15.2/35 um copper,
+20 C resistivity and 20 um assumed via plating. D3 ground to J2 ground:
+4.4745 mOhm copper-only DC resistance. Mesh is connected and the numerical
+solve converged. See Export/current-path-model/tvs-copper-results.json.
 
-The existing outer-copper-only resistor model does not connect D3 to J2 on
-either the previous 0.20 mm release or this 0.30 mm revision. Internal ground
-paths are omitted by that model. Its failure is not evidence of a newly open
-PCB net, and it provides no valid final-board TVS return resistance estimate.
-The older provisional two-layer resistance estimate must not be used for
-this four-layer board. A full-stack return model and hardware transient
-measurements are needed to establish surge behavior; no surge rating is claimed.
-
-Evidence: Export/current-path-model/tvs-model-scope-check.json and drc.json.
-SMBJ24A manufacturer ratings remain in Assets/io/C7470946_SMBJ24A.pdf.
+Earlier outer-only models excluded required internal ground paths and could
+not assess this return. Those results are historical, not an open PCB net.
+This full-stack DC estimate excludes inductance, device clamping, solder and
+connector resistance. It does not establish a surge rating. Hardware transient
+measurements in the intended wiring/enclosure are required for surge claims.
+SMBJ24A evidence: Assets/io/C7470946_SMBJ24A.pdf.

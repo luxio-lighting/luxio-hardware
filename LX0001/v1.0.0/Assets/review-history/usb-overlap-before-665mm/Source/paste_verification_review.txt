@@ -1,0 +1,44 @@
+Independent drill / solder-paste verification
+
+Source/tools/verify_design.py checks physical drill shapes against the actual
+front and back paste apertures. Net equality never suppresses an overlap.
+Routing-via drills must have at least0.10 mm paste clearance by default,
+with only a1 nm numerical allowance at the exact boundary. The via-in-paste
+allowlist is empty. This catches holes whose centers are
+outside a pad but whose drill edges intersect its paste, and paste-only
+exposed-pad stencil windows. The PCB is never saved or modified by the check.
+Evidence is Export/manufacturing-geometry-check.json and .txt, with PCB and
+checker SHA256 values. Re-run on the final routed PCB.
+
+Current project paste margins are zero; native rotated pad shapes therefore
+match the apertures exactly. Expanded/reduced ordinary pads use KiCad 10's
+published paste-sizing rules on detached copies. Unsupported expanded
+custom shapes, paste text or paste zones cause failure instead of omission.
+The script also checks component drills against other components' paste.
+Nine validation cases are recorded in
+Assets/power/manufacturing-geometry-validation.json. They include the actual
+three original same-net GND vias inside J2's paste, clean repaired geometry,
+a partial drill-edge overlap, a clear edge, positive/negative paste margins,
+and a via inserted into an isolated ESP32 exposed-pad paste aperture.
+Separate boundary cases accept nominal0.10 mm and reject0.09 mm.
+--minimum-via-paste-clearance-mm 0 runs overlap-only diagnostic cases;
+production/export uses the default0.10 mm gate.
+
+USB shell distinction
+J1 uses USB4215-03-A and the manufacturer's four plated slotted shell lands.
+Their own bottom-side paste apertures are the documented pin-in-paste
+assembly intent, not routing vias placed beneath SMT terminals. Only those
+four own-pad intersections are recognized, with exact connector/footprint
+identity, slot dimensions/positions, GND net, 1.6 mm board thickness, bottom
+paste/mask and absent top paste/mask checked. This does not exempt any via
+or a component hole crossing another component's paste aperture.
+The local connector notes document recessed stakes and the opposing J2 body
+overlap. They require first-article inspection of top-side solder clearance;
+this geometry check does not prove reflow yield or perfect slot tenting.
+
+Primary references
+https://raw.githubusercontent.com/KiCad/kicad-source-mirror/10.0/pcbnew/plot_board_layers.cpp
+https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html#working-with-pads
+https://gct.co/connector/usb4215
+Assets/io/C37616412_USB4215-03-A.pdf (manufacturer drawing Rev A, 2024-04-26)
+Assets/io/C37616412_footprint_notes.txt (documented assembly intent)

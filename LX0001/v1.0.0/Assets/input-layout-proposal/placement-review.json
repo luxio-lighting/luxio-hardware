@@ -1,0 +1,40 @@
+{
+  "status": "Historical proposal, superseded by Source/input-top-revision.json (60 x 20 mm)",
+  "board_mm": [
+    66.5,
+    20,
+    1.6
+  ],
+  "CAD_origin_note": "Outline x=-6.5..60, y=0..20; add 6.5 to X for top-left edge dimensions",
+  "proposed_top_placements_CAD_mm": {
+    "J1": [
+      -3.75,
+      5.25,
+      -90
+    ],
+    "J2": [
+      0,
+      15.25,
+      -90
+    ],
+    "H1": [
+      3,
+      8,
+      0
+    ],
+    "Q2": [
+      7.5,
+      8.5,
+      0
+    ]
+  },
+  "mechanical_courtyard_findings": 0,
+  "remaining_work": [
+    "Obtain preference on changing original backside USB requirement",
+    "Reroute displaced input connections, power copper and screw keepout",
+    "Update silkscreen and enclosure dimensions",
+    "Run full electrical, manufacturing and copper-loss validation",
+    "Regenerate release package"
+  ],
+  "current_export_status": "Existing Export files still describe stacked inputs with recessed wire connector; unsuitable for the newly clarified case requirement"
+}

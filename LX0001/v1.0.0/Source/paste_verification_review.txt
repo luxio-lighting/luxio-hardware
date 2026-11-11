@@ -26,15 +26,16 @@ production/export uses the default0.10 mm gate.
 
 USB shell distinction
 J1 uses USB4215-03-A and the manufacturer's four plated slotted shell lands.
-Their own bottom-side paste apertures are the documented pin-in-paste
+Their own top-side paste apertures are the documented pin-in-paste
 assembly intent, not routing vias placed beneath SMT terminals. Only those
 four own-pad intersections are recognized, with exact connector/footprint
-identity, slot dimensions/positions, GND net, 1.6 mm board thickness, bottom
-paste/mask and absent top paste/mask checked. This does not exempt any via
+identity, slot dimensions/positions, GND net, 1.6 mm board thickness, top
+paste, both mask openings and absent bottom paste checked. This does not exempt any via
 or a component hole crossing another component's paste aperture.
-The local connector notes document recessed stakes and the opposing J2 body
-overlap. They require first-article inspection of top-side solder clearance;
-this geometry check does not prove reflow yield or perfect slot tenting.
+The 60 mm revision places J1 and J2 side by side on top, with no shell-hole
+collision. Bottom-side annuli are open and fillets are unobstructed. No overlap exception
+or slot-tenting assumption remains. Normal first-article solder inspection
+still applies; this geometry check does not prove reflow yield.
 
 Primary references
 https://raw.githubusercontent.com/KiCad/kicad-source-mirror/10.0/pcbnew/plot_board_layers.cpp

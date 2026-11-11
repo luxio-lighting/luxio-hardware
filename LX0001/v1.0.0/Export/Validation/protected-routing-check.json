@@ -1,0 +1,21 @@
+{
+  "board_sha256": "a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01",
+  "previous_board_sha256": "5e2647da8a07183817b8afe8653a33e74431a2a2f8be0739faa74d6de65cd53f",
+  "protected_nets": [
+    "ANT_FEED",
+    "ANT_TUNE",
+    "FLASH_CLK",
+    "FLASH_CS",
+    "FLASH_IO0",
+    "FLASH_IO1",
+    "FLASH_IO2",
+    "FLASH_IO3",
+    "RF_50",
+    "RF_CHIP",
+    "XTAL_N",
+    "XTAL_P",
+    "XTAL_P_CRYSTAL"
+  ],
+  "preserved_items": 237,
+  "pass": true
+}

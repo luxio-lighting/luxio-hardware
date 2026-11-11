@@ -1,0 +1,34 @@
+{
+  "board_sha256": "5e2647da8a07183817b8afe8653a33e74431a2a2f8be0739faa74d6de65cd53f",
+  "revision": "v1.0.0",
+  "board_mm": [
+    66.5,
+    20,
+    1.6
+  ],
+  "min_exported_pth_drill_mm": 0.3,
+  "exported_pth_tools_mm": {
+    "1": 0.3,
+    "2": 0.6
+  },
+  "gerber_archive_matches_directory": true,
+  "all_109_placements_match_CPL": true,
+  "CPL_origin_CAD_mm": [
+    -6.5,
+    20
+  ],
+  "bom_unchanged": true,
+  "wired_and_usb_copper_models_current": true,
+  "zero_open_connections": true,
+  "zero_DRC_findings_including_warnings_and_exclusions": true,
+  "zero_schematic_parity_findings": true,
+  "zero_ERC_findings": true,
+  "mechanical_DRC_exceptions": 0,
+  "independent_drill_paste_check_pass": true,
+  "minimum_drill_paste_clearance_mm": 0.1,
+  "routing_via_count": 249,
+  "normal_component_pin_in_paste_apertures": 4,
+  "protected_routing_items_preserved": 437,
+  "hardware_qualified": false,
+  "button_offset_from_length_midpoint_mm": 3.25
+}

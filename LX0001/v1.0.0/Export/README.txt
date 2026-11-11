@@ -1,23 +1,26 @@
-LX0001 v1.0.0 — final four-layer fabrication package
+LX0001 v1.0.0 — 60 x 20 mm four-layer fabrication package
 
-Upload LX0001-v1.0.0-Gerbers.zip for PCB fabrication and JLCPCB-BOM.csv /
-JLCPCB-CPL.csv for two-sided assembly. Apply JLCPCB-order-settings.txt,
-including JLC04161H-7628, 1.6mm, 1oz outer/0.5oz inner copper, black mask
-and ENIG. Select minimum via hole 0.30 mm. Keep the exact stackup and antenna keepout.
+Upload LX0001-v1.0.0-Gerbers.zip with JLCPCB-BOM.csv and JLCPCB-CPL.csv.
+Use JLCPCB-order-settings.txt: JLC04161H-7628, 1.6 mm, 1 oz outer/0.5 oz
+inner copper, black mask, ENIG, two-sided assembly, minimum via drill 0.30 mm.
+Re-upload Gerbers AND CPL: the outline, origin and input placement changed.
 
-The BOM contains109 fitted components. L104 is DNP. Bare test pads and
-mounting holes are excluded. Review supplier placement rotations and the
-recessed USB shell-stake PIP assembly detail in the assembly preview.
+109 fitted components; L104 is DNP. Bare test pads and mounting holes are
+excluded from assembly. Review normal supplier placement orientations.
+USB-C and two-wire input are side by side on TOP at the input edge.
+The button is centered. H1 moved to (9.5,8) mm from the top-left corner;
+H2 remains (42,3) mm. See mechanical.json for enclosure coordinates.
+No special USB courtyard exception or fillet restriction remains.
 
-CAD checks: zero unconnected nets, zero schematic parity differences, zero
-ERC findings, all246 routing vias with 0.30mm holes, tented and independently checked for
-0.10mm drill-to-paste clearance. Four specifically documented USB shell
-stake / top terminal courtyard flags remain. They are not waived globally.
+CAD checks: zero DRC findings or exclusions, zero unconnected nets, zero
+schematic parity differences and clean ERC. All 231 routing vias use 0.30 mm
+drills, are tented, and meet the independent 0.10 mm drill/paste check.
+Four USB shell pins intersect their own top-side PIP apertures as intended.
 
-Hardware has not been built. First-article electrical,5A thermal,RF tuning,
-USB and assembly validation remain necessary before the100-board lot.
-Source/first-article-validation.txt and firmware-interface.txt define that
-work. Firmware is not included. No manufacturing order has been placed.
+Hardware remains unbuilt. First-article electrical, 5 A thermal, RF, USB and
+assembly validation is required before the 100-board lot. Firmware is not
+included. No manufacturing order has been placed. Connector STEP models come from the JLCEDA/EasyEDA library. The USB model is
+a shared library model; manufacturer drawings govern enclosure dimensions.
 
-Historical candidates are archived in Assets/review-history and are not
-manufacturing inputs. The editable final board is Source/LX0001.kicad_pcb.
+Source/LX0001.kicad_pcb is the editable board. Previous packages in
+Assets/review-history are historical evidence, not manufacturing inputs.

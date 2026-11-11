@@ -1,0 +1,18 @@
+LX0001 D3 TVS return review — 66.5 mm USB revision
+
+PCB SHA256: 5e2647da8a07183817b8afe8653a33e74431a2a2f8be0739faa74d6de65cd53f
+Full four-layer KiCad DRC reports zero unconnected items. Main power, RF,
+crystal and flash copper is retained; see protected-routing-check.json.
+
+A fresh outer-copper-only model still cannot connect D3 to J2, as on both
+preceding revisions. It omits required internal ground paths. This scope
+limitation does not establish an open PCB net and provides no valid TVS
+return resistance estimate. The older provisional two-layer resistance
+estimate must not be used for this four-layer board. A full-stack model
+and hardware transient measurements are needed to establish surge behavior;
+no surge rating is claimed.
+
+Evidence: Export/current-path-model/tvs-model-scope-check.json,
+tvs-copper-results.json and Export/drc.json. The fresh unsuccessful TVS
+solver result is retained explicitly as a model-scope limitation, not a pass.
+SMBJ24A ratings: Assets/io/C7470946_SMBJ24A.pdf.

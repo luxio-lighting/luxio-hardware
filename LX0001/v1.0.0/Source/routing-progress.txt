@@ -1,16 +1,12 @@
-LX0001 four-layer routing complete
+LX0001 v1.0.0 four-layer routing complete — 60 x 20 mm revision
 
-The saved Source/LX0001.kicad_pcb has zero unconnected items.
-329 assigned pins agree with the schematic and connection table.
-All246 routing vias pass the independent0.10mm drill/paste clearance check.
-Four documented recessed USB shell-stake courtyard flags remain; no other
-DRC findings and no schematic parity/ ERC findings. See Export/drc.json,
-Export/erc.json and Export/manufacturing-geometry-check.json.
+Zero unconnected items, DRC findings/exclusions, schematic parity differences
+and ERC findings. All 231 routing vias have 0.30 mm drills and pass the
+independent 0.10 mm drill/paste clearance check. USB-C and wired input sit
+side by side on top. Four shell apertures are normal top-side PIP mounting,
+with no interference with J2 and no mechanical DRC exceptions.
 
-Final fabrication outputs are in Export. Historical private candidates and
-progress logs under Validation/review-history are not manufacturing inputs.
-
-0.30 mm revision, still v1.0.0: all 246 routing holes are 0.30 mm.
-206 pads are 0.45 mm and 40 are 0.60 mm; minimum radial annulus 0.075 mm.
-The source revision record is via030-revision.json. Export files supersede
-the earlier 0.20 mm package; re-upload the Gerbers and updated CPL together.
+Current record: input-top-revision.json. Re-upload Gerbers AND CPL together;
+common plot/drill/CPL origin (0,20). Historical records via030-revision.json
+and usb-mounting-revision.json describe earlier geometry only. Previous
+66.5 mm release: Assets/review-history/stacked-inputs-665mm.

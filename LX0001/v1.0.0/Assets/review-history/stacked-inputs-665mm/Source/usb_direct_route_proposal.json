@@ -1,0 +1,158 @@
+{
+  "input": "/tmp/lx0001-combined-final-check/Source/LX0001.kicad_pcb",
+  "output": "/tmp/lx0001-combined-final-check/Source/LX0001-usb-direct.kicad_pcb",
+  "removed_approved_manual_items": [
+    {
+      "uuid": "ab001c01-4c01-5483-826e-0c1221c54e55",
+      "net": "USB_DM"
+    },
+    {
+      "uuid": "ab001c01-6f0d-512d-90ab-cfd7934002a7",
+      "net": "USB_DM"
+    },
+    {
+      "uuid": "ab001c01-af21-50c2-b822-46f0856a1066",
+      "net": "USB_DM"
+    },
+    {
+      "uuid": "ab001c01-edb5-5a54-8074-93716f0194f5",
+      "net": "USB_DM"
+    },
+    {
+      "uuid": "c0a7c0de-5e0a-5473-87ab-ae3b64aa765f",
+      "net": "GPIO18_BUTTON"
+    },
+    {
+      "uuid": "c0a7c0de-c817-5ddb-b8f5-2d0a8b54b05b",
+      "net": "GPIO18_BUTTON"
+    },
+    {
+      "uuid": "c0a7c0de-fe27-59f9-b63f-a277f62a9195",
+      "net": "GPIO18_BUTTON"
+    }
+  ],
+  "added_locked_items": [
+    {
+      "uuid": "ab001c01-227c-533b-94aa-78dbb5f5e13b",
+      "net": "USB_DM",
+      "start": [
+        23.6,
+        13.45
+      ],
+      "end": [
+        23.6,
+        14.3
+      ],
+      "width": 0.2,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ab001c01-2ad0-5f1f-aa09-ce415a8fd291",
+      "net": "USB_DM",
+      "start": [
+        23.6,
+        14.3
+      ],
+      "end": [
+        24.175,
+        14.875
+      ],
+      "width": 0.2,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ab001c01-a5ef-54a5-9154-e65493d1b29f",
+      "net": "USB_DM",
+      "start": [
+        24.175,
+        14.875
+      ],
+      "end": [
+        25.2,
+        14.875
+      ],
+      "width": 0.2,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ab001c01-25cd-5f6b-a885-4033153a1375",
+      "net": "USB_DP",
+      "start": [
+        24,
+        13.45
+      ],
+      "end": [
+        24,
+        14.1
+      ],
+      "width": 0.2,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ab001c01-250a-524a-8a99-83917f268748",
+      "net": "USB_DP",
+      "start": [
+        24,
+        14.1
+      ],
+      "end": [
+        26.225,
+        14.1
+      ],
+      "width": 0.2,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ab001c01-8933-5710-b075-b8014dec6145",
+      "net": "USB_DP",
+      "start": [
+        26.225,
+        14.1
+      ],
+      "end": [
+        27,
+        14.875
+      ],
+      "width": 0.2,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "c0a7c0de-5a7b-54b9-9c34-22716e8cc12d",
+      "net": "GPIO18_BUTTON",
+      "start": [
+        23.2,
+        13.45
+      ],
+      "end": [
+        23.2,
+        14.6
+      ],
+      "width": 0.15,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "c0a7c0de-36bf-5ea3-8c80-be2d61da4633",
+      "net": "GPIO18_BUTTON",
+      "start": [
+        23.2,
+        14.6
+      ],
+      "end": [
+        23.3,
+        14.7
+      ],
+      "width": 0.15,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "c0a7c0de-36f9-5f8e-af1b-b6cd7f763a30",
+      "net": "GPIO18_BUTTON",
+      "via_position": [
+        23.3,
+        14.7
+      ],
+      "diameter": 0.45,
+      "drill": 0.2
+    }
+  ]
+}

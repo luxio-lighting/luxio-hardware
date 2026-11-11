@@ -111,7 +111,7 @@ RELEASE VALIDATION
 The firmware, clock-load values, RF matching, conducted spurious emissions,
 radiated performance, temperature operation and antenna efficiency have
 not been measured on hardware. Manufacturer reference results do not prove
-performance of this60x20mm board. First-article VNA/OTA/RF compliance and
+performance of this 60x20mm board. First-article VNA/OTA/RF compliance and
 clock-offset tuning are required before claiming a production-qualified
 radio. Antenna datasheet explicitly says resonance must be adjusted with
 the matching circuit. No module radio certification transfers to this bare

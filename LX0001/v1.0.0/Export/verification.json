@@ -13,10 +13,10 @@
   "open_connections": 0,
   "electrical_drc_errors": 0,
   "erc_findings": 0,
-  "documented_mechanical_flags": 4,
+  "documented_mechanical_flags": 0,
   "source_sha256": {
     "Source/LX0001.kicad_dru": "57b2e96d86ae4283566cc5be0d2a4e260417f2370e46dcaf95885431f04816f9",
-    "Source/LX0001.kicad_pcb": "224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7",
+    "Source/LX0001.kicad_pcb": "a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01",
     "Source/LX0001.kicad_pro": "8ca1021d385bddc7c40e71c27637c0b99dc026baf2e0259402e9833196e3d03e",
     "Source/LX0001.kicad_sch": "a188c6952a3c40861c28ee4796e0fc04fb178fd23f2ce9d0b2a61323794434b6",
     "Source/button.kicad_sch": "5d42c35a508a14db8a263467778dad06a03ee7e39a4c3a86ddeb9684b1715f8c",
@@ -34,12 +34,5 @@
     "Source/usb.kicad_sch": "2d4749ae2fb193a6dff3b83dd96f5e8dd4d27256c428cd4b2233b0e184b434ef",
     "Source/parts.json": "f01f42a6613e343c1186aae78f1ee5a74739195e7c25ef266fdf9b742c6eb379",
     "Source/connections.csv": "abf25422605582870eed3c8ae8a77f4a7fd2f214c59914fcb8272ffacd68c43b"
-  },
-  "minimum_drill_mm": 0.3,
-  "via_pad_diameters_mm": [
-    0.45,
-    0.6
-  ],
-  "minimum_via_annulus_mm": 0.075,
-  "revision_detail": "0.30 mm drills; v1.0.0 retained"
+  }
 }
