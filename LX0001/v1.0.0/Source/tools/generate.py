@@ -167,7 +167,7 @@ with (HW/'connections.csv').open('w') as f:
     for p in parts:
         for pin,net in p['pins'].items():w.writerow([p['ref'],p['value'],pin,net])
 if not (HW/'LX0001.kicad_pro').exists():
-    pro={'meta':{'filename':'LX0001.kicad_pro','version':1},'net_settings':{'classes':[{'name':'Default','clearance':0.127,'track_width':0.15,'via_diameter':0.6,'via_drill':0.3,'diff_pair_width':0.3,'diff_pair_gap':0.15,'diff_pair_via_gap':0.25}],'meta':{'version':3}},'board':{'design_settings':{'rules':{'min_clearance':0.127,'min_track_width':0.127,'min_via_diameter':0.45,'min_through_hole_diameter':0.2,'min_hole_clearance':0.25,'min_copper_edge_clearance':0.3,'min_silk_clearance':0.1}}}}
+    pro={'meta':{'filename':'LX0001.kicad_pro','version':1},'net_settings':{'classes':[{'name':'Default','clearance':0.127,'track_width':0.15,'via_diameter':0.6,'via_drill':0.3,'diff_pair_width':0.3,'diff_pair_gap':0.15,'diff_pair_via_gap':0.25}],'meta':{'version':3}},'board':{'design_settings':{'rules':{'min_clearance':0.127,'min_track_width':0.127,'min_via_diameter':0.45,'min_through_hole_diameter':0.3,'min_via_annular_width':0.075,'min_hole_clearance':0.25,'min_copper_edge_clearance':0.3,'min_silk_clearance':0.1}}}}
     (HW/'LX0001.kicad_pro').write_text(json.dumps(pro,indent=2)+'\n')
 print('Generated',len(parts),'parts and',len(groups)+1,'schematic sheets')
 if '--board' not in sys.argv:sys.exit(0)

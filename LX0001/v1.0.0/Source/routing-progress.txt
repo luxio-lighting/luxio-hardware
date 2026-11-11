@@ -9,3 +9,8 @@ Export/erc.json and Export/manufacturing-geometry-check.json.
 
 Final fabrication outputs are in Export. Historical private candidates and
 progress logs under Validation/review-history are not manufacturing inputs.
+
+0.30 mm revision, still v1.0.0: all 246 routing holes are 0.30 mm.
+206 pads are 0.45 mm and 40 are 0.60 mm; minimum radial annulus 0.075 mm.
+The source revision record is via030-revision.json. Export files supersede
+the earlier 0.20 mm package; re-upload the Gerbers and updated CPL together.

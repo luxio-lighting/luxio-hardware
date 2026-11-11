@@ -39,9 +39,14 @@ whose body-to-pad registration is graphical rather than dimensioned.
 
 Minimum electrical clearance 0.127 mm. Ordinary signal width is 0.15 mm;
 reviewed short, low-current escapes may use 0.127 mm (including the short BUCK_FB_LOW neck).
+The DATA_ENABLE escape near (31.8,11.5) mm uses 0.130 mm copper over 1.2 mm.
 NPTH-to-copper minimum 0.20 mm. USB shell holes are plated slots.
-Signal vias use 0.45/0.20 mm; power and ground banks retain larger vias where
-specified in the board. Tent ordinary vias with mask. Keep routing-via drills
+Minimum drill is 0.30 mm. Signal vias use 0.45/0.30 mm (pad/drill);
+power and ground banks retain 0.60/0.30 mm where specified in the board.
+The 0.075 mm radial annulus on 0.45 mm vias meets JLCPCB's preferred
+0.15 mm pad-minus-drill diameter difference. Order the 0.30 mm minimum
+via-hole option; no 0.20 or 0.25 mm drill remains.
+Tent ordinary vias with mask. Keep routing-via drills
 at least 0.10 mm from solder-paste apertures. Do not expose through vias in QFN solder
 paste apertures without a filled/capped-via process and updated stencil review.
 

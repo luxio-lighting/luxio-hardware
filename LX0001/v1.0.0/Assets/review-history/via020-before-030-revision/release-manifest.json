@@ -1,0 +1,28 @@
+{
+  "revision": "1.0.0",
+  "generated_at_utc": "2026-11-11T19:59:43.061375+00:00",
+  "board_sha256": "addd7d033dda781dd301ad4edfb754c7abc086c58657c1940fa5bc8a12fa27a0",
+  "scope": "Fabrication and assembly data for first articles; hardware not yet production-qualified",
+  "files": {
+    "LX0001-v1.0.0-Gerbers.zip": "0c35a28cc669aefaffe9bce18e4d14619133079f1ee2422c7d457731425bd99e",
+    "JLCPCB-BOM.csv": "bdbd72cb1d2cddbee7284a1647448cd1191d5a5bc60fc5a1ec1df0ab4c4493e3",
+    "JLCPCB-CPL.csv": "5b2739fb1956646b2426232c163da608642e686dce37ed30e9c0db18662fd8c7",
+    "JLCPCB-order-settings.txt": "dcf7f5d9666d12cf016317967baa505d33c5ed1eaa7bc05df164056d4177fce8",
+    "README.txt": "35c2614a2181cdb3d8687635536cd863b587998eef518cbd6834faad9a28234a",
+    "assembly-top.png": "e84e0cc945cd2204176303b477d807bd3b4241653931cc274f1cd68f0231ee9e",
+    "assembly-bottom.png": "f1950b591779682d3372b7ce981d6ea254a4fb28ce2b1d64b8fbf204323389c1",
+    "assembly-top.svg": "160fab9d969278dfb6b953b7ee55e0123fca8f3d87eabe0e2eaaadea89302a70",
+    "assembly-bottom.svg": "6208e315df910b28d101baf2aeaedb234b817e9b5d8e3988059cae022dd03b80",
+    "schematic.pdf": "be566e613090d292f15fd0818c8517e5a53dcc99c678bfbaa1de0466fae37abb",
+    "verification.json": "a720d4bda3df59b2f37361d38f9e5c9e6251b21118a8b299f19a8de2d73488be",
+    "manufacturing-geometry-check.json": "1c9212e5ac24262145c8a182b3b40db16f08fa3579bc7e6912598431464884c1",
+    "connection-check.txt": "cc4457dba8652b67817900c7225c4b6024d8643d37a74a0793ce3faf9d4492be",
+    "drc.json": "b0dab4ecd7f433d82ea7b6de7332fc261091a9ede9102b753426b8ec185af07c",
+    "erc.json": "4fa5dea58d0e8c2ee7875f018b3eca035779fd92f8c960f044a2cc266a9242ee",
+    "Validation/four-layer-geometry.json": "830378641ccdbafbd959fa3de482dedd30aea3209eb01c77bb52617f038fe312",
+    "preview-top.png": "6df851d9ad1d66c158ffe0fe8364d59c19232eebe4181c84ad3815d0a761675d",
+    "preview-bottom.png": "8c9f7bc2aa8b6d7f215393456b34aa9edc9c35c95a2ce61abcf1a4725808d924",
+    "preview-centered-input-end.png": "cdabce584c31462a38aaafa6861156b42f184888434ea159b42b7188bf2eab89",
+    "component-costs.csv": "f8faca84ff7fa6189145bcc451b737f4233e23997319dbabe423631eefa8f28a"
+  }
+}

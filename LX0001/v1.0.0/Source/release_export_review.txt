@@ -57,3 +57,17 @@ y 0.3933..2.6313, clear of the relocated bottom R103. All 10 labels use 0.8 mm
 text height and 0.15 mm strokes. Top and mirrored-bottom render inspection
 passed, with zero silk/text DRC findings. Rerun add_silkscreen.py after any
 component or exposed-via move and validate the final promoted board.
+
+0.30 mm drill revision (version remains v1.0.0):
+All 246 routing vias now have 0.30 mm holes. The 206 smaller via pads
+remain 0.45 mm; the 40 larger pads remain 0.60 mm. JLCPCB publishes a
+minimum via pad-minus-drill difference of 0.10 mm, with 0.15 mm preferred:
+https://jlcpcb.com/capabilities/pcb-capabilities/
+Minimum annulus is explicitly 0.075 mm; all other copper, hole spacing,
+antenna and independent 0.10 mm drill/paste constraints are retained.
+C114 shifted +0.05 mm in X; R102 shifted -0.02 mm in X; R100 shifted
+-0.02 mm in X / -0.04 mm in Y. CPL and placement.json were regenerated.
+Local BOOT and DATA_ENABLE traces were adjusted. RF signal traces, crystal
+traces and the main 5 A power spines were preserved. Detailed item changes
+are recorded in via030-revision.json; the previous release is archived in
+Assets/review-history/via020-before-030-revision.

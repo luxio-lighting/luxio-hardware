@@ -1,0 +1,18 @@
+{
+  "method": "Same D3 pad source coordinates tested against both saved outer-copper meshes; footprints unchanged. Full four-layer KiCad DRC reports zero open nets.",
+  "results": [
+    {
+      "board": "before_030_revision",
+      "board_sha256": "addd7d033dda781dd301ad4edfb754c7abc086c58657c1940fa5bc8a12fa27a0",
+      "outer_only_D3_to_J2_connected": false,
+      "reachable_cells": 2415
+    },
+    {
+      "board": "after_030_revision",
+      "board_sha256": "224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7",
+      "outer_only_D3_to_J2_connected": false,
+      "reachable_cells": 2425
+    }
+  ],
+  "interpretation": "Outer-only model excludes required internal ground return paths on both revisions; no TVS copper resistance or surge rating can be derived from this model."
+}

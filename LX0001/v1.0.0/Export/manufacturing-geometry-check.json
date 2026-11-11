@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at_utc": "2026-11-11T19:57:00.806689+00:00",
+  "checked_at_utc": "2026-11-11T20:31:39.940962+00:00",
   "board": "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_pcb",
-  "board_sha256": "addd7d033dda781dd301ad4edfb754c7abc086c58657c1940fa5bc8a12fa27a0",
+  "board_sha256": "224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7",
   "checker_sha256": "f7bc9c33b3ab4fdee1a760568980d44b62ee37c42f2ca8603fc77287a510cc39",
   "kicad_version": "10.0.7",
   "method": "Independent geometric intersection of each physical drill shape with each actual paste aperture, including pad rotation, inherited/local paste margins, paste-only aperture pads, both board faces and all net combinations. No CAD edits or DRC result reuse.",

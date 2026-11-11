@@ -1,0 +1,64 @@
+{
+  "checked_date": "2026-11-11",
+  "hdgc_part": "2060-452-HDGC / C55251566",
+  "wago_part": "2060-452/998-404",
+  "comparison_mm": {
+    "pitch": {
+      "HDGC": 4.0,
+      "WAGO": 4.0
+    },
+    "width_datasheet": {
+      "HDGC": 7.9,
+      "WAGO": 7.9
+    },
+    "height": {
+      "HDGC": 4.5,
+      "WAGO": 4.5
+    },
+    "overall_depth_including_tail": {
+      "HDGC": 13.1,
+      "WAGO": 13.1
+    },
+    "housing_depth": {
+      "HDGC": 11.5,
+      "WAGO": 12.7
+    },
+    "rear_tail_projection": {
+      "HDGC": 1.6,
+      "WAGO": 0.4
+    },
+    "front_land_size": {
+      "HDGC": [
+        2.0,
+        6.0
+      ],
+      "WAGO": [
+        2.0,
+        6.0
+      ]
+    },
+    "rear_land_size": {
+      "HDGC": [
+        2.0,
+        3.5
+      ],
+      "WAGO": [
+        2.0,
+        3.5
+      ]
+    },
+    "front_rear_land_center_distance": {
+      "HDGC": 9.25,
+      "WAGO": 9.25
+    }
+  },
+  "conclusion": "Same nominal overall envelope and recommended solder-land geometry, but different housing length and tail exposure. A WAGO model would be a visual surrogate, not an exact HDGC enclosure model. Actual CAD file not acquired; fit and alignment of that specific CAD remain unverified.",
+  "cad_catalog_discrepancy": "WAGO PARTcommunity parameter BREITE says8.90mm while WAGO datasheet says7.90mm and catalog formula2x4-0.1=7.9mm. Do not assume CAD geometry resolves this inconsistency without measuring the file.",
+  "download_result": "Official WAGO Download CAD redirects to login/business email. SamacSys and SnapMagic also require registration/login. No model imported.",
+  "sources": {
+    "HDGC_drawing": "https://datasheet.lcsc.com/datasheet/pdf/7edcae0f97d748745bb64aa3a645f62b.pdf",
+    "WAGO_manufacturer_datasheet": "https://media.digikey.com/pdf/Data%20Sheets/WAGO%20PDFs/2060-452_998-404.pdf",
+    "WAGO_CAD": "https://wago.partcommunity.com/3d-cad-models/?info=wago%2Fpg33%2Fserie2060%2F2060-0452_0999-0962.prj"
+  },
+  "board_unchanged_sha256": "addd7d033dda781dd301ad4edfb754c7abc086c58657c1940fa5bc8a12fa27a0"
+}

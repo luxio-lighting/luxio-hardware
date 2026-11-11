@@ -1,10 +1,10 @@
 LX0001 current-path review — actual saved copper
-PCB SHA256: addd7d033dda781dd301ad4edfb754c7abc086c58657c1940fa5bc8a12fa27a0
+PCB SHA256: 224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7
 Board: /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_pcb
 Status: Routed PCB: zero unconnected items in a fresh KiCad DRC
-Generated UTC: 2026-11-11T19:58:08.862288+00:00
+Generated UTC: 2026-11-11T20:32:11.270676+00:00
 
-At 5 A and 35 um copper: modeled loop 20.8829 mOhm, 104.415 mV drop, 0.5221 W copper loss.
+At 5 A and 35 um copper: modeled loop 20.7944 mOhm, 103.972 mV drop, 0.5199 W copper loss.
 This is an electrical copper estimate, not a thermal rating or 5 A qualification.
 Connectors, solder joints, fuse element and MOSFET package/channel losses are excluded.
 
@@ -12,21 +12,21 @@ Per-net copper results (5 A, 20 C copper resistivity):
 Net        Terminals       Cu um    R mOhm   Drop mV   Loss W
 DC_IN       J2->F1           35    1.5028     7.514   0.0376
 DC_FUSED    F1->Q1           35    0.2026     1.013   0.0051
-VSYS        Q1->Q6           35    2.1874    10.937   0.0547
+VSYS        Q1->Q6           35    2.1851    10.926   0.0546
 LED_VCC     Q6->J4           35    0.7778     3.889   0.0194
-GND         J3->J2           35   16.2124    81.062   0.4053
+GND         J3->J2           35   16.1261    80.630   0.4032
 
 USB load-path copper results (1.384 A worst-case clamp, 20 C):
-At 35 um copper: USB loop 72.7664 mOhm, 100.709 mV drop, 0.1394 W copper loss.
+At 35 um copper: USB loop 69.5605 mOhm, 96.272 mV drop, 0.1332 W copper loss.
 USB_5V        J1->U4  35 um: 8.5401 mOhm; 11.820 mV; 0.01636 W.
-USB_LIMITED   U4->Q3  35 um: 38.5769 mOhm; 53.390 mV; 0.07389 W.
-VSYS          Q3->Q6  35 um: 4.3697 mOhm; 6.048 mV; 0.00837 W.
+USB_LIMITED   U4->Q3  35 um: 36.0825 mOhm; 49.938 mV; 0.06911 W.
+VSYS          Q3->Q6  35 um: 3.7435 mOhm; 5.181 mV; 0.00717 W.
 LED_VCC       Q6->J4  35 um: 0.7778 mOhm; 1.076 mV; 0.00149 W.
-GND           J3->J1  35 um: 20.5019 mOhm; 28.375 mV; 0.03927 W.
+GND           J3->J1  35 um: 20.4166 mOhm; 28.257 mV; 0.03911 W.
 TPS2553 switch resistance, USB connector/cable and Q3 channel resistance are excluded from this copper-only USB loop.
 
 Interlayer current distribution:
-VSYS, 35 um: largest modeled routing-via current 0.524 A at (23.800, 19.150) mm, drill 0.30 mm.
+VSYS, 35 um: largest modeled routing-via current 0.527 A at (23.800, 19.150) mm, drill 0.30 mm.
 GND, 35 um: largest modeled routing-via current 1.760 A at (45.200, 2.800) mm, drill 0.30 mm.
 GND: 4 plated component slots also included using their actual plated perimeter.
 
@@ -50,6 +50,6 @@ Other DRC categories: {'pth_inside_courtyard': 4}
 This copper report does not waive mechanical, RF, assembly or other manufacturing checks.
 
 Evidence: /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Export/current-path-model
-Mesh SHA256: 93aa16be17d502baeadb1138085f54a0a1f60e492955f937ce5e51727a7dd103
+Mesh SHA256: f5eaf46413780c1b5c904632fdc7d7e73c5e96e10abcb6e16da81ee90e66ebd3
 Solver SHA256: 56c827748c50460a35f88636ed4137f2c3f617abaec976e0950daec417f2ea40
 Re-run after any routing, via, footprint or copper-fill change.

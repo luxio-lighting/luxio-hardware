@@ -1,28 +1,17 @@
-LX0001 D3 TVS ground-return review — provisional final-consolidation input
+LX0001 D3 TVS return review — 0.30 mm revision
 
-Board SHA256: 1457ed2533e2072d110fe93b1e9de0e46e698cfd5e834d2a9fb54c8e8c3be998
-D3/2 was isolated before repair. The rejected 0.13 mm neck and single 0.45/0.20 via were not retained.
-The accepted local repair uses two 0.60/0.30 vias at (35.65,10.50) and (35.65,11.10),
-with a 0.60 mm B.Cu bridge from y10.50 through y12.00.
-STRIP_GATE and STRIP_USB_BASE were rerouted; a nearby +3V3 segment moved 0.4 mm north
-while retaining its 0.8 mm width. Two 0.2 mm supply branches now join L1/C11 directly.
-All component poses, wired 5 A spines, flash, MCU signals and RF geometry are unchanged.
-Electrical DRC: no new violations; all other net gap counts unchanged.
-Independent drill/paste audit: all172 routing vias meet0.10 mm clearance.
-Actual filled-zone connectivity places D3/2 in the main J2/J3/J1 ground component.
+PCB SHA256: 224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7
+Full four-layer KiCad DRC reports zero unconnected items. The D3 placement,
+pads and substantial ground-return tracks are preserved from the prior release.
+One nearby auxiliary GND via moved 0.04 mm north to retain drill/paste clearance.
 
-Copper-only return model: D3→J2,35 um copper,20 um via plating,20 C,0.10 mm raster.
-Resistance: 61.700234 mOhm; converged residual 9.69e-08.
-At the component datasheet15.2 A peak, the linear DC resistance implies 0.937844 V copper drop.
-The conservative15.4 A model gives6.80/8.60 A in the new pair and15.40 A
-in existing0.30 mm GND via(51.2,1.8), showing the overall return still takes a long path.
-The model excludes trace/via inductance, TVS dynamic behavior, temperature rise, contact
-resistance and source transient impedance. No surge-test or continuous-current rating is claimed.
-SMBJ24A datasheet C7470946 specifies38.9 V maximum clamp at15.2 A,10/1000 us waveform.
-Those component ratings do not establish the assembled PCB surge rating.
+The existing outer-copper-only resistor model does not connect D3 to J2 on
+either the previous 0.20 mm release or this 0.30 mm revision. Internal ground
+paths are omitted by that model. Its failure is not evidence of a newly open
+PCB net, and it provides no valid final-board TVS return resistance estimate.
+The older provisional two-layer resistance estimate must not be used for
+this four-layer board. A full-stack return model and hardware transient
+measurements are needed to establish surge behavior; no surge rating is claimed.
 
-Re-run the return model on the final filled zero-gap board:
-KiCadPython Source/tools/current_path_mesh.py <board> --nets GND --ground-source-ref D3 --ground-sink-ref J2 --output <mesh.json>
-python3 Source/tools/current_path_solve.py <mesh.json> --board <board> --copper-um 35 --current-a 15.2 --report <report.txt>
-Evidence: Assets/review-history/d3-return-copper-provisional-2026-11-11.json.
-Datasheet: Assets/io/C7470946_SMBJ24A.pdf.
+Evidence: Export/current-path-model/tvs-model-scope-check.json and drc.json.
+SMBJ24A manufacturer ratings remain in Assets/io/C7470946_SMBJ24A.pdf.

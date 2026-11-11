@@ -1,12 +1,12 @@
 {
-  "board_sha256": "addd7d033dda781dd301ad4edfb754c7abc086c58657c1940fa5bc8a12fa27a0",
+  "board_sha256": "224b4ee69e5d78e1e79348bdaae38d90fd93466814a1f0d6bfd980a09c630eb7",
   "renderer": "KiCad10.0.7 native raytracer",
   "copper_layers": 4,
   "body_models": "Some custom component bodies are approximate preview models; manufacturer drawings govern enclosure dimensions",
   "views": {
-    "preview-top.png": "6df851d9ad1d66c158ffe0fe8364d59c19232eebe4181c84ad3815d0a761675d",
-    "preview-bottom.png": "8c9f7bc2aa8b6d7f215393456b34aa9edc9c35c95a2ce61abcf1a4725808d924",
-    "preview-centered-input-end.png": "cdabce584c31462a38aaafa6861156b42f184888434ea159b42b7188bf2eab89"
+    "preview-top.png": "9a1ccb8d1b770a42efa90bd467d52cce3b27e0dc8d8cd3cce85423f425ae19de",
+    "preview-bottom.png": "8a61b24a06b2abd887b273101e1e259ae81509edec37e01be9a6b0dcf4a68ad0",
+    "preview-centered-input-end.png": "d001ac2484b5384d37b611b08b6d38a4fdd28644c8dfc59bcfa9b5d59d44dc33"
   },
   "input_connector_centers_board_mm": {
     "J2": [
@@ -18,5 +18,5 @@
       10
     ]
   },
-  "visual_review": "Top, bottom and input end inspected; input terminal and underside USB share y=10mm centerline"
+  "visual_review": "Native top, bottom and input-end renders inspected after the 0.30 mm drill revision. Input terminal and underside USB remain centered at y=10 mm; approximate component bodies remain unchanged."
 }
