@@ -1,7 +1,7 @@
 {
   "revision": "1.0.0",
   "revision_detail": "60 x 20 mm; inputs side by side on top; 0.30 mm drill; aligned library STEP connector models",
-  "generated_at_utc": "2026-11-11T22:04:07.059117+00:00",
+  "generated_at_utc": "2026-11-11T22:07:43.368688+00:00",
   "board_sha256": "a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01",
   "scope": "Fabrication/assembly data for first articles; zero DRC exceptions; hardware not yet production-qualified",
   "minimum_drill_mm": 0.3,
@@ -35,7 +35,7 @@
     "firmware-interface.txt": "616dcf2af8e3ab598b32416ebdcb42102e0fb54388271a83a8f05f699a6ed403",
     "current_path_review.txt": "818ac9b3302fad0c6aa65c61fa0813fb099aff7b281d4df38981aee07a6f88b4",
     "tvs_return_review.txt": "ba382529b4904b0a0681ddce7f126af21640743c1b6b84f5762d92405a16b121",
-    "Validation/preview-centered-input-end.json": "efc60cab7c4715bc7d7f60215f2456266f9e702bdd87d5769a7ae60d14c7ad13",
+    "Validation/preview-centered-input-end.json": "bd99f3cf8629c9b7ac01f41182c267164d041a3280b791a120980d1c6473915b",
     "Validation/via030-release-check.json": "1b830122091e01920eb99acce750b0ca72c2c4db12bf60d4af34ad24436d5c62",
     "current-path-model/current-copper-results.json": "9b0a3f2201cc7baef28f70b37df6bf91e7672af60289e992c0df971039a765ff",
     "current-path-model/usb-copper-results.json": "0d3ad3bf8b10c52de405904826f2ffc5fd00bd597b02f88d8a76722a3f620a11",
@@ -49,7 +49,7 @@
     "current-path-model/tvs-copper-results.json": "73c4e7f2849e021460f1d64caefb47b19986f83c583614600a9a4093294183a1",
     "release_export_review.txt": "dca7e43ab38a0c3a4e400066915ac822b1f8eaf717194ecbb066e3704674830d",
     "paste_verification_review.txt": "431d179533e90b697df423701fcf3f7e51e1ecfdb9488d4faf5b5167b53e1d8c",
-    "preview-isometric-top.png": "b1ef03067bb45547b80d67fe47c365cd2608f7811cbd00ef1360d72904276491",
+    "preview-isometric-top.png": "1c8b35024aa83e35e7cd9f37a48fe342efdfba8b0c0d3c85e867aa1f2b7092f6",
     "preview-isometric-bottom.png": "64f62d72045492023b1f7781c6ddcdab0a50573bf1c3321a316af723067b5202",
     "connector-model-update.json": "c86d055e134e40b87514e04ecdf33168621e1fc101336c0576ce2a05144b7d2d",
     "Validation/connector-model-update.json": "c86d055e134e40b87514e04ecdf33168621e1fc101336c0576ce2a05144b7d2d"
