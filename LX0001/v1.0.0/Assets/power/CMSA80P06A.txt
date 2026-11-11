@@ -1,0 +1,417 @@
+ 
+-60V, 13mΩ typ., -80A P-Channe MOSFET
+ 
+ 
+ 
+ 
+ 
+Symbol 
+Parameter 
+Rating 
+Units 
+VDS 
+Drain-Source Voltage
+-60
+V 
+VGS 
+Gate-Sou ce Voltage 
+±20
+V 
+IDM 
+Pulsed Drain Current
+-240
+A 
+TSTG 
+Storage Temperature Range 
+-55 to 150
+℃
+TJ 
+Operating Junction Temperature Range 
+-55 to 150
+℃
+ 
+Symbol 
+Parameter 
+Typ. 
+Max. 
+Unit 
+RθJA 
+Thermal Resistance Junction-ambient
+--- 
+50
+℃/W
+RθJC
+Thermal Resistance Junction-case
+ 
+--- 
+1.32
+℃/W
+BVDSS 
+RDS(on) max.
+ID 
+-60V
+15mΩ
+-80A
+ 
+General Description 
+Features
+Applications 
+ 
+Absolute Maximum Ratings 
+Thermal Data 
+DFN-8 5x6 Pin Configuration
+Product Summary
+CMSA80P06A
+These P-Channel enhancement mode power 
+field effect transistors use advanced trench 
+technology and design to provide excellent 
+RDS(ON) . This device is suitable for use as 
+a load switch or in PWM applications.
+S
+D
+G
+Low On-Resistance
+100% avalanche tested
+RoHS Compliant
+DC-DC Converters
+Power Management
+Load Switch
+       
+           
+www.cmosfet.com
+Page 1 of  3
+CA05J1
+PD@TC=25℃ 
+Total Power Dissipation
+95
+W
+EAS 
+Single Pulse Avalanche Energy1
+248
+mJ 
+ID
+Continuous Drain Current 
+-80
+A 
+@TC=25℃
+ID
+Continuous Drain Current 
+-56
+A 
+@TC=100℃
+DFN-8 5x6
+S
+S
+S
+G
+D
+D
+D
+D
+Pin 1
+Type
+Package 
+Marking
+ 
+CMSA80P06A
+CMSA80P06A
+DFN-8 5x6
+
+, unless otherwise noted) 
+CMSA80P06A
+ 
+-60V, 13mΩ typ., -80A P-Channe MOSFET
+ 
+ 
+Symbol 
+Parameter 
+Conditions 
+Min. 
+Typ. 
+Max.
+Unit 
+BVDSS 
+Drain-Source Breakdown Voltage 
+VGS=0V , ID=-250uA 
+-60
+--- 
+---
+V 
+VGS=-10V , ID=-28A
+--- 
+13 
+15
+RDS(ON) 
+Static Drain-Source On-Resistance
+VGS=-4.5V , ID=-20A
+--- 
+16 
+23
+mΩ
+VGS(th) 
+Gate Threshold Voltage 
+-1.0
+--- 
+-3.0
+V 
+VGS=VDS , ID =-250uA
+VDS=-60V , VGS=0V , TJ=25℃
+---
+---
+-1
+IDSS 
+Drain-Source Leakage Current 
+uA 
+IGSS 
+Gate-Source Leakage Current 
+VGS = ±20V , VDS=0V 
+--- 
+--- 
+±100
+nA 
+Qg 
+Total Gate Charge 
+--- 
+110 
+---
+Qgs 
+Gate-Source Charge 
+--- 
+20
+--- 
+Qgd 
+Gate-Drain Charge 
+VDD=-30V  
+VGS=-10V
+, ID=-50A
+--- 
+28 
+--- 
+nC 
+Td(on) 
+Turn-On Delay Time 
+--- 
+15
+--- 
+Tr 
+Rise Time 
+--- 
+70 
+--- 
+Td(off) 
+Turn-Off Delay Time 
+--- 
+175 
+--- 
+Tf 
+Fall Time 
+VDD=-30V , VGS=-10V , RL =0.6Ω
+RG =6Ω  , ID=-50A
+--- 
+175
+--- 
+ns 
+Ciss 
+Input Capacitance 
+--- 
+6300
+--- 
+Coss 
+Output Capacitance 
+--- 
+290
+--- 
+Crss 
+Reverse Transfer Capacitance 
+VDS=-25V , VGS=0V , f=1MHz 
+--- 
+240
+--- 
+pF 
+ 
+ 
+Symbol 
+Parameter 
+Conditions 
+Min. 
+Typ. 
+Max.
+Unit 
+IS 
+Continuous Source Current
+--- 
+--- 
+-80
+A 
+ISM 
+Pulsed Source Current
+ 
+VG=VD=0V , Force Current 
+--- 
+--- 
+-240
+A 
+VSD 
+Diode Forward Voltage
+VGS=0V , IF=-28A 
+--- 
+-0.88 
+-1.5
+V 
+Electrical Characteristics (TJ=25℃
+Diode Characteristics 
+ 
+gfs 
+Forward Transconductance 
+VDS=-5V , ID=-10A
+--- 
+24
+--- 
+S 
+Rg
+V
+ 
+e
+c
+n
+a
+tsis
+e
+R
+ 
+e
+t
+a
+G
+DS=0V , VGS=0V , f=1MHz 
+--- 
+46 
+Ω 
+---
+www.cmosfet.com
+Page 2 of  3
+CA05J1
+Note : 
+1.The EAS data shows Max. rating . The test condition is VDD=-30V , VGS=-10V , L=0.5mH , IAS=-31.5A.
+This product has been designed and qualified for the counsumer market.
+Cmos assumes no liability for customers' product design or applications.
+Cmos reserver the right to improve product design ,functions and reliability wihtout notice.
+
+CMSA80P06A
+ 
+-60V, 13mΩ typ., -80A P-Channe MOSFET
+ 
+www.cmosfet.com
+Page 3 of  3
+CA05J1
+ 
+Typical Characteristics
+-ID  (A)
+-VDS , (V)
+On-Region Characteristics
+0
+-80
+-60
+-40
+-20
+0 
+-1
+-2
+-3
+ 
+-4
+0
+0.3
+0.6
+0.9
+1.2
+1.5
+-5
+100
+-ID (A)
+-VGS , (V)
+transfer characteristics
+0
+-80
+-60
+-40
+-20
+-1
+0
+-2
+-3
+-4
+0
+5
+0
+20
+40
+60
+80
+10
+15
+25
+20
+RDS(ON)(mΩ)
+-ID , (A)
+On-Resistance vs. Drain Current
+-Is (A )
+-V   , (V
+ )
+SD
+Body Diode Forward
+ 
+Voltage
+ Variation
+ 
+with
+Source
+ 
+Current and Temperature
+101
+10 2
+0
+2
+4
+8
+6
+10
+0
+20
+40
+60
+80
+100
+120
+Qg , (nc)
+- V   (V)
+GS
+Gate Charge
+ 
+Characteristics
+8000
+6000
+4000
+2000
+0
+Capacitance (pF)
+Capacitance Characteristics
+0
+10
+20
+30
+- V   , (V )
+DS
+VGS= -3V
+-10V thru -4.5V
+25℃
+125℃
+VGS=-4.5V 
+VGS=-10V 
+I D = -50A
+VDS= -30V
+150℃
+25℃
+Ciss
+Coss
+Crss

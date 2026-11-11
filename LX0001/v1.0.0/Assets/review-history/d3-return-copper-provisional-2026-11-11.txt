@@ -1,0 +1,16 @@
+LX0001 copper-only DC estimate
+
+Board: /private/tmp/lx0001-d3-wide-final.kicad_pcb
+SHA256: 1457ed2533e2072d110fe93b1e9de0e46e698cfd5e834d2a9fb54c8e8c3be998
+Grid: 0.1mm; copper resistivity: 1.724e-08ohm-m at20°C
+Via model: 1.6mm barrel, 20.0µm wall, actual drill diameter
+Saved filled polygons, tracks and pads; ideal equipotential terminal pads.
+Excludes connectors, solder, fuse element, MOSFET resistance and regulator losses.
+Grid discretization can miss narrow features. No thermal or current-rating claim.
+
+GND          35µm:  61.7002mΩ,  950.184mV, 14.63283W at15.4A; residual9.7e-08
+
+SUM 35µm: 61.7002mΩ, 950.184mV, 14.63283W
+
+Re-extract after any routing, footprint, via or zone-fill change.
+This report does not establish continuous current capability or safe fault behavior.

@@ -1,0 +1,30 @@
+{
+  "status": "experimental_not_selected_for_main",
+  "baseline": "/tmp/lx0001-centered-base.kicad_pcb",
+  "dsn": "/tmp/lx0001-areas-union.dsn",
+  "ses": "/tmp/lx0001-areas-obstacles.ses",
+  "jar_sha256": "eb4b37247711117e6a275bfce2b84b388166fcd26851a60cb43fb644516ccda0",
+  "properties": {
+    "lx0001.areaObstacles": true,
+    "lx0001.skipCleanupPullTight": true
+  },
+  "arguments": [
+    "--gui.enabled=false",
+    "-da",
+    "-mp20",
+    "-mt1",
+    "--router.optimizer.enabled=false",
+    "-inc",
+    "heavy,critical"
+  ],
+  "router_error_count": 0,
+  "original_unique_items": 428,
+  "missing_original_items": 0,
+  "kicad_unconnected": 57,
+  "kicad_violations": {
+    "pth_inside_courtyard": 4,
+    "track_dangling": 1
+  },
+  "antenna_router_keepout": "Not yet present in this run; added to exporter afterward. Main custom rule included in private DRC.",
+  "cli_note": "Concatenated -mp20 and -mt1 were ignored by the upstream CLI; this run converged normally after 18 passes. Correct syntax for subsequent runs is -mp 20 -mt 1."
+}

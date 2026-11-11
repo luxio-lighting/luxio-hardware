@@ -1,0 +1,30 @@
+NOT FOR FABRICATION — routing checkpoint
+
+Source/LX0001.kicad_pcb now contains the consolidated USB, power, feedback, flash and GPIO routing. The centered connector geometry is preserved.
+
+329 pin assignments match the schematic and parts table. All212 vias pass the independent0.10mm drill/paste clearance check. There are34 open connections:30 signal/supply connections and4 ground gaps. Native DRC remains required after each edit. No production Gerbers were released.
+
+Remaining connections by net:
+{
+  "GND": 4,
+  "+3V3": 4,
+  "USB_ILIM": 1,
+  "DC_VCAP": 1,
+  "DC_FUSED": 2,
+  "VBUS_SENSE": 1,
+  "DC_SENSE_B": 2,
+  "USB_ENABLE": 2,
+  "DC_SENSE_R": 2,
+  "VSYS": 3,
+  "ESP_EN": 1,
+  "BOOT": 1,
+  "CC1": 2,
+  "CC1_SENSE": 2,
+  "USB_STRIP_EN": 1,
+  "USB_HIGH_CURRENT": 1,
+  "CC2": 2,
+  "USB_VCAP": 1,
+  "USB_GATE": 1
+}
+
+The four ground gaps involve C104, C4, R2 and the U10/U6 ground island. Local escape or placement changes are required. The previous routing checkpoint is archived in Export/Validation/previous-routing. Reject /tmp/lx0001-routine-flexible variants: the unvalidated CC connector experiment introduced conflicts and was not adopted. Broad rerouting cycled between BOOT and3V3 and was discarded.

@@ -1,0 +1,426 @@
+MMBT5551
+Product specification
+
+MMBT5551
+www.msksemi.com
+Copyright© Msksemi Incorporated
+PACKAGE OUTLINE
+MARKING
+SOT-23
+Reference News
+TRANSISTOR (NPN)
+FEATURES
+
+Complementary to MMBT5401
+
+Ideal for Medium Power Amplification and
+Switching
+MAXIMUM RATINGS (Ta=25℃unless otherwise noted)
+Symbol
+Parameter
+Value
+Unit
+VCBO
+Collector-Base Voltage
+180
+V
+VCEO
+Collector-Emitter Voltage
+160
+V
+VEBO
+Emitter-Base Voltage
+6
+V
+IC
+Collector Current
+600
+mA
+PC
+Collector Power Dissipation
+300
+mW
+R。JA
+Thermal Resistance From Junction To Ambient
+416
+℃/W
+Tj
+Junction Temperature
+150
+℃
+Tstg
+Storage Temperature
+-55～+150
+℃
+ELECTRICAL CHARACTERISTICS (Ta=25℃unless otherwise specified)
+Parameter
+Symbol
+Test conditions
+Min
+Typ
+Max
+Unit
+Collector-base breakdown voltage
+V(BR)CBO
+IC=100µA, IE=0
+180
+V
+Collector-emitter breakdown voltage
+*
+V(BR)CEO
+IC=1mA, IB=0
+160
+V
+Emitter-base breakdown voltage
+V(BR)EBO
+IE=10µA, IC=0
+6
+V
+Collector cut-off current
+ICBO
+VCB=120V, IE=0
+50
+nA
+Emitter cut-off current
+IEBO
+VEB=4V, IC=0
+50
+nA
+DC current gain
+*
+hFE(1)
+VCE=5V, IC=1mA
+80
+*
+hFE(2)
+VCE=5V, IC=10mA
+100
+300
+*
+hFE(3)
+VCE=5V, IC=50mA
+50
+Collector-emitter saturation voltage
+*
+VCE(sat)1
+IC=10mA, IB=1mA
+0.15
+V
+*
+VCE(sat)2
+IC=50mA, IB=5mA
+0.2
+V
+Base-emitter saturation voltage
+*
+VBE(sat)1
+IC=10mA, IB=1mA
+1
+V
+*
+VBE(sat)2
+IC=50mA, IB=5mA
+1
+V
+Transition frequency
+fT
+VCE=10V,IC=10mA, f=100MHz
+100
+300
+MHz
+Collector output capacitance
+Cob
+VCB=10V, IE=0, f=1MHz
+6
+pF
+*Pulse test: pulse width ≤300μs, duty cycle≤2.0%.
+CLASSIFICATION OF hFE (2)
+RANK
+L
+H
+RANGE
+100-200
+200-300
+G1
+1. BASE
+2. EMITTER
+3.COLLECTOR
+
+MMBT5551
+www.msksemi.com
+Copyright© Msksemi Incorporated
+0.1
+10
+1
+10
+100
+0.2
+0.4
+0.6
+0.8
+1.0
+1
+10
+100
+1
+10
+100
+1
+10
+100
+10
+100
+0
+25
+50
+75
+100
+125
+150
+0.0
+0.1
+0.2
+0.3
+0.4
+0
+2
+4
+6
+8
+10
+12
+0
+3
+6
+9
+12
+15
+18
+0.1
+1
+10
+100
+0.2
+0.4
+0.6
+0.8
+1.0
+1
+10
+100
+0.01
+0.1
+f=1MHz
+IE=0 / IC=0
+Ta=25℃
+ CAPACITANCE    C    (pF)
+1
+REVERSE  VOLTAGE    V    (V)
+Cob
+Cib
+Cob /  Cib    ——
+VCB /  VEB
+VBE    ——     IC
+COLLECTOR CURRENT      IC (mA)
+BASE-EMITTER VOLTAGE      VBE(V)
+Ta=25℃
+Ta=100℃
+VCE=10V
+Ta=25℃
+COLLECTOR CURRENT    IC     (mA)
+TRANSITION FREQUENCY    fT    (MHz)
+fT    ——
+IC
+COMMON EMITTER
+VCE=5V
+COLLECTOR CURRENT    IC    
+Typical Characteristics
+(mA)
+DC CURRENT GAIN    hFE
+Ta=25℃
+Ta=100℃
+COMMON EMITTER
+VCE=5V
+hFE  ——
+IC
+COLLECTOR POWER DISSIPATION
+        PC    (W)
+AMBIENT TEMPERATURE    Ta    (
+)
+℃
+PC    ——    Ta
+COMMON
+EMITTER
+Ta=25℃
+   40uA 
+   50uA   
+  70uA      
+     90uA          
+    80uA       
+   60uA    
+    30uA
+  IB=20uA 
+COLLECTOR-EMITTER VOLTAGE    VCE    (V)
+COLLECTOR CURRENT    IC    (mA)
+Static Characteristic
+β=10
+Ta=100℃
+Ta=25℃
+COLLECTOR CURRENT    IC    (mA)
+BASE-EMITTER SATURATION
+VOLTAGE    VBEsat    (V)
+IC
+VBEsat  ——
+0.3
+200
+200
+200
+3
+150
+50
+30
+20
+20
+200
+500
+COLLECTOR CURRENT    IC    (mA)
+β=10
+COLLECTOR-EMITTER SATURATION
+VOLTAGE    VCEsat    (V)
+Ta=25℃
+Ta=100℃
+VCEsat   ——    IC
+B
+
+MMBT5551
+www.msksemi.com
+Copyright© Msksemi Incorporated
+P/N
+PKG
+QTY
+MMBT5551
+SOT-23
+3000
+REEL SPECIFICATION
+PACKAGE MECHANICAL DATA
+Min
+Max
+Min
+Max
+A
+0.900
+1.150
+0.035
+0.045
+A1
+0.000
+0.100
+0.000
+0.004
+A2
+0.900
+1.050
+0.035
+0.041
+b
+0.300
+0.500
+0.012
+0.020
+c
+0.080
+0.150
+0.003
+0.006
+D
+2.800
+3.000
+0.110
+0.118
+E
+1.200
+1.400
+0.047
+0.055
+E1
+2.250
+2.550
+0.089
+0.100
+e
+e1
+1.800
+2.000
+0.071
+0.079
+L
+L1
+0.300
+0.500
+0.012
+0.020
+θ
+0°
+8°
+0°
+8°
+0.550 REF
+0.022 REF
+Symbol
+Dimensions In Inches
+Dimensions In Millimeters
+0.950 TYP
+0.037 TYP
+Suggested Pad Layout
+
+MMBT5551
+www.msksemi.com
+Copyright© Msksemi Incorporated
+Attention
+■
+Any and all MSKSEMI Semiconductor products described or contained herein do not
+have specifications
+that can
+handle applications that require extremely high levels of reliability, such as life-support
+systems, aircraft's control systems, or
+other applications whose failure can be reasonably expected to result in serious physical and/or material damage. Consult with
+your MSKSEMI Semiconductor representative
+nearest
+you before using any MSKSEMI Semiconductor products described
+or contained herein in such applications.
+■MSKSEMI Semiconductor assumes no responsibility for equipment failures that result from using products
+at values that
+exceed, even momentarily, rated values (such as maximum ratings, operating condition ranges, or other parameters) listed in
+products specificationsof any andall MSKSEMI Semiconductor products described orcontained herein.
+■Specifications of any and all MSKSEMI Semiconductor products described or contained herein stipulate the
+performance, characteristics, and functions of the described products in the independent state, and are not guarantees of the
+performance, characteristics, and functions of the described products as mounted in the customer’s products or equipment. To
+verify symptoms and states that cannot be evaluated in an independent device, the customer should always evaluate and test
+devices mounted in the customer’sproducts orequipment.
+■
+MSKSEMI Semiconductor. strives to supply high-quality high-reliability products. However, any and all semiconductor
+products fail with someprobability. It is possiblethat these probabilistic failures could give rise to accidents or events that could
+endanger human lives, that could give rise to smoke or fire, or that could cause damage to other property. When designing
+equipment, adopt safety measures so that these kinds of accidents
+or events cannot occur. Such measures include but are
+not limited to protective circuits anderror prevention circuitsfor safedesign, redundant design, and structural design.
+■In the event that any or all MSKSEMI Semiconductor products(including technical data, services) described
+or contained
+herein are controlled under any of applicable local export control laws and regulations, such products must not be exported
+without obtaining the export license from theauthorities
+concerned
+in
+accordance with the above law.
+■
+No part of this publication may be reproduced or transmitted in any form or by any means, electronic or
+mechanical, including photocopying and recording, or any information storage or retrieval system, or otherwise, without the prior
+written permission of MSKSEMI Semiconductor.
+■
+Information (including circuit diagrams and circuit parameters) herein is for example only ; it is not guaranteed for volume
+production. MSKSEMI Semiconductor believes information herein is accurate and
+reliable, but no guarantees are made or
+implied regarding its use or any infringementsof intellectual property rights or other rightsof third parties.
+■
+Any and all information described or contained herein are subject to change without notice due to
+product/technology improvement, etc. Whendesigning equipment, referto the "Delivery Specification" for the MSKSEMI
+Semiconductor productthat you intend to use.

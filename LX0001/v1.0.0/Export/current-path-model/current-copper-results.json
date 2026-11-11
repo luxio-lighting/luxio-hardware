@@ -1,0 +1,788 @@
+{
+  "power_source": "wired",
+  "board_path": "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_pcb",
+  "board_sha256": "addd7d033dda781dd301ad4edfb754c7abc086c58657c1940fa5bc8a12fa27a0",
+  "mesh_sha256": "93aa16be17d502baeadb1138085f54a0a1f60e492955f937ce5e51727a7dd103",
+  "solver_sha256": "56c827748c50460a35f88636ed4137f2c3f617abaec976e0950daec417f2ea40",
+  "resolution_mm": 0.1,
+  "current_a": 5.0,
+  "copper_um": [
+    35.0
+  ],
+  "resistivity_ohm_m": 1.724e-08,
+  "board_thickness_mm": 1.6,
+  "via_plating_um": 20.0,
+  "segments": {
+    "DC_IN": {
+      "connected": true,
+      "source_ref": "J2",
+      "sink_ref": "F1",
+      "reached_sink_cells": 288,
+      "total_sink_cells": 288,
+      "results": [
+        {
+          "copper_um": 35.0,
+          "resistance_mohm": 1.5028380492444797,
+          "drop_mv": 7.514190246222398,
+          "loss_w": 0.03757095123111199,
+          "iterations": 196,
+          "residual": 7.960430061482013e-08,
+          "converged": true,
+          "via_currents": []
+        }
+      ]
+    },
+    "DC_FUSED": {
+      "connected": true,
+      "source_ref": "F1",
+      "sink_ref": "Q1",
+      "reached_sink_cells": 96,
+      "total_sink_cells": 96,
+      "results": [
+        {
+          "copper_um": 35.0,
+          "resistance_mohm": 0.2025758039988662,
+          "drop_mv": 1.012879019994331,
+          "loss_w": 0.005064395099971655,
+          "iterations": 191,
+          "residual": 9.33182832271805e-08,
+          "converged": true,
+          "via_currents": [
+            {
+              "x_mm": 17.8,
+              "y_mm": 17.95,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "45bc5e1b-3040-455f-aca2-cef7211849ca",
+              "current_a": 2.0579388355333176e-10
+            },
+            {
+              "x_mm": 29.1,
+              "y_mm": 17.1,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "b6492cca-4052-4c95-9c10-9e8ee2df724a",
+              "current_a": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    "VSYS": {
+      "connected": true,
+      "source_ref": "Q1",
+      "sink_ref": "Q6",
+      "reached_sink_cells": 200,
+      "total_sink_cells": 200,
+      "results": [
+        {
+          "copper_um": 35.0,
+          "resistance_mohm": 2.1873803830390783,
+          "drop_mv": 10.936901915195392,
+          "loss_w": 0.05468450957597696,
+          "iterations": 827,
+          "residual": 9.594739232444779e-08,
+          "converged": true,
+          "via_currents": [
+            {
+              "x_mm": 33.2,
+              "y_mm": 19.15,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "2eb54a91-e827-4932-8997-e23accdc91bb",
+              "current_a": 0.27115204602597315
+            },
+            {
+              "x_mm": 33.9,
+              "y_mm": 19.15,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "36b306c8-1f12-49b3-88e8-4fd5d11f9208",
+              "current_a": 0.33555004938642496
+            },
+            {
+              "x_mm": 31.1,
+              "y_mm": 19.25,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "3f47275d-481c-439b-927a-f3f946c0af50",
+              "current_a": 0.16343522937655125
+            },
+            {
+              "x_mm": 12.1,
+              "y_mm": 15.9,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "4fdcb1c3-bebc-4bf7-a23b-cf0db1ef2387",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 23.8,
+              "y_mm": 19.15,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "5abe30e3-9223-4973-8c60-e2af7338317d",
+              "current_a": 0.5242273764739248
+            },
+            {
+              "x_mm": 24.5,
+              "y_mm": 19.15,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "69d6dd6e-61cf-4481-b360-8d1db4c4a9ac",
+              "current_a": 0.3246716617728429
+            },
+            {
+              "x_mm": 32.5,
+              "y_mm": 19.25,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "745cd72a-879c-431a-9087-4bed9eb4c87b",
+              "current_a": 0.19753977061890557
+            },
+            {
+              "x_mm": 25.2,
+              "y_mm": 19.15,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "92ac6d94-c7e2-4a11-b1be-184850eaf13c",
+              "current_a": 0.18929095432350834
+            },
+            {
+              "x_mm": 25.7,
+              "y_mm": 19.05,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "b0a7c001-e57a-5f42-8615-c6de794eda77",
+              "current_a": 0.09698861158682522
+            },
+            {
+              "x_mm": 26.5,
+              "y_mm": 17.6,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "b0a7c001-eb3d-5b61-8640-731743d8b538",
+              "current_a": 2.034569517102903e-08
+            },
+            {
+              "x_mm": 34.45,
+              "y_mm": 12.9,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "cbde25a2-bbbd-4bf4-8afa-989562918b08",
+              "current_a": 1.1745112526798749e-07
+            },
+            {
+              "x_mm": 31.8,
+              "y_mm": 19.25,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "f7df167e-c5f7-40e8-8d55-0fec461bbd81",
+              "current_a": 0.1675014089572945
+            }
+          ]
+        }
+      ]
+    },
+    "LED_VCC": {
+      "connected": true,
+      "source_ref": "Q6",
+      "sink_ref": "J4",
+      "reached_sink_cells": 2037,
+      "total_sink_cells": 2037,
+      "results": [
+        {
+          "copper_um": 35.0,
+          "resistance_mohm": 0.7777862913452704,
+          "drop_mv": 3.888931456726352,
+          "loss_w": 0.01944465728363176,
+          "iterations": 396,
+          "residual": 9.171162601623647e-08,
+          "converged": true,
+          "via_currents": []
+        }
+      ]
+    },
+    "GND": {
+      "connected": true,
+      "source_ref": "J3",
+      "sink_ref": "J2",
+      "reached_sink_cells": 1940,
+      "total_sink_cells": 1940,
+      "results": [
+        {
+          "copper_um": 35.0,
+          "resistance_mohm": 16.212359626331374,
+          "drop_mv": 81.06179813165687,
+          "loss_w": 0.40530899065828435,
+          "iterations": 5597,
+          "residual": 9.884096376873483e-08,
+          "converged": true,
+          "via_currents": [
+            {
+              "x_mm": 19.65,
+              "y_mm": 8.6,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "02aed3ed-440e-4343-8bc0-633026d0a568",
+              "current_a": 0.0012467330508905096
+            },
+            {
+              "x_mm": 19.65,
+              "y_mm": 10.0,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "05099a44-bdb2-4c8a-a6fb-fd7ac5caf883",
+              "current_a": 0.0006991916097995375
+            },
+            {
+              "x_mm": 55.6,
+              "y_mm": 14.0,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "093827ae-2e39-4e3c-9900-ce4de69ca032",
+              "current_a": 2.7321962234872504e-06
+            },
+            {
+              "x_mm": 39.8,
+              "y_mm": 7.6,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "0c5bb2de-28c8-494d-8594-4e71994263d6",
+              "current_a": 6.588876439350009e-06
+            },
+            {
+              "x_mm": 24.75,
+              "y_mm": 10.0,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "0ff158bd-a25c-4fd9-87e8-a91bee4b3c6b",
+              "current_a": 1.7061850009632144e-05
+            },
+            {
+              "x_mm": 42.0,
+              "y_mm": 11.0,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "117d5c53-6905-4842-b9ae-dae6d821f07f",
+              "current_a": 9.213647553473848e-07
+            },
+            {
+              "x_mm": 34.95,
+              "y_mm": 3.6,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "1bb3c8a2-6665-4fed-aa8a-d5a2aba12203",
+              "current_a": 3.95689360331009e-06
+            },
+            {
+              "x_mm": 34.8,
+              "y_mm": 7.0,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "20a23956-a183-465f-abf5-a4bb4525f983",
+              "current_a": 1.1723507562863105e-07
+            },
+            {
+              "x_mm": 13.85,
+              "y_mm": 5.6,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "22f95f2a-2302-4b4a-b87a-34af83be2fbe",
+              "current_a": 0.9321248143689751
+            },
+            {
+              "x_mm": 33.6,
+              "y_mm": 13.0,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "2b72002e-517a-4293-803a-b1dc7c08c2c8",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 35.65,
+              "y_mm": 10.5,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "2f828c97-c804-441f-9602-786bea25c8ab",
+              "current_a": 6.134179321229128e-07
+            },
+            {
+              "x_mm": 53.0,
+              "y_mm": 11.0,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "3210a332-cb3b-4ab7-a097-f7b07745eff0",
+              "current_a": 9.796222199497583e-07
+            },
+            {
+              "x_mm": 22.6,
+              "y_mm": 4.099999,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "4c047e32-d42f-4dd4-a80b-ec4ff64b290e",
+              "current_a": 1.2659311962809574e-05
+            },
+            {
+              "x_mm": 19.65,
+              "y_mm": 11.4,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "52a9eeb9-1a29-441c-979b-10eb1e719a4e",
+              "current_a": 0.0005458399133782591
+            },
+            {
+              "x_mm": 41.6,
+              "y_mm": 8.85,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "5506ee98-1abd-4552-9be4-172b432fbb28",
+              "current_a": 3.258835241366128e-06
+            },
+            {
+              "x_mm": 56.25,
+              "y_mm": 10.25,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "5be02564-9d6a-4786-87de-6665d9a2dd40",
+              "current_a": 2.241774886060218e-06
+            },
+            {
+              "x_mm": 17.31,
+              "y_mm": 7.72,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "5ea8029f-b795-4cfd-abff-80d6b12470cb",
+              "current_a": 7.616257926953462e-07
+            },
+            {
+              "x_mm": 23.2,
+              "y_mm": 7.55,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "63c01239-9f60-4ef1-a4ad-b7d7817f69b3",
+              "current_a": 5.267692945695143e-06
+            },
+            {
+              "x_mm": 13.85,
+              "y_mm": 4.2,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "6c1d0682-0987-41f8-9d1a-7a99591287b0",
+              "current_a": 0.8998846523680389
+            },
+            {
+              "x_mm": 24.9,
+              "y_mm": 1.11,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "6c99d7fe-0838-4f9c-a7ca-4ea30ea60784",
+              "current_a": 1.0483000668374731
+            },
+            {
+              "x_mm": 9.0,
+              "y_mm": 5.8,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "6cf044b0-27d8-4600-bbc6-33eeaf96b23a",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 55.25,
+              "y_mm": 9.55,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "6d6e0090-0000-4000-8000-000000000003",
+              "current_a": 1.8362498800112702e-06
+            },
+            {
+              "x_mm": 24.75,
+              "y_mm": 11.4,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "6f9e7968-e3d2-4f67-b06f-be114b8ca60b",
+              "current_a": 2.5101884269772963e-06
+            },
+            {
+              "x_mm": 43.5,
+              "y_mm": 17.9,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "6fa75130-e4f4-45d5-b056-5cfe1c37384d",
+              "current_a": 1.4428740941135937e-06
+            },
+            {
+              "x_mm": 45.6,
+              "y_mm": 13.8,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "70951e17-b43f-4d59-bbe6-b69587783113",
+              "current_a": 1.0993446227807678e-05
+            },
+            {
+              "x_mm": 28.0,
+              "y_mm": 3.25,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "8135a219-7e13-42d7-a524-2335ca799d79",
+              "current_a": 1.234562960746719e-06
+            },
+            {
+              "x_mm": 51.2,
+              "y_mm": 1.8,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "820589dd-da5c-4b4c-b65f-850694a71ff1",
+              "current_a": 8.288108618840587e-07
+            },
+            {
+              "x_mm": 26.5684,
+              "y_mm": 8.097899,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "83706966-9ef0-4f56-9f62-81194b89568a",
+              "current_a": 1.292833633107908e-05
+            },
+            {
+              "x_mm": 25.36,
+              "y_mm": 5.36,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "89ff34ee-28fb-4d9b-a3a1-78487ab2281d",
+              "current_a": 4.434782197271681e-06
+            },
+            {
+              "x_mm": 45.2,
+              "y_mm": 4.9,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "8c5ec96d-6004-4d6b-8f06-edfc0f8efdb3",
+              "current_a": 0.8260814914027834
+            },
+            {
+              "x_mm": 45.2,
+              "y_mm": 4.2,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "91307e10-b176-42e4-93f4-8595d42637d6",
+              "current_a": 1.0218212696091842
+            },
+            {
+              "x_mm": 18.9,
+              "y_mm": 13.6,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "95dc31de-7f8d-4c7c-926e-5bb8d4f2f72d",
+              "current_a": 1.662906432324144e-06
+            },
+            {
+              "x_mm": 39.1,
+              "y_mm": 13.3,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "9a46064d-7820-4123-88eb-fc8b3ed366b9",
+              "current_a": 1.7801561059448081e-06
+            },
+            {
+              "x_mm": 37.8,
+              "y_mm": 2.1,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "9eebc311-0330-4ddb-b552-ccf69bc21ac1",
+              "current_a": 1.3243178034982475e-06
+            },
+            {
+              "x_mm": 45.2,
+              "y_mm": 3.5,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "a0f94472-3c63-483f-931d-4121431f3c81",
+              "current_a": 1.3924090047242639
+            },
+            {
+              "x_mm": 31.8,
+              "y_mm": 11.99,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "a24dc001-ff0b-5c96-981c-15a4dd609625",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 24.75,
+              "y_mm": 8.6,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "a5827c90-d1f6-4979-973b-ce8f0dcde303",
+              "current_a": 1.300421740324311e-05
+            },
+            {
+              "x_mm": 21.6,
+              "y_mm": 9.3,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "a72b5bb8-c151-456a-9909-08656c470ca6",
+              "current_a": 3.464560854837433e-05
+            },
+            {
+              "x_mm": 15.0,
+              "y_mm": 12.0,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "a7641425-79bc-44b5-93db-7b8b8d4b7373",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 22.2,
+              "y_mm": 12.55,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "ab01303e-b46e-42c0-81d2-964305cdd2ee",
+              "current_a": 2.9711161073376556e-06
+            },
+            {
+              "x_mm": 56.6,
+              "y_mm": 14.0,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "ad048399-f4a9-4bb8-a229-f6461439a622",
+              "current_a": 1.2364927603336475e-06
+            },
+            {
+              "x_mm": 19.05,
+              "y_mm": 2.4,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "b01cf3c0-b178-4a11-99ce-27f0543d8a7d",
+              "current_a": 0.6509718632349821
+            },
+            {
+              "x_mm": 16.7,
+              "y_mm": 9.5,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "b330edd5-eec6-407b-955a-f09f516efaf2",
+              "current_a": 0.010022088253374183
+            },
+            {
+              "x_mm": 35.65,
+              "y_mm": 11.1,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "b9e613d6-88de-4b47-b4fe-79d27ce83e2c",
+              "current_a": 8.097735706690143e-07
+            },
+            {
+              "x_mm": 45.2,
+              "y_mm": 2.8,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "bc612c59-36d3-441a-9f2f-a8ecebf88433",
+              "current_a": 1.759686229594461
+            },
+            {
+              "x_mm": 17.8,
+              "y_mm": 16.75,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "bc706112-a473-47be-9a92-86f66a8a0e9b",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 13.85,
+              "y_mm": 6.3,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "bcf21c46-3281-47d2-8684-3d871681f7fd",
+              "current_a": 1.1383135283928119
+            },
+            {
+              "x_mm": 33.8,
+              "y_mm": 5.35,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "bd3a7f9d-22e0-4a97-8e2b-7cd23a5f3e5d",
+              "current_a": 3.041761265713662e-06
+            },
+            {
+              "x_mm": 27.2,
+              "y_mm": 4.2,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "c0a7a6d0-af46-5747-a4d8-2bacd47b1429",
+              "current_a": 4.197565619454156e-06
+            },
+            {
+              "x_mm": 16.149999,
+              "y_mm": 9.45,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "c0a7a6d1-94ef-52ac-ac5d-851d678d3770",
+              "current_a": 0.0100203392800858
+            },
+            {
+              "x_mm": 20.7,
+              "y_mm": 0.65,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "c55940e4-aa71-42fb-b441-5acd813474f8",
+              "current_a": 0.0820324549348898
+            },
+            {
+              "x_mm": 51.0,
+              "y_mm": 4.8,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "c64dc4ea-df63-412e-833c-f366a8d4797c",
+              "current_a": 7.63675579795202e-08
+            },
+            {
+              "x_mm": 20.6,
+              "y_mm": 14.2,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "c8ea6f51-e908-4c6f-8f32-72057cef7fd0",
+              "current_a": 1.1784916043882092e-06
+            },
+            {
+              "x_mm": 11.2,
+              "y_mm": 15.0,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "c94c7ba3-208a-4e28-81db-8da23241a864",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 29.4,
+              "y_mm": 14.4,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "d5a3052f-ee9e-4ce1-9a97-5c25c5f26706",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 31.4,
+              "y_mm": 3.8,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "d7aa4ec5-c53e-4372-9f60-6d71178e2520",
+              "current_a": 7.241152655368275e-06
+            },
+            {
+              "x_mm": 40.825,
+              "y_mm": 13.35,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "d99c6327-ca91-4e92-99fb-76a097ebc4d8",
+              "current_a": 4.328865375638611e-06
+            },
+            {
+              "x_mm": 14.6,
+              "y_mm": 7.72,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "e3adb231-c769-440b-a8ef-5fd116204474",
+              "current_a": 1.160291333538171
+            },
+            {
+              "x_mm": 10.0,
+              "y_mm": 0.65,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "e7967f87-49db-4492-afcf-10cc0c130ed1",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 18.8,
+              "y_mm": 6.2,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "e960dc62-37c2-42d3-8d9c-e98e7ccc7b98",
+              "current_a": 2.048107080798458e-06
+            },
+            {
+              "x_mm": 28.2,
+              "y_mm": 14.2,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "ec058c57-21d7-47cd-91fb-7bdffe5722c8",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 28.85,
+              "y_mm": 6.5,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "ef212194-8464-43d8-b2e0-7e2616dc314f",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 13.85,
+              "y_mm": 4.9,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "f08231a4-466a-4530-b814-31c95b64c74c",
+              "current_a": 0.8693805214075092
+            },
+            {
+              "x_mm": 5.1,
+              "y_mm": 3.6,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "f37d919f-71b7-4443-898e-310a7d483a67",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 19.0,
+              "y_mm": 1.024999,
+              "drill_mm": 0.2,
+              "kind": "routing_via",
+              "uuid": "fc6ce6aa-879d-4966-812f-9086b6c0fac2",
+              "current_a": 0.3153008838643097
+            },
+            {
+              "x_mm": 1.6,
+              "y_mm": 14.32,
+              "drill_mm": 1.3639437268410979,
+              "kind": "plated_component_hole",
+              "uuid": "ccb5f338-8394-4234-b47a-03bc945614a4",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 5.6,
+              "y_mm": 14.32,
+              "drill_mm": 1.109295817894065,
+              "kind": "plated_component_hole",
+              "uuid": "69827bae-4e84-45d8-96ae-5b9148f7316f",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 1.6,
+              "y_mm": 5.68,
+              "drill_mm": 1.3639437268410979,
+              "kind": "plated_component_hole",
+              "uuid": "da3706f1-1c76-4f76-b6fd-a6ef70853b5c",
+              "current_a": 0.0
+            },
+            {
+              "x_mm": 5.6,
+              "y_mm": 5.68,
+              "drill_mm": 1.109295817894065,
+              "kind": "plated_component_hole",
+              "uuid": "2358804b-1820-460b-84a1-53b629ad324b",
+              "current_a": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "totals": [
+    {
+      "copper_um": 35.0,
+      "resistance_mohm": 20.88294015395907,
+      "drop_mv": 104.41470076979535,
+      "loss_w": 0.5220735038489768
+    }
+  ],
+  "successful": true
+}

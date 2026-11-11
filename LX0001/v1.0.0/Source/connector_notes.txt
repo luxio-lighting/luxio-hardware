@@ -1,0 +1,72 @@
+HDGC 2060-452-HDGC / LCSC C55251566
+=================================
+
+Verified 2026-11-11 against the exact part's manufacturer drawing supplied by
+LCSC, revision A0, dated 2019-10-16, drawing code A009. The PDF drawing title
+names 2060-452-HDGC; its family ordering text names HDGC4001SMD-S-XP.
+
+Supplier:
+https://www.lcsc.com/product-detail/C55251566.html
+Requested JLCPCB part:
+https://jlcpcb.com/partdetail/HDGC-2060_452HDGC/C55251566
+Datasheet entry:
+https://www.lcsc.com/datasheet/C55251566.pdf
+Direct manufacturer PDF obtained through that entry:
+https://datasheet.lcsc.com/datasheet/pdf/7edcae0f97d748745bb64aa3a645f62b.pdf
+
+Local evidence:
+../Assets/connectors/HDGC_2060_452_C55251566.pdf
+../Assets/connectors/HDGC_2060_452_C55251566_drawing.png
+The PNG is a rendered copy of the complete manufacturer drawing.
+
+Dimensioned manufacturer data (mm):
+- 2 circuits; 4.00 pitch (A=4.00 +/-0.20, pin pitch +/-0.10).
+- Body width B=7.90 +/-0.25, body length 11.50 +/-0.25.
+- Maximum nominal body height 4.50 +/-0.25 above board.
+- Rear metal contact projects 1.60 beyond body.
+- Recommended PCB lands: two 2.00 x 3.50 rear lands, two 2.00 x 6.00
+  front lands, with a 4.50 gap between facing front/rear land edges.
+- Therefore the corresponding front/rear land center spacing is 9.25,
+  and the overall copper length is 14.00.
+- Manufacturer rating: 9 A AC/DC, 320 V AC/DC, -25 C to +85 C,
+  contact resistance 20 milliohm maximum. The connector rating alone
+  does not establish the assembled PCB's continuous current rating.
+
+Footprint: LX0001:HDGC_2060_452
+Coordinates use KiCad's top view, zero rotation, with +Y down the page:
+- Origin is nominal plastic body center.
+- Wire entry points toward +Y; rear projecting solder tails face -Y.
+- Pin 1 is the left circuit (x=-2.00), pin 2 the right (x=+2.00).
+  These are assigned circuit numbers: the unpolarized manufacturer's
+  drawing does not label pin numbers. Each circuit has two same-number pads.
+- Rear pads: x=+/-2.00, y=-6.10, size 2.00 x 3.50.
+- Front pads: x=+/-2.00, y=+3.15, size 2.00 x 6.00.
+- Copper extent: x=-3.00 to +3.00, y=-7.85 to +6.15.
+- Nominal body: x=-3.95 to +3.95, y=-5.75 to +5.75.
+- Courtyard: x=-4.25 to +4.25, y=-8.10 to +6.40.
+- F.Fab WIRE text labels the entry end. Pin-1 chamfer is a CAD convention.
+- Rear and front pads of each pin must receive the same net. Prefer copper
+  connections to both lands; do not rely on the terminal to bridge a PCB rail.
+- A simplified local 3D preview model is attached. Its housing envelope
+  follows the drawing; cosmetic details are approximate. See
+  libraries/models/README.txt. It is not a manufacturer enclosure model.
+
+Drawing registration limitation:
+Pad sizes, X pitch, and Y gap are explicitly dimensioned. The manufacturer
+does not numerically dimension the body-to-land longitudinal offset. The
+body/F.Fab and origin position relative to the dimensioned lands follow
+the drawing scale (rear pad center 0.35 mm behind the rear body edge).
+This affects fabrication outline/placement origin registration, not the
+dimensioned copper land geometry. Confirm the final assembly orientation
+and placement center against JLCPCB's component model before release.
+
+Placement implications:
+- Two output bodies side by side occupy 15.80 mm nominal width without gap.
+- Our courtyards require at least 8.50 mm between adjacent footprint origins;
+  this yields 16.40 mm total body width and fits a 20 mm board.
+- Keep wires and insertion/removal tool access clear beyond the entry end.
+- For a 60 x 20 mm board with connectors at its short ends, rotate these
+  footprints so wire entry faces the board end. Check final pad order from
+  the component-side view rather than assuming the rotation's pin order.
+- This footprint was independently derived from the HDGC drawing, not copied
+  from the WAGO 2060 footprint present elsewhere in the repository.

@@ -1,0 +1,73 @@
+{
+  "status": "private_candidate_not_selected_for_main",
+  "baseline": "/tmp/lx0001-bank-reduced-base.kicad_pcb",
+  "dsn": "/tmp/lx0001-bank-reduced-areas.dsn",
+  "ses": "/tmp/lx0001-bank-reduced-areas.ses",
+  "removed_auxiliary_items": 193,
+  "preserved_original_items": 239,
+  "preserved_auxiliary_branch_names": [
+    "vsys_usb_drain",
+    "vsys_buck"
+  ],
+  "router_error_count": 0,
+  "new_via_mm": [
+    0.45,
+    0.2
+  ],
+  "usb_power_trace_mm": 0.35,
+  "auxiliary_power_trace_mm": 0.2,
+  "ignored_nets": [
+    "GND",
+    "DC_IN",
+    "critical RF/clock/switch-node nets"
+  ],
+  "kicad_unconnected": 58,
+  "kicad_unconnected_by_net": {
+    "GND": 7,
+    "+3V3": 7,
+    "DC_FUSED": 1,
+    "VBUS_SENSE": 1,
+    "FLASH_IO2": 1,
+    "FLASH_IO3": 1,
+    "VDD_SPI": 1,
+    "DC_SENSE_B": 1,
+    "USB_ENABLE": 1,
+    "VSYS": 3,
+    "USB_FAULT": 1,
+    "ESP_EN": 3,
+    "USB_DM_CONN": 1,
+    "USB_DP_CONN": 3,
+    "STRAP46": 1,
+    "DC_SENSE_R": 1,
+    "BOOT": 3,
+    "CC1_SENSE": 2,
+    "CC2_SENSE": 2,
+    "USB_STRIP_EN": 1,
+    "USB_HIGH_CURRENT": 1,
+    "GPIO16": 1,
+    "GPIO17": 1,
+    "GPIO18_BUTTON": 1,
+    "DATA_ENABLE": 1,
+    "UART_TX": 1,
+    "UART_RX": 1,
+    "STRAP45": 1,
+    "USB_5V": 1,
+    "USB_LIMITED": 1,
+    "CC2": 2,
+    "USB_VCAP": 1,
+    "USB_ILIM_HIGH": 1,
+    "+5V_DATA": 1,
+    "USB_GATE": 1
+  },
+  "kicad_violations": {
+    "pth_inside_courtyard": 4,
+    "via_dangling": 1
+  },
+  "non_ripup_completion": {
+    "output": "/tmp/lx0001-bank-reduced-check/Source/LX0001-astar.kicad_pcb",
+    "total_remaining": 47,
+    "non_gnd_remaining": 30,
+    "new_electrical_violations": false,
+    "accepted_batches": 3
+  }
+}

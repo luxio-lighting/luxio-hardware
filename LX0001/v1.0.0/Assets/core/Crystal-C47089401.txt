@@ -1,0 +1,280 @@
+产  品  规  格  书 
+SPECIFICATIONS  FOR  PRODUCT 
+ 
+ 
+    
+  
+ 
+产品类型TYPE ：Crystal Resonator
+产品规格SPEC ：40MHz/3225/12PF/10PPM
+产品型号 P/N ：CJ13-400001210A20
+日期 
+ 
+DATE ：2024/12/02 
+核准及签名
+R&D  APPR. SIGNATURED
+ 
+拟制
+ISSUE 
+审核
+CHECK 
+批准
+APPROVAL
+ 
+Ivan
+2024/12/02
+ 
+Abbey
+2024/12/02
+ 
+Ken
+2024/12/02
+ 
+江
+苏
+长
+晶
+科
+技
+股
+份
+有
+限
+JIANGSU  CHANGJING  ELECTRONICS  TECHNOLOGY  CO., LTD. 
+地址：中国江苏省南京江北新区产业技术研创园江淼路88号腾飞大厦C座13楼 
+Add: 13Th Floor, C Block,Tengfei Building,No.88 Jiangmiao Rd. Pukou 
+District,Nanjing City,Jiangsu Province,China 
+公
+司
+
+1.0
+N/A
+Initial released
+2022/01/18
+Rev.
+Revise page
+Revise Contents
+Date
+Reviser
+Checker
+Abbey
+Ivan
+1.1
+N/A
+Update datasheet template
+2024/12/02
+Abbey
+Ivan
+
+1.
+1.1
+2.
+Construction:
+2.1 Type of Quartz Resonator: SMCE3225 4pads
+3.
+Electrical Characteristics
+3.1
+Nominal Frequency(f):
+3.2
+Load Capacitance(CL):
+3.3
+Frequency Tolerance(△f/f):
+3.4
+Frequency Temperature Stability:
+3.5
+Resonance Resistance(ohm):
+3.6
+Osc mode:
+3.7
+Shunt Capacitance(C0):
+3.8
+Drive Level(DL):
+3.9
+Operating Temperature Range(TOPR):
+3.10 Storage Temperature Range(TSTG):
+3.11 Insulation Resistance(IR):
+3.12 Aging(△fA):
+Scope:
+This specification applies to the RoHS/HF compliance quartz crystal unit
+with a frequency of 40MHz which will be used in crystal resonator
+applications.
+ JIANGSU CHANGJING ELECTRONICS TECHNOLOGY CO., LTD. 
+CJ13-400001210A20
+ 
+ 
+SMCE3225 4 pads Crystal Resonator
+www.jscj-elec.com
+1
+rev1.1
+40MHz
+12pF
+±10ppm
+±20ppm(Ref.@25°C)
+30ohms Max
+Fundamental mode
+<2pF
+<100μW
+-20 to + 70°C
+-55 to + 125°C
+＞500 M ohms
+±3ppm per Year
+
+NO.
+4.1
+4.2
+4.3
+4.4
+4.5
+4.6
+4.7
+4.8
+4.9
+4.10
+4.11
+OTHERS
+ 
+4.
+Reliability Specifications
+This is the quality control and quality assurance and reliability tests performance data
+for the RoHS/HF compliance 40MHz SMCE3225 4pads crystal resonators
+related to the specification and approval sheet provided by JSCJ.
+R
+ITEM
+TEST METHOD
+SPECIFICATION
+2
+rev1.1
+www.jscj-elec.com 
+Notes：The above test items and judgment standards are for reference only, and the actual reliability report shall prevail.
+Reliability Specifications
+Height: 100cm, Wooden block: 3cm,
+Dropping times: 3times
+Temperature: -40°C±2°C, Period: 2h
+Temperature: 85°C±2°C,
+Humidity: 85%RH±3%RH, Period: 48h
+Amplitude: 1.5mm, Frequency: 10~55Hz,
+Direction: X, Y, Z, Period: 2h
+Vibration
+Resistance to soldering heat
+High temp. and humidity
+Temperature cycle
+Temperature: 125°C±2°C, Period: 16h
+Free fall
+Low temperature storage
+High temperature storage
+Temperature: +260°C±5°C, Period: 10s±1s
+Substrate Bending Test
+1cycle: -40°C(30min)→100°C(30min), 30cycle
+Fine leak
+Bend Amount: 3mm, Force: 10s by 0.5mm/s speed
+Weldability
+Helium leakage detector shall used to measure the 
+leakage rate of gas through any faulty seal. 
+Pressure: 500Kpa, duration: 2h
+△FL≤±5ppm
+△RR≤±5Ω or 15%
+R
+△FL≤±5ppm
+△RR≤±5Ω or 15%
+R
+△FL≤±5ppm
+△RR≤±5Ω or 15%
+R
+△FL≤±5ppm
+△RR≤±5Ω or 15%
+R
+△FL≤±5ppm
+△RR≤±5Ω or 15%
+R
+△FL≤±5ppm
+△RR≤±
+R5Ω or 15%
+△FL≤±5ppm
+△RR≤±5Ω or 15%
+△FL≤±5ppm
+△RR≤±5Ω or 15%
+Tin leaching rate≥95%
+Temperature: +235°C±5°C, Period: 2s±0.2s
+Leakage value≤1.0E-9Pa
+
+5.
+Recommended Reflow soldering condition (SMD)
+ Solder profile
+Temperature profile for reflow soldering
+6.
+Soldering iron method
+Peak: 260±5℃ Soldering zone: 230℃ or more, 30±10s. Pre-heating zone 1: 150～
+180℃, 90±30s
+Bit temperature: 350±10℃ Application time of soldering iron:3±1s.
+Recommended Reflow soldering conditon
+150
+50
+0
+100
+250
+200
+www.jscj-elec.com
+3
+rev1.1
+
+nÜéñÜíê m¶•óîüê Vîûêü§î†ü§ 
+q¶ííê§•êè nÜè dÜ∞†¶•
+1.2
+1.4
+0.5
+0.8
+www.jscj-elec.com
+4
+rev1.1
+
+Marking
+XX.XXX
+MHZ
+Nominal Frequency(MHz)
+Unit
+For example:
+25.000
+MHZ
+Procedure: Laser
+Introduction:
+25 MHz
+ 5
+rev1.1
+www.jscj-elec.com
+
+Inside Structure
+No.
+Components
+Materials
+1
+Package
+Ceramic(Al2O3)
+2
+Lid
+KV(Fe/Ni/Co)
+3
+Crystal blank
+SiO2
+4
+Electrode
+5
+Silver glue    
+Resin、Ag
+Ag、Cr
+www.jscj-elec.com
+6
+rev1.1
+
+rÜ°ê Üüè pêêó
+ 7
+rev1.1
+www.jscj-elec.com
+
+Package
+Inside package
+Outside package
+JSCJ
+JSCJ
+ 8
+rev1.1
+www.jscj-elec.com

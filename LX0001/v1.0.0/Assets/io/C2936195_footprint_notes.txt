@@ -1,0 +1,72 @@
+SUPERSEDED FOR RELEASE: J1 now uses GCT USB4215-03-A / C37616412.
+See C37616412_footprint_notes.txt. This file is historical research only.
+
+HDGC TYPE C-CQ-105PWB / C2936195 USB-C footprint verification
+Reviewed 2026-11-11
+
+Selected to replace HRO C165948 because the latter has through-hole metal
+shell stakes that conflict with the input terminal on the opposite side.
+The selected HDGC part has four entirely surface-mounted shell tabs.
+It still has two plastic locating pegs. These must NOT be removed or ignored.
+
+Source: manufacturer drawing A0, 2016-03-12, part TYPE C-CQ-105PWB, A001.
+Supplier: https://www.lcsc.com/product-detail/C2936195.html
+Assembly stock: https://jlcpcb.com/partdetail/C2936195
+PDF: https://datasheet.lcsc.com/datasheet/pdf/d49f8d5338b4308d8b987c3cfefc00ca.pdf?productCode=C2936195
+Saved PDF: C2936195_USB_candidate.pdf
+Rendered full drawing: C2936195_USB_candidate.png
+JLC evidence: C2936195_candidate_jlc_evidence.json
+
+Electrical: 3 A, 20 V connector rating; USB 2.0 16-contact receptacle.
+JLCPCB snapshot: 655 stocked and available; USD 0.1977 each at 100 pieces.
+Connector rating does not authorize drawing 3 A from an arbitrary USB source.
+
+Footprint: LX0001:USB_C_HDGC_TYPE_C_CQ_105PWB
+Native top view has mouth toward +Y. Origin is the nominal body center.
+Body length 7.35 mm, width nominal 8.94 mm; outer shell-tab width 11.44 mm.
+The 8.94 mm body width is inferred from the drawing scale/8.34 mm opening
+and two 0.30 mm shell walls; it is used only for F.Fab/courtyard display.
+The solder pattern is taken from the explicitly dimensioned PCB drawing:
+- Four shell lands 2.00 x 2.00 mm, x = +/-4.77, y = -3.125 and +0.775.
+  The 7.54 mm dimension is between inner shell-pad edges, giving 9.54 mm
+  center spacing and 11.54 mm total copper width. Row spacing is 3.90 mm.
+- Locators x = +/-2.89, y = -2.605, holes diameter 0.60 mm. The drawing's
+  locator center is 0.52 mm forward of the signal-pad bottom/rear-shell
+  centerline, consistent with the 6.28 mm mouth-to-locator dimension.
+- Signal-pad bottom coincides with rear-shell centerline, and the signal
+  pad top with the rear-shell top edge in the recommended drawing. Thus
+  the land length is 1.00 mm (half of the 2.00 mm shell-pad length).
+  Centers y = -3.625. Shared power/GND lands width 0.60 mm, centers
+  x = +/-3.20 and +/-2.40. The remaining eight lands are 0.30 mm wide,
+  centered at x = -1.75,-1.25,-0.75,-0.25,+0.25,+0.75,+1.25,+1.75.
+  Signal-pad length is established by the drawing's aligned edges rather
+  than a standalone numerical length dimension. Confirm final JLC model
+  alignment during the assembly preview.
+- Paired A1/B12, A4/B9, A9/B4 and A12/B1 names use coincident pads to match
+  KiCad's standard USB2.0 16P symbol; each pair must be on the same net.
+- A8 and B8 are unused SBU contacts and should be marked not connected.
+- Copper extents x = +/-5.77, y = -4.125 to +1.775 mm.
+- Courtyard x = +/-6.02, y = -4.375 to +3.925 mm.
+- Nominal mouth y = +3.675 mm. An approximate local 3D preview model is
+  attached; inferred shell width/height and simplified cosmetic geometry
+  are documented in Source/libraries/models/README.txt.
+
+Recommended placement for the project's 60 x 20 x 1.6 mm PCB:
+- Input terminal J2 top: center (6.50, 15.30), orientation 270 degrees.
+- USB J1 bottom: center (3.175, 12.30), flip before setting 90 degrees.
+  This is the sequence used by Source/tools/generate.py.
+- This places the USB mouth at x = -0.500 mm, exactly 0.5 mm beyond x=0.
+- USB locator centers become (5.780,9.410) and (5.780,15.190).
+- The HDGC terminal front copper lands span y=12.30..14.30 and
+  y=16.30..18.30. Both USB holes lie outside these copper lands.
+- The closer hole at y=15.190 has 0.590 mm clearance to the nearest
+  terminal copper edge, including its 0.300 mm drill radius.
+- Plastic pegs extend 0.75 mm below the USB mounting surface. A 1.6 mm
+  PCB leaves nominal 0.85 mm before the opposite PCB surface, so pegs
+  do not reach the top-mounted terminal. This mechanical overlap is
+  intentional; the holes may lie within the opposite-side courtyard.
+- All metal shell attachment is bottom-side SMT; no USB metal stake
+  extends through the PCB into the terminal footprint.
+- USB copper minimum y is 12.30-5.77=6.53 mm. This clears a 6 x 6 mm
+  antenna corner. Recheck any enlarged RF keepout against the actual
+  copper extents, including PCB/placement tolerances.

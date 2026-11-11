@@ -1,0 +1,853 @@
+[
+  {
+    "ref": "U1",
+    "libname": "MCU_Espressif:ESP32-S3",
+    "value": "ESP32-S3",
+    "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm",
+    "lcsc": "C2913192",
+    "pins": {
+      "1": "RF_CHIP",
+      "2": "VDD3P3_RF",
+      "3": "VDD3P3_RF",
+      "4": "ESP_EN",
+      "5": "BOOT",
+      "6": "CC1_SENSE",
+      "7": "CC2_SENSE",
+      "9": "VBUS_SENSE",
+      "10": "USB_STRIP_EN",
+      "20": "+3V3",
+      "22": "GPIO16",
+      "23": "GPIO17",
+      "24": "GPIO18_BUTTON",
+      "25": "USB_DM",
+      "26": "USB_DP",
+      "27": "DATA_ENABLE",
+      "29": "VDD_SPI",
+      "30": "FLASH_IO3",
+      "31": "FLASH_IO2",
+      "32": "FLASH_CS",
+      "33": "SPICLK",
+      "34": "FLASH_IO1",
+      "35": "FLASH_IO0",
+      "46": "+3V3",
+      "51": "STRAP45",
+      "52": "STRAP46",
+      "53": "XTAL_N",
+      "54": "XTAL_P",
+      "55": "+3V3",
+      "56": "+3V3",
+      "57": "GND",
+      "11": "USB_HIGH_CURRENT",
+      "49": "UART_TX",
+      "50": "UART_RX"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      22.2,
+      10.0,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "ESP32-S3",
+    "source_url": "https://www.lcsc.com/product-detail/C2913192.html",
+    "unit_usd_at_100": 2.0662,
+    "jlc_stock_checked": 891,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "U10",
+    "libname": "Memory_Flash:W25Q32JVSS",
+    "value": "W25Q32JVSSIQ",
+    "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+    "lcsc": "C179173",
+    "pins": {
+      "1": "FLASH_CS",
+      "2": "FLASH_IO1",
+      "3": "FLASH_IO2",
+      "4": "GND",
+      "5": "FLASH_IO0",
+      "6": "FLASH_CLK",
+      "7": "FLASH_IO3",
+      "8": "VDD_SPI"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      33.0,
+      4.0,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "W25Q32JVSSIQ",
+    "source_url": "https://jlcpcb.com/partdetail/WinbondElec-W25Q32JVSSIQ/C179173",
+    "unit_usd_at_100": 1.0674,
+    "jlc_stock_checked": 3957,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "L100",
+    "libname": "Device:L",
+    "value": "2nH 900mA",
+    "footprint": "Inductor_SMD:L_0402_1005Metric",
+    "lcsc": "C18216",
+    "pins": {
+      "1": "+3V3",
+      "2": "VDD3P3_RF"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      15.7,
+      8.7,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "LQG15HS2N0S02D",
+    "source_url": "https://www.lcsc.com/product-detail/C18216.html",
+    "unit_usd_at_100": 0.0228,
+    "jlc_stock_checked": 53975,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C100",
+    "libname": "Device:C",
+    "value": "10uF 10V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C19702",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      20.5,
+      5.8,
+      0.0
+    ],
+    "side": "Bottom",
+    "dnp": false,
+    "mpn": "CL10A106KP8NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C19702.html",
+    "unit_usd_at_100": 0.0233,
+    "jlc_stock_checked": 9415651,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C101",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      15.7,
+      10.1,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C102",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "VDD3P3_RF",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      17.25,
+      9.1,
+      -90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C103",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      21.12,
+      14.8,
+      180.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C104",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      24.4,
+      5.3,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C105",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      18.4,
+      5.3,
+      180.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C106",
+    "libname": "Device:C",
+    "value": "1uF 25V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C52923",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      22.25,
+      5.3,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05A105KA5NQNC",
+    "source_url": "https://www.lcsc.com/product-detail/C52923.html",
+    "unit_usd_at_100": 0.0057,
+    "jlc_stock_checked": 10734624,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C107",
+    "libname": "Device:C",
+    "value": "10uF 10V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C19702",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      27.0,
+      2.0,
+      90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL10A106KP8NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C19702.html",
+    "unit_usd_at_100": 0.0233,
+    "jlc_stock_checked": 9415651,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C108",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "VDD_SPI",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      27.4,
+      13.6,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C109",
+    "libname": "Device:C",
+    "value": "1uF 25V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C52923",
+    "pins": {
+      "1": "VDD_SPI",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      27.6,
+      13.2,
+      0.0
+    ],
+    "side": "Bottom",
+    "dnp": false,
+    "mpn": "CL05A105KA5NQNC",
+    "source_url": "https://www.lcsc.com/product-detail/C52923.html",
+    "unit_usd_at_100": 0.0057,
+    "jlc_stock_checked": 10734624,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C110",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "VDD_SPI",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      38.63,
+      0.83,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "R100",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "+3V3",
+      "2": "ESP_EN"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      24.96,
+      4.26,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://www.lcsc.com/product-detail/C25744.html",
+    "unit_usd_at_100": 0.001,
+    "jlc_stock_checked": 20665462,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C111",
+    "libname": "Device:C",
+    "value": "1uF 25V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C52923",
+    "pins": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      26.6,
+      4.8,
+      90.0
+    ],
+    "side": "Bottom",
+    "dnp": false,
+    "mpn": "CL05A105KA5NQNC",
+    "source_url": "https://www.lcsc.com/product-detail/C52923.html",
+    "unit_usd_at_100": 0.0057,
+    "jlc_stock_checked": 10734624,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "R101",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "+3V3",
+      "2": "BOOT"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      16.9,
+      13.65,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://www.lcsc.com/product-detail/C25744.html",
+    "unit_usd_at_100": 0.001,
+    "jlc_stock_checked": 20665462,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "R102",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "STRAP45",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      26.64,
+      4.88,
+      90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://www.lcsc.com/product-detail/C25744.html",
+    "unit_usd_at_100": 0.001,
+    "jlc_stock_checked": 20665462,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "R103",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "STRAP46",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      23.0,
+      3.4,
+      0.0
+    ],
+    "side": "Bottom",
+    "dnp": false,
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://www.lcsc.com/product-detail/C25744.html",
+    "unit_usd_at_100": 0.001,
+    "jlc_stock_checked": 20665462,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "Y1",
+    "libname": "Device:Crystal_GND24",
+    "value": "40MHz 12pF 10ppm",
+    "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+    "lcsc": "C655034",
+    "pins": {
+      "1": "XTAL_P_CRYSTAL",
+      "2": "GND",
+      "3": "XTAL_N",
+      "4": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      21.8,
+      2.4,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "7B040000M01",
+    "source_url": "https://jlcpcb.com/partdetail/HD-7B040000M01/C655034",
+    "unit_usd_at_100": 0.0532,
+    "jlc_stock_checked": 2714,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C112",
+    "libname": "Device:C",
+    "value": "18pF 50V C0G",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1549",
+    "pins": {
+      "1": "XTAL_P_CRYSTAL",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      19.05,
+      3.48,
+      90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402CG180J500NT",
+    "source_url": "https://www.lcsc.com/product-detail/C1549.html",
+    "unit_usd_at_100": 0.0018,
+    "jlc_stock_checked": 1087732,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C113",
+    "libname": "Device:C",
+    "value": "18pF 50V C0G",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1549",
+    "pins": {
+      "1": "XTAL_N",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      25.52,
+      1.59,
+      90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402CG180J500NT",
+    "source_url": "https://www.lcsc.com/product-detail/C1549.html",
+    "unit_usd_at_100": 0.0018,
+    "jlc_stock_checked": 1087732,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "L101",
+    "libname": "Device:L",
+    "value": "24nH",
+    "footprint": "Inductor_SMD:L_0402_1005Metric",
+    "lcsc": "C913699",
+    "pins": {
+      "1": "XTAL_P",
+      "2": "XTAL_P_CRYSTAL"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      20.4,
+      5.0,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "LQW15AN24NH00D",
+    "source_url": "https://www.lcsc.com/product-detail/C913699.html",
+    "unit_usd_at_100": 0.0944,
+    "jlc_stock_checked": 3032,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C114",
+    "libname": "Device:C",
+    "value": "1.5pF 50V C0G",
+    "footprint": "Capacitor_SMD:C_0201_0603Metric",
+    "lcsc": "C161414",
+    "pins": {
+      "1": "RF_CHIP",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      17.7,
+      7.4,
+      -90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "GRM0335C1H1R5BA01D",
+    "source_url": "https://www.lcsc.com/product-detail/C161414.html",
+    "unit_usd_at_100": 0.0125,
+    "jlc_stock_checked": 37841,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "L102",
+    "libname": "Device:L",
+    "value": "2.7nH",
+    "footprint": "Inductor_SMD:L_0201_0603Metric",
+    "lcsc": "C98043",
+    "pins": {
+      "1": "RF_CHIP",
+      "2": "RF_50"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      16.399999,
+      7.72,
+      180.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "LQP03TN2N7B02D",
+    "source_url": "https://www.lcsc.com/product-detail/C98043.html",
+    "unit_usd_at_100": 0.0166,
+    "jlc_stock_checked": 6870,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "C115",
+    "libname": "Device:C",
+    "value": "1.5pF 50V C0G",
+    "footprint": "Capacitor_SMD:C_0201_0603Metric",
+    "lcsc": "C161414",
+    "pins": {
+      "1": "RF_50",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      15.1,
+      7.4,
+      -90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "GRM0335C1H1R5BA01D",
+    "source_url": "https://www.lcsc.com/product-detail/C161414.html",
+    "unit_usd_at_100": 0.0125,
+    "jlc_stock_checked": 37841,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "L104",
+    "libname": "Device:R",
+    "value": "DNP 0R antenna tune",
+    "footprint": "Core:Walsin_RFECA_Tuner_0402",
+    "lcsc": "C17168",
+    "pins": {
+      "1": "ANT_TUNE",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      11.1,
+      1.5,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": true,
+    "mpn": "0402WGF0000TCE",
+    "source_url": "https://jlcpcb.com/partdetail/-/C17168",
+    "unit_usd_at_100": 0.0012,
+    "jlc_stock_checked": 16051414,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "ANT1",
+    "libname": "LX0001:RFECA3216060A1T",
+    "value": "RFECA3216060A1T",
+    "footprint": "Core:Walsin_RFECA3216060A1T_Type1",
+    "lcsc": "C127620",
+    "pins": {
+      "1": "RF_50",
+      "2": "ANT_TUNE",
+      "3": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      14.5,
+      1.5,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "RFECA3216060A1T",
+    "source_url": "https://jlcpcb.com/partdetail/Walsin_TechCorp-RFECA3216060A1T/C127620",
+    "unit_usd_at_100": 0.0443,
+    "jlc_stock_checked": 22288,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "R105",
+    "libname": "Device:R",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C17168",
+    "pins": {
+      "1": "SPICLK",
+      "2": "FLASH_CLK"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      27.6,
+      12.5,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402WGF0000TCE",
+    "source_url": "https://www.lcsc.com/product-detail/C17168.html",
+    "unit_usd_at_100": 0.0012,
+    "jlc_stock_checked": 16051414,
+    "jlc_stock_date": "2026-11-11"
+  },
+  {
+    "ref": "R110",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "VDD_SPI",
+      "2": "FLASH_CS"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      25.11,
+      3.2,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://www.lcsc.com/product-detail/C25744.html",
+    "unit_usd_at_100": 0.001,
+    "jlc_stock_checked": 20665462,
+    "jlc_stock_date": "2026-11-11"
+  }
+]

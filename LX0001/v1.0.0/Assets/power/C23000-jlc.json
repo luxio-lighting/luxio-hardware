@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C23000",
+    "componentModelEn": "0603WAF3012T5E",
+    "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+    "componentSpecificationEn": "0603",
+    "stockCount": 32906,
+    "canPresaleNumber": 25091,
+    "componentLibraryType": "expand",
+    "dataManualOfficialLink": "",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3012T5E_C23000.pdf",
+    "required_100_boards": 300,
+    "unit_price_usd": 0.0016,
+    "observed_at_utc": "2026-11-11T11:34:09Z",
+    "source_url": "https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C23000"
+  }
+}

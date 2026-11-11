@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C55266",
+    "componentModelEn": "TPS2553DBVR",
+    "componentBrandEn": "Texas Instruments",
+    "componentSpecificationEn": "SOT-23-6",
+    "stockCount": 54342,
+    "canPresaleNumber": 53376,
+    "componentLibraryType": "expand",
+    "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/tps2553",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810221710_Texas-Instruments-TPS2553DBVR_C55266.pdf",
+    "required_100_boards": 100,
+    "unit_price_usd": 0.3351,
+    "observed_at_utc": "2026-11-11T11:34:09Z",
+    "source_url": "https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C55266"
+  }
+}

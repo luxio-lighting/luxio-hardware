@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C43491",
+    "componentModelEn": "BZT52C12",
+    "componentBrandEn": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+    "componentSpecificationEn": "SOD-123",
+    "stockCount": 202958,
+    "canPresaleNumber": 197568,
+    "componentLibraryType": "expand",
+    "dataManualOfficialLink": "",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--BZT52C12_C43491.pdf",
+    "required_100_boards": 100,
+    "unit_price_usd": 0.0211,
+    "observed_at_utc": "2026-11-11T11:34:09Z",
+    "source_url": "https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C43491"
+  }
+}

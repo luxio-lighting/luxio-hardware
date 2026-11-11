@@ -1,0 +1,2645 @@
+Spec No.: JELF243A_0050AB-01 
+P1/15 
+MURATA MFG CO., LTD 
+CHIP COILS (CHIP INDUCTORS) LQW15AN□□□□00□ REFERENCE SPECIFICATION 
+1. Scope 
+This reference specification applies to chip coils (chip inductors) LQW15AN_00 series for general electronic equipment. 
+2. Part Numbering 
+(Ex.) 
+LQ 
+W 
+15 
+A 
+N 
+1N5 
+B 
+0 
+0 
+D 
+Product 
+ID 
+Structure Dimension 
+(L × W) 
+Application 
+and 
+characteristic 
+Category Inductance 
+Tolerance Performance 
+Electrode 
+specification 
+Packaging 
+D: taping 
+*B: bulk 
+*B: Bulk packing is also available (taping condition: however, products without reels are put in plastic bags). 
+3. Part Number and Rating 
+Operating temperature range 
+-55°C to +125°C 
+Storage temperature range 
+-55°C to +125°C 
+ 
+Customer 
+Part number 
+Murata 
+Part number 
+Inductance 
+Q 
+(Min.) 
+DC 
+resistance 
+(Ω max.) 
+Self-resonant 
+frequency 
+(GHz min.) 
+Rated 
+current 
+(mA) 
+Nominal 
+value 
+(nH) 
+Tolerance 
+ 
+LQW15AN1N5B00D 
+1.5 
+B: ±0.1 nH 
+10 
+0.03 
+18.0 
+1000 
+ 
+LQW15AN1N5C00D 
+1.5 
+C: ±0.2 nH 
+10 
+0.03 
+18.0 
+1000 
+ 
+LQW15AN1N5D00D 
+1.5 
+D: ±0.5 nH 
+10 
+0.03 
+18.0 
+1000 
+ 
+LQW15AN1N6C00D 
+1.6 
+C: ±0.2 nH 
+10 
+0.07 
+17.0 
+750 
+ 
+LQW15AN1N6D00D 
+1.6 
+D: ±0.5 nH 
+10 
+0.07 
+17.0 
+750 
+ 
+LQW15AN1N7C00D 
+1.7 
+C: ±0.2 nH 
+10 
+0.10 
+17.0 
+640 
+ 
+LQW15AN1N7D00D 
+1.7 
+D: ±0.5 nH 
+10 
+0.10 
+17.0 
+640 
+ 
+LQW15AN1N8C00D 
+1.8 
+C: ±0.2 nH 
+10 
+0.16 
+16.0 
+460 
+ 
+LQW15AN1N8D00D 
+1.8 
+D: ±0.5 nH 
+10 
+0.16 
+16.0 
+460 
+ 
+LQW15AN2N4B00D 
+2.4 
+B: ±0.1 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N4C00D 
+2.4 
+C: ±0.2 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N4D00D 
+2.4 
+D: ±0.5 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N5B00D 
+2.5 
+B: ±0.1 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N5C00D 
+2.5 
+C: ±0.2 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N5D00D 
+2.5 
+D: ±0.5 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N6B00D 
+2.6 
+B: ±0.1 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N6C00D 
+2.6 
+C: ±0.2 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N6D00D 
+2.6 
+D: ±0.5 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N7B00D 
+2.7 
+B: ±0.1 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N7C00D 
+2.7 
+C: ±0.2 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N7D00D 
+2.7 
+D: ±0.5 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N8B00D 
+2.8 
+B: ±0.1 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N8C00D 
+2.8 
+C: ±0.2 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N8D00D 
+2.8 
+D: ±0.5 nH 
+20 
+0.05 
+15.0 
+850 
+ 
+LQW15AN2N9B00D 
+2.9 
+B: ±0.1 nH 
+20 
+0.07 
+15.0 
+750 
+ 
+LQW15AN2N9C00D 
+2.9 
+C: ±0.2 nH 
+20 
+0.07 
+15.0 
+750 
+ 
+LQW15AN2N9D00D 
+2.9 
+D: ±0.5 nH 
+20 
+0.07 
+15.0 
+750 
+ 
+LQW15AN3N0B00D 
+3.0 
+B: ±0.1 nH 
+20 
+0.07 
+15.0 
+750 
+ 
+LQW15AN3N0C00D 
+3.0 
+C: ±0.2 nH 
+20 
+0.07 
+15.0 
+750 
+ 
+LQW15AN3N0D00D 
+3.0 
+D: ±0.5 nH 
+20 
+0.07 
+15.0 
+750 
+
+Spec No.: JELF243A_0050AB-01 
+P2/15 
+MURATA MFG CO., LTD 
+Customer 
+Part number 
+Murata 
+Part number 
+Inductance 
+Q 
+(Min.) 
+DC 
+resistance 
+(Ω max.) 
+Self-resonant 
+frequency 
+(GHz min.) 
+Rated 
+current 
+(mA) 
+Nominal 
+value 
+(nH) 
+Tolerance 
+ 
+LQW15AN3N1B00D 
+3.1 
+B: ±0.1 nH 
+20 
+0.13 
+14.0 
+570 
+ 
+LQW15AN3N1C00D 
+3.1 
+C: ±0.2 nH 
+20 
+0.13 
+14.0 
+570 
+ 
+LQW15AN3N1D00D 
+3.1 
+D: ±0.5 nH 
+20 
+0.13 
+14.0 
+570 
+ 
+LQW15AN3N2B00D 
+3.2 
+B: ±0.1 nH 
+15 
+0.17 
+14.0 
+500 
+ 
+LQW15AN3N2C00D 
+3.2 
+C: ±0.2 nH 
+15 
+0.17 
+14.0 
+500 
+ 
+LQW15AN3N2D00D 
+3.2 
+D: ±0.5 nH 
+15 
+0.17 
+14.0 
+500 
+ 
+LQW15AN3N9B00D 
+3.9 
+B: ±0.1 nH 
+25 
+0.07 
+10.0 
+750 
+ 
+LQW15AN3N9C00D 
+3.9 
+C: ±0.2 nH 
+25 
+0.07 
+10.0 
+750 
+ 
+LQW15AN3N9D00D 
+3.9 
+D: ±0.5 nH 
+25 
+0.07 
+10.0 
+750 
+ 
+LQW15AN4N1B00D 
+4.1 
+B: ±0.1 nH 
+25 
+0.07 
+10.0 
+750 
+ 
+LQW15AN4N1C00D 
+4.1 
+C: ±0.2 nH 
+25 
+0.07 
+10.0 
+750 
+ 
+LQW15AN4N1D00D 
+4.1 
+D: ±0.5 nH 
+25 
+0.07 
+10.0 
+750 
+ 
+LQW15AN4N3B00D 
+4.3 
+B: ±0.1 nH 
+25 
+0.07 
+10.0 
+750 
+ 
+LQW15AN4N3C00D 
+4.3 
+C: ±0.2 nH 
+25 
+0.07 
+10.0 
+750 
+ 
+LQW15AN4N3D00D 
+4.3 
+D: ±0.5 nH 
+25 
+0.07 
+10.0 
+750 
+ 
+LQW15AN4N4B00D 
+4.4 
+B: ±0.1 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N4C00D 
+4.4 
+C: ±0.2 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N4D00D 
+4.4 
+D: ±0.5 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N5B00D 
+4.5 
+B: ±0.1 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N5C00D 
+4.5 
+C: ±0.2 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N5D00D 
+4.5 
+D: ±0.5 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N6B00D 
+4.6 
+B: ±0.1 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N6C00D 
+4.6 
+C: ±0.2 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N6D00D 
+4.6 
+D: ±0.5 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N7B00D 
+4.7 
+B: ±0.1 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N7C00D 
+4.7 
+C: ±0.2 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N7D00D 
+4.7 
+D: ±0.5 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N8B00D 
+4.8 
+B: ±0.1 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N8C00D 
+4.8 
+C: ±0.2 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N8D00D 
+4.8 
+D: ±0.5 nH 
+25 
+0.07 
+8.0 
+750 
+ 
+LQW15AN4N9B00D 
+4.9 
+B: ±0.1 nH 
+25 
+0.12 
+8.0 
+600 
+ 
+LQW15AN4N9C00D 
+4.9 
+C: ±0.2 nH 
+25 
+0.12 
+8.0 
+600 
+ 
+LQW15AN4N9D00D 
+4.9 
+D: ±0.5 nH 
+25 
+0.12 
+8.0 
+600 
+ 
+LQW15AN5N0B00D 
+5.0 
+B: ±0.1 nH 
+25 
+0.12 
+8.0 
+600 
+ 
+LQW15AN5N0C00D 
+5.0 
+C: ±0.2 nH 
+25 
+0.12 
+8.0 
+600 
+ 
+LQW15AN5N0D00D 
+5.0 
+D: ±0.5 nH 
+25 
+0.12 
+8.0 
+600 
+ 
+LQW15AN5N1B00D 
+5.1 
+B: ±0.1 nH 
+25 
+0.12 
+8.0 
+600 
+ 
+LQW15AN5N1C00D 
+5.1 
+C: ±0.2 nH 
+25 
+0.12 
+8.0 
+600 
+ 
+LQW15AN5N1D00D 
+5.1 
+D: ±0.5 nH 
+25 
+0.12 
+8.0 
+600 
+ 
+LQW15AN5N8B00D 
+5.8 
+B: ±0.1 nH 
+25 
+0.09 
+8.0 
+700 
+ 
+LQW15AN5N8C00D 
+5.8 
+C: ±0.2 nH 
+25 
+0.09 
+8.0 
+700 
+ 
+LQW15AN5N8D00D 
+5.8 
+D: ±0.5 nH 
+25 
+0.09 
+8.0 
+700 
+ 
+LQW15AN6N2B00D 
+6.2 
+B: ±0.1 nH 
+25 
+0.09 
+8.0 
+700 
+ 
+LQW15AN6N2C00D 
+6.2 
+C: ±0.2 nH 
+25 
+0.09 
+8.0 
+700 
+ 
+LQW15AN6N2D00D 
+6.2 
+D: ±0.5 nH 
+25 
+0.09 
+8.0 
+700 
+ 
+LQW15AN6N3B00D 
+6.3 
+B: ±0.1 nH 
+25 
+0.09 
+6.0 
+700 
+
+Spec No.: JELF243A_0050AB-01 
+P3/15 
+MURATA MFG CO., LTD 
+Customer 
+Part number 
+Murata 
+Part number 
+Inductance 
+Q 
+(Min.) 
+DC 
+resistance 
+(Ω max.) 
+Self-resonant 
+frequency 
+(GHz min.) 
+Rated 
+current 
+(mA) 
+Nominal 
+value 
+(nH) 
+Tolerance 
+ 
+LQW15AN6N3C00D 
+6.3 
+C: ±0.2 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N3D00D 
+6.3 
+D: ±0.5 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N4B00D 
+6.4 
+B: ±0.1 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N4C00D 
+6.4 
+C: ±0.2 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N4D00D 
+6.4 
+D: ±0.5 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N5B00D 
+6.5 
+B: ±0.1 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N5C00D 
+6.5 
+C: ±0.2 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N5D00D 
+6.5 
+D: ±0.5 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N6B00D 
+6.6 
+B: ±0.1 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N6C00D 
+6.6 
+C: ±0.2 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N6D00D 
+6.6 
+D: ±0.5 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N7B00D 
+6.7 
+B: ±0.1 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N7C00D 
+6.7 
+C: ±0.2 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N7D00D 
+6.7 
+D: ±0.5 nH 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N8G00D 
+6.8 
+G: ±2% 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N8H00D 
+6.8 
+H: ±3% 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N8J00D 
+6.8 
+J: ±5% 
+25 
+0.09 
+6.0 
+700 
+ 
+LQW15AN6N9G00D 
+6.9 
+G: ±2% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN6N9H00D 
+6.9 
+H: ±3% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN6N9J00D 
+6.9 
+J: ±5% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N0G00D 
+7.0 
+G: ±2% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N0H00D 
+7.0 
+H: ±3% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N0J00D 
+7.0 
+J: ±5% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N1G00D 
+7.1 
+G: ±2% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N1H00D 
+7.1 
+H: ±3% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N1J00D 
+7.1 
+J: ±5% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N2G00D 
+7.2 
+G: ±2% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N2H00D 
+7.2 
+H: ±3% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N2J00D 
+7.2 
+J: ±5% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N3G00D 
+7.3 
+G: ±2% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N3H00D 
+7.3 
+H: ±3% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N3J00D 
+7.3 
+J: ±5% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N5G00D 
+7.5 
+G: ±2% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N5H00D 
+7.5 
+H: ±3% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN7N5J00D 
+7.5 
+J: ±5% 
+25 
+0.13 
+6.0 
+570 
+ 
+LQW15AN8N2G00D 
+8.2 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N2H00D 
+8.2 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N2J00D 
+8.2 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N6G00D 
+8.6 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N6H00D 
+8.6 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N6J00D 
+8.6 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N7G00D 
+8.7 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N7H00D 
+8.7 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N7J00D 
+8.7 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N8G00D 
+8.8 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N8H00D 
+8.8 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+
+Spec No.: JELF243A_0050AB-01 
+P4/15 
+MURATA MFG CO., LTD 
+Customer 
+Part number 
+Murata 
+Part number 
+Inductance 
+Q 
+(Min.) 
+DC 
+resistance 
+(Ω max.) 
+Self-resonant 
+frequency 
+(GHz min.) 
+Rated 
+current 
+(mA) 
+Nominal 
+value 
+(nH) 
+Tolerance 
+ 
+LQW15AN8N8J00D 
+8.8 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N9G00D 
+8.9 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N9H00D 
+8.9 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN8N9J00D 
+8.9 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N0G00D 
+9.0 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N0H00D 
+9.0 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N0J00D 
+9.0 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N1G00D 
+9.1 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N1H00D 
+9.1 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N1J00D 
+9.1 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N2G00D 
+9.2 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N2H00D 
+9.2 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N2J00D 
+9.2 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N3G00D 
+9.3 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N3H00D 
+9.3 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N3J00D 
+9.3 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N4G00D 
+9.4 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N4H00D 
+9.4 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N4J00D 
+9.4 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N5G00D 
+9.5 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N5H00D 
+9.5 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N5J00D 
+9.5 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N6G00D 
+9.6 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N6H00D 
+9.6 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N6J00D 
+9.6 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N7G00D 
+9.7 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N7H00D 
+9.7 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N7J00D 
+9.7 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N8G00D 
+9.8 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N8H00D 
+9.8 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N8J00D 
+9.8 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N9G00D 
+9.9 
+G: ±2% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N9H00D 
+9.9 
+H: ±3% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN9N9J00D 
+9.9 
+J: ±5% 
+25 
+0.14 
+5.5 
+540 
+ 
+LQW15AN10NG00D 
+10 
+G: ±2% 
+25 
+0.17 
+5.5 
+500 
+ 
+LQW15AN10NH00D 
+10 
+H: ±3% 
+25 
+0.17 
+5.5 
+500 
+ 
+LQW15AN10NJ00D 
+10 
+J: ±5% 
+25 
+0.17 
+5.5 
+500 
+ 
+LQW15AN11NG00D 
+11 
+G: ±2% 
+30 
+0.14 
+5.5 
+500 
+ 
+LQW15AN11NH00D 
+11 
+H: ±3% 
+30 
+0.14 
+5.5 
+500 
+ 
+LQW15AN11NJ00D 
+11 
+J: ±5% 
+30 
+0.14 
+5.5 
+500 
+ 
+LQW15AN12NG00D 
+12 
+G: ±2% 
+30 
+0.14 
+5.5 
+500 
+ 
+LQW15AN12NH00D 
+12 
+H: ±3% 
+30 
+0.14 
+5.5 
+500 
+ 
+LQW15AN12NJ00D 
+12 
+J: ±5% 
+30 
+0.14 
+5.5 
+500 
+ 
+LQW15AN13NG00D 
+13 
+G: ±2% 
+25 
+0.21 
+5.0 
+430 
+ 
+LQW15AN13NH00D 
+13 
+H: ±3% 
+25 
+0.21 
+5.0 
+430 
+ 
+LQW15AN13NJ00D 
+13 
+J: ±5% 
+25 
+0.21 
+5.0 
+430 
+
+Spec No.: JELF243A_0050AB-01 
+P5/15 
+MURATA MFG CO., LTD 
+Customer 
+Part number 
+Murata 
+Part number 
+Inductance 
+Q 
+(Min.) 
+DC 
+resistance 
+(Ω max.) 
+Self-resonant 
+frequency 
+(GHz min.) 
+Rated 
+current 
+(mA) 
+Nominal 
+value 
+(nH) 
+Tolerance 
+ 
+LQW15AN15NG00D 
+15 
+G: ±2% 
+30 
+0.16 
+5.0 
+460 
+ 
+LQW15AN15NH00D 
+15 
+H: ±3% 
+30 
+0.16 
+5.0 
+460 
+ 
+LQW15AN15NJ00D 
+15 
+J: ±5% 
+30 
+0.16 
+5.0 
+460 
+ 
+LQW15AN16NG00D 
+16 
+G: ±2% 
+25 
+0.24 
+4.5 
+370 
+ 
+LQW15AN16NH00D 
+16 
+H: ±3% 
+25 
+0.24 
+4.5 
+370 
+ 
+LQW15AN16NJ00D 
+16 
+J: ±5% 
+25 
+0.24 
+4.5 
+370 
+ 
+LQW15AN18NG00D 
+18 
+G: ±2% 
+25 
+0.27 
+4.5 
+370 
+ 
+LQW15AN18NH00D 
+18 
+H: ±3% 
+25 
+0.27 
+4.5 
+370 
+ 
+LQW15AN18NJ00D 
+18 
+J: ±5% 
+25 
+0.27 
+4.5 
+370 
+ 
+LQW15AN19NG00D 
+19 
+G: ±2% 
+25 
+0.27 
+4.5 
+370 
+ 
+LQW15AN19NH00D 
+19 
+H: ±3% 
+25 
+0.27 
+4.5 
+370 
+ 
+LQW15AN19NJ00D 
+19 
+J: ±5% 
+25 
+0.27 
+4.5 
+370 
+ 
+LQW15AN20NG00D 
+20 
+G: ±2% 
+25 
+0.27 
+4.0 
+370 
+ 
+LQW15AN20NH00D 
+20 
+H: ±3% 
+25 
+0.27 
+4.0 
+370 
+ 
+LQW15AN20NJ00D 
+20 
+J: ±5% 
+25 
+0.27 
+4.0 
+370 
+ 
+LQW15AN22NG00D 
+22 
+G: ±2% 
+25 
+0.30 
+4.0 
+310 
+ 
+LQW15AN22NH00D 
+22 
+H: ±3% 
+25 
+0.30 
+4.0 
+310 
+ 
+LQW15AN22NJ00D 
+22 
+J: ±5% 
+25 
+0.30 
+4.0 
+310 
+ 
+LQW15AN23NG00D 
+23 
+G: ±2% 
+25 
+0.30 
+3.8 
+310 
+ 
+LQW15AN23NH00D 
+23 
+H: ±3% 
+25 
+0.30 
+3.8 
+310 
+ 
+LQW15AN23NJ00D 
+23 
+J: ±5% 
+25 
+0.30 
+3.8 
+310 
+ 
+LQW15AN24NG00D 
+24 
+G: ±2% 
+25 
+0.52 
+3.5 
+280 
+ 
+LQW15AN24NH00D 
+24 
+H: ±3% 
+25 
+0.52 
+3.5 
+280 
+ 
+LQW15AN24NJ00D 
+24 
+J: ±5% 
+25 
+0.52 
+3.5 
+280 
+ 
+LQW15AN27NG00D 
+27 
+G: ±2% 
+25 
+0.52 
+3.5 
+280 
+ 
+LQW15AN27NH00D 
+27 
+H: ±3% 
+25 
+0.52 
+3.5 
+280 
+ 
+LQW15AN27NJ00D 
+27 
+J: ±5% 
+25 
+0.52 
+3.5 
+280 
+ 
+LQW15AN30NG00D 
+30 
+G: ±2% 
+25 
+0.58 
+3.3 
+270 
+ 
+LQW15AN30NH00D 
+30 
+H: ±3% 
+25 
+0.58 
+3.3 
+270 
+ 
+LQW15AN30NJ00D 
+30 
+J: ±5% 
+25 
+0.58 
+3.3 
+270 
+ 
+LQW15AN33NG00D 
+33 
+G: ±2% 
+25 
+0.63 
+3.2 
+260 
+ 
+LQW15AN33NH00D 
+33 
+H: ±3% 
+25 
+0.63 
+3.2 
+260 
+ 
+LQW15AN33NJ00D 
+33 
+J: ±5% 
+25 
+0.63 
+3.2 
+260 
+ 
+LQW15AN36NG00D 
+36 
+G: ±2% 
+25 
+0.63 
+3.1 
+260 
+ 
+LQW15AN36NH00D 
+36 
+H: ±3% 
+25 
+0.63 
+3.1 
+260 
+ 
+LQW15AN36NJ00D 
+36 
+J: ±5% 
+25 
+0.63 
+3.1 
+260 
+ 
+LQW15AN39NG00D 
+39 
+G: ±2% 
+25 
+0.70 
+3.0 
+250 
+ 
+LQW15AN39NH00D 
+39 
+H: ±3% 
+25 
+0.70 
+3.0 
+250 
+ 
+LQW15AN39NJ00D 
+39 
+J: ±5% 
+25 
+0.70 
+3.0 
+250 
+ 
+LQW15AN40NG00D 
+40 
+G: ±2% 
+25 
+0.70 
+3.0 
+250 
+ 
+LQW15AN40NH00D 
+40 
+H: ±3% 
+25 
+0.70 
+3.0 
+250 
+ 
+LQW15AN40NJ00D 
+40 
+J: ±5% 
+25 
+0.70 
+3.0 
+250 
+ 
+LQW15AN43NG00D 
+43 
+G: ±2% 
+25 
+0.70 
+3.0 
+250 
+ 
+LQW15AN43NH00D 
+43 
+H: ±3% 
+25 
+0.70 
+3.0 
+250 
+ 
+LQW15AN43NJ00D 
+43 
+J: ±5% 
+25 
+0.70 
+3.0 
+250 
+ 
+LQW15AN47NG00D 
+47 
+G: ±2% 
+25 
+1.08 
+2.9 
+210 
+
+Spec No.: JELF243A_0050AB-01 
+P6/15 
+MURATA MFG CO., LTD 
+Customer 
+Part number 
+Murata 
+Part number 
+Inductance 
+Q 
+(Min.) 
+DC 
+resistance 
+(Ω max.) 
+Self-resonant 
+frequency 
+(GHz min.) 
+Rated 
+current 
+(mA) 
+Nominal 
+value 
+(nH) 
+Tolerance 
+ 
+LQW15AN47NH00D 
+47 
+H: ±3% 
+25 
+1.08 
+2.9 
+210 
+ 
+LQW15AN47NJ00D 
+47 
+J: ±5% 
+25 
+1.08 
+2.9 
+210 
+ 
+LQW15AN51NG00D 
+51 
+G: ±2% 
+25 
+1.08 
+2.85 
+210 
+ 
+LQW15AN51NH00D 
+51 
+H: ±3% 
+25 
+1.08 
+2.85 
+210 
+ 
+LQW15AN51NJ00D 
+51 
+J: ±5% 
+25 
+1.08 
+2.85 
+210 
+ 
+LQW15AN56NG00D 
+56 
+G: ±2% 
+25 
+1.17 
+2.8 
+200 
+ 
+LQW15AN56NH00D 
+56 
+H: ±3% 
+25 
+1.17 
+2.8 
+200 
+ 
+LQW15AN56NJ00D 
+56 
+J: ±5% 
+25 
+1.17 
+2.8 
+200 
+ 
+LQW15AN62NG00D 
+62 
+G: ±2% 
+20 
+1.82 
+2.6 
+145 
+ 
+LQW15AN62NH00D 
+62 
+H: ±3% 
+20 
+1.82 
+2.6 
+145 
+ 
+LQW15AN62NJ00D 
+62 
+J: ±5% 
+20 
+1.82 
+2.6 
+145 
+ 
+LQW15AN68NG00D 
+68 
+G: ±2% 
+20 
+1.96 
+2.5 
+140 
+ 
+LQW15AN68NJ00D 
+68 
+J: ±5% 
+20 
+1.96 
+2.5 
+140 
+ 
+LQW15AN72NG00D 
+72 
+G: ±2% 
+20 
+2.10 
+2.5 
+135 
+ 
+LQW15AN72NJ00D 
+72 
+J: ±5% 
+20 
+2.10 
+2.5 
+135 
+ 
+LQW15AN75NG00D 
+75 
+G: ±2% 
+20 
+2.10 
+2.4 
+135 
+ 
+LQW15AN75NJ00D 
+75 
+J: ±5% 
+20 
+2.10 
+2.4 
+135 
+ 
+LQW15AN82NG00D 
+82 
+G: ±2% 
+20 
+2.24 
+2.3 
+130 
+ 
+LQW15AN82NJ00D 
+82 
+J: ±5% 
+20 
+2.24 
+2.3 
+130 
+ 
+LQW15AN91NG00D 
+91 
+G: ±2% 
+20 
+2.38 
+2.1 
+125 
+ 
+LQW15AN91NJ00D 
+91 
+J: ±5% 
+20 
+2.38 
+2.1 
+125 
+ 
+LQW15ANR10J00D 
+100 
+J: ±5% 
+20 
+2.52 
+1.5 
+120 
+ 
+LQW15ANR12J00D 
+120 
+J: ±5% 
+20 
+2.66 
+1.0 
+110 
+4. Testing Conditions 
+Unless otherwise specified 
+Temperature: ordinary temperature (15°C to 35°C) 
+Humidity: ordinary humidity [25% to 85% (RH)] 
+In case of doubt 
+Temperature: 20°C±2°C 
+Humidity: 60% to 70% (RH) 
+Atmospheric pressure: 86 kPa to 106 kPa 
+5. Appearance and Dimensions 
+ 
+Unit mass (typical value): 0.0008 g 
+
+Spec No.: JELF243A_0050AB-01 
+P7/15 
+MURATA MFG CO., LTD 
+6. Marking 
+No marking. 
+7. Electrical Performance 
+No. 
+Item 
+Specification 
+Test method 
+7.1 
+Inductance 
+Meet chapter 3 ratings. 
+Measuring equipment: Keysight E4991A or the 
+equivalent 
+Measuring frequency: 
+Inductance 
+100 MHz 
+Q 
+250 MHz 1.5 nH to 43 nH 
+200 MHz 47 nH to 68 nH 
+150 MHz 72 nH to 120 nH 
+Measuring conditions: 
+Measurement signal level: Approx. 0 dBm 
+Measurement terminal distance: 0.5 mm 
+Electrical length: 10.0 mm 
+Measuring fixture: Keysight 16197A 
+Position the chip coil under test as shown in the 
+measuring example below and connect it to the 
+electrode by applying weight. 
+Measurement example: 
+ 
+Measuring method: see "Electrical performance: 
+Measuring method for inductance/Q" in the chapter 
+"14. Appendix". 
+7.2 
+Q 
+Meet chapter 3 ratings. 
+7.3 
+DC resistance 
+Meet chapter 3 ratings. 
+Measuring equipment: digital multimeter 
+7.4 
+Self-resonant 
+frequency 
+Meet chapter 3 ratings. 
+Measuring equipment: Keysight N5230A or the 
+equivalent 
+7.5 
+Rated current 
+Product temperature rise: 20°C max. 
+Apply the rated current specified in chapter 3. 
+8. Mechanical Performance 
+No. 
+Item 
+Specification 
+Test method 
+8.1 
+Shear test 
+No significant mechanical damage or no 
+sign of electrode peeling off shall be 
+observed. 
+Test substrate: glass-epoxy substrate 
+Force application direction: 
+ 
+Applying force: 5 N 
+Holding time: 5 s±1 s 
+
+Spec No.: JELF243A_0050AB-01 
+P8/15 
+MURATA MFG CO., LTD 
+No. 
+Item 
+Specification 
+Test method 
+8.2 
+Bending test 
+No significant mechanical damage or no 
+sign of electrode peeling off shall be 
+observed. 
+Test substrate: glass-epoxy substrate (100 mm × 40 
+mm × 0.8 mm) 
+Pressurizing speed: 1 mm/s 
+Deflection: 2 mm 
+Holding time: 5 s 
+ 
+8.3 
+Vibration 
+Appearance shall have no significant 
+mechanical damage. 
+Oscillation frequency: 10 Hz to 55 Hz to 10 Hz, for 
+approx. 1 min 
+Total amplitude: 1.5 mm 
+Test time: 3 directions perpendicular to each other, 2 h 
+for each direction (6 h in total) 
+8.4 
+Solderability 
+90% or more of the outer electrode shall 
+be covered with new solder seamlessly. 
+Flux: immersed in ethanol solution [including an 
+activator with a chlorine conversion value of 0.06(wt)%] 
+with a rosin content of 25(wt)% for 5 s to 10 s. 
+Solder: Sn-3.0Ag-0.5Cu solder 
+Pre-heating: 150°C±10°C/60 s to 90 s 
+Solder temperature: 240°C±5°C 
+Immersion time: 3 s±1 s 
+8.5 
+Resistance to 
+soldering heat 
+Appearance: No significant mechanical 
+damage shall be observed. 
+Inductance change rate: within ±5% 
+Flux: immersed in ethanol solution [including an 
+activator with a chlorine conversion value of 0.06(wt)%] 
+with a rosin content of 25(wt)% for 5 s to 10 s. 
+Solder: Sn-3.0Ag-0.5Cu solder 
+Pre-heating: 150°C±10°C/60 s to 90 s 
+Solder temperature: 270°C±5°C 
+Immersion time: 10 s±1 s 
+Post-treatment: left at a room condition for 24 h±2 h 
+9. Environmental Performance 
+The product is soldered on a substrate for test. 
+No. 
+Item 
+Specification 
+Test method 
+9.1 
+Heat resistance 
+Appearance: No significant mechanical 
+damage shall be observed. 
+Inductance change rate: within ±5% 
+Q change rate: within ±20% 
+Temperature: 125°C±2°C 
+Test time: 1000 h (+48 h, -0 h) 
+Post-treatment: left at a room condition for 24 h±2 h 
+9.2 
+Cold resistance 
+Appearance: No significant mechanical 
+damage shall be observed. 
+Inductance change rate: within ±5% 
+Q change rate: within ±20% 
+Temperature: -55°C±2°C 
+Test time: 1000 h (+48 h, -0 h) 
+Post-treatment: left at a room condition for 24 h±2 h 
+9.3 
+Humidity 
+Appearance: No significant mechanical 
+damage shall be observed. 
+Inductance change rate: within ±5% 
+Q change rate: within ±20% 
+Temperature: 70°C±2°C 
+Humidity: 90% (RH) to 95% (RH) 
+Test time: 1000 h (+48 h, -0 h) 
+Post-treatment: left at a room condition for 24 h±2 h 
+9.4 
+Temperature cycle Appearance: No significant mechanical 
+damage shall be observed. 
+Inductance change rate: within ±5% 
+Q change rate: within ±20% 
+Single cycle conditions: 
+Step 1: -55°C±2°C/30 min±3 min 
+Step 2: ordinary temperature/10 min to 15 min 
+Step 3: +125°C±2°C/30 min±3 min 
+Step 4: ordinary temperature/10 min to 15 min 
+Number of testing: 10 cycles 
+Post-treatment: left at a room condition for 24 h±2 h 
+
+Spec No.: JELF243A_0050AB-01 
+P9/15 
+MURATA MFG CO., LTD 
+10. Specification of Packaging 
+10.1 Appearance and dimensions of tape (8 mm width/paper tape) 
+(in mm) 
+Inductance 
+A* (mm) 
+(Dimensional 
+tolerance ±0.03) 
+B* (mm) 
+(Dimensional 
+tolerance ±0.03) 
+1N5, 2N4 to 2N8, 3N9 to 4N8, 5N8 to 6N8, 8N2 to 9N9, 11N, 12N, 15N 
+0.69 
+1.18 
+1N6 to 1N8, 2N9, 3N0, 3N1, 3N2, 4N9 to 5N1, 6N9 to 7N5, 10N, 13N, 16N to 23N, 
+R10, R12 
+0.66 
+1.18 
+24N to 91N 
+0.64 
+1.18 
+*Typical value 
+10.2 Taping specifications 
+Packing quantity 
+(Standard quantity) 
+10000 pcs/reel 
+Packing method 
+The products are placed in embossed cavities of a base tape and sealed by a cover tape. 
+Feed hole position 
+The feed holes on the base tape are on the right side when the cover tape is pulled toward the user. 
+Joint 
+The base tape and the cover tape are seamless. 
+Number of missing 
+products 
+Number of missing products within 0.1% of the number per reel or 1 pc., whichever is greater, and are 
+not continuous. The specified quantity per reel is kept. 
+10.3 Break down force of tape 
+Break down force of cover tape 
+5 N min. 
+10.4 Peeling off force of cover tape 
+Speed of peeling off 
+300 mm/min 
+Peeling off force 
+0.1 N to 0.6 N (The lower limit is for typical value.) 
+ 
+ 
+ 
+F
+Cover tape
+Base tape
+165°to 180゜
+
+Spec No.: JELF243A_0050AB-01 
+P10/15 
+MURATA MFG CO., LTD 
+10.5 Dimensions of leader section, trailer section and reel 
+A vacant section is provided in the leader (start) section and trailer (end) section of the tape for the product. The leader 
+section is further provided with an area consisting only of the cover tape. (See the diagram below.) 
+ 
+10.6 Marking for reel 
+Customer part number, Murata part number, inspection number (*1), RoHS marking (*2), quantity, etc. 
+*1 Expression of inspection No.:  
+□□ 
+○○○○ 
+ 
+(1)  
+(2)  
+(3)  
+ 
+(1) Factory code 
+(2) Date 
+First digit: year/last digit of year  
+Second digit: month/Jan. to Sep.→1 to 9, Oct. to Dec.→O, N, D 
+Third, Fourth digit: day 
+(3) Serial No. 
+*2 Expression of RoHS marking: 
+ROHS- 
+Y 
+() 
+ 
+(1) 
+(2)  
+ 
+(1) RoHS regulation conformity 
+(2) Murata classification number 
+10.7 Marking on outer box (corrugated box) 
+Customer name, purchasing order number, customer part number, Murata part number, RoHS marking (*2), quantity, etc. 
+10.8 Specification of outer box 
+ 
+Dimensions of outer box 
+(mm) 
+Standard reel quantity 
+in outer box (reel) 
+W 
+D 
+H 
+186 
+186 
+93 
+5 
+* Above outer box size is typical. It depends on a 
+quantity of an order. 
+ 
+11. 
+Caution 
+Restricted 
+applications 
+Please contact us before using our products for the applications listed below which require especially high 
+reliability for the prevention of defects which might directly cause damage to the third party's life, body or 
+property. 
+ 
+(1) Aircraft equipment 
+(6) Transportation equipment (vehicles, trains, ships, etc.) 
+(2) Aerospace equipment 
+(7) Traffic signal equipment 
+(3) Undersea equipment 
+(8) Disaster/crime prevention equipment 
+(4) Power plant control equipment 
+(9) Data-processing equipment 
+(5) Medical equipment 
+(10) Applications of similar complexity and/or reliability requirements 
+to the applications listed in the above 
+ 
+ 
+ 
+W
+D
+Label
+H
+
+Spec No.: JELF243A_0050AB-01 
+P11/15 
+MURATA MFG CO., LTD 
+12. Precautions for Use 
+This product is for use only with reflow soldering. It is designed to be mounted by soldering. If you want to use other mounting 
+method, for example, using a conductive adhesive, please consult us beforehand. 
+12.1 Land dimensions 
+The following diagram shows the recommended land dimensions for reflow soldering. 
+The land dimensions are designed in consideration of electrical characteristics and mountability. Use of other land 
+dimensions may preclude achievement of performance. In some cases, it may result in poor solderability, including positional 
+shift. If you use other land pattern, consider it adequately. 
+ 
+a 
+0.50 
+b 
+1.2 
+c 
+0.65 
+(in mm) 
+12.2 Flux and solder used 
+Flux 
+• Use a rosin-based flux that includes an activator with a chlorine conversion value of 0.06(wt)% to 0.1(wt)%. 
+• Do not use a highly acidic flux with a halide content exceeding 0.2(wt)% (chlorine conversion value). 
+• Do not use a water-soluble flux. 
+Solder 
+• Use Sn-3.0Ag-0.5Cu solder. 
+• Standard thickness of solder paste: 100 μm to 150 μm 
+If you want to use a flux other than the above, please consult our technical department. 
+12.3 Soldering conditions (reflow) 
+• Pre-heating should be in such a way that the temperature difference between solder and product surface is limited to 150°C 
+max. 
+Cooling into solvent after soldering also should be in such a way that the temperature difference is limited to 100°C max. 
+Insufficient pre-heating may cause cracks on the product, resulting in the deterioration of product quality. 
+• Standard soldering profile and the limit soldering profile is as follows. 
+The excessive limit soldering conditions may cause leaching of the electrode and/or resulting in the deterioration of product 
+quality. 
+ 
+ 
+Standard profile 
+Limit profile 
+Pre-heating 
+150°C to 180°C/90 s±30 s 
+150°C to 180°C/90 s±30 s 
+Heating 
+Above 220°C/30 s to 60 s 
+Above 230°C/60 s max. 
+Peak temperature  
+245°C±3°C 
+260°C/10 s 
+Number of reflow cycles 
+2 times 
+2 times 
+ 
+ 
+Limit Profile
+Standard Profile
+90s±30s
+230℃
+260℃
+245℃±3℃
+220℃
+30s～60s
+60s max.
+180
+150
+Temp.
+(s)
+(℃)
+Time.
+
+Spec No.: JELF243A_0050AB-01 
+P12/15 
+MURATA MFG CO., LTD 
+12.4 Reworking with soldering iron 
+The following requirements must be met to rework a soldered product using a soldering iron. 
+Item 
+Requirement 
+Pre-heating 
+150°C/approx. 1 min 
+Tip temperature of soldering iron 
+350°C max. 
+Power consumption of soldering iron 
+80 W max. 
+Tip diameter of soldering iron 
+ø3 mm max. 
+Soldering time 
+3 s (+1 s, -0 s) 
+Number of reworking operations 
+2 times max. 
+* Avoid a direct contact of the tip of the soldering iron with the product. Such a 
+direction contact may cause cracks in the ceramic body due to thermal shock. 
+12.5 Solder volume 
+Solder shall be used not to increase the volume too much. 
+ 
+An increased solder volume increases mechanical stress on the product. Exceeding solder volume may cause the failure of 
+mechanical or electrical performance. 
+12.6 Product's location 
+The following shall be considered when designing and laying out PCBs. 
+(1) PCB shall be designed so that products are not subject to mechanical stress due to warping the board. 
+[Products direction] 
+Products shall be located in the sideways direction (length: a < b) to the mechanical stress. 
+ 
+(2) Components location on PCB separation 
+It is effective to implement the following measures, to reduce stress in separating the board. 
+It is best to implement all of the following three measures; however, implement as many measures as possible to reduce 
+stress. 
+Contents of measures 
+Stress level 
+(1) Turn the mounting direction of the component parallel to the 
+board separation surface. 
+A > D*1 
+(2) Add slits in the board separation part. 
+A > B 
+(3) Keep the mounting position of the component away from the 
+board separation surface. 
+A > C 
+*1 A > D is valid when stress is added vertically to the perforation as with hand separation. 
+If a cutting disc is used, stress will be diagonal to the PCB, therefore A > D is invalid. 
+ 
+ 
+ 
+ 
+〈Poor example〉
+〈Good example〉
+b
+a
+
+Spec No.: JELF243A_0050AB-01 
+P13/15 
+MURATA MFG CO., LTD 
+(3) Mounting components near screw holes 
+When a component is mounted near a screw hole, it may be affected by the board deflection that occurs during the 
+tightening of the screw. 
+Mount the component in a position as far away from the screw holes as possible. 
+ 
+12.7 Handling of substrate 
+After mounting products on a substrate, do not apply any stress to the product caused by bending or twisting to the substrate 
+when cropping the substrate, inserting and removing a connector from the substrate or tightening screw to the substrate. 
+Excessive mechanical stress may cause cracking in the product. 
+ 
+ 
+Bending 
+Twisting 
+12.8 Cleaning 
+The product shall be cleaned under the following conditions. 
+(1) The cleaning temperature shall be 60°C max. If isopropyl alcohol (IPA) is used, the cleaning temperature shall be 40°C 
+max. 
+(2) Perform ultrasonic cleaning under the following conditions. Exercise caution to prevent resonance phenomenon in 
+mounted products and the PCB. 
+Item 
+Requirement 
+Power 
+20 W/L max. 
+Time 
+5 min max. 
+Frequency 
+28 kHz to 40 kHz 
+(3) Cleaner 
+Alcohol-based cleaner: IPA 
+Aqueous agent: PINE ALPHA ST-100S 
+(4) There shall be no residual flux or residual cleaner. When using aqueous agent, rinse the product with deionized water 
+adequately and completely dry it so that no cleaner is left. 
+* For other cleaning, consult our technical department. 
+12.9 Storage and transportation 
+Storage period 
+Use the product within 12 months after delivery.  
+If you do not use the product for more than 12 months, check solderability before using it. 
+Storage conditions 
+• The products shall be stored in a room not subject to rapid changes in temperature and humidity. 
+The recommended temperature range is -10°C to +40°C. The recommended relative humidity 
+range is 15% to 85%. 
+Keeping the product in corrosive gases, such as sulfur, chlorine gas or acid, oxidizes the 
+electrode, resulting in poor solderability or corrosion of the coil wire of the product. 
+• Do not keep products in bulk packaging. Doing so may cause collision between the products or 
+between the products and other products, resulting in core chipping or wire breakage. 
+• Do not place the products directly on the floor; they should be placed on a palette so that they are 
+not affected by humidity or dust. 
+• Avoid keeping the products in a place exposed to direct sunlight, heat or vibration. 
+Transportation 
+Excessive vibration and impact reduces the reliability of the products. Exercise caution when 
+handling the products. 
+ 
+ 
+
+Spec No.: JELF243A_0050AB-01 
+P14/15 
+MURATA MFG CO., LTD 
+12.10 Resin coating 
+The inductance value may change due to high cure-stress of resin to be used for coating/molding products. 
+A wire breakage issue may occur by mechanical stress caused by the resin, amount/cured shape of resin, or operating 
+condition etc. Some resin contains some impurities or chloride possible to generate chlorine by hydrolysis under some 
+operating condition may cause corrosion of wire of coil, leading to wire breakage. 
+So, please pay your careful attention when you select resin in case of coating/molding the products with the resin. 
+Prior to use the coating resin, please make sure no reliability issue is observed by evaluating products mounted on your 
+board. 
+12.11 Handling of product 
+• Sharp material such as a pair of tweezers or other material such as bristles of cleaning brush, shall not be touched to the 
+winding portion to prevent the breaking of wire. 
+• Mechanical shock should not be applied to the products mounted on the board to prevent the breaking of the core. 
+12.12 Handling with mounting equipment 
+• With some types of mounting equipment, a support pin pushes up the product from the bottom of the base (paper) tape 
+when the product is sucked with the pick-up nozzle. 
+When using this type of equipment, detach the support pin to prevent the breaking of wire on the product. 
+• In some cases, the laser recognition function of the mounting equipment may not recognize this product correctly. 
+Please contact us when using laser recognition. (There is no problem with the permeation and reflection type.) 
+13. 
+Note 
+(1) Please make sure that your product has been evaluated in view of your specifications with our product being mounted to 
+your product. 
+(2) You are requested not to use our product deviating from the reference specifications. 
+(3) The contents of this reference specification are subject to change without advance notice. Please approve our product 
+specifications or transact the approval sheet for product specifications before ordering. 
+14. Appendix 
+Electrical performance: Measuring method for inductance/Q (Q measurement is applicable only when the Q value is included 
+in the rating table.) 
+Perform measurement using the method described below. (Perform correction for the error deriving from the measuring 
+terminal.) 
+(1) Residual elements and stray elements of the measuring terminal can be expressed by the F parameter for the 2-pole 
+terminal as shown in the figure below. 
+ 
+(2) The product's impedance value (Zx) and measured impedance value (Zm) can be expressed as shown below, by using 
+the respective current and voltage for input/output. 
+Zm= V1
+I1
+ 
+Zx= V2
+I2
+ 
+ 
+(3) Thus, the relationship between the product's impedance value (Zx) and measured impedance value (Zm) is as follows. 
+Zx=α Zm-β
+1-ZmΓ 
+Here, 
+α = D/A = 1 
+β = B/D = Zsm - (1 - Yom Zsm) Zss 
+Γ = C/A = Yom 
+ 
+Zsm: measured impedance of short chip 
+Zss: residual impedance of short chip (0.556 nH) 
+Yom: measured admittance when measuring terminal is open 
+ 
+ 
+ 
+ 
+
+Spec No.: JELF243A_0050AB-01 
+P15/15 
+MURATA MFG CO., LTD 
+(4) Calculate inductance Lx and Qx using the equations shown below. 
+Lx= Im (Zx)
+2πf
+ 
+Lx: inductance of chip coil 
+Qx: Q of chip coil 
+f: measuring frequency 
+ 
+Qx= Im (Zx)
+Re (Zx) 
+ 

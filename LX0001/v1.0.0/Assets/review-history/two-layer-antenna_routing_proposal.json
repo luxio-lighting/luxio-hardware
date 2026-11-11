@@ -1,0 +1,90 @@
+{
+  "antenna_origin_mm": [
+    14.5,
+    1.5,
+    0
+  ],
+  "tuner_origin_mm": [
+    11.1,
+    1.5,
+    0
+  ],
+  "clearance_both_layers_mm": [
+    [
+      10.5,
+      0
+    ],
+    [
+      18.5,
+      0
+    ],
+    [
+      18.5,
+      3
+    ],
+    [
+      10.5,
+      3
+    ]
+  ],
+  "bottom_ground_reference_corridor_mm": [
+    [
+      16.25,
+      3.0
+    ],
+    [
+      18.15,
+      3.0
+    ],
+    [
+      18.15,
+      5.3
+    ],
+    [
+      19.0,
+      6.6
+    ],
+    [
+      19.0,
+      8.4
+    ],
+    [
+      14.2,
+      8.4
+    ],
+    [
+      14.2,
+      6.0
+    ],
+    [
+      16.25,
+      3.95
+    ]
+  ],
+  "moves_required": [
+    "R31 leaves antenna window",
+    "R25 and R26 leave ground reference corridor",
+    "C115 rotation270; RF pad toward top",
+    "C112 GND via19.05,2.4"
+  ],
+  "router_keepout_note": "Router-only B.Cu keepout can reserve this reference corridor against signal traces. Exclude existing GND via discs plus clearance from it. Keep this area pourable as GND in actual KiCad PCB.",
+  "ground_vias_mm": [
+    [
+      17.31,
+      7.72
+    ],
+    [
+      14.5,
+      7.72
+    ],
+    [
+      19.0,
+      1.025
+    ],
+    [
+      10.0,
+      0.65
+    ]
+  ],
+  "validation_scope": "Temporary project generation/preroute/clock/RF, with relocating R25/R26/R31 omitted. Full-project DRC remains required after final placement and routing."
+}

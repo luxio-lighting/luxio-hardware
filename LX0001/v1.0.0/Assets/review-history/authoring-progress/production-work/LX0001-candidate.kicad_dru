@@ -1,0 +1,8 @@
+(version 1)
+
+# The antenna's own land pattern includes feed and ground fingers. Other nets
+# must not use the copper-free window, even though those fingers are permitted.
+(rule "Antenna window - only manufacturer feed and ground"
+    (layer F.Cu)
+    (condition "A.intersectsArea('RFECA antenna top no ground pour') && A.NetName != 'RF_50' && A.NetName != 'ANT_TUNE' && A.NetName != 'GND'")
+    (constraint disallow track via pad))

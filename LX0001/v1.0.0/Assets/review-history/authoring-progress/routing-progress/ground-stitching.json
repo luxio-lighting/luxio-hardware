@@ -1,0 +1,476 @@
+{
+  "input_board": "/private/tmp/lx0001-root-pruned.kicad_pcb",
+  "output_board": "/private/tmp/lx0001-current-ground-stitch.kicad_pcb",
+  "project": "/private/tmp/lx0001-root-pruned.kicad_pro",
+  "initial_violations": {
+    "pth_inside_courtyard": 4,
+    "via_dangling": 12,
+    "track_dangling": 7,
+    "lib_footprint_mismatch": 107,
+    "lib_footprint_issues": 9
+  },
+  "accepted": [
+    {
+      "x": 31.4,
+      "y": 3.8,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "islands": [
+        "a58f3c4e-08b5-4796-8d82-f5d4498257d0:F.Cu:14",
+        "e13bde4e-2dfe-4c9a-a7c4-c68706a9f7d4:B.Cu:29"
+      ],
+      "components": [
+        56,
+        55
+      ],
+      "component_nodes": [
+        178,
+        11
+      ],
+      "overlap_area_mm2": 1.812640794897,
+      "uuid": "d7aa4ec5-c53e-4372-9f60-6d71178e2520",
+      "before_ground": 15,
+      "after_ground": 14,
+      "after_other": 30
+    },
+    {
+      "x": 11.2,
+      "y": 15.0,
+      "diameter": 0.45,
+      "drill": 0.2,
+      "islands": [
+        "a58f3c4e-08b5-4796-8d82-f5d4498257d0:F.Cu:0",
+        "e13bde4e-2dfe-4c9a-a7c4-c68706a9f7d4:B.Cu:4"
+      ],
+      "components": [
+        56,
+        30
+      ],
+      "component_nodes": [
+        190,
+        3
+      ],
+      "overlap_area_mm2": 0.8267550900185,
+      "uuid": "c94c7ba3-208a-4e28-81db-8da23241a864",
+      "before_ground": 14,
+      "after_ground": 13,
+      "after_other": 30
+    },
+    {
+      "x": 9.0,
+      "y": 5.8,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "islands": [
+        "a58f3c4e-08b5-4796-8d82-f5d4498257d0:F.Cu:6",
+        "e13bde4e-2dfe-4c9a-a7c4-c68706a9f7d4:B.Cu:27"
+      ],
+      "components": [
+        56,
+        53
+      ],
+      "component_nodes": [
+        194,
+        2
+      ],
+      "overlap_area_mm2": 2.5154111487925,
+      "uuid": "6cf044b0-27d8-4600-bbc6-33eeaf96b23a",
+      "before_ground": 13,
+      "after_ground": 12,
+      "after_other": 30
+    },
+    {
+      "x": 15.0,
+      "y": 12.0,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "islands": [
+        "a58f3c4e-08b5-4796-8d82-f5d4498257d0:F.Cu:6",
+        "e13bde4e-2dfe-4c9a-a7c4-c68706a9f7d4:B.Cu:12"
+      ],
+      "components": [
+        56,
+        38
+      ],
+      "component_nodes": [
+        197,
+        2
+      ],
+      "overlap_area_mm2": 1.5666834417085,
+      "uuid": "a7641425-79bc-44b5-93db-7b8b8d4b7373",
+      "before_ground": 12,
+      "after_ground": 11,
+      "after_other": 30
+    },
+    {
+      "x": 18.8,
+      "y": 6.2,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "islands": [
+        "a58f3c4e-08b5-4796-8d82-f5d4498257d0:F.Cu:20",
+        "e13bde4e-2dfe-4c9a-a7c4-c68706a9f7d4:B.Cu:5"
+      ],
+      "components": [
+        20,
+        56
+      ],
+      "component_nodes": [
+        2,
+        200
+      ],
+      "overlap_area_mm2": 1.339319582276,
+      "uuid": "e960dc62-37c2-42d3-8d9c-e98e7ccc7b98",
+      "before_ground": 11,
+      "after_ground": 10,
+      "after_other": 30
+    },
+    {
+      "x": 26.5684,
+      "y": 8.0979,
+      "diameter": 0.6,
+      "drill": 0.3,
+      "islands": [
+        "a58f3c4e-08b5-4796-8d82-f5d4498257d0:F.Cu:13",
+        "e13bde4e-2dfe-4c9a-a7c4-c68706a9f7d4:B.Cu:17"
+      ],
+      "components": [
+        13,
+        56
+      ],
+      "component_nodes": [
+        2,
+        203
+      ],
+      "overlap_area_mm2": 0.8119195124835,
+      "uuid": "83706966-9ef0-4f56-9f62-81194b89568a",
+      "before_ground": 10,
+      "after_ground": 9,
+      "after_other": 30
+    },
+    {
+      "x": 29.4,
+      "y": 14.4,
+      "diameter": 0.45,
+      "drill": 0.2,
+      "islands": [
+        "a58f3c4e-08b5-4796-8d82-f5d4498257d0:F.Cu:3",
+        "e13bde4e-2dfe-4c9a-a7c4-c68706a9f7d4:B.Cu:7"
+      ],
+      "components": [
+        56,
+        33
+      ],
+      "component_nodes": [
+        206,
+        2
+      ],
+      "overlap_area_mm2": 0.477112768402,
+      "uuid": "d5a3052f-ee9e-4ce1-9a97-5c25c5f26706",
+      "before_ground": 9,
+      "after_ground": 8,
+      "after_other": 30
+    },
+    {
+      "x": 28.2,
+      "y": 14.2,
+      "diameter": 0.45,
+      "drill": 0.2,
+      "islands": [
+        "a58f3c4e-08b5-4796-8d82-f5d4498257d0:F.Cu:4",
+        "e13bde4e-2dfe-4c9a-a7c4-c68706a9f7d4:B.Cu:7"
+      ],
+      "components": [
+        4,
+        56
+      ],
+      "component_nodes": [
+        2,
+        209
+      ],
+      "overlap_area_mm2": 0.931129047547,
+      "uuid": "ec058c57-21d7-47cd-91fb-7bdffe5722c8",
+      "before_ground": 8,
+      "after_ground": 7,
+      "after_other": 30
+    }
+  ],
+  "rejected": [],
+  "rounds": [
+    {
+      "round": 0,
+      "ground_components": 16,
+      "ground_unconnected": 15,
+      "nodes": 257,
+      "filled_contours": 57,
+      "search_grid_mm": 0.2,
+      "candidate_count": 19
+    },
+    {
+      "round": 1,
+      "ground_components": 15,
+      "ground_unconnected": 14,
+      "nodes": 258,
+      "filled_contours": 57,
+      "search_grid_mm": 0.2,
+      "candidate_count": 15
+    },
+    {
+      "round": 2,
+      "ground_components": 14,
+      "ground_unconnected": 13,
+      "nodes": 259,
+      "filled_contours": 57,
+      "search_grid_mm": 0.2,
+      "candidate_count": 13
+    },
+    {
+      "round": 3,
+      "ground_components": 13,
+      "ground_unconnected": 12,
+      "nodes": 260,
+      "filled_contours": 57,
+      "search_grid_mm": 0.2,
+      "candidate_count": 9
+    },
+    {
+      "round": 4,
+      "ground_components": 12,
+      "ground_unconnected": 11,
+      "nodes": 261,
+      "filled_contours": 57,
+      "search_grid_mm": 0.2,
+      "candidate_count": 6
+    },
+    {
+      "round": 5,
+      "ground_components": 11,
+      "ground_unconnected": 10,
+      "nodes": 262,
+      "filled_contours": 57,
+      "search_grid_mm": 0.2,
+      "candidate_count": 4
+    },
+    {
+      "round": 6,
+      "ground_components": 10,
+      "ground_unconnected": 9,
+      "nodes": 263,
+      "filled_contours": 57,
+      "search_grid_mm": 0.2,
+      "candidate_count": 2
+    },
+    {
+      "round": 7,
+      "ground_components": 9,
+      "ground_unconnected": 8,
+      "nodes": 264,
+      "filled_contours": 57,
+      "search_grid_mm": 0.2,
+      "candidate_count": 1
+    },
+    {
+      "round": 8,
+      "ground_components": 8,
+      "ground_unconnected": 7,
+      "nodes": 265,
+      "filled_contours": 57,
+      "search_grid_mm": 0.2,
+      "candidate_count": 0
+    },
+    {
+      "round": 9,
+      "ground_components": 8,
+      "ground_unconnected": 7,
+      "nodes": 265,
+      "filled_contours": 57,
+      "search_grid_mm": 0.05,
+      "candidate_count": 0
+    }
+  ],
+  "candidate_region_mm": null,
+  "initial_ground_unconnected": 15,
+  "initial_other_unconnected": 30,
+  "stopped_reason": "No safe front/back filled-copper overlap connects the remaining components; a short reviewed GND route may be required.",
+  "remaining_components": [
+    {
+      "nodes": 212,
+      "pads": [
+        "J2/1",
+        "J2/1",
+        "C105/2",
+        "R9/2",
+        "Q2/2",
+        "C101/2",
+        "Y1/2",
+        "Y1/4",
+        "J3/2",
+        "J3/2",
+        "C113/2",
+        "C108/2",
+        "C106/2",
+        "ANT1/3",
+        "ANT1/3",
+        "D3/2",
+        "C112/2",
+        "C107/2",
+        "C114/2",
+        "C103/2",
+        "C110/2",
+        "L104/2",
+        "C102/2",
+        "C115/2",
+        "U1/57",
+        "SW1/2",
+        "TP1/1",
+        "R102/2",
+        "R33/2",
+        "U4/2",
+        "J1/A1",
+        "J1/A12",
+        "J1/B1",
+        "J1/B12",
+        "J1/SH",
+        "J1/SH",
+        "J1/SH",
+        "J1/SH",
+        "R18/2",
+        "C6/2",
+        "R20/2",
+        "Q5/2",
+        "U8/3",
+        "R31/2",
+        "C15/2",
+        "R24/2",
+        "R15/2",
+        "C13/2",
+        "C17/2",
+        "C109/2",
+        "R13/2",
+        "R103/2",
+        "U5/2",
+        "C16/2",
+        "R28/2",
+        "U9/3",
+        "R29/2",
+        "U3/2",
+        "C8/2",
+        "R17/2",
+        "C111/2",
+        "C14/2",
+        "C12/2",
+        "C100/2"
+      ],
+      "bounds_mm": [
+        0.3005,
+        0.3005,
+        59.6995,
+        19.6995
+      ]
+    },
+    {
+      "nodes": 37,
+      "pads": [
+        "R40/2",
+        "R39/2",
+        "R37/2",
+        "Q8/2",
+        "Q7/2",
+        "Q4/2",
+        "C10/2",
+        "C11/2",
+        "U7/2"
+      ],
+      "bounds_mm": [
+        34.812048,
+        4.572048,
+        48.977595,
+        18.2995
+      ]
+    },
+    {
+      "nodes": 6,
+      "pads": [
+        "U10/4",
+        "U6/2"
+      ],
+      "bounds_mm": [
+        27.62418,
+        5.106934,
+        30.525,
+        8.437953
+      ]
+    },
+    {
+      "nodes": 2,
+      "pads": [
+        "R1/2"
+      ],
+      "bounds_mm": [
+        8.206914,
+        3.044302,
+        11.644526,
+        5.837953
+      ]
+    },
+    {
+      "nodes": 2,
+      "pads": [
+        "C104/2"
+      ],
+      "bounds_mm": [
+        24.6,
+        4.0755,
+        25.7245,
+        5.61
+      ]
+    },
+    {
+      "nodes": 2,
+      "pads": [
+        "U2/2"
+      ],
+      "bounds_mm": [
+        7.6255,
+        11.949177,
+        10.250436,
+        13.526041
+      ]
+    },
+    {
+      "nodes": 2,
+      "pads": [
+        "C4/2"
+      ],
+      "bounds_mm": [
+        20.396679,
+        7.804399,
+        24.352594,
+        12.1745
+      ]
+    },
+    {
+      "nodes": 2,
+      "pads": [
+        "R2/2"
+      ],
+      "bounds_mm": [
+        11.5005,
+        7.526972,
+        13.912596,
+        9.545819
+      ]
+    }
+  ],
+  "complete": false,
+  "final_ground_unconnected": 7,
+  "final_other_unconnected": 30,
+  "final_violations": {
+    "pth_inside_courtyard": 4,
+    "via_dangling": 12,
+    "track_dangling": 7,
+    "lib_footprint_mismatch": 107,
+    "lib_footprint_issues": 9
+  },
+  "output_verified": true
+}

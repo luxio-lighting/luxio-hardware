@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C183158",
+    "componentModelEn": "S1206-FA-8.0A",
+    "componentBrandEn": "SART(Nanjing Sart Tech)",
+    "componentSpecificationEn": "1206",
+    "stockCount": 2166,
+    "canPresaleNumber": 2122,
+    "componentLibraryType": "expand",
+    "dataManualOfficialLink": "",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_SART-Nanjing-Sart-Tech-S1206-FA-8-0A_C183158.pdf",
+    "required_100_boards": 100,
+    "unit_price_usd": 0.0844,
+    "observed_at_utc": "2026-11-11T11:34:09Z",
+    "source_url": "https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C183158"
+  }
+}

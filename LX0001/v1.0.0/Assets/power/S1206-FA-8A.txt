@@ -1,0 +1,516 @@
+ 
+ 
+Nanjing SART Science &Technology Development Co., ltd or ANT Technology Company Limited.（A Wholly Owned Subsidiary） 
+ ADD.:Maqun Science & Technology Park, Qingma Road 6#, Nanjing, China 
+ TEL.:086-25-84354852-8015   FAX.:086-25-83241791  Web.: www.sartfuse.com 
+Surface Mount Fuses 
+1206 Size >Fast Acting>S1206-FA-8A~15A 
+File No.: JS-S1206-FA-00 
+Revision: H 
+Page: 1/ 6 
+ 
+ 
+ 
+• Fast acting 
+• 3.10mm× 1.55mm physical size 
+• Thick film manufacturing method, ceramic  
+ substrate, silver fusing element 
+• -55℃~125℃ operating temperature 
+• Excellent environmental integrity 
+• RoHS compliant 
+• Halogen-free 
+• Lead free 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• Battery pack 
+• PC related equipment and peripherals 
+(Hard driver, Printer, etc.) 
+• Digital camera (Digital still camera) 
+• Game equipment 
+• LCD monitor, LCD modules 
+• Wireless base station 
+• Power supply 
+• Medical device 
+ 
+ 
+ 
+Part Number 
+Marking 
+Current 
+Rating (A) 
+Voltage 
+Rating (V) 
+Interrupting 
+Rating (V) 
+Typical Cold 
+DCR* (mΩ) 
+Typical I2T** 
+(A2s) 
+S1206-FA-8.0A 
+8 
+8.0 
+32 
+150A 
+ 32V DC 
+6.7 
+16.2 
+S1206-FA-10.0A 
+10 
+10.0 
+32 
+5.2 
+20.0 
+S1206-FA-12.0A 
+12 
+12.0 
+32 
+3.6 
+28.8 
+S1206-FA-15.0A 
+15 
+15.0 
+32 
+2.3 
+80.0 
+* Measured at≤10% rated current and 25℃ 
+** Melting I2T at 10 times of rated current 
+ 
+Agency 
+File Number 
+Ampere Range 
+ 
+E319512 
+8A~15A 
+General 
+Application 
+Agency / Certificate Information 
+Electrical Specifications 
+
+ 
+ 
+Nanjing SART Science &Technology Development Co., ltd or ANT Technology Company Limited.（A Wholly Owned Subsidiary） 
+ ADD.:Maqun Science & Technology Park, Qingma Road 6#, Nanjing, China 
+ TEL.:086-25-84354852-8015   FAX.:086-25-83241791  Web.: www.sartfuse.com 
+Surface Mount Fuses 
+1206 Size >Fast Acting>S1206-FA-8A~15A 
+File No.: JS-S1206-FA-00 
+Revision: H 
+Page: 2/ 6 
+ 
+Catalo 
+S  1206—FA—15.0A 
+ 
+“15.0A” Ampere Rating: 15A 
+“ FA”  Electrical Characteristic: FA = Fast acting 
+“1206” Size Number 
+“ S”   Symbol of SART 
+Shape & Dimensions: (mm) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Type 
+Ampere Rating 
+Board Thickness 
+(mm) 
+Copper Layer Thickness 
+(mm) 
+Copper Trace Width 
+(mm) 
+S1206-FA 
+8.0A~10.0A 
+1.6 
+0.070 
+7.5 
+12.0A~15.0A 
+1.6 
+0.080 
+10.0 
+Type 
+L 
+(mm) 
+W 
+(mm) 
+T 
+(mm) 
+B 
+(mm) 
+S1206-FA 
+3.10±0.20 
+1.55±0.20 
+0.55±0.20 
+0.50±0.20 
+Components 
+Material 
+Body 
+Ceramic 
+Terminations 
+Silver over plated  
+with tin (100%) 
+Element 
+Silver or Silver/Palladium 
+Dimensions 
+A(mm) 
+B(mm) 
+C(mm) 
+D(mm) 
+Spec
+2.00±0.30 
+4.40±0.50 
+2.40±0.30 
+1.20±0.30 
+Part Number Information 
+Dimensions 
+Recommended Land Patterns 
+Materials 
+B 
+A 
+D 
+C 
+Dimensions of Standard Test Board 
+
+ 
+ 
+Nanjing SART Science &Technology Development Co., ltd or ANT Technology Company Limited.（A Wholly Owned Subsidiary） 
+ ADD.:Maqun Science & Technology Park, Qingma Road 6#, Nanjing, China 
+ TEL.:086-25-84354852-8015   FAX.:086-25-83241791  Web.: www.sartfuse.com 
+Surface Mount Fuses 
+1206 Size >Fast Acting>S1206-FA-8A~15A 
+File No.: JS-S1206-FA-00 
+Revision: H 
+Page: 3/ 6 
+ 
+Time Current Curve: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Type 
+Ampere Rating 
+% of Current Rating 
+Opening Time 
+S1206-FA 
+8.0A~15.0A 
+100 
+＞4hours 
+8.0A~15.0A 
+350 
+≤5sec 
+Time Current Curve 
+Temperature Derating Curve 
+I2T VS Time Curve 
+Electrical Characteristics 
+1E-3
+0.01
+0.1
+1
+10
+100
+0.1
+1
+10
+100
+1000
+10000
+100000
+1000000
+15A
+12A
+8A
+10A
+I
+2T (A
+2S)
+Time(s)
+10
+100
+1E-3
+0.01
+0.1
+1
+10
+100
+10A
+8A
+15A
+Time (s)
+Current (A)
+12A
+
+ 
+ 
+Nanjing SART Science &Technology Development Co., ltd or ANT Technology Company Limited.（A Wholly Owned Subsidiary） 
+ ADD.:Maqun Science & Technology Park, Qingma Road 6#, Nanjing, China 
+ TEL.:086-25-84354852-8015   FAX.:086-25-83241791  Web.: www.sartfuse.com 
+Surface Mount Fuses 
+1206 Size >Fast Acting>S1206-FA-8A~15A 
+File No.: JS-S1206-FA-00 
+Revision: H 
+Page: 4/ 6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Item 
+Test condition/ Methods 
+Performance 
+Standard 
+Time/Current 
+100% of current rating 
+No Fusing, 4hours Min. 
+UL248-14 
+350% of current rating 
+≤5sec 
+SART SPEC. 
+Voltage Drop 
+100% of current rating 
+Deviation between the mean 
+value: ＜15% 
+IEC60127-4 
+Temperature Rise 
+100% of current rating 
+△T＜95℃ 
+IEC60127-4 
+Interrupting Ability 
+150A 32V DC 
+without permanent arcing, 
+ignition and bursting of fuse link 
+UL248-14 
+IEC60127-4 
+Solderability 
+240℃±5℃, 3sec±0.5sec 
+95% coverage Min. 
+IEC60127-4 
+MIL-STD-202 
+Method 208 
+Resistance to 
+Soldering 
+260℃±5℃, 10sec±0.5sec 
+|△R|:＜10% 
+Legible appearance 
+MIL-STD-202 
+Method 210 
+Bending Test 
+Distance between holding points: 90mm 
+Bending: 1mm, time: 10sec 
+|△R|:＜10% 
+No mechanical damages 
+IEC60127-4 
+High Temperature 
+Operating Life 
+T=70℃±2℃, 60%In, 96hours 
+|△R|: ＜10%; No fusing 
+MIL-STD-202 
+Method 108 
+Humidity 
+(Steady State) 
+T=40℃±2℃, 90%～95%RH, 
+1000hours 
+|△R|: ＜10% 
+MIL-STD-202 
+Method 103 
+Low Temperature 
+Storage 
+T=-55℃±3℃，96hours 
+|△R|: ＜10% 
+IEC60068-2-1 
+High Temperature 
+Storage 
+T=125℃±2℃，96hours 
+|△R|: ＜10% 
+IEC60068-2-2 
+Salt Spray 
+5% salt solution，48hours 
+|△R|: ＜10% 
+Legible appearance 
+MIL-STD-202 
+Method 101 
+Thermal Shock 
+100 cycles between -65℃/+125℃ 
+60 minutes, each extreme 
+|△R|: ＜10% 
+No mechanical damages 
+MIL-STD-202 
+Method 107 
+Product Characteristics 
+
+ 
+ 
+Nanjing SART Science &Technology Development Co., ltd or ANT Technology Company Limited.（A Wholly Owned Subsidiary） 
+ ADD.:Maqun Science & Technology Park, Qingma Road 6#, Nanjing, China 
+ TEL.:086-25-84354852-8015   FAX.:086-25-83241791  Web.: www.sartfuse.com 
+Surface Mount Fuses 
+1206 Size >Fast Acting>S1206-FA-8A~15A 
+File No.: JS-S1206-FA-00 
+Revision: H 
+Page: 5/ 6 
+ 
+ 
+1. Infrared Reflow: 
+• Temperature: 260℃ 
+• Time: 5sec Max. 
+• Recommend Reflow profile 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. Wave soldering                                       3.Hand Soldering 
+• Reservoir Temperature: 260℃                            • Temperature: 350℃ 
+• Time in Reservoir: 10secMax.                           • Time: 5secMax. 
+ 
+ 
+ 
+• 5000 pieces of fuses in emboss taper and reeled on a 178mm(7 inch) reel. 
+ 
+ 
+ 
+ 
+ 
+ 
+Profile Feature 
+Pb-Free Assembly 
+Average Ramp-up 
+Rate(Tsmax to Tp) 
+3℃/sec Max. 
+Preheat 
+Temperature Min.(Tsmin) 
+Temperature Max.(Tsmax) 
+Time(Tsmin to Tsmax) 
+150℃ 
+200℃ 
+60sec~120sec 
+Peak Temperature(Tp) 
+260℃ 
+Time within 5℃ of actual 
+Peak Temperature(Tp) 
+5sec 
+Melting tin time(TL) 
+20sec~30sec 
+Ramp-down Rate 
+6℃/sec Max. 
+Time 25℃ to peak 
+Temperature 
+8minutes Max. 
+Type 
+A(mm) 
+B(mm) 
+W(mm) 
+E(mm) 
+F(mm) 
+Spec 
+3.50±0.20 
+1.90±0.20 
+8.00±0.20 
+1.75±0.10 
+3.50±0.05 
+Type 
+P(mm) 
+P0(mm) 
+P1(mm) 
+D0(mm) 
+T(mm) 
+Spec 
+4.00±0.10 
+4.00±0.10 
+2.00±0.05 
+1.50±0.10 
+0.75±0.10 
+Recommended Solder Curve 
+Packaging 
+
+ 
+ 
+Nanjing SART Science &Technology Development Co., ltd or ANT Technology Company Limited.（A Wholly Owned Subsidiary） 
+ ADD.:Maqun Science & Technology Park, Qingma Road 6#, Nanjing, China 
+ TEL.:086-25-84354852-8015   FAX.:086-25-83241791  Web.: www.sartfuse.com 
+Surface Mount Fuses 
+1206 Size >Fast Acting>S1206-FA-8A~15A 
+File No.: JS-S1206-FA-00 
+Revision: H 
+Page: 6/ 6 
+ 
+Type 
+M(mm) 
+W(mm) 
+T(mm) 
+A(mm) 
+B(mm) 
+C(mm) 
+D(mm) 
+Spec 
+178.00±2.00 
+9.50±1.00 
+12.50±1.50 
+2.00±0.50 
+13.00±0.50 
+21.00±0.50 
+58.00±2.00 
+ 
+Storage: 
+ 
+• The ambient temperature recommended for storage shall be between 5℃~30℃ 
+• The relative humidity recommended for storage shall be between 25%RH~60%RH 
+• Sealed plastic bags with desiccant shall be used to reduce the oxidation of the termination and shall only be 
+opened prior to use 
+• The products shall not be stored in areas where harmful gases containing sulfur or chlorine are present 
+ 
+ 
+ 
+Storage 

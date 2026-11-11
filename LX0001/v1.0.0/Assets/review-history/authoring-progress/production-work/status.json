@@ -1,0 +1,42 @@
+{
+  "status": "INCOMPLETE \u2014 NOT FOR FABRICATION",
+  "unconnected": 30,
+  "unconnected_by_net": {
+    "GND": 2,
+    "+3V3": 4,
+    "USB_ILIM": 1,
+    "DC_FUSED": 1,
+    "VBUS_SENSE": 1,
+    "DC_SENSE_B": 2,
+    "USB_ENABLE": 2,
+    "DC_SENSE_R": 2,
+    "VSYS": 3,
+    "ESP_EN": 1,
+    "BOOT": 1,
+    "CC1": 2,
+    "CC1_SENSE": 2,
+    "USB_STRIP_EN": 1,
+    "USB_HIGH_CURRENT": 1,
+    "CC2": 2,
+    "USB_VCAP": 1,
+    "USB_GATE": 1
+  },
+  "board_sha256": "d55caeec4e86b76759c82ad632fb40428dd7fd0dbb4519a31d9a0f80edb220c6",
+  "main_source_updated": false,
+  "required_library_sync": [
+    "TP3: position25.55,4.65; pad0.5mm; reduced courtyard",
+    "J2: split rear GND-land paste around tented via12.3,7.85; assembly review required"
+  ],
+  "passed": [
+    "pin/net mapping329 pins",
+    "drill/paste0.10mm",
+    "no copper shorts or clearance errors"
+  ],
+  "remaining": [
+    "complete30 connections",
+    "final ground/current review",
+    "sync footprints and source generators",
+    "zero-open native DRC/ERC",
+    "JLCPCB fabrication export and visual review"
+  ]
+}

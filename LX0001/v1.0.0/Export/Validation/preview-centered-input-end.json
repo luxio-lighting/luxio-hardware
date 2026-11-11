@@ -1,0 +1,22 @@
+{
+  "board_sha256": "addd7d033dda781dd301ad4edfb754c7abc086c58657c1940fa5bc8a12fa27a0",
+  "renderer": "KiCad10.0.7 native raytracer",
+  "copper_layers": 4,
+  "body_models": "Some custom component bodies are approximate preview models; manufacturer drawings govern enclosure dimensions",
+  "views": {
+    "preview-top.png": "6df851d9ad1d66c158ffe0fe8364d59c19232eebe4181c84ad3815d0a761675d",
+    "preview-bottom.png": "8c9f7bc2aa8b6d7f215393456b34aa9edc9c35c95a2ce61abcf1a4725808d924",
+    "preview-centered-input-end.png": "cdabce584c31462a38aaafa6861156b42f184888434ea159b42b7188bf2eab89"
+  },
+  "input_connector_centers_board_mm": {
+    "J2": [
+      6.5,
+      10
+    ],
+    "J1": [
+      2.75,
+      10
+    ]
+  },
+  "visual_review": "Top, bottom and input end inspected; input terminal and underside USB share y=10mm centerline"
+}

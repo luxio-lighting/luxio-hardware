@@ -1,0 +1,17 @@
+{
+  "board_sha256": "addd7d033dda781dd301ad4edfb754c7abc086c58657c1940fa5bc8a12fa27a0",
+  "copper_layers": 4,
+  "stackup": "JLC04161H-7628",
+  "rf_trace_width_mm": 0.306,
+  "rf_netclass_clearance_mm": 0.2,
+  "sampled_straight_section_ground_gap_mm": [
+    0.20099999999999998,
+    0.20099999999999998
+  ],
+  "rf_centerline_L2_ground_samples": 70,
+  "missing_reference_samples": [],
+  "antenna_and_screw_keepouts_all_layers": true,
+  "tented_vias_both_sides": 246,
+  "scope": "Saved CAD geometry; uniform-line impedance calculation is not antenna/USB/RF measurement",
+  "pass": true
+}

@@ -1,0 +1,611 @@
+Approval sheet 
+ 
+Page 1 of 9 
+ASC_RFECA3216060A1T_V07 
+May. 2013 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RFECA Series – RoHS Compliance 
+ 
+CERAMIC ANTENNA 
+ 
+Halogens Free Product 
+ 
+2.4 GHz ISM Band Working Frequency 
+ 
+P/N: RFECA3216060A1T  
+ 
+ 
+ 
+ 
+*Contents in this sheet are subject to change without prior notice.
+ 
+
+Approval sheet 
+ 
+Page 2 of 9 
+ASC_RFECA3216060A1T_V07 
+May. 2013 
+FEATURES 
+1. Surface Mounted Devices with a small dimension of 3.2 X 1.6 X 0.6 mm3 meet future miniaturization trend. 
+2. LTCC process. 
+3. High stability in Temperature / Humidity Change. 
+4. Superb performance to place on the middle of PCB edge and excellent peak/ average gain observed by 
+field test application. 
+ 
+APPLICATIONS 
+1. ISM Band 2.4GHz applications. 
+2. Bluetooth.. 
+ 
+ 
+ 
+ 
+ 
+CONSTRUCTION  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DIMENSIONS 
+Figure 
+Symbol 
+Dimension (mm) 
+L 
+3.10 ± 0.20 
+W 
+1.60 ± 0.20 
+T 
+0.60 ± 0.10 
+ 
+A 
+0.25 ± 0.20 
+ 
+ 
+PIN
+Connection 
+1 
+Feeding 
+2 
+Soldering terminal 
+
+Approval sheet 
+ 
+Page 3 of 9 
+ASC_RFECA3216060A1T_V07 
+May. 2013 
+SOLDER LAND PATTERN DESIGN 
+Figure (Empty Space 8.0 mm x 3.0 mm) 
+ 
+The limited size for ECA3216 is L>30mm and D>6mm 
+ 
+Land Pattern 
+ 
+ 
+ 
+TYPE 1 ELECTRONIC CHARACTERISTICS 
+ 
+ 
+*Note 1. Central Frequency should be defined after customers’ application approval. 
+Item 
+Specification 
+Working Frequency Range 
+2.4GHz~2.4835GHz (Note-1) 
+Gain 
+2 dBi (Typical) 
+VSWR 
+2.1 max. 
+Polarization 
+Linear 
+Azimuth Beamwidth 
+Omni-directional 
+Impedance 
+50Ω 
+
+Approval sheet 
+ 
+Page 4 of 9 
+ASC_RFECA3216060A1T_V07 
+May. 2013 
+Antenna on Test Board ( Thickness 0.8mm) 
+ 
+Antenna S11 on Test Board 
+ 
+Antenna VSWR on Test Board 
+ 
+       
+ 
+ 
+ 
+-10.62 dB @ 2.40 GHz 
+-19.34 dB @ 2.45 GHz 
+-9.648 dB @ 2.50 GHz 
+1.756 @ 2.40 GHz 
+1.391 @ 2.45 GHz 
+1.986 @ 2.50 GHz 
+
+Approval sheet 
+ 
+Page 5 of 9 
+ASC_RFECA3216060A1T_V07 
+May. 2013 
+RADIATION PATTERN 
+Radiation Pattern and Gain were dependent on measurement board design. The specification of RFECA3216060A1T  
+antenna was measured based on the PCB size and installation position as shown in the below figure Test Board. 
+ 
+  
+Vertical 
+Horizontal 
+Y - Z  
+Plane 
+ 
+Average 
+Gain= 
+-1.511 dBi
+X Cut
+-40
+-30
+-20
+-10
+0
+0
+30
+60
+90
+120
+150
+180
+210
+240
+270
+300
+330
+ 
+Peak Gain = -2.15 dBi 
+  Average Gain = -3.84 dBi 
+X Cut
+-40
+-30
+-20
+-10
+0
+0
+30
+60
+90
+120
+150
+180
+210
+240
+270
+300
+330
+ 
+Peak Gain= -1.82 dBi 
+  Average Gain=-5.33 dBi 
+X - Z 
+Plane 
+ 
+Average 
+Gain= 
+-0.571 dBi
+X Cut
+-40
+-30
+-20
+-10
+0
+0
+30
+60
+90
+120
+150
+180
+210
+240
+270
+300
+330
+ 
+Peak Gain= 1.02 dBi 
+  Average Gain= -2.68 dBi  
+X Cut
+-40
+-30
+-20
+-10
+0
+0
+30
+60
+90
+120
+150
+180
+210
+240
+270
+300
+330
+ 
+Peak Gain= 0.36 dBi 
+  Average Gain= -4.72 dBi  
+X - Y 
+Plane 
+ 
+Average 
+Gain= 
+-1.166 dBi
+X Cut
+-40
+-30
+-20
+-10
+0
+0
+30
+60
+90
+120
+150
+180
+210
+240
+270
+300
+330
+ 
+Peak Gain= -8.74 dBi 
+  Average Gain= -13.63dBi 
+X Cut
+-40
+-30
+-20
+-10
+0
+0
+30
+60
+90
+120
+150
+180
+210
+240
+270
+300
+330
+ 
+Peak Gain= 2.64dBi 
+  Average Gain=-1.42 dBi 
+x
+Y
+Z
+x
+Y
+x
+Y
+Z
+X
+Z
+X
+Z
+Y
+Z
+Y
+
+Approval sheet 
+ 
+Page 6 of 9 
+ASC_RFECA3216060A1T_V07 
+May. 2013 
+RELIABILITY TEST 
+ 
+Test item 
+Test condition / Test method 
+Specification 
+Solderability 
+JIS C 0050-4.6 
+JESD22-B102D 
+*Solder bath temperature：235 ± 5°C 
+*Immersion time：2 ± 0.5 sec 
+Solder：Sn3Ag0.5Cu for lead-free 
+At least 95% of a surface of each terminal 
+electrode must be covered by fresh solder. 
+Leaching 
+(Resistance to 
+dissolution of 
+metallization) 
+IEC 60068-2-58 
+*Solder bath temperature：260 ± 5°C 
+*Leaching immersion time：30 ± 0.5 sec 
+Solder : SN63A 
+Loss of metallization on the edges of each 
+electrode shall not exceed 25%. 
+ 
+Resistance to soldering 
+heat 
+JIS C 0050-5.4 
+*Preheating temperature：120~150℃, 
+1 minute. 
+*Solder temperature：270±5°C 
+*Immersion time：10±1 sec 
+Solder：Sn3Ag0.5Cu for lead-free 
+Measurement to be made after keeping at 
+room temperature for 24±2 hrs 
+No mechanical damage. 
+Electrical specification shall satisfy the 
+descriptions in electrical characteristics under 
+the operational temperature range within -40 
+~ 85°C. 
+Loss of metallization on the edges of each 
+electrode shall not exceed 25%. 
+ 
+Drop Test 
+JIS C 0044 
+Customer’s specification. 
+*Height：75 cm 
+*Test Surface：Rigid surface of concrete or 
+steel. 
+*Times：6 surfaces for each units；2 times for 
+each side. 
+No mechanical damage. 
+Electrical specification shall satisfy the 
+descriptions in electrical characteristics under 
+the operational temperature range within -40 
+~ 85°C. 
+ 
+Vibration 
+JIS C 0040 
+*Frequency：10Hz~55Hz~10Hz(1min) 
+*Total amplitude：1.5mm 
+*Test times：6hrs.(Two hrs each in three 
+mutually perpendicular directions) 
+No mechanical damage. 
+Electrical specification shall satisfy the 
+descriptions in electrical characteristics under 
+the operational temperature range within -40 
+~ 85°C. 
+ 
+Adhesive Strength 
+of Termination 
+JIS C 0051- 7.4.3 
+*Pressurizing force： 
+5N(≦0603)；10N(>0603) 
+*Test time：10±1 sec 
+No remarkable damage or removal of the 
+termination. 
+
+Approval sheet 
+ 
+Page 7 of 9 
+ASC_RFECA3216060A1T_V07 
+May. 2013 
+Bending test 
+JIS C 0051- 7.4.1 
+The middle part of substrate shall be 
+pressurized by means of the pressurizing rod 
+at a rate of about 1 mm/s per second until the 
+deflection becomes 1mm/s and then pressure 
+shall be maintained for 5±1 sec. 
+Measurement to be made after keeping at 
+room temperature for 24±2 hours 
+No mechanical damage. 
+Electrical specification shall satisfy the 
+descriptions in electrical characteristics under 
+the operational temperature range within -40 
+~ 85°C. 
+Temperature cycle 
+JIS C 0025 
+1. 30±3 minutes at -40°C±3°C, 
+2. 10~15 minutes at room temperature, 
+3. 30±3 minutes at +85°C±3°C, 
+4. 10~15 minutes at room temperature, 
+Total 100 continuous cycles 
+Measurement to be made after keeping at 
+room temperature for 24±2 hrs 
+No mechanical damage. 
+Electrical specification shall satisfy the 
+descriptions in electrical characteristics under 
+the operational temperature range within -40 
+~ 85°C. 
+ 
+High temperature 
+JIS C 0021 
+*Temperature：85°C±2°C 
+*Test duration：1000+24/-0 hours 
+Measurement to be made after keeping at 
+room temperature for 24±2 hrs 
+No mechanical damage. 
+Electrical specification shall satisfy the 
+descriptions in electrical characteristics under 
+the operational temperature range within -40 
+~ 85°C. 
+Humidity 
+(steady conditions) 
+JIS C 0022 
+*Humidity：90% to 95% R.H. 
+*Temperature：40±2°C 
+*Time：1000+24/-0 hrs. 
+Measurement to be made after keeping 
+at room temperature for 24±2 hrs 
+※ 500hrs measuring the first data then 
+1000hrs data 
+No mechanical damage. 
+Electrical specification shall satisfy the 
+descriptions in electrical characteristics under 
+the operational temperature range within -40 
+~ 85°C. 
+ 
+Low temperature 
+JIS C 0020 
+*Temperature：-40°C±2°C 
+*Test duration：1000+24/-0 hours 
+Measurement to be made after keeping at 
+room temperature for 24±2 hrs 
+No mechanical damage. 
+Electrical specification shall satisfy the 
+descriptions in electrical characteristics under 
+the operational temperature range within -40 
+~ 85°C. 
+ 
+ 
+
+Approval sheet 
+ 
+Page 8 of 9 
+ASC_RFECA3216060A1T_V07 
+May. 2013 
+SOLDERING CONDITION 
+Typical examples of soldering processes that provide reliable joints without any damage are given in Fig 2 
+ 
+Fig 2. Infrared soldering profile 
+ORDERING CODE 
+RF 
+ECA 
+321606 
+0 
+A 
+1 
+T 
+Walsin 
+RF 
+device 
+Product 
+code 
+ANT : 
+Antenna 
+Dimension code
+Per 2 digits of 
+Length, Width, 
+Thickness : 
+e.g. : 
+321606 =  
+Length 32,  
+Width 16, 
+Thickness 06 
+Unit of 
+dimension
+0 : 0.1 mm 
+1 : 1.0 mm 
+Application 
+A : 2.4GHz ISM 
+Band 
+ 
+Specification 
+Design Code 
+Packing 
+T : Reeled 
+ 
+Minimum Ordering Quantity:  2000 pcs per reel. 
+PACKAGING 
+ 
+Plastic Tape specifications (unit :mm) 
+Index 
+Ao 
+Bo 
+ΦD 
+T 
+W 
+Dimension (mm) 
+1.85 ± 0.10 
+3.45 ± 0.10 
+1.55 ± 0.05 
+0.75 ± 0.10 
+8.00 ± 0.30 
+Index 
+E 
+F 
+Po 
+P1 
+P2 
+Dimension (mm) 
+1.75 ± 0.10 
+3.50 ± 0.05 
+4.00 ± 0.10 
+4.00 ± 0.10 
+2.00 ± 0.10 
+E
+E
+E
+E
+E
+
+Approval sheet 
+ 
+Page 9 of 9 
+ASC_RFECA3216060A1T_V07 
+May. 2013 
+Reel dimensions 
+ 
+A
+B
+C
+ 
+ 
+ 
+ 
+ 
+Taping Quantity:2000 pieces per 7” reel 
+ 
+CAUTION OF HANDLING 
+Limitation of Applications 
+Please contact us before using our products for the applications listed below which require especially high reliability for the 
+prevention of defects, which might directly cause damage to the third party’s life, body or property. 
+(1) 
+Aircraft equipment 
+(2) 
+Aerospace equipment 
+(3) 
+Undersea equipment 
+(4) 
+Medical equipment 
+(5) 
+Disaster prevention / crime prevention equipment 
+(6) 
+Traffic signal equipment 
+(7) 
+Transportation equipment (vehicles, trains, ships, etc.) 
+(8) 
+Applications of similar complexity and /or reliability requirements to the applications listed in the above. 
+Storage condition 
+(1) Products should be used in 6 months from the day of WALSIN outgoing inspection, which can be 
+confirmed. 
+(2) Storage environment condition. 
+ 
+Products should be storage in the warehouse on the following conditions. 
+ 
+Temperature 
+: -10 to +40℃ 
+ 
+Humidity 
+: 30 to 70% relative humidity 
+ 
+Don’t keep products in corrosive gases such as sulfur. Chlorine gas or acid or it may cause oxidization of 
+electrode, resulting in poor solderability. 
+ 
+Products should be storage on the palette for the prevention of the influence from humidity, dust and son on. 
+ 
+Products should be storage in the warehouse without heat shock, vibration, direct sunlight and so on. 
+ 
+Products should be storage under the airtight packaged condition. 
+ 
+ 
+Index 
+A 
+B 
+C 
+Dimension (mm)
+Φ178.0 
+Φ60.0 
+Φ13.0 

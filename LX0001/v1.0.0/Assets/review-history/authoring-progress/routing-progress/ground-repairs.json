@@ -1,0 +1,299 @@
+{
+  "input": "/private/tmp/lx0001-current-ground-stitch.kicad_pcb",
+  "output": "/private/tmp/lx0001-current-ground-closed.kicad_pcb",
+  "accepted": [
+    {
+      "pads": [
+        "R1/2"
+      ],
+      "width_mm": 0.13,
+      "via_diameter_mm": 0.45,
+      "via_drill_mm": 0.2,
+      "path_layer_grid": [
+        [
+          0,
+          390,
+          126
+        ],
+        [
+          0,
+          389,
+          125
+        ],
+        [
+          0,
+          389,
+          124
+        ],
+        [
+          0,
+          388,
+          123
+        ],
+        [
+          0,
+          388,
+          121
+        ],
+        [
+          0,
+          387,
+          120
+        ],
+        [
+          0,
+          387,
+          115
+        ]
+      ],
+      "path_grid_mm": 0.025,
+      "new_uuids": [
+        "6da7400d-b737-4d8b-b5d0-7b1da3cd5db0",
+        "079508f1-dd68-41c5-b195-f6e96177f38e",
+        "74777d33-d26a-4a9c-a793-83a1295f3c2d",
+        "97b9e8c4-05e1-499a-801f-dd90c52ce06f",
+        "cff334a2-01af-45e7-a39f-b26781445754",
+        "9e1d4d58-70f5-4ffb-9e0b-0573091aa804"
+      ],
+      "search_states": 7317,
+      "before_ground": 7,
+      "after_ground": 6,
+      "after_other": 30
+    },
+    {
+      "pads": [
+        "U2/2"
+      ],
+      "width_mm": 0.15,
+      "via_diameter_mm": 0.45,
+      "via_drill_mm": 0.2,
+      "path_layer_grid": [
+        [
+          1,
+          156,
+          267
+        ],
+        [
+          1,
+          156,
+          269
+        ],
+        [
+          1,
+          155,
+          270
+        ],
+        [
+          1,
+          155,
+          272
+        ]
+      ],
+      "path_grid_mm": 0.05,
+      "new_uuids": [
+        "40df1464-1aa5-4813-8978-e5c5dba1112e",
+        "e11e655f-199c-4ec9-8cf9-4fc85bde0364",
+        "cfde8ab9-4948-428a-9a7b-cc51488c7c06"
+      ],
+      "search_states": 766,
+      "before_ground": 6,
+      "after_ground": 5,
+      "after_other": 30
+    },
+    {
+      "pads": [
+        "R40/2",
+        "R39/2",
+        "R37/2",
+        "Q8/2",
+        "Q7/2",
+        "Q4/2",
+        "C10/2",
+        "C11/2",
+        "U7/2"
+      ],
+      "width_mm": 0.13,
+      "via_diameter_mm": 0.45,
+      "via_drill_mm": 0.2,
+      "path_layer_grid": [
+        [
+          0,
+          1518,
+          216
+        ],
+        [
+          0,
+          1518,
+          215
+        ],
+        [
+          0,
+          1517,
+          214
+        ],
+        [
+          0,
+          1517,
+          123
+        ]
+      ],
+      "path_grid_mm": 0.025,
+      "new_uuids": [
+        "a883871c-e0f6-4aaf-9baa-49d374d439f3",
+        "e63f1954-8647-4a2d-87bb-89bae57cb887",
+        "7a9c0b8c-67dd-4d87-9038-38a6eea88511"
+      ],
+      "search_states": 125554,
+      "before_ground": 5,
+      "after_ground": 4,
+      "after_other": 30
+    }
+  ],
+  "rejected": [],
+  "rounds": [
+    {
+      "round": 0,
+      "components": 8,
+      "ground_unconnected": 7
+    },
+    {
+      "round": 1,
+      "components": 7,
+      "ground_unconnected": 6
+    },
+    {
+      "round": 2,
+      "components": 6,
+      "ground_unconnected": 5
+    },
+    {
+      "round": 3,
+      "components": 5,
+      "ground_unconnected": 4
+    }
+  ],
+  "candidate_region_mm": null,
+  "initial_ground_unconnected": 7,
+  "initial_other_unconnected": 30,
+  "stopped_reason": "No validated short GND route found within search limits",
+  "remaining_components": [
+    {
+      "nodes": 266,
+      "pads": [
+        "R40/2",
+        "J2/1",
+        "J2/1",
+        "C105/2",
+        "R39/2",
+        "R9/2",
+        "Q2/2",
+        "R37/2",
+        "C101/2",
+        "Y1/2",
+        "Y1/4",
+        "J3/2",
+        "J3/2",
+        "C113/2",
+        "C108/2",
+        "C106/2",
+        "Q8/2",
+        "Q7/2",
+        "ANT1/3",
+        "ANT1/3",
+        "D3/2",
+        "C112/2",
+        "C107/2",
+        "C114/2",
+        "C103/2",
+        "R1/2",
+        "C110/2",
+        "L104/2",
+        "C102/2",
+        "C115/2",
+        "U1/57",
+        "SW1/2",
+        "TP1/1",
+        "R102/2",
+        "R33/2",
+        "U4/2",
+        "J1/A1",
+        "J1/A12",
+        "J1/B1",
+        "J1/B12",
+        "J1/SH",
+        "J1/SH",
+        "J1/SH",
+        "J1/SH",
+        "R18/2",
+        "Q4/2",
+        "C6/2",
+        "R20/2",
+        "Q5/2",
+        "C10/2",
+        "U8/3",
+        "C11/2",
+        "R31/2",
+        "C15/2",
+        "R24/2",
+        "R15/2",
+        "U7/2",
+        "C13/2",
+        "C17/2",
+        "C109/2",
+        "R13/2",
+        "R103/2",
+        "U5/2",
+        "C16/2",
+        "R28/2",
+        "U9/3",
+        "R29/2",
+        "U3/2",
+        "C8/2",
+        "R17/2",
+        "C111/2",
+        "C14/2",
+        "C12/2",
+        "U2/2",
+        "C100/2"
+      ]
+    },
+    {
+      "nodes": 6,
+      "pads": [
+        "U10/4",
+        "U6/2"
+      ]
+    },
+    {
+      "nodes": 2,
+      "pads": [
+        "C104/2"
+      ]
+    },
+    {
+      "nodes": 2,
+      "pads": [
+        "C4/2"
+      ]
+    },
+    {
+      "nodes": 2,
+      "pads": [
+        "R2/2"
+      ]
+    }
+  ],
+  "allowed_pour_cuts": [],
+  "pour_changes": [],
+  "input_sha256": "8fb94adbc586d9fdf86d25348d10f5d8d9fcdcdcd9f12c18fa379bafc334f9f4",
+  "output_sha256": "22fe5d361686df9bf3342631137878c005c6bec55441da95fb6ba2741bc84694",
+  "non_ground_filled_copper_unchanged": true,
+  "new_via_pad_collisions": 0,
+  "new_vias": 0,
+  "complete": false,
+  "final_ground_unconnected": 4,
+  "final_other_unconnected": 30,
+  "original_items_preserved": 2897,
+  "all_poses_unchanged": true,
+  "output_verified": true
+}

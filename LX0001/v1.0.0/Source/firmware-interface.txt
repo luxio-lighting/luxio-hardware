@@ -1,0 +1,54 @@
+LX0001 v1.0.0 — firmware interface
+ESP32-S3, 4 MB quad-SPI flash, no PSRAM. No firmware binary is supplied.
+
+GPIO16  LED data channel 1, active-high 5 V output after U8.
+GPIO17  LED data channel 2 / clock, active-high 5 V output after U9.
+GPIO18  Button input, active-low, external 10k pull-up.
+GPIO0   ROM BOOT strap, pulled low by the same centered button through BAT54C.
+GPIO19  Native USB D-.
+GPIO20  Native USB D+.
+GPIO21  DATA_ENABLE, active-high; hardware defaults both buffers disabled.
+GPIO5   USB_STRIP_EN, active-high; hardware defaults strip output disabled on USB.
+GPIO6   USB_HIGH_CURRENT, active-high; selects the higher USB current limit.
+GPIO1   CC1_SENSE ADC1 input, filtered from USB CC1.
+GPIO2   CC2_SENSE ADC1 input, filtered from USB CC2.
+GPIO4   VBUS_SENSE ADC1 input, 100k/150k divider; VBUS = ADC voltage x 5/3.
+GPIO43  UART0 TX recovery/production test pad.
+GPIO44  UART0 RX recovery/production test pad.
+GPIO45  Pulled low to select 3.3 V VDD_SPI.
+GPIO46  Pulled low for ROM download compatibility.
+
+Initialize GPIO5, GPIO6 and GPIO21 LOW before configuring outputs. Configure
+GPIO16 and GPIO17 LOW before raising GPIO21. Treat GPIO18 as an input; debounce
+in firmware. GPIO0 is a boot input. Do not drive the shared button pins high.
+Holding the button during a reset or power-up selects ROM download mode.
+The button alone does not reset a running ESP32; pulse ESP_EN at TP3 while held.
+
+USB power budget:
+* USB uses 5 V only; no PD negotiation and no 12/24 V conversion.
+* The controller cannot detect an attached strip's rated voltage from four wires.
+* The strip stays off on USB until firmware asserts GPIO5. A 12/24 V strip is
+  unsupported on USB; firmware/user configuration must leave GPIO5 low for it.
+* GPIO6 LOW: limiter approximately 0.389–0.493 A, 0.437 A nominal.
+* GPIO6 HIGH: limiter approximately 1.186–1.384 A, 1.279 A nominal.
+* Raise GPIO6 only after detecting a valid 1.5 A or 3 A Type-C advertisement.
+  This board intentionally uses at most about 1.3 A even on a 3 A source.
+* Controller consumption comes out of the SAME current budget as the strip.
+* Hardware limiting does not implement USB enumeration, suspend or Type-C
+  current-state rules. Honor the attached source and current USB state in code.
+  Legacy USB default/pre-configuration and suspend require firmware power
+  management. Wi-Fi peaks can exceed the low-current budget at low VBUS.
+* Shut the strip off before lowering the USB current setting; use brightness
+  and LED-count limits to stay below the available source/controller budget.
+* Read CC ADC values with calibrated ADC settings; use USB-IF Type-C voltage
+  thresholds and hysteresis rather than assuming a fixed current from USB-C.
+
+Wired input detection and source priority are HARDWARE functions. A powered
+5–24 V wired input disables the USB power switch and enables the strip output,
+even if GPIO5 is low. USB data remains connected. This circuit does not provide
+firmware blackout of wired strip power; set the two data outputs low for that.
+Do not assume a reset-free handover when connecting/disconnecting either source.
+
+External flash: W25Q32JVSSIQ, 32 Mbit (4 MB), 3.3 V quad SPI. Use the ESP32-S3
+external-flash configuration with PSRAM disabled. SPI timing and crystal load
+must be checked during first-article testing before selecting high flash clocks.

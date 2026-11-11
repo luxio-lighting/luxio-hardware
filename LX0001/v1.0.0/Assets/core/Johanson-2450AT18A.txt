@@ -1,0 +1,439 @@
+P/N:  2450AT18A0100001E 
+Legacy P/N: 2450AT18A100 
+Doc# 36S0021A 
+Page 1 of 6 / Revision 4.0 
+Datasheet: 2450AT18A0100001E 
+johansontechnology.com 
+4001 Calle Tecate • Camarillo, CA 93012, USA • +1.805-389-1166 
+2024 Johanson Technology, Inc.  All Rights Reserved 
+2.45 GHz RF Chip Antenna 
+•
+2.4 – 2.5 GHz Operational frequency
+•
+Bluetooth, WLAN
+•
+SMD, EIA 1206
+•
+Corner mount
+•
+RoHS compliant and AEC-Q200 Qualified available
+Johanson Technology, Inc. (JTI) miniature RF ceramic chip antennas 
+are made using Low Temperature Co-fired Ceramic (LTCC) technology 
+which has the ability to embed low and high dielectric constants inside 
+our antenna. This  enables our components to have high detuning 
+resilience and stability over extreme temperatures (~2ppm). 
+General Specifications1 2 
+Maximum Ratings 
+1 Typical value represents average measurement at 25°C. Min./Max. values represent measurements over specified operating temperature. 
+2 General specifications measured on Johanson’s evaluation board P/N 2450AT18A0100001CE1.  
+Passband Frequency (MHz) 
+2400 - 2500 
+Impedance (Ω) 
+50 
+Return Loss (dB) 
+9.5 Min. 
+Peak Gain (dBi) 
+1.5 Typ. 
+Average Gain (dBi) 
+0.0 Typ. 
+Average Radiated Efficiency (%) 
+74 
+Power Capacity (W) 
+3 Max. (CW) 
+Operating Temperature (°C) 
+-40 to +125
+Recommended Storage Conditions post-installation (°C) 
+-40 to +125
+Recommended Storage Conditions and Period for Unused T&R Product 
+45% - 75% RH 
++5 to +35 °C
+18 Months Max. 
+PCB Corner 
+Recommended mounting locations for this antenna 
+
+P/N:  2450AT18A0100001E 
+Legacy P/N: 2450AT18A100 
+ 
+ 
+Doc# 36S0021A 
+Page 2 of 6 / Revision 4.0 
+Datasheet: 2450AT18A0100001E 
+ 
+johansontechnology.com 
+4001 Calle Tecate • Camarillo, CA 93012, USA • +1.805-389-1166 
+2024 Johanson Technology, Inc.  All Rights Reserved 
+Mechanical Dimensions  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Terminal Configuration3 
+ 
+ 
+ 
+ 
+ 
+3 The termination type is Nickel Tin. Go to: https://www.johansontechnology.com/ipcsoldering-profile for Typical Soldering Profile. 
+ This terminal must be soldered for anchoring and mechanical stability. 
+Pin Number 
+Function 
+1 
+Feed 
+2 
+NC 
+Bottom view 
+Top view 
+Side view 
+② 
+① 
+a 
+a 
+L 
+W 
+T 
+L
+0.126
+±
+0.008
+3.20
+±
+0.20
+W
+0.063
+±
+0.008
+1.60
+±
+0.20
+T
+0.051
+1.30
+a
+0.020
+±
+0.012
+0.50
+±
+0.30
+Inches
+Millimeters
+ +0.10/-0.20
+ +0.004/-0.008
+
+P/N:  2450AT18A0100001E 
+Legacy P/N: 2450AT18A100 
+ 
+ 
+Doc# 36S0021A 
+Page 3 of 6 / Revision 4.0 
+Datasheet: 2450AT18A0100001E 
+ 
+johansontechnology.com 
+4001 Calle Tecate • Camarillo, CA 93012, USA • +1.805-389-1166 
+2024 Johanson Technology, Inc.  All Rights Reserved 
+Evaluation Board and Recommended Mounting Configuration (P/N 2450AT18A0100001CE1)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        *Note: Ground Vias are highly recommended to have better antenna efficiency. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+JTI P/N’s for Matching Network4 
+Capacitor (1.0pF): QSCF500Q1R0B1GV001T 
+Inductor (2.7nH): LRC0402CS2N7GV001T 
+Inductor (3.9nH): LRC0402CS3N9GV001T 
+ 
+ 
+ 
+If you’d like the CAD PCB layout or have any questions, 
+contact our application engineers at https://www.johansontechnology.com/ask-a-question 
+ 
+4 It is recommended that the designer leave available slots for a "tee" (or series-shunt-series) network. The antenna matching network values above are used when 
+antenna is mounted on Johanson's evaluation board. The matching values on client’s PCB will be different, depending on the layout, thickness, material, etc. Go to: 
+https://www.johansontechnology.com/tuning and see how to obtain the new values. 
+2.6 
+4.2 
+1.6  
+1.9 
+0.4 
+2.7nH 
+1.0pF 
+3.9nH 
+) 
+) 
+13.5 
+6.5 
+39.5 
+6.5 
+4 
+All units in mm 
+50Ω Feed Line 
+Ground Vias* 
+Ground Clearance 
+Antenna Matching Network 
+50Ω GCPW 
+Antenna Matching Network 
+GND Plane 
+GND Plane 
+
+P/N:  2450AT18A0100001E 
+Legacy P/N: 2450AT18A100 
+ 
+ 
+Doc# 36S0021A 
+Page 4 of 6 / Revision 4.0 
+Datasheet: 2450AT18A0100001E 
+ 
+johansontechnology.com 
+4001 Calle Tecate • Camarillo, CA 93012, USA • +1.805-389-1166 
+2024 Johanson Technology, Inc.  All Rights Reserved 
+Evaluation Board Typical Return Loss Measurement (P/N 2450AT18A0100001CE1) 
+  
+ 
+ 
+Evaluation Board Typical 2D Radiation Patterns @2450 MHz (P/N 2450AT18A0100001CE1)  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.5
+2.0
+2.5
+3.0
+1.0
+3.5
+-25
+-20
+-15
+-10
+-5
+-30
+0
+freq, GHz
+dB(S(1,1))
+m1
+m2
+m3
+m1
+freq=
+dB(S(1,1))=-15.979
+2.450GHz
+m2
+freq=
+dB(S(1,1))=-12.939
+2.400GHz
+m3
+freq=
+dB(S(1,1))=-15.466
+2.500GHz
++X 
++Y 
+-X 
+-Y 
++Z 
++X 
+-Z 
+-X 
++Z 
+-Z 
+-Y 
++Y 
+-Y  
++Z (0°) 
++Y (90°) 
+-Z 
+-X 
++Z (0°) 
+-Z 
++X (90°) 
+-X 
+-Y  
++X (0°) 
++Y (90°) 
+
+P/N:  2450AT18A0100001E 
+Legacy P/N: 2450AT18A100 
+ 
+ 
+Doc# 36S0021A 
+Page 5 of 6 / Revision 4.0 
+Datasheet: 2450AT18A0100001E 
+ 
+johansontechnology.com 
+4001 Calle Tecate • Camarillo, CA 93012, USA • +1.805-389-1166 
+2024 Johanson Technology, Inc.  All Rights Reserved 
+Tape and Reel Specification (Units in mm) 
+Tape Dimensions 
+ 
+ 
+ 
+ 
+Reel Dimensions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Leader and Trailer Dimensions 
+ 
+A 
+A’ 
+B 
+C 
+D 
+E 
+F 
+T 
+Quantity/reel 
+Tape material 
+4.0±0.1 
+4.0±0.05 
+1.88±0.1 
+3.5±0.1 
+2.0±0.05 3.5±0.05 
+8.0±0.1 
+1.27±0.1 
+3,000pcs. 
+Plastic (Embossed) 
+T 
+C 
+F 
+E 
+B 
+A 
+A’ 
+D 
+ 
+Trailer End 
+(160mm min.) 
+Empty Compartment with Cover Tape (500mm min.) 
+Label 
+178 ± 1 
+D=13.5 ± 0.5 
+1.4 ± 0.2 
+60 ± 1 
+17± 0.5 
+Label 
+2.3 ± 0.5 
+Johanson Technology, Inc. 
+Part # 
+Lot # 
+Quantity 
+Date 
+Top View 
+Side View 
+Leader End 
+1.75 ± 0.1 
+Embossed Tape 
+
+P/N:  2450AT18A0100001E 
+Legacy P/N: 2450AT18A100 
+ 
+ 
+Doc# 36S0021A 
+Page 6 of 6 / Revision 4.0 
+Datasheet: 2450AT18A0100001E 
+ 
+johansontechnology.com 
+4001 Calle Tecate • Camarillo, CA 93012, USA • +1.805-389-1166 
+2024 Johanson Technology, Inc.  All Rights Reserved 
+Orderable Part Number 
+ 
+Important Links 
+ 
+2450AT18A0100001E Product Page 
+More RF Chip Antennas  
+Antenna Tuning, Optimization, and Validation Services 
+Soldering Information 
+MSL Information 
+Packaging Information  
+Recommended Storage Condition and Max Shelf Life 
+RoHS Compliance 
+ 
+Contact our application engineers for a PCB layout review. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Johanson Technology, Inc. reserves the right to make design changes without notice. 
+All sales are subject to Johanson Technology, Inc. terms and conditions. 
+Packaging Style 
+Part Number 
+Termination 
+Bulk (loose pcs.) 
+2450AT18A0100001B 
+Nickel Tin 
+T & R (7" Reel Embossed Tape) 
+2450AT18A0100001E (Qty: 3,000 pcs./reel) 
+Evaluation Board with 1 SMA Connector 
+2450AT18A0100001CE1  

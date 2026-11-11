@@ -1,0 +1,132 @@
+LATEST STATUS — final routed-board review pending
+F1 now uses the SART1.20×2.40mm lands at3.20mm centres andY18.40mm;
+the earlier fuse-footprint finding below is resolved. Locked power spines
+and a1.3mm VSYS turn were added. Connector centering is being changed,
+so the numerical snapshot review below must not be used as final signoff.
+
+Reusable analysis scripts now exist:
+  Source/tools/current_path_mesh.py — KiCad Python, board + --output MESH
+  Source/tools/current_path_solve.py — Python3+NumPy, MESH + --report REPORT
+Optional solver --json-output saves machine-readable results. Both scripts
+check the source PCB hash; the rasterizer changes no PCB geometry. Solver
+verified against an analytical0.9-square copper rectangle at35/70µm and
+correctly rejects a disconnected copper mesh. Final routing/refill requires
+fresh extraction. Exact invocation examples are in each script docstring.
+
+Source/tools/power_branches.py routes12 auxiliary power branches, with
+explicit input/output paths. Private-copy DRC found no new clearance,
+short or drill-spacing issues and no remainingDC_FUSED/VSYS/LED_VCC
+unconnected items. Rerunning replaced its269 identified items without
+UUID duplicates; all generated items are locked. The script relocatesTP9
+to(33.4,18.35)mm on its existing back layer. Main PCB was not modified.
+
+Earlier snapshot audit follows for traceability:
+------------------------------------------------------------
+LX0001 high-current copper review —2026-11-11
+
+Reviewed snapshot: /tmp/lx0001-prerouted.kicad_pcb
+SHA256: 9905f75da2dc52d6c02d070843b08cd790544c02b4907c27613d05e4f7c363bd
+
+This review covers the saved pre-route snapshot only. Later signal routing and
+zone refills can narrow or sever copper paths. Recheck the final routed board.
+No CAD files were changed. This is not a validated5 A thermal rating.
+
+Result
+The five wired-current copper segments are continuous in the filled geometry.
+The zones connect pads directly (solid connections), without thermal spokes.
+One manufacturing correction is recommended: match the fuse lands to its
+manufacturer drawing. A local VSYS turn is also a point to preserve or widen.
+
+Fuse land-pattern departure
+F1 is at(17.54,18.70)mm. Existing pads are1.25×1.75mm with2.80mm centres.
+SART S1206-FA-8A~15A datasheet RevH,page2 recommends1.20×2.40mm pads,
+3.20mm centres and2.00mm inner gap. Its allowed recommended pad-width range
+is2.10–2.70mm; the current1.75mm width is smaller. This reduces solder and
+thermal land area and should not silently be treated as the vendor footprint.
+Suggested adjustment: custom1.20×2.40mm pads at±1.60mm, move F1 centreY
+from18.70 to18.40mm. This retains0.40mm copper-to-bottom-edge clearance.
+The existing input track endpoint remains inside the relocated input pad.
+DC_FUSED zone already covers the proposed output-pad location. Verify final
+courtyard clearance, solder mask and refill after this change.
+Source: Assets/power/S1206-FA-8A.pdf,page2.
+
+Copper DC model
+Rasterized actual filled zone polygons, tracks and copper pads on both layers
+on a0.1mm square grid. Modeled each cell edge as one copper square and solved
+the two-layer conductance network with fixed1V/0V terminal-pad potentials.
+The finite-volume equation was solved by diagonally preconditioned conjugate
+gradients; residual norm below1e-7 in all cases. No synthetic unfilled pours
+were counted. Assumed20°C copper resistivity1.724e-8 ohm-metre. Reported both
+35µm and70µm copper because the snapshot has no explicit stackup definition.
+Via barrel model:1.6mm board,20µm copper wall, actual0.30/0.20mm drill sizes.
+A0.30mm drill gives approximately1.372mΩ/barrel;0.20mm gives1.996mΩ.
+Those are modeling assumptions, not verification of the fabrication order.
+Same-number connector pads and same-device source/drain pads are treated as
+equipotential terminals. Internal metal/contact and solder resistance are
+excluded, as are the fuse element and MOSFET on-resistance. Copper resistance
+increases with temperature. Grid discretization can miss very small necks.
+
+Segment                     35µm mΩ    70µm mΩ   35µm loss at5A W
+J2 input pad2 -> F1 pad1        0.355        0.177         0.0089
+F1 pad2 -> Q1 source            0.441        0.220         0.0110
+Q1 drain -> Q6 source           2.413        1.223         0.0603
+Q6 drain -> J4 pad1             0.618        0.309         0.0154
+J3 ground -> J2 ground          1.899        1.096         0.0475
+TOTAL                           5.725        3.025
+Loop drop at5A: 28.63mV at35µm; 15.13mV at70µm.
+Loop copper loss at5A: 0.1431W at35µm; 0.0756W at70µm.
+
+Physical current-path observations
+DC_IN uses a2.0mm front trace; the connector has two large pads per contact.
+DC_FUSED has a compact solid front pour. All three Q1 source pads are
+included. Q1 drain feeds the front VSYS pour directly. Front VSYS filled
+area is about40.3mm²; rear VSYS reinforcement is about7.76mm², linked by
+eight0.30mm-drill vias. The rear strip is only about0.7mm wide after filling.
+The front VSYS rail is roughly2.1mm wide nearX24.5–28mm, broadening farther
+right. NearX34.3mm/Y17.3mm it turns upward into Q6 source pins through a
+short approximately0.7mm overlap. This corner has the highest modeled
+current crowding; keep all signal routes and new clearances away from it,
+and broaden/round it if space permits. It is not an open or long0.7mm trace.
+Q6 drain connects directly to the broad front LED_VCC pour, about117.6mm².
+Both LED output pads are connected. No via is required in this forward path.
+Front/rear GND fills total approximately622/803mm², with26 existing GND vias.
+The four input ground vias nearX14.8mm and four output vias nearX45.2mm
+provide useful parallel paths. The model places about0.90A maximum in an
+individual0.30mm GND via and about0.85A in a nearby0.20mm via. Maximum VSYS
+via current is about0.52A. These are estimated branch currents, not ratings.
+Preserve these arrays and inspect rear-ground fragmentation after routing.
+
+Device losses dominate the copper estimate
+At5A and25°C, Q1 max9.9mΩ adds about0.248W; F1 typical6.7mΩ adds0.168W.
+Q6 max15mΩ at10V gate adds0.375W, or23mΩ at4.5V gate adds0.575W.
+Including35µm modeled copper, the wired pass path is approximately0.93W
+atstrong gate drive, or1.13W using the4.5V Q6 resistance, before hot-resistance
+increase and without controller/regulator losses. Actual5V low-end gate
+drive, ambient temperature, enclosure and available copper determine final
+temperatures. The present estimates do not prove an enclosed20×60mm board
+can continuously pass5A. Measure component, solder-joint and connector
+temperature at5/12/24V with the final PCB and case, and verify fault clearing.
+
+Sourcing refresh (2026-11-11, current BOM)
+122 designators, 109 assembled placements, 12 bare PCB test pads and one
+DNP antenna tuning position L104; 51 unique purchased C-codes. J1 is now
+GCT USB4215-03-A/C37616412 and ANT1 is RFECA3216060A1T/C127620. The current
+component subtotal is $13.3636 per board / $1,336.36 per 100 boards. This
+excludes PCB, assembly, setup, attrition, shipping and tax. All required
+100-board quantities fit the stored official JLC stock observations. The
+component CSV/JSON retain exact price tiers, source URLs and observation
+timestamps. Current core_parts/io_parts/power_parts SHA256 values match
+bom_sourcing.json; recheck if component definitions change.
+
+Manual-branch integration verification (2026-11-11)
+The original repaired-ground-bank baseline has SHA256
+05928742384c2c3d1ee702a05607c1dd5efb903dca395a39c10626d5a9762785.
+repair_dc_gate.py produced a private board with SHA256
+796d2a8a7c1f0c3365286fb63563a8d560066b8f5789047fcd1684f0f271db0b.
+Only the two 0.2 mm VSYS sense branches were replaced, and DC_GATE was
+connected. All other original tracks/vias retained their exact geometry,
+width, drill and lock state, including every 5 A spine. Combined DC_GATE
+and VSYS connections passed DRC without new electrical errors. This proves
+preservation of the load paths during that repair, not final routed-board
+resistance or thermal performance. Final filled-copper extraction remains
+pending the completed signal routing and GND-island repairs.

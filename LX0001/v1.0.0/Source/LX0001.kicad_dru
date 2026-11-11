@@ -1,0 +1,12 @@
+(version 1)
+
+# The antenna's own land pattern includes feed and ground fingers. Other nets
+# must not use the copper-free window, even though those fingers are permitted.
+(rule "Antenna window - only manufacturer feed and ground"
+    (layer F.Cu)
+    (condition "A.intersectsArea('RFECA antenna top no ground pour') && A.NetName != 'RF_50' && A.NetName != 'ANT_TUNE' && A.NetName != 'GND'")
+    (constraint disallow track via pad))
+
+# RF50 netclass in .kicad_pro sets 0.306 mm trace / 0.200 mm clearance.
+# C115/L102 0201 pads retain 0.127 mm local clearance for their 0.180 mm
+# standard land gap. Their matching-network transitions are not uniform RF line.

@@ -1,0 +1,133 @@
+{
+  "checked_date": "2026-11-11",
+  "currency": "USD",
+  "source": "JLCPCB public part-page React data: overseasStockCount and quantity price100. Repeated passives may have lower price when purchased in100-board quantities. Stock is not reserved. Excludes assembly/setup/shipping/tax/spares.",
+  "parts": [
+    {
+      "mpn": "CL05B104KO5NNNC",
+      "stock": 31341387,
+      "componentCode": "C1525",
+      "startNumber": 1,
+      "endNumber": 999,
+      "productPrice": 0.0031,
+      "source_url": "https://jlcpcb.com/partdetail/-/C1525"
+    },
+    {
+      "mpn": "0402CG180J500NT",
+      "stock": 1087732,
+      "componentCode": "C1549",
+      "startNumber": 1,
+      "endNumber": 999,
+      "productPrice": 0.0018,
+      "source_url": "https://jlcpcb.com/partdetail/-/C1549"
+    },
+    {
+      "mpn": "GRM0335C1H1R5BA01D",
+      "stock": 37841,
+      "componentCode": "C161414",
+      "startNumber": 1,
+      "endNumber": 499,
+      "productPrice": 0.0125,
+      "source_url": "https://jlcpcb.com/partdetail/-/C161414"
+    },
+    {
+      "mpn": "0402WGF0000TCE",
+      "stock": 16051414,
+      "componentCode": "C17168",
+      "startNumber": 1,
+      "endNumber": 999,
+      "productPrice": 0.0012,
+      "source_url": "https://jlcpcb.com/partdetail/-/C17168"
+    },
+    {
+      "mpn": "LQG15HS2N0S02D",
+      "stock": 53975,
+      "componentCode": "C18216",
+      "startNumber": 1,
+      "endNumber": 499,
+      "productPrice": 0.0228,
+      "source_url": "https://jlcpcb.com/partdetail/-/C18216"
+    },
+    {
+      "mpn": "CL10A106KP8NNNC",
+      "stock": 9415651,
+      "componentCode": "C19702",
+      "startNumber": 1,
+      "endNumber": 199,
+      "productPrice": 0.0233,
+      "source_url": "https://jlcpcb.com/partdetail/-/C19702"
+    },
+    {
+      "mpn": "0402WGF1002TCE",
+      "stock": 20665462,
+      "componentCode": "C25744",
+      "startNumber": 1,
+      "endNumber": 999,
+      "productPrice": 0.001,
+      "source_url": "https://jlcpcb.com/partdetail/-/C25744"
+    },
+    {
+      "mpn": "CL05A105KA5NQNC",
+      "stock": 10734624,
+      "componentCode": "C52923",
+      "startNumber": 1,
+      "endNumber": 999,
+      "productPrice": 0.0057,
+      "source_url": "https://jlcpcb.com/partdetail/-/C52923"
+    },
+    {
+      "mpn": "LQW15AN24NH00D",
+      "stock": 3032,
+      "componentCode": "C913699",
+      "startNumber": 50,
+      "endNumber": 149,
+      "productPrice": 0.0944,
+      "source_url": "https://jlcpcb.com/partdetail/-/C913699"
+    },
+    {
+      "mpn": "LQP03TN2N7B02D",
+      "stock": 6870,
+      "componentCode": "C98043",
+      "startNumber": 1,
+      "endNumber": 499,
+      "productPrice": 0.0166,
+      "source_url": "https://jlcpcb.com/partdetail/-/C98043"
+    },
+    {
+      "mpn": "7B040000M01",
+      "stock": 2714,
+      "componentCode": "C655034",
+      "startNumber": 100,
+      "endNumber": 299,
+      "productPrice": 0.0532,
+      "source_url": "https://jlcpcb.com/partdetail/-/C655034"
+    },
+    {
+      "mpn": "W25Q32JVSSIQ",
+      "stock": 3957,
+      "componentCode": "C179173",
+      "startNumber": 100,
+      "endNumber": 499,
+      "productPrice": 1.0674,
+      "source_url": "https://jlcpcb.com/partdetail/-/C179173"
+    },
+    {
+      "mpn": "ESP32-S3",
+      "stock": 891,
+      "componentCode": "C2913192",
+      "startNumber": 100,
+      "endNumber": 499,
+      "productPrice": 2.0662,
+      "source_url": "https://jlcpcb.com/partdetail/-/C2913192"
+    },
+    {
+      "mpn": "RFECA3216060A1T",
+      "stock": 22288,
+      "componentCode": "C127620",
+      "startNumber": 100,
+      "endNumber": 299,
+      "productPrice": 0.0443,
+      "source_url": "https://jlcpcb.com/partdetail/Walsin_TechCorp-RFECA3216060A1T/C127620"
+    }
+  ]
+}

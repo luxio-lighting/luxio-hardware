@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C2145",
+    "componentModelEn": "MMBT5551(RANGE:200-300)",
+    "componentBrandEn": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+    "componentSpecificationEn": "SOT-23",
+    "stockCount": 1410854,
+    "canPresaleNumber": 1204070,
+    "componentLibraryType": "base",
+    "dataManualOfficialLink": "",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--MMBT5551-RANGE-200-300_C2145.pdf",
+    "required_100_boards": 200,
+    "unit_price_usd": 0.0147,
+    "observed_at_utc": "2026-11-11T11:34:09Z",
+    "source_url": "https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C2145"
+  }
+}

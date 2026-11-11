@@ -1,0 +1,30 @@
+SART S1206-FA-8.0A / C183158 footprint correction
+Verified 2026-11-11 against saved S1206-FA-8A.pdf, page 2 of 6.
+Manufacturer drawing JS-S1206-FA-00, Revision H.
+Supplier: https://www.lcsc.com/product-detail/C183158.html
+
+The manufacturer recommended land pattern dimensions are:
+A = 2.00 +/-0.30 mm, the inner edge-to-edge gap.
+B = 4.40 +/-0.50 mm, the overall outer edge span.
+C = 2.40 +/-0.30 mm, the pad width perpendicular to the part axis.
+D = 1.20 +/-0.30 mm, each pad length along the part axis.
+
+The custom footprint LX0001:Fuse_SART_S1206_FA uses nominal rectangular
+1.20 x 2.40 mm pads centered at (-1.60,0) and (+1.60,0) mm. Their copper
+extents are x=-2.20..+2.20, y=-1.20..+1.20 mm, with a 2.00 mm inner gap.
+Pad 1 remains DC_IN and pad 2 DC_FUSED, matching the previous footprint.
+Nominal body is 3.10 x 1.55 x 0.55 mm; end termination length 0.50 mm.
+Courtyard extends 0.25 mm beyond lands, x=+/-2.45 and y=+/-1.45 mm.
+A simplified 3D preview body uses the nominal manufacturer dimensions;
+see Source/libraries/models/README.txt. Body/reference outlines are F.Fab.
+
+F1 placement is changed from (17.54,18.70,0 degrees) to
+(17.54,18.40,0 degrees), top side. At this placement the copper reaches
+y=19.60 mm and leaves 0.40 mm clearance to the y=20.00 board edge.
+Courtyard reaches y=19.85 mm. The part origin and pad numbering are
+unchanged; regenerate placement/routing because pad centers moved from
+the old generic +/-1.40 mm to the recommended +/-1.60 mm.
+
+The same page specifies a standard 8A-10A test board with 1.6 mm substrate,
+0.070 mm copper thickness and 7.5 mm copper trace width. The footprint
+change alone does not establish equivalent thermal or interruption behavior.

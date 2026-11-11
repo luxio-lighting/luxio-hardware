@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-11",
+  "source": "https://jlcpcb.com/partdetail/C2936195",
+  "details": {
+    "componentCode": "C2936195",
+    "componentModelEn": "TYPE C-CQ-105PWB",
+    "componentBrandEn": "HDGC",
+    "componentSpecificationEn": "SMD",
+    "componentSpecification": "$undefined",
+    "lcscComponentId": 3288212,
+    "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121730_HDGC-TYPE-C-CQ-105PWB_C2936195.pdf",
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "componentAlternativesCode": null,
+    "replaceUrlSuffix": null,
+    "shopShowForeignPriceFlag": true,
+    "miniNumLimit": "$undefined",
+    "preMinPurchaseNum": 39,
+    "encapsulationNumber": 1000,
+    "canPresaleNumber": 655,
+    "overseasStockCount": 655,
+    "fullReelPrice": null,
+    "initialPrice": 0.3352,
+    "priceList": "$undefined",
+    "prices": "$5d",
+    "buyPrices": null,
+    "imageList": "$64",
+    "lossNumber": 0,
+    "leastPatchNumber": 0,
+    "noBuyReason": null,
+    "recentBuyUnitPrice": null,
+    "recentBuyNum": null,
+    "buyCustomerCode": null
+  },
+  "prices": {
+    "1000": 0.171,
+    "500": 0.181,
+    "100": 0.1977,
+    "30": 0.2351,
+    "10": 0.2652,
+    "1": 0.3352
+  }
+}

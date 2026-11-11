@@ -1,0 +1,8 @@
+PASS: independent drill / solder-paste geometry check.
+Board: /private/tmp/lx0001-current-ground-closed.kicad_pcb
+SHA256: 22fe5d361686df9bf3342631137878c005c6bec55441da95fb6ba2741bc84694
+218 drilled items (212 vias), 384 paste apertures, 83712 comparisons.
+Via-in-paste allowlist: empty. Net equality does not suppress any intersection.
+Minimum routing-via drill/paste clearance: 0.100 mm (1nm numerical allowance).
+Reviewed connector pin-in-paste slots: 4. These are J1 component stakes, not routing vias.
+Violations: 0.

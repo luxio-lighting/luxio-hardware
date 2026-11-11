@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C8545",
+    "componentModelEn": "2N7002",
+    "componentBrandEn": "Jiangsu Changjing Electronics Technology Co., Ltd.",
+    "componentSpecificationEn": "SOT-23",
+    "stockCount": 6115699,
+    "canPresaleNumber": 5956121,
+    "componentLibraryType": "base",
+    "dataManualOfficialLink": "",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--2N7002_C8545.pdf",
+    "required_100_boards": 100,
+    "unit_price_usd": 0.0154,
+    "observed_at_utc": "2026-11-11T11:34:09Z",
+    "source_url": "https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C8545"
+  }
+}

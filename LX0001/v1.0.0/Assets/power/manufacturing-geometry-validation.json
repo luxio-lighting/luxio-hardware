@@ -1,0 +1,260 @@
+{
+  "date_utc": "2026-11-11T15:08:56.876348+00:00",
+  "checker_sha256": "6ff7cb88203f2b01efb9849ed1be175f4e015a8316a1a88bcfeddde2c2531baa",
+  "cases": [
+    {
+      "case": "repaired_baseline",
+      "expected_violations": 0,
+      "actual_violations": 0,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "drill_position_mm": null,
+      "J2_paste_margin_mm": 0,
+      "minimum_via_paste_clearance_mm": 0,
+      "board_sha256": "05928742384c2c3d1ee702a05607c1dd5efb903dca395a39c10626d5a9762785",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "case": "partial_same_net_overlap",
+      "expected_violations": 1,
+      "actual_violations": 1,
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "drill_position_mm": [
+        14.45,
+        8
+      ],
+      "J2_paste_margin_mm": 0,
+      "minimum_via_paste_clearance_mm": 0,
+      "board_sha256": "4262c4779c8d27bccd022778e71dc56eee188d15deab89a933b7885f3ed495ff",
+      "violations": [
+        {
+          "type": "drill_overlaps_paste_aperture",
+          "required_clearance_mm": 0.0,
+          "measured_gap_mm": 0.0,
+          "drill_kind": "via",
+          "drill_uuid": "65db0d79-8e53-45d7-980c-d75c1196f9b8",
+          "drill_net": "GND",
+          "drill_reference": "",
+          "drill_pad": "",
+          "drill_position_mm": [
+            14.45,
+            8.0
+          ],
+          "drill_size_mm": [
+            0.3,
+            0.3
+          ],
+          "aperture_uuid": "208010ab-e5c5-4f5d-9e5b-71b8557bf82b",
+          "aperture_reference": "J2",
+          "aperture_pad": "1",
+          "aperture_net": "GND",
+          "paste_layer": "F.Paste",
+          "same_net": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "outside_drill_clear",
+      "expected_violations": 0,
+      "actual_violations": 0,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "drill_position_mm": [
+        14.51,
+        8
+      ],
+      "J2_paste_margin_mm": 0,
+      "minimum_via_paste_clearance_mm": 0,
+      "board_sha256": "03c4a8f90320c0715a78873c543950f2f4f3eab8c2ad65e31348c76510735528",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "case": "negative_paste_margin",
+      "expected_violations": 0,
+      "actual_violations": 0,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "drill_position_mm": [
+        14.35,
+        8
+      ],
+      "J2_paste_margin_mm": -0.2,
+      "minimum_via_paste_clearance_mm": 0,
+      "board_sha256": "1d34e610a0944c52cf7ce88ec9518418ee9e6abc6eb24c98587cbc24f84514a2",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "case": "positive_paste_margin",
+      "expected_violations": 2,
+      "actual_violations": 2,
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "drill_position_mm": [
+        14.55,
+        8
+      ],
+      "J2_paste_margin_mm": 0.1,
+      "minimum_via_paste_clearance_mm": 0,
+      "board_sha256": "82d99d98cbebd3dc0c6a51d499920856f449e62488c2ad710d556944fbde054b",
+      "violations": [
+        {
+          "type": "drill_overlaps_paste_aperture",
+          "required_clearance_mm": 0.0,
+          "measured_gap_mm": 0.0,
+          "drill_kind": "via",
+          "drill_uuid": "27cafb07-d267-41a3-9806-daf1c9293350",
+          "drill_net": "GND",
+          "drill_reference": "",
+          "drill_pad": "",
+          "drill_position_mm": [
+            14.55,
+            8.0
+          ],
+          "drill_size_mm": [
+            0.3,
+            0.3
+          ],
+          "aperture_uuid": "208010ab-e5c5-4f5d-9e5b-71b8557bf82b",
+          "aperture_reference": "J2",
+          "aperture_pad": "1",
+          "aperture_net": "GND",
+          "paste_layer": "F.Paste",
+          "same_net": true
+        },
+        {
+          "type": "drill_overlaps_paste_aperture",
+          "required_clearance_mm": 0.0,
+          "measured_gap_mm": 0.0,
+          "drill_kind": "via",
+          "drill_uuid": "e3adb231-c769-440b-a8ef-5fd116204474",
+          "drill_net": "GND",
+          "drill_reference": "",
+          "drill_pad": "",
+          "drill_position_mm": [
+            14.5,
+            7.72
+          ],
+          "drill_size_mm": [
+            0.2,
+            0.2
+          ],
+          "aperture_uuid": "208010ab-e5c5-4f5d-9e5b-71b8557bf82b",
+          "aperture_reference": "J2",
+          "aperture_pad": "1",
+          "aperture_net": "GND",
+          "paste_layer": "F.Paste",
+          "same_net": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "paste_only_EP",
+      "expected_violations": 1,
+      "actual_violations": 1,
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "drill_position_mm": [
+        20.87,
+        8.67
+      ],
+      "J2_paste_margin_mm": 0,
+      "minimum_via_paste_clearance_mm": 0,
+      "board_sha256": "a72adbce8f1b5002c2bb974af3c2e226e68f521bd0122f5b3faedd41d4c486d9",
+      "violations": [
+        {
+          "type": "drill_overlaps_paste_aperture",
+          "required_clearance_mm": 0.0,
+          "measured_gap_mm": 0.0,
+          "drill_kind": "via",
+          "drill_uuid": "00f45e92-9d75-43c5-94ee-4abbd79ade95",
+          "drill_net": "GND",
+          "drill_reference": "",
+          "drill_pad": "",
+          "drill_position_mm": [
+            20.87,
+            8.67
+          ],
+          "drill_size_mm": [
+            0.3,
+            0.3
+          ],
+          "aperture_uuid": "dcc444dd-b7bf-43e7-b6c5-abc564bef505",
+          "aperture_reference": "U1",
+          "aperture_pad": "",
+          "aperture_net": "",
+          "paste_layer": "F.Paste",
+          "same_net": false
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "nominal_0p10mm_margin",
+      "fixture_note": "Three unrelated legacy near-pad GND vias were omitted from this isolated clearance-boundary fixture; production checks have no via allowlist.",
+      "expected_violations": 0,
+      "actual_violations": 0,
+      "expected_exit_code": 0,
+      "actual_exit_code": 0,
+      "minimum_via_paste_clearance_mm": 0.1,
+      "board_sha256": "dc36c3ff9e8750aedf431dee10d7f42d55514eff46d0b3e87d715d01f82d159c",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "case": "insufficient_0p09mm_margin",
+      "fixture_note": "Three unrelated legacy near-pad GND vias were omitted from this isolated clearance-boundary fixture; production checks have no via allowlist.",
+      "expected_violations": 1,
+      "actual_violations": 1,
+      "expected_exit_code": 1,
+      "actual_exit_code": 1,
+      "minimum_via_paste_clearance_mm": 0.1,
+      "board_sha256": "167cc61f8f7c5d3ecc627b969926f31c4cd1622694541f29e55c93cc6d5826b6",
+      "violations": [
+        {
+          "type": "via_paste_clearance_below_minimum",
+          "required_clearance_mm": 0.1,
+          "measured_gap_mm": 0.090001,
+          "drill_kind": "via",
+          "drill_uuid": "3f47275d-481c-439b-927a-f3f946c0af50",
+          "drill_net": "VSYS",
+          "drill_reference": "",
+          "drill_pad": "",
+          "drill_position_mm": [
+            31.1,
+            19.24
+          ],
+          "drill_size_mm": [
+            0.3,
+            0.3
+          ],
+          "aperture_uuid": "e2a7e1f1-d28d-4c4a-baa0-4e25f618a387",
+          "aperture_reference": "D3",
+          "aperture_pad": "1",
+          "aperture_net": "VSYS",
+          "paste_layer": "F.Paste",
+          "same_net": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "case": "original_three_GND_vias_inside_J2_paste",
+      "expected_violations": 3,
+      "actual_violations": 3,
+      "same_net_flags": [
+        true,
+        true,
+        true
+      ],
+      "board_sha256": "eeb9cefd2fb2056d43c7a9ddfa5a990dd7a8a34d4631e1867908e9b957d58b39",
+      "passed": true
+    }
+  ],
+  "all_pass": true
+}

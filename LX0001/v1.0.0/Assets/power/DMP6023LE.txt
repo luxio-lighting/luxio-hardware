@@ -1,0 +1,1181 @@
+ 
+DMP6023LE 
+Document number: DS37199  Rev. 3 - 2 
+1 of 7 
+www.diodes.com  
+January 2015
+© Diodes Incorporated 
+ 
+DMP6023LE
+ADVANCE INFORMATION 
+ 
+ 
+60V P-CHANNEL ENHANCEMENT MODE MOSFET 
+ 
+Product Summary 
+V(BR)DSS 
+RDS(ON) max 
+ID max 
+TA = +25°C 
+-60V 
+28mΩ @ VGS = -10V 
+-7A 
+35mΩ @ VGS = -4.5V 
+-6.2A 
+  
+ 
+ 
+ 
+ 
+ 
+Description and Applications 
+This MOSFET is designed to minimize the on-state resistance 
+(RDS(ON)) and yet maintain superior switching performance, making it 
+ideal for high efficiency power management applications. 
+ 
+ 
+Backlighting 
+ 
+Power Management Functions 
+ 
+DC-DC Converters 
+ 
+ 
+Features and Benefits 
+ 
+Low On-Resistance 
+ 
+Fast Switching Speed 
+ 
+Low Threshold 
+ 
+Low Gate Drive 
+ 
+Low Input Capacitance 
+ 
+Lead-Free Finish; RoHS Compliant (Notes 1 & 2) 
+ 
+Halogen and Antimony Free. “Green” Device (Note 3) 
+ 
+Qualified to AEC-Q101 Standards for High Reliability 
+ 
+Mechanical Data 
+ 
+Case: SOT223 
+ 
+Case Material: Molded Plastic, “Green” Molding Compound.   
+UL Flammability Classification Rating 94V-0  
+ 
+Moisture Sensitivity:  Level 1 per J-STD-020 
+ 
+Terminals Connections: See Diagram Below 
+ 
+Terminals: Finish - Matte Tin Annealed over Copper Leadframe.  
+Solderable per MIL-STD-202, Method 208  
+ 
+Weight: 0.112 grams (Approximate) 
+ 
+   
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ordering Information (Note 4) 
+Part Number 
+Compliance 
+Case 
+Packaging 
+DMP6023LE-13 
+Standard 
+SOT223 
+2,500/Tape & Reel 
+Notes: 
+1. EU Directive 2002/95/EC (RoHS) & 2011/65/EU (RoHS 2) compliant. All applicable RoHS exemptions applied. 
+ 
+2. See http://www.diodes.com/quality/lead_free.html for more information about Diodes Incorporated’s definitions of Halogen- and Antimony-free, "Green" 
+ 
+    and Lead-free. 
+ 
+3. Halogen- and Antimony-free "Green” products are defined as those which contain <900ppm bromine, <900ppm chlorine (<1500ppm total Br + Cl) and  
+    
+    <1000ppm antimony compounds. 
+4. For packaging details, go to our website at http://www.diodes.com/products/packages.html. 
+ 
+ 
+ 
+ 
+Marking Information 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Equivalent Circuit
+D
+S
+G
+Pin Out - Top View
+Top View 
+SOT223 
+ 
+Green
+       = Manufacturer’s Marking 
+P6023 = Marking Code 
+YWW = Date Code Marking  
+Y or Y= Year (ex: 4 = 2014) 
+WW = Week (01 - 53) 
+P6023 
+YWW
+ 
+
+ 
+DMP6023LE 
+Document number: DS37199  Rev. 3 - 2 
+2 of 7 
+www.diodes.com  
+January 2015
+© Diodes Incorporated 
+ 
+DMP6023LE
+ADVANCE INFORMATION 
+ 
+ 
+ 
+ 
+Maximum Ratings (@TA = +25°C, unless otherwise specified.) 
+ 
+Characteristic 
+Symbol
+Value 
+Units
+Drain-Source Voltage 
+VDSS 
+-60 
+V 
+Gate-Source Voltage 
+VGSS 
+±20 
+V 
+Continuous Drain Current (Note 5) VGS = -10V 
+TA = +25°C 
+TA = +70°C 
+ID 
+-7 
+-5.6 
+A 
+TC = +25°C 
+TC = +70°C 
+ID 
+-18.2 
+-14.5 
+A 
+Pulsed Drain Current (10µs pulse, duty cycle = 1%) 
+IDM 
+-50 
+A 
+Maximum Continuous Body Diode Forward Current (Note 5) 
+IS 
+-2 
+A 
+Avalanche Current, L = 0.1mH 
+IAS 
+-35.5 
+A 
+Avalanche Energy, L = 0.1mH  
+EAS 
+62.9 
+mJ 
+ 
+ 
+ 
+Thermal Characteristics (@TA = +25°C, unless otherwise specified.) 
+ 
+Characteristic 
+Symbol
+Value 
+Units
+Total Power Dissipation (Note 5) 
+TA = +25°C 
+TA = +70°C 
+PD 
+2 
+1.3 
+W 
+Thermal Resistance, Junction to Ambient (Note 5) 
+RJA 
+60 
+°C/W 
+Total Power Dissipation (Note 5) 
+TC = +25°C 
+PD 
+17.3 
+W 
+Thermal Resistance, Junction to Case (Note 5) 
+RJC 
+7.2 
+°C/W 
+Operating and Storage Temperature Range 
+TJ, TSTG 
+-55 to +150 
+°C 
+ 
+ 
+ 
+Electrical Characteristics (@TA = +25°C, unless otherwise specified.) 
+ 
+Characteristic  
+Symbol 
+Min  
+Typ  
+Max  
+Unit  
+Test Condition  
+OFF CHARACTERISTICS (Note 6)  
+Drain-Source Breakdown Voltage  
+BVDSS 
+-60 
+— 
+— 
+V  
+VGS = 0V, ID = -250μA  
+Zero Gate Voltage Drain Current TJ = +25°C  
+IDSS  
+— 
+— 
+-1 
+µA 
+VDS = -60V, VGS = 0V  
+Gate-Source Leakage  
+IGSS  
+— 
+— 
+±100 
+nA 
+VGS = ±20V, VDS = 0V  
+ON CHARACTERISTICS (Note 6) 
+Gate Threshold Voltage  
+VGS(th) 
+-1 
+— 
+-3 
+V  
+VDS = VGS, ID = -250μA  
+Static Drain-Source On-Resistance  
+RDS(ON) 
+— 
+— 
+28 
+mΩ  
+VGS = -10V, ID = -5A 
+— 
+— 
+35 
+VGS = -4.5V, ID = -4A 
+Diode Forward Voltage  
+VSD  
+— 
+-0.7 
+-1.2 
+V 
+VGS = 0V, IS = -1A  
+DYNAMIC CHARACTERISTICS (Note 7) 
+Input Capacitance  
+Ciss  
+— 
+2569 
+— 
+pF  
+VDS = -30V, VGS = 0V,  
+f = 1MHz 
+Output Capacitance  
+Coss  
+— 
+179 
+— 
+pF  
+Reverse Transfer Capacitance  
+Crss  
+— 
+143 
+— 
+pF  
+Gate Resistance 
+Rg 
+— 
+8 
+— 
+Ω 
+VDS = 0V, VGS = 0V, f = 1MHz 
+Total Gate Charge (VGS = -4.5V) 
+Qg  
+— 
+26.5 
+— 
+nC  
+VDS = -30V, ID = -5A  
+Total Gate Charge (VGS = -10V) 
+Qg  
+— 
+53.1 
+— 
+nC  
+Gate-Source Charge  
+Qgs  
+— 
+7.1 
+— 
+nC  
+Gate-Drain Charge  
+Qgd  
+— 
+12.6 
+— 
+nC  
+Turn-On Delay Time  
+tD(on)  
+— 
+6 
+— 
+ns  
+VGS = -10V, VDS = -30V,  
+RG = 3Ω, ID = -5A 
+Turn-On Rise Time  
+tr  
+— 
+7.1 
+— 
+ns  
+Turn-Off Delay Time  
+tD(off)  
+— 
+110 
+— 
+ns  
+Turn-Off Fall Time  
+tf  
+— 
+62 
+— 
+ns  
+Body Diode Reverse Recovery Time 
+trr 
+—
+20 
+—
+nS 
+IF = -5A, di/dt = 100A/μs 
+Body Diode Reverse Recovery Charge 
+Qrr 
+—
+14 
+—
+nC 
+Notes: 
+5. Device mounted on FR-4 substrate PC board, 2oz copper, with 1-inch square pad layout. 
+6. Short duration pulse test used to minimize self-heating effect. 
+7. Guaranteed by design. Not subject to product testing. 
+ 
+
+ 
+DMP6023LE 
+Document number: DS37199  Rev. 3 - 2 
+3 of 7 
+www.diodes.com  
+January 2015
+© Diodes Incorporated 
+ 
+DMP6023LE
+ADVANCE INFORMATION 
+ 
+ 
+ 
+V
+, DRAIN -SOURCE VOLTAGE (V)
+Figure 1 Typical Output Characteristics
+DS
+I , DRAIN CURRENT (A)
+D
+0.0
+5.0
+10.0
+15.0
+20.0
+25.0
+30.0
+0
+1
+2
+3
+4
+5
+V
+= -2.8V
+GS 
+V
+= -3.0V
+GS 
+V
+= -3.5V
+GS 
+V
+= -4.5V
+GS 
+V
+= -10V
+GS 
+V
+= -5.0V
+GS 
+V
+= -4.0V
+GS 
+ 
+V
+, GATE-SOURCE VOLTAGE (V)
+GS
+Figure 2 Typical Transfer Characteristics
+I , DRAIN CURRENT (A)
+D
+0
+5
+10
+15
+20
+25
+30
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+T = 150 C
+A
+
+T = 125 C
+A
+
+T = 85 C
+A
+
+T = 25 C
+A
+
+T = -55 C
+A
+
+V
+= -5.0V
+DS 
+ 
+I , DRAIN SOURCE CURRENT (A)
+Figure 3 Typical On-Resistance vs. 
+Drain Current and Gate Voltage 
+D
+R
+, DRAIN-SOURCE ON-RESISTANCE ( )
+DS(ON)
+
+0
+0.005
+0.01
+0.015
+0.02
+0.025
+0.03
+0.035
+0.04
+0
+5
+10
+15
+20
+25
+30
+V
+ = -4.5V
+GS
+V
+ = -10V
+GS
+ 
+V
+, GATE-SOURCE VOLTAGE (V)
+GS
+Figure 4 Typical Transfer Characteristics
+R
+, DRAIN-SOURCE ON-RESISTANCE ( )
+DS(ON)
+
+0
+0.02
+0.04
+0.06
+0.08
+0.1
+0.12
+0.14
+0.16
+0.18
+0.2
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+I
+= -5.0A
+D 
+I
+= -4.0A
+D 
+ 
+I , DRAIN SOURCE CURRENT (A)
+Figure 5 Typical On-Resistance vs. 
+Drain Current and Temperature 
+D
+R
+, DRAIN-SOURCE ON-RESISTANCE ( )
+DS(ON)
+
+0
+0.01
+0.02
+0.03
+0.04
+0.05
+0
+5
+10
+15
+20
+25
+30
+T = -55 C
+A
+
+T = 25 C
+A
+
+T = 85 C
+A
+
+T = 125 C
+A
+
+T = 150 C
+A
+
+V
+ = -4.5V
+GS
+T , JUNCTION TEMPERATURE ( C)
+J
+
+Figure 6 On-Resistance Variation with Temperature
+R
+, DRAIN-SOURCE 
+ON-RESISTANCE (NORMALIZED)
+DS(ON)
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+1.8
+2
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+V
+ = -4.5V
+I = -5A
+GS
+D
+ 
+
+ 
+DMP6023LE 
+Document number: DS37199  Rev. 3 - 2 
+4 of 7 
+www.diodes.com  
+January 2015
+© Diodes Incorporated 
+ 
+DMP6023LE
+ADVANCE INFORMATION 
+ 
+ 
+ 
+ 
+T , JUNCTION TEMPERATURE ( C)
+J
+
+Figure 7 On-Resistance Variation with Temperature
+R
+, DRAIN-SOURCE ON-RESISTANCE ( )
+DS(ON)
+
+0
+0.005
+0.01
+0.015
+0.02
+0.025
+0.03
+0.035
+0.04
+0.045
+0.05
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+V
+=
+5V
+I
+=
+A
+GS
+D
+  -4.
+  -5
+ 
+T , AMBIENT TEMPERATURE (°C)
+Figure 8 Gate Threshold Variation vs. Ambient Temperature
+A
+V
+, GATE THRESHOLD VOLTAGE (V)
+GS(TH)
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+1.8
+2
+2.2
+2.4
+2.6
+2.8
+3
+-50
+-25
+0
+25
+50
+75
+100
+125
+150
+-I
+= 1mA
+D  
+-I
+= 250µA
+D 
+ 
+V
+, SOURCE-DRAIN VOLTAGE (V)
+Figure 9 Diode Forward Voltage vs. Current
+SD
+I , SOURCE CURRENT (A)
+S
+0
+5
+10
+15
+20
+25
+30
+0
+0.3
+0.6
+0.9
+1.2
+1.5
+T = 150 C
+A
+
+T = 125 C
+A
+
+T = 85 C
+A
+
+T = 25 C
+A
+
+T = -55 C
+A
+
+ 
+C , JUNCTION CAPACITANCE (pF)
+T
+V
+, DRAIN-SOURCE VOLTAGE (V)
+Figure 10 Typical Junction Capacitance
+DS
+100
+1000
+10000
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Coss
+Crss
+f = 1MHz
+Ciss
+ 
+Q , TOTAL GATE CHARGE (nC)
+Figure 11 Gate-Charge Characteristics
+g
+V
+, GATE-SOURCE VOLTAGE (V)
+GS
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+V
+= -30V
+I
+= -5A
+DS
+D
+ 
+ 
+ 
+V
+, DRAIN-SOURCE VOLTAGE (V)
+DS
+Figure 12 SOA, Safe Operation Area
+I , DRAIN CURRENT (A)
+D
+SOA, Safe Operation Area
+0.01
+0.1
+1
+10
+100
+0.1
+1
+10
+100
+RDS(on)
+Limited
+P
+ = 100µs
+W
+P
+ = 1ms
+W
+P = 10ms
+W
+P = 100ms
+W
+P
+ = 1s
+W
+P = 10s
+W
+DC
+T
+= +150°C
+J(max)
+T = +25°C
+A
+V
+ = 10V
+GS
+Single Pulse
+DUT on 1 * MRP Board
+ 
+ 
+
+ 
+DMP6023LE 
+Document number: DS37199  Rev. 3 - 2 
+5 of 7 
+www.diodes.com  
+January 2015
+© Diodes Incorporated 
+ 
+DMP6023LE
+ADVANCE INFORMATION 
+ 
+ 
+ 
+ 
+t1, PULSE DURATION TIME (sec)
+Figure 13  Transient Thermal Resistance
+r(t), TRANSIENT THERMAL RESISTANCE
+0.001
+0.01
+0.1
+1
+0.0001
+0.001
+0.01
+0.1
+1
+10
+100
+1000
+Rthja(t)=r(t) * Rthja
+Rthja=101C/W
+Duty Cycle, D=t1 /  t2
+Single Pulse
+D = 0.005
+D = 0.01
+D = 0.02
+D = 0.05
+D = 0.1
+D = 0.3
+D = 0.5
+D = 0.7
+D = 0.9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+DMP6023LE 
+Document number: DS37199  Rev. 3 - 2 
+6 of 7 
+www.diodes.com  
+January 2015
+© Diodes Incorporated 
+ 
+DMP6023LE
+ADVANCE INFORMATION 
+ 
+ 
+Package Outline Dimensions 
+Please see AP02002 at http://www.diodes.com/datasheets/ap02002.pdf for the latest version. 
+ 
+A1
+A
+7°
+7°
+D
+b
+e
+e1
+b1
+C
+E1
+L
+0°-10°
+Q
+E
+0.25
+Seating
+Plane
+Gauge
+Plane
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Suggested Pad Layout 
+Please see AP02001 at http://www.diodes.com/datasheets/ap02001.pdf for the latest version. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SOT223 
+Dim 
+Min 
+Max 
+Typ 
+A 
+1.55 
+1.65 
+1.60 
+A1 
+0.010 
+0.15 
+0.05 
+b 
+0.60 
+0.80 
+0.70 
+b1 
+2.90 
+3.10 
+3.00 
+C 
+0.20 
+0.30 
+0.25 
+D 
+6.45 
+6.55 
+6.50 
+E 
+3.45 
+3.55 
+3.50 
+E1 
+6.90 
+7.10 
+7.00 
+e 
+- 
+- 
+4.60 
+e1 
+- 
+- 
+2.30 
+L 
+0.85 
+1.05 
+0.95 
+Q 
+0.84 
+0.94 
+0.89 
+All Dimensions in mm 
+Dimensions Value (in mm)
+C 
+2.30 
+C1 
+6.40 
+X 
+1.20 
+X1 
+3.30 
+Y 
+1.60 
+Y1 
+1.60 
+Y2 
+8.00 
+X
+1
+Y
+1
+Y
+X
+C
+C
+1
+Y
+2
+
+ 
+DMP6023LE 
+Document number: DS37199  Rev. 3 - 2 
+7 of 7 
+www.diodes.com  
+January 2015
+© Diodes Incorporated 
+ 
+DMP6023LE
+ADVANCE INFORMATION 
+ 
+ 
+ 
+ 
+ 
+IMPORTANT NOTICE 
+ 
+DIODES INCORPORATED MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARDS TO THIS DOCUMENT, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+(AND THEIR EQUIVALENTS UNDER THE LAWS OF ANY JURISDICTION).   
+ 
+Diodes Incorporated and its subsidiaries reserve the right to make modifications, enhancements, improvements, corrections or other changes 
+without further notice to this document and any product described herein. Diodes Incorporated does not assume any liability arising out of the 
+application or use of this document or any product described herein; neither does Diodes Incorporated convey any license under its patent or 
+trademark rights, nor the rights of others.  Any Customer or user of this document or products described herein in such applications shall assume 
+all risks of such use and will agree to hold Diodes Incorporated and all the companies whose products are represented on Diodes Incorporated 
+website, harmless against all damages.   
+ 
+Diodes Incorporated does not warrant or accept any liability whatsoever in respect of any products purchased through unauthorized sales channel. 
+Should Customers purchase or use Diodes Incorporated products for any unintended or unauthorized application, Customers shall indemnify and 
+hold Diodes Incorporated and its representatives harmless against all claims, damages, expenses, and attorney fees arising out of, directly or 
+indirectly, any claim of personal injury or death associated with such unintended or unauthorized application. 
+ 
+Products described herein may be covered by one or more United States, international or foreign patents pending.  Product names and markings 
+noted herein may also be covered by one or more United States, international or foreign trademarks. 
+ 
+This document is written in English but may be translated into multiple languages for reference.  Only the English version of this document is the 
+final and determinative format released by Diodes Incorporated. 
+ 
+LIFE SUPPORT 
+ 
+Diodes Incorporated products are specifically not authorized for use as critical components in life support devices or systems without the express 
+written approval of the Chief Executive Officer of Diodes Incorporated. As used herein: 
+ 
+A.   Life support devices or systems are devices or systems which: 
+ 
+ 
+1. are intended to implant into the body, or 
+ 
+2. support or sustain life and whose failure to perform when properly used in accordance with instructions for use provided in the 
+ 
+     labeling can be reasonably expected to result in significant injury to the user. 
+ 
+B.   A critical component is any component in a life support device or system whose failure to perform can be reasonably expected to cause the   
+      failure of the life support device or to affect its safety or effectiveness. 
+ 
+Customers represent that they have all necessary expertise in the safety and regulatory ramifications of their life support devices or systems, and 
+acknowledge and agree that they are solely responsible for all legal, regulatory and safety-related requirements concerning their products and any 
+use of Diodes Incorporated products in such safety-critical, life support devices or systems, notwithstanding any devices- or systems-related 
+information or support that may be provided by Diodes Incorporated.  Further, Customers must fully indemnify Diodes Incorporated and its 
+representatives against any damages arising out of the use of Diodes Incorporated products in such safety-critical, life support devices or systems. 
+ 
+Copyright © 2015, Diodes Incorporated 
+ 
+www.diodes.com 
+ 
+ 
+ 
+ 
+ 

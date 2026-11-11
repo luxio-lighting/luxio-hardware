@@ -1,0 +1,20 @@
+LX0001 copper-only DC estimate
+
+Board: /private/tmp/lx0001-usb-load-after-relocation.kicad_pcb
+SHA256: 12dad402e8a60d2ed9f112e1af08012bacf6f9f51e20f1e34943704229be27a4
+Grid: 0.1mm; copper resistivity: 1.724e-08ohm-m at20°C
+Via model: 1.6mm barrel, 20.0µm wall, actual drill diameter
+Saved filled polygons, tracks and pads; ideal equipotential terminal pads.
+Excludes connectors, solder, fuse element, MOSFET resistance and regulator losses.
+Grid discretization can miss narrow features. No thermal or current-rating claim.
+
+USB_5V       35µm:   8.5401mΩ,   11.820mV, 0.01636W at1.384A; residual8.3e-08
+USB_LIMITED    35µm:  38.0887mΩ,   52.715mV, 0.07296W at1.384A; residual8e-08
+VSYS         35µm:   4.3634mΩ,    6.039mV, 0.00836W at1.384A; residual9.8e-08
+LED_VCC      35µm:   0.6406mΩ,    0.887mV, 0.00123W at1.384A; residual9.3e-08
+GND          35µm:  17.4623mΩ,   24.168mV, 0.03345W at1.384A; residual9.7e-08
+
+SUM 35µm: 69.0952mΩ, 95.628mV, 0.13235W
+
+Re-extract after any routing, footprint, via or zone-fill change.
+This report does not establish continuous current capability or safe fault behavior.

@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-11",
+  "source": "https://jlcpcb.com/partdetail/C42400246",
+  "details": {
+    "componentCode": "C42400246",
+    "componentModelEn": "HYCW445-USBC16-730B",
+    "componentBrandEn": "HOAUC",
+    "componentSpecificationEn": "SMD",
+    "componentSpecification": "$undefined",
+    "lcscComponentId": 44352779,
+    "dataManualUrl": null,
+    "isBuyComponent": "1",
+    "allowPostFlag": true,
+    "componentAlternativesCode": null,
+    "replaceUrlSuffix": null,
+    "shopShowForeignPriceFlag": true,
+    "miniNumLimit": "$undefined",
+    "preMinPurchaseNum": 88,
+    "encapsulationNumber": 1000,
+    "canPresaleNumber": 2582,
+    "overseasStockCount": 2727,
+    "fullReelPrice": null,
+    "initialPrice": 0.1293,
+    "priceList": "$undefined",
+    "prices": "$50",
+    "buyPrices": null,
+    "imageList": null,
+    "lossNumber": 0,
+    "leastPatchNumber": 2,
+    "noBuyReason": null,
+    "recentBuyUnitPrice": 0.0825,
+    "recentBuyNum": 420,
+    "buyCustomerCode": "12****5A"
+  },
+  "prices": {
+    "5000": 0.0664,
+    "2000": 0.0703,
+    "1000": 0.078,
+    "150": 0.0904,
+    "50": 0.1034,
+    "1": 0.1293
+  }
+}

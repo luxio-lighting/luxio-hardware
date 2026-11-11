@@ -1,0 +1,6 @@
+Selected part: JSCJ MMBT5551(RANGE:200-300), LCSC C2145.
+Exact manufacturer datasheet verified through browser extraction:
+https://datasheet.lcsc.com/lcsc/2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--MMBT5551_C2145.pdf
+JSCJ datasheet pins: 1 BASE, 2 EMITTER, 3 COLLECTOR. VCEO 160V, VCBO 180V, VEBO 6V, IC 600mA, PC 300mW, RthetaJA 416C/W.
+VCEsat max0.15V atIC10mA/IB1mA andmax0.2V atIC50mA/IB5mA.
+The downloaded MSK document is a reference only, not the selected manufacturer. Direct download of exact JSCJ PDF returned HTML; browser PDF extraction succeeded.

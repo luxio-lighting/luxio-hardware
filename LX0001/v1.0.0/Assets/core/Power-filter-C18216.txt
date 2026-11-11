@@ -1,0 +1,1224 @@
+Spec No. JELF243B-0010Q-01                                                                     P.1/11 
+ MURATA MFG.CO., LTD 
+ 
+ 
+CHIP COIL (CHIP INDUCTORS) LQG15HS□□□□02D REFERENCE SPECIFICATION
+ 
+1. Scope 
+This reference specification applies to LQG15HS_02 series, for Chip Coil (Chip Inductors). 
+ 
+2. Part Numbering 
+(ex)      LQ     G      15        H            S       1N0       S       0         2        D    
+  Product ID Structure Dimension Applications  Category Inductance  Tolerance Features Electrode  Packaging 
+                    (L×W)   and                                                             D:Taping 
+                             Characteristics                                                   *B:BULK 
+                            *Bulk packing (B) also available 
+3. Rating 
+・Operating Temperature Range       –55°C  to +125°C  
+・Storage Temperature Range         –55°C  to +125°C  
+Customer 
+Part Number 
+MURATA 
+Part Number 
+Inductance
+(nH) 
+Tolerance
+Q 
+(min.)
+DC 
+Resistance
+(Ω max. )
+Self Resonant 
+Frequency 
+(MHz min. ) 
+Rated 
+Current 
+(mA) 
+ 
+LQG15HS1N0B02D 
+1.0 
+B:±0.1nH
+C:±0.2nH
+S:±0.3nH
+8 
+0.07 
+10000 
+1000 
+ 
+LQG15HS1N0C02D 
+ 
+LQG15HS1N0S02D 
+ 
+LQG15HS1N1B02D 
+1.1 
+6000 
+ 
+LQG15HS1N1C02D 
+ 
+LQG15HS1N1S02D 
+ 
+LQG15HS1N2B02D 
+1.2 
+ 
+LQG15HS1N2C02D 
+ 
+LQG15HS1N2S02D 
+ 
+LQG15HS1N3B02D 
+1.3 
+ 
+LQG15HS1N3C02D 
+ 
+LQG15HS1N3S02D 
+ 
+LQG15HS1N5B02D 
+1.5 
+ 
+LQG15HS1N5C02D 
+ 
+LQG15HS1N5S02D 
+ 
+LQG15HS1N6B02D 
+1.6 
+ 
+LQG15HS1N6C02D 
+ 
+LQG15HS1N6S02D 
+ 
+LQG15HS1N8B02D 
+1.8 
+0.08 
+950 
+ 
+LQG15HS1N8C02D 
+ 
+LQG15HS1N8S02D 
+ 
+LQG15HS2N0B02D 
+2.0 
+0.09 
+900 
+ 
+LQG15HS2N0C02D 
+ 
+LQG15HS2N0S02D 
+ 
+LQG15HS2N2B02D 
+2.2 
+ 
+LQG15HS2N2C02D 
+ 
+LQG15HS2N2S02D 
+ 
+LQG15HS2N4B02D 
+2.4 
+0.11 
+850 
+ 
+LQG15HS2N4C02D 
+ 
+LQG15HS2N4S02D 
+ 
+LQG15HS2N7B02D 
+2.7 
+0.12 
+800 
+ 
+LQG15HS2N7C02D 
+ 
+LQG15HS2N7S02D 
+ 
+LQG15HS3N0B02D 
+3.0 
+0.125 
+ 
+LQG15HS3N0C02D 
+ 
+LQG15HS3N0S02D 
+ 
+LQG15HS3N3B02D 
+3.3 
+ 
+LQG15HS3N3C02D 
+ 
+LQG15HS3N3S02D 
+ 
+LQG15HS3N6B02D 
+3.6 
+0.14 
+750 
+ 
+LQG15HS3N6C02D 
+ 
+LQG15HS3N6S02D 
+
+Spec No. JELF243B-0010Q-01                                                                     P.2/11 
+ MURATA MFG.CO., LTD 
+ 
+ 
+Customer 
+Part Number 
+MURATA 
+Part Number 
+Inductance
+(nH) 
+Tolerance
+Q 
+(min.)
+DC 
+Resistance
+(Ω max. )
+Self Resonant 
+Frequency 
+(MHz min. ) 
+Rated 
+Current 
+(mA) 
+ 
+LQG15HS3N9B02D 
+3.9 
+B:±0.1nH
+C:±0.2nH
+S:±0.3nH
+8 
+0.14 
+6000 
+750 
+ 
+LQG15HS3N9C02D 
+ 
+LQG15HS3N9S02D 
+ 
+LQG15HS4N3B02D 
+4.3 
+ 
+LQG15HS4N3C02D 
+ 
+LQG15HS4N3S02D 
+ 
+LQG15HS4N7B02D 
+4.7 
+0.16 
+700 
+ 
+LQG15HS4N7C02D 
+ 
+LQG15HS4N7S02D 
+ 
+LQG15HS5N1B02D 
+5.1 
+0.18 
+5300 
+650 
+ 
+LQG15HS5N1C02D 
+ 
+LQG15HS5N1S02D 
+ 
+LQG15HS5N6B02D 
+5.6 
+4500 
+ 
+LQG15HS5N6C02D 
+ 
+LQG15HS5N6S02D 
+ 
+LQG15HS6N2B02D 
+6.2 
+0.20 
+600 
+ 
+LQG15HS6N2C02D 
+ 
+LQG15HS6N2S02D 
+ 
+LQG15HS6N8G02D 
+6.8 
+G:±2%
+H:±3%
+J:±5%
+0.22 
+ 
+LQG15HS6N8H02D 
+ 
+LQG15HS6N8J02D 
+ 
+LQG15HS7N5G02D 
+7.5 
+0.24 
+4200 
+550 
+ 
+LQG15HS7N5H02D 
+ 
+LQG15HS7N5J02D 
+ 
+LQG15HS8N2G02D 
+8.2 
+3700 
+ 
+LQG15HS8N2H02D 
+ 
+LQG15HS8N2J02D 
+ 
+LQG15HS9N1G02D 
+9.1 
+0.26 
+3400 
+500 
+ 
+LQG15HS9N1H02D 
+ 
+LQG15HS9N1J02D 
+ 
+LQG15HS10NG02D 
+10 
+ 
+LQG15HS10NH02D 
+ 
+LQG15HS10NJ02D 
+ 
+LQG15HS12NG02D 
+12 
+0.28 
+3000 
+ 
+LQG15HS12NH02D 
+ 
+LQG15HS12NJ02D 
+ 
+LQG15HS15NG02D 
+15 
+0.32 
+2500 
+450 
+ 
+LQG15HS15NH02D 
+ 
+LQG15HS15NJ02D 
+ 
+LQG15HS18NG02D 
+18 
+0.36 
+2200 
+400 
+ 
+LQG15HS18NH02D 
+ 
+LQG15HS18NJ02D 
+ 
+LQG15HS22NG02D 
+22 
+0.42 
+1900 
+350 
+ 
+LQG15HS22NH02D 
+ 
+LQG15HS22NJ02D 
+ 
+LQG15HS27NG02D 
+27 
+0.46 
+1700 
+ 
+LQG15HS27NH02D 
+ 
+LQG15HS27NJ02D 
+ 
+LQG15HS33NG02D 
+33 
+0.58 
+1600 
+ 
+LQG15HS33NH02D 
+ 
+LQG15HS33NJ02D 
+ 
+LQG15HS39NG02D 
+39 
+0.65 
+1200 
+300 
+ 
+LQG15HS39NH02D 
+ 
+LQG15HS39NJ02D 
+ 
+
+Spec No. JELF243B-0010Q-01                                                                     P.3/11 
+ MURATA MFG.CO., LTD 
+ 
+Customer 
+Part Number 
+MURATA 
+Part Number 
+Inductance
+(nH) 
+Tolerance
+Q 
+(min.)
+DC 
+Resistance
+(Ω max. )
+Self Resonant 
+Frequency 
+(MHz min. ) 
+Rated 
+Current 
+(mA) 
+ 
+LQG15HS47NG02D 
+47 
+G:±2%
+H:±3%
+J:±5%
+ 
+8 
+0.72 
+1000 
+300 
+ 
+LQG15HS47NH02D 
+ 
+LQG15HS47NJ02D 
+ 
+LQG15HS56NG02D 
+56 
+0.82 
+800 
+250 
+ 
+LQG15HS56NH02D 
+ 
+LQG15HS56NJ02D 
+ 
+LQG15HS68NG02D 
+68 
+0.92 
+800 
+250 
+ 
+LQG15HS68NH02D 
+ 
+LQG15HS68NJ02D 
+ 
+LQG15HS82NG02D 
+82 
+1.20 
+700 
+200 
+ 
+LQG15HS82NH02D 
+ 
+LQG15HS82NJ02D 
+ 
+LQG15HSR10G02D 
+100 
+1.25 
+600 
+ 
+LQG15HSR10H02D 
+ 
+LQG15HSR10J02D 
+ 
+LQG15HSR12G02D 
+120 
+1.30 
+ 
+LQG15HSR12H02D 
+ 
+LQG15HSR12J02D 
+ 
+LQG15HSR15G02D 
+150 
+2.99 
+550 
+150 
+ 
+LQG15HSR15H02D 
+ 
+LQG15HSR15J02D 
+ 
+LQG15HSR18G02D 
+180 
+3.38 
+500 
+ 
+LQG15HSR18H02D 
+ 
+LQG15HSR18J02D 
+ 
+LQG15HSR22G02D 
+220 
+3.77 
+450 
+120 
+ 
+LQG15HSR22H02D 
+ 
+LQG15HSR22J02D 
+ 
+LQG15HSR27G02D 
+270 
+4.94 
+400 
+110 
+ 
+LQG15HSR27H02D 
+ 
+LQG15HSR27J02D 
+ 
+ 
+4. Testing Conditions 
+《Unless otherwise specified》                              《In case of doubt》 
+Temperature : Ordinary Temperature / 15°C to 35°C           Temperature : 20°C ± 2°C  
+Humidity     : Ordinary Humidity    / 25%(RH) to 85%(RH)    Humidity     : 60%(RH) to 70%(RH) 
+    Atmospheric Pressure : 86kPa to 106 kPa 
+ 
+5. Appearance and Dimensions 
+ 
+ 
+ 
+ 
+ 
+ 
+  ■Unit Mass (Typical value) 
+                                                                                     0.001g 
+ 
+ 
+ 
+ 
+(in mm) 
+ 
+ 
+Electrode
+Polarity Marking
+1.0±0.05
+0.5±0.05
+0.25±0.1
+0.5±0.0.5
+0.5±0.05 
+
+Spec No. JELF243B-0010Q-01                                                                     P.4/11 
+ MURATA MFG.CO., LTD 
+ 
+6. Electrical Performance 
+ 
+No. 
+Item 
+Specification
+Test Method 
+6.1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Inductance 
+Inductance shall meet item 3.
+Measuring Equipment: 
+KEYSIGHT 4291A or equivalent 
+Measuring Frequency: 100MHz 
+Measuring Condition:  
+Test signal level/ about 7dBm 
+Electrical length/ 0.94cm 
+Weight/ about 1N to 5N 
+Measuring Fixture: KEYSIGHT 16193A 
+ 
+Position coil under test as shown in below and 
+contact coil with each terminal by adding weight. 
+Polarity marking should be a topside,and polarity 
+marking should be in the direction of the fixture 
+for position of chip coil. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+Measuring Method: the endnote 
+[Electrical Performance:Measuring Method of 
+ Inductance/ Q] 
+6.2 
+Q 
+Q shall meet item 3.
+6.3 
+DC Resistance 
+DC Resistance shall meet item 3. 
+Measuring Equipment: Digital multi meter 
+6.4 
+Self Resonant 
+Frequency (S.R.F) 
+S.R.F shall meet item 3. 
+Measuring Equipment:  
+KEYSIGHT 8753C or equivalent 
+6.5 
+Rated Current 
+Self temperature rise shall be 
+limited to 25°C max. 
+The rated current is applied. 
+ 
+7. Mechanical Performance 
+No. 
+Item 
+Specification
+Test Method 
+7.1 
+Shear Test 
+Chip coil shall not be damaged
+after tested as test method. 
+Substrate: Glass-epoxy substrate 
+   
+ 
+ 
+ 
+ 
+                                 (in mm) 
+ 
+Force: 5N 
+Hold Duration: 5s±1s 
+Applied Direction: Parallel to PCB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7.2 
+Bending Test 
+Chip coil shall not be damaged 
+after tested as test method. 
+Substrate: Glass-epoxy substrate 
+              (100mm×40mm×0.8mm) 
+Speed of Applying Force: 1mm / s 
+Deflection: 2mm 
+Hold Duration: 30s 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  (in mm) 
+45
+R340
+F
+Deflection
+45
+Product
+Pressure jig
+Polarity Marking
+0.5mm
+11.5mm
+Land
+0.4
+0.55
+0.55
+0.5
+F
+Chip Coil
+Substrate
+
+Spec No. JELF243B-0010Q-01                                                                     P.5/11 
+ MURATA MFG.CO., LTD 
+ 
+No. 
+Item 
+Specification
+Test Method 
+7.3 
+Vibration 
+Appearance: No damage
+Inductance Change: within ±10% 
+Oscillation Frequency: 
+ 10Hz to 55Hz to 10Hz for 1 min 
+Total Amplitude: 1.5mm 
+Testing Time: A period of 2 hours in each of
+   3 mutually perpendicular directions.
+7.4 
+Solderability 
+The wetting area of the electrode
+shall be at least 90% covered with 
+new solder coating. 
+Flux: Ethanol solution of rosin 25(wt)% 
+    (Immersed for 5s to 10s) 
+Solder: Sn-3.0Ag-0.5Cu 
+Pre-Heating: 150°C±10°C / 60s to 90s 
+Solder Temperature: 240°C±5°C 
+Immersion Time: 3s±1s  
+7.5 
+Resistance to 
+Soldering Heat 
+Appearance: No damage
+Inductance Chang 
+e: within ±10% 
+Flux: Ethanol solution of rosin 25(wt)% 
+    (Immersed for 5s to 10s) 
+Solder: Sn-3.0Ag-0.5Cu 
+Pre-Heating: 150°C±10°C / 1 min to 2 min 
+Solder Temperature: 270°C±5°C 
+Immersion Time: 10s±1s 
+Then measured after exposure in the room 
+condition for 24h±2h. 
+ 
+8. Environmental Performance 
+ 
+It shall be soldered on the substrate. 
+No. 
+Item 
+Specification
+Test Method 
+8.1 
+Humidity 
+Appearance: No damage
+Inductance Change: within ±10% 
+ 
+Temperature: 40°C±2°C 
+Humidity: 90%(RH) to 95%(RH) 
+Time: 1000h (+48h,-0h) 
+Then measured after exposure in the room
+condition for 24h±2h. 
+8.2 
+Heat Life 
+Temperature: 125°C±2°C 
+Current: Rated Current (See the 3.) 
+Time: 1000h (+48h, -0h) 
+Then measured after exposure in the room
+condition for 24h±2h. 
+8.3 
+Humidity Load 
+Temperature: 40°C±2°C 
+Humidity: 90%(RH) to 95%(RH) 
+Current: Rated Current (See the 3.)  
+Time: 1000h (+48h, -0h) 
+Then measured after exposure in the room
+condition for 24h±2h. 
+8.4 
+Temperature  
+          Cycle 
+1 cycle:
+1 step: -55°C (+0°C, -3°C) / 30 min±3 min
+2 step: Ordinary temp. / 2 min to 3 min 
+3 step: +125°C (+3°C, -0°C) / 30 min±3 min 
+4 step: Ordinary temp. / 2 min to 3 min 
+Total of 10 cycles 
+Then measured after exposure in the room
+condition for 24h±2h. 
+ 
+9. Specification of Packaging  
+ 
+9.1 Appearance and Dimensions of paper tape (8mm-wide) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(in mm) 
+ 
+ 
+ 
+0.62±0.04
+1.12±0.04
+2.0±0.05
+2.0±0.05
+4.0±0.1
+φ1.5±
+3.5±0.05
+8.0±0.2
+0.8max.
+0.1
+0
+Direction of feed
+Polarity marking
+1.75±0.1
+
+Spec No. JELF243B-0010Q-01                                                                     P.6/11 
+ MURATA MFG.CO., LTD 
+ 
+9.2 Specification of Taping 
+(1) Packing quantity (standard quantity) 
+10,000 pcs. / reel 
+ 
+(2) Packing Method 
+Products shall be packed in the cavity of the base tape and sealed by top tape and bottom tape. 
+ 
+(3) Sprocket hole 
+The sprocket holes are to the right as the tape is pulled toward the user. 
+ 
+(4) Spliced point 
+Base tape and Top tape has no spliced point. 
+ 
+(5) Missing components number 
+Missing components number within 0.1 % of the number per reel or 1 pc., whichever is greater, 
+and are not continuous. The Specified quantity per reel is kept. 
+ 
+9.3 Pull Strength 
+ 
+Top tape 
+ 
+5N min. 
+Bottom tape 
+ 
+ 
+9.4 Peeling off force of cover tape 
+ 
+Speed of Peeling off 
+300mm / min 
+Peeling off force 
+0.1N to 0.6N 
+ (minimum value is typical)
+ 
+ 
+ 
+9.5 Dimensions of Leader-tape, Trailer and Reel 
+There shall be leader-tape ( top tape and empty tape) and trailer-tape (empty tape) as follows.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(in mm) 
+ 
+ 9.6 Marking for reel 
+Customer part number, MURATA part number, Inspection number (1), RoHS marking (2), 
+Quantity etc ･･･ 
+ 
+                1) <Expression of Inspection No.>                 □□ OOOO  
+                                                 (1)     (2)     (3) 
+(1) Factory Code 
+(2) Date      First digit 
+ : Year  / Last digit of year 
+Second digit : Month / Jan. to Sep.  1 to 9, Oct. to Dec.  O, N, D 
+Third, Fourth digit : Day 
+                         (3) Serial No. 
+ 
+     2) <Expression of RoHS marking > 
+        ROHS – Y (△) 
+(1) (2) 
+                         (1) RoHS regulation conformity parts. 
+                         (2) MURATA classification number 
+ 
+9.7 Marking for Outside package (corrugated paper box) 
+Customer name, Purchasing order number, Customer part number, MURATA part number, 
+RoHS marking (2), Quantity, etc ･･･ 
+ 
+F
+165 to 180 degree
+Top tape
+Bottom tape
+Base tape
+ 
+Empty tape
+190 min.
+Leader
+Trailer
+2.0±0.5
+13.0±0.2
+21.0±0.8
+180
+60
+9.0
+13.0±1.4
++1
+-0
++0
+-3
+Direction of feed
+210 min.
+160 min.
+Top tape
++1
+-0
+Label
+
+Spec No. JELF243B-0010Q-01                                                                     P.7/11 
+ MURATA MFG.CO., LTD 
+ 
+9.8. Specification of Outer Case 
+ 
+Outer Case Dimensions 
+(mm) 
+Standard Reel Quantity  
+in Outer Case (Reel) 
+W 
+D 
+H 
+186 
+186 
+93 
+5 
+
+ 
+・・              
+ 
+10. ！ Caution 
+ 
+Limitation of Applications 
+Please contact us before using our products for the applications listed below which require especially high 
+reliability for the prevention of defects which might directly cause damage to the third party's life, body or 
+property. 
+ 
+(1) Aircraft equipment             (6) Transportation equipment (vehicles, trains, ships, etc.) 
+(2) Aerospace equipment          (7) Traffic signal equipment 
+(3) Undersea equipment          (8) Disaster prevention / crime prevention equipment 
+(4) Power plant control equipment  (9) Data-processing equipment 
+(5) Medical equipment             (10) Applications of similar complexity and /or reliability  
+                                       requirements to the applications listed in the above 
+11. Notice 
+Products can only be soldered with reflow. 
+This product is designed for solder mounting. 
+Please consult us in advance for applying other mounting method such as conductive adhesive. 
+ 
+11.1 Land pattern designing 
+ 
+   a 
+0.4 
+   b 
+1.4 to 1.5 
+   c 
+0.5 to 0.6 
+ 
+(in mm) 
+ 
+11.2 Flux, Solder 
+・Use rosin-based flux. 
+Don’t use highly acidic flux with halide content exceeding 0.2(wt)% (chlorine conversion value). 
+Don’t use water-soluble flux. 
+・Use Sn-3.0Ag-0.5Cu solder.  
+・Standard thickness of solder paste : 100μm to 150μm. 
+ 
+ 
+ 
+a
+b
+Chip Coil
+LandSolder Resist
+c
+W
+D
+Label
+H
+※ Above Outer Case size is typical. It depends on a quantity of an order. 
+
+Spec No. JELF243B-0010Q-01                                                                     P.8/11 
+ MURATA MFG.CO., LTD 
+ 
+11.3 Reflow soldering conditions 
+・Inductance value may be changed a little due to the amount of solder. 
+ So, the chip coil shall be soldered by reflow so that the solder volume can be controlled. 
+・Pre-heating should be in such a way that the temperature difference between solder and product surface 
+is limited to 150°C max. Cooling into solvent after soldering also should be in such a way that the 
+temperature difference is limited to 100°C max. 
+ Insufficient pre-heating may cause cracks on the product, resulting in the deterioration of products 
+quality. 
+・Standard soldering profile and the limit soldering profile is as follows. 
+ The excessive limit soldering conditions may cause leaching of the electrode and/or resulting in the 
+deterioration of product quality.  
+ 
+・Reflow soldering profile 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Standard Profile 
+Limit Profile 
+Pre-heating 
+150°C～180°C, 90s±30s 
+Heating 
+above 220°C, 30s～60s
+above 230°C, 60s max. 
+Peak temperature 
+245°C±3°C 
+260°C, 10s 
+Cycle of reflow 
+2 times 
+2 times 
+ 
+11.4 Reworking with soldering iron 
+The following conditions must be strictly followed when using a soldering iron. 
+ 
+Pre-heating 
+150°C, 1 min 
+Tip temperature 
+350°C max. 
+Soldering iron output
+80W max. 
+Tip diameter 
+φ3mm max. 
+Soldering time 
+3(+1, -0)s  
+Time 
+2 times 
+ 
+Note : Do not directly touch the products with the tip of the soldering iron in order to prevent the 
+      crack on the products due to the thermal shock. 
+ 
+ 
+ 
+11.5 Solder Volume 
+・Solder shall be used not to be exceed the upper limits as shown below. 
+・Accordingly increasing the solder volume, the mechanical stress to Chip is also increased. 
+ Exceeding solder volume may cause the failure of mechanical or electrical performance. 
+ 
+1/3T≦t≦T 
+T：thickness of product 
+ 
+ 
+ 
+ 
+ 
+ 
+Upper Limit
+Recommendable
+t
+Limit Profile
+Standard Profile
+90s±30s
+230℃
+260℃
+245℃±3℃
+220℃
+30s～60s
+60s max.
+180
+150
+Temp.
+(s)
+(℃)
+Time.
+
+Spec No. JELF243B-0010Q-01                                                                     P.9/11 
+ MURATA MFG.CO., LTD 
+ 
+11.6 Product’s location 
+The following shall be considered when designing and laying out P.C.B.'s. 
+ 
+(1) P.C.B. shall be designed so that products are not subject to the mechanical stress due to warping the 
+board. 
+ 
+［Products direction］ 
+ 
+ 
+Products shall be located in the sideways 
+direction (Length:a＜b) to the mechanical 
+stress. 
+ 
+ 
+(2) Components location on P.C.B. separation.                                                            
+It is effective to implement the following measures, to reduce stress in separating the board. 
+It is best to implement all of the following three measures; however, implement as many measures as possible  
+to reduce stress. 
+ 
+Contents of Measures 
+Stress Level 
+(1) Turn the mounting direction of the component parallel to the board separation surface. 
+A > D *1 
+(2) Add slits in the board separation part. 
+A > B 
+(3) Keep the mounting position of the component away from the board separation surface. 
+A > C 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+*1 A > D is valid when stress is added vertically to the perforation as with Hand Separation. 
+           If a Cutting Disc is used, stress will be diagonal to the PCB, therefore A > D is invalid. 
+ 
+(3) Mounting Components Near Screw Holes 
+When a component is mounted near a screw hole, it may be affected by the board deflection that occurs during 
+the tightening of the screw. Mount the component in a position as far away from the screw holes as possible. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11.7 Cleaning Conditions 
+Products shall be cleaned on the following conditions. 
+ 
+(1) Cleaning temperature shall be limited to 60°C max. (40°C max for IPA.) 
+(2) Ultrasonic cleaning shall comply with the following conditions with avoiding the resonance phenomenon 
+at the mounted products and P.C.B. 
+Power : 20 W / l max.    Frequency : 28kHz to 40kHz    Time : 5 min max. 
+(3) Cleaner 
+1. Alcohol type cleaner             
+Isopropyl alcohol (IPA)            
+  
+2. Aqueous agent 
+PINE ALPHA ST-100S 
+ 
+(4) There shall be no residual flux and residual cleaner after cleaning. In the case of using aqueous agent, 
+products shall be dried completely after rinse with de-ionized water in order to remove the cleaner. 
+(5) Other cleaning   Please contact us. 
+ 
+〈Poor example〉
+〈Good example〉
+b
+a
+ 
+ 
+ 
+ 
+ 
+ 
+Perforation 
+Slit 
+A 
+B 
+C 
+D 
+Screw Hole 
+Recommend
+
+Spec No. JELF243B-0010Q-01                                                                     P.10/11 
+ MURATA MFG.CO., LTD 
+ 
+11.8 Resin coating 
+The inductance value may change and/or it may affect on the product's performance due to high cure-stress 
+of resin to be used for coating/molding products. So please pay your careful attention when you select resin. 
+In prior to use, please make the reliability evaluation with the product mounted in your application set. 
+ 
+11.9 Handling of a substrate 
+            After mounting products on a substrate, do not apply any stress to the product caused by bending or 
+twisting to the substrate when cropping the substrate, inserting and removing a connector from the 
+substrate or tightening screw to the substrate. 
+Excessive mechanical stress may cause cracking in the product. 
+ 
+Bending                                Twisting 
+                  
+ 
+11.10 Storage and Handing Requirements 
+(1) Storage period 
+Use the products within 6 months after delivered. 
+Solderability should be checked if this period is exceeded. 
+(2) Storage conditions 
+・Products should be stored in the warehouse on the following conditions. 
+Temperature ： -10°C to 40°C 
+Humidity    ： 15% to 85% relative humidity  No rapid change on temperature and humidity 
+  
+ Don't keep products in corrosive gases such as sulfur,chlorine gas or acid, or it may cause 
+oxidization of electrode, resulting in poor solderability. 
+・Products should be stored on the palette for the prevention of the influence from humidity, dust and so on. 
+・Products should be stored in the warehouse without heat shock, vibration, direct sunlight and so on. 
+・Products should be stored under the airtight packaged condition. 
+ 
+(3) Handling Condition 
+Care should be taken when transporting or handling product to avoid excessive vibration or mechanical 
+shock. 
+ 
+ 
+ 
+ 
+12．!  Note 
+ 
+(1) Please make sure that your product has been evaluated in view of your specifications with our product being 
+mounted to your product. 
+(2) You are requested not to use our product deviating from the reference specifications. 
+(3) The contents of this reference specification are subject to change without advance notice.  
+Please approve our product specifications or transact the approval sheet for product specifications 
+before ordering.  
+ 
+ 
+
+Spec No. JELF243B-0010Q-01                                                                     P.11/11 
+ MURATA MFG.CO., LTD 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(1) Residual elements and stray elements of test fixture can be described by F-parameter shown in following. 
+ 
+ 
+ V1      A  B    V2 
+  I 1      C  D    I 2 
+ 
+ 
+(2) The impedance of chip coil Zx and measured value Zm can be described by input/output current/voltage. 
+ 
+ V1               V2 
+ I 1    ，          I 2  
+ 
+(3) Thus,the relation between Zx and Zm is following; 
+  Zm-β         where, α= D / A =1 
+ 1-ZmΓ                β= B / D =Zsm-(1-Yom Zsm)Zss 
+                               Γ= C / A =Yom 
+                                 
+Zsm:measured impedance of short chip 
+Zss:residual impedance of short chip (0nH) 
+Yom:measured admittance when opening the fixture 
+ 
+(4) Lx and Qx shall be calculated with the following equation. 
+  Im(Zx)             Im(Zx)        Lx :Inductance of chip coil 
+  2πf      ，        Re(Zx)       Qx:Q of chip coil 
+                                  f  :Measuring frequency 
+=
+ Zm= 
+ Zx= 
+  Zx=  
+  Lx= 
+ Qx= 
+A
+B
+C
+D
+Zm
+Zx
+V1
+2
+1
+2
+Product
+Test fixture
+Test Head
+I
+I
+V
+<Electrical Performance:Measuring Method of Inductance/Q>

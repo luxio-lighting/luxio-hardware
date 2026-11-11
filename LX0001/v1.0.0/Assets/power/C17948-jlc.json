@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C17948",
+    "componentModelEn": "1206W4F2201T5E",
+    "componentBrandEn": "UNI-ROYAL(Uniroyal Elec)",
+    "componentSpecificationEn": "1206",
+    "stockCount": 235527,
+    "canPresaleNumber": 201478,
+    "componentLibraryType": "expand",
+    "dataManualOfficialLink": "",
+    "dataManualUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F2201T5E_C17948.pdf",
+    "required_100_boards": 100,
+    "unit_price_usd": 0.0053,
+    "observed_at_utc": "2026-11-11T11:34:09Z",
+    "source_url": "https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C17948"
+  }
+}

@@ -1,0 +1,190 @@
+LX0001 v1.0.0 — ESP32-S3 / 4MB flash / ceramic antenna core
+Checked: 2026-11-11
+
+IMPLEMENTED CORE
+30 positions (29 fitted, one DNP tuner) in core_parts.json. Bare ESP32-S3 C2913192 + external Winbond
+W25Q32JVSSIQ C179173, 32Mbit = 4MB. No PSRAM. U1 is the bare 7x7mm,
+56-pin QFN with 4x4mm exposed ground pad, not ESP32-S3FH4R2.
+U10 uses the 5.3x5.3mm SOIC-8 body; a 3.9mm SOIC is NOT a substitute.
+All selected footprints were loaded in installed KiCad Python and every
+assigned electrical pin was checked against the footprint's pad numbers.
+
+PIN ASSIGNMENT / FIRMWARE CONTRACT
+GPIO0 / physical5 = BOOT, external10k pullup. Root schematic owns button.
+GPIO1 / physical6 = CC1_SENSE, ADC1_CH0.
+GPIO2 / physical7 = CC2_SENSE, ADC1_CH1.
+GPIO4 / physical9 = VBUS_SENSE, ADC1_CH3.
+GPIO5 / physical10 = USB_STRIP_EN output.
+GPIO6 / physical11 = USB_HIGH_CURRENT output.
+GPIO16 / physical22 = LED data output1. Native symbol names pin XTAL_32K_N;
+this is also GPIO16. No external32kHz crystal is populated.
+GPIO17 / physical23 = LED data output2.
+GPIO18 / physical24 = GPIO18_BUTTON input.
+GPIO19 / physical25 = USB_DM.
+GPIO20 / physical26 = USB_DP.
+GPIO21 / physical27 = DATA_ENABLE output.
+U0TXD / physical49 = UART_TX (GPIO43).
+U0RXD / physical50 = UART_RX (GPIO44).
+GPIO45 / physical51 has10k pulldown: select3.3V flash supply at reset.
+GPIO46 / physical52 has10k pulldown: permits ROM download when BOOT low.
+GPIO3 strapping pin is left at default; no external load.
+Firmware must initially keep USB_STRIP_EN, USB_HIGH_CURRENT and DATA_ENABLE
+low until the main power-path conditions are validated. These three nets
+are normal non-strapping GPIOs. Root IO circuitry must give safe external
+pulldowns during boot/reset. Configure4MB flash, PSRAM disabled; validate
+flash boot at conservative40MHz DIO before qualifying higher modes/speeds.
+
+POWER AND RESET
+Provide3.3V with at least500mA available at the MCU, including WiFi bursts.
+Do not let VDD3P3_RTC fall below3.0V. L100=2nH900mA isolates VDD3P3 RF
+supply pins2/3, with local bypass capacitors. RTC pin20, CPU pin46 and VDDA
+pins55/56 receive3V3 with local bypass. Pin57 exposed pad requires ground
+copper and multiple short ground vias; use paste-windowed stencil.
+VDD_SPI pin29 is an internal3.3V source through approximately14ohm from
+VDD3P3_RTC. It powers the external flash and has0.1uF+1uF local bypass.
+Do not connect VDD_SPI directly to the3V3 net or add excessive capacitance.
+KiCad stock ESP32-S3 symbol calls VDD_SPI power_input; a power flag on
+VDD_SPI records the intended internal power source for ERC.
+ESP_EN uses10k/1uF RC, held low for reset. Native USB and UART test points
+provide programming/recovery access. The root circuit owns USB termination,
+ESD, connector, reset test point and BOOT/button wiring.
+
+40MHZ CLOCK
+HD7B040000M01 C655034:40MHz,12pF load,initial tolerance±10ppm, stability
+±20ppm over−20..+70C, ESR<=25ohm,100uW maximum drive,3.2x2.5mm4-pad.
+Pins1/3 active and2/4 ground. Manufacturer1.4x1.2mm land pattern agrees
+with KiCad Crystal_SMD_3225-4Pin_3.2x2.5mm.
+C112/C11318pF C0G are starting values from CL=C1*C2/(C1+C2)+Cstray,
+assuming about3pF total stray. Measure and adjust frequency on assembled
+hardware. L10124nH in series with XTAL_P is explicitly recommended as an
+initial value by Espressif to reduce RF harmonic coupling. Do not omit it
+without the corresponding RF/clock measurements. Keep crystal and load
+capacitors close; solid ground below, ground shielding around the clock,
+no buck switching nets or other fast signals in this area.
+
+RF MATCH / ANTENNA (updated for centered input connectors)
+U1 LNA_IN pin1 -> C114 shunt 1.5pF -> L102 series 2.7nH -> C115 shunt
+1.5pF -> RF_50 feed -> ANT1. These chip-match values remain starting
+values, not measurements on this board. All ground connections are short
+and have adjacent ground vias.
+
+ANT1 is now Walsin RFECA3216060A1T C127620, nominal 3.1x1.6x0.6mm,
+manufacturer V09 Type1 middle-edge pattern. The previous RFANT corner
+antenna is superseded because the input connectors are centered.
+Manufacturer specifies an 8x3mm empty region, PCB length L>30mm and
+antenna offset D>6mm. Our 60x20mm board satisfies these size limits;
+the 90x40mm/0.8mm test board is not equivalent to our actual stackup.
+
+Custom footprint Core:Walsin_RFECA3216060A1T_Type1 reproduces V09 p3:
+- FEED and GND lands at the marked end are each 0.35x0.65mm, with a
+  0.30mm gap. Opposite TUNE land is 0.35x1.60mm. End-land centers are
+  2.95mm apart, spanning the 3.30mm maximum package length.
+- Separate F.Cu-only pads reproduce the 2.7mm feed/ground fingers and
+  1.8mm tuning finger. Only manufacturer solder lands have mask/paste.
+- Three symbol ports map the three PCB lands: 1=RF_50, 2=ANT_TUNE,
+  3=GND. They are not three independently numbered package terminals.
+- L104 is an optional DNP 0402 tuning position from ANT_TUNE to GND;
+  the manufacturer specifies no value. Its BOM candidate is 0 ohms,
+  but DO NOT populate that link without RF measurement. The former
+  6.8nH RFANT series matching element has been removed.
+
+Placement: ANT1=(14.5,1.5), rotation 0; L104=(11.1,1.5), rotation 0.
+All-four-layer empty window x10.5..18.5,y0..3mm allows only intentional top
+antenna pattern copper. Inner/bottom copper, vias and components are prohibited.
+FEED solder pad=(15.975,1.975), GND=(15.975,1.025), TUNE=(13.025,1.5).
+The feed finger ends at (18.5,1.975); ground finger at (18.5,1.025).
+
+Final four-layer PCB is authoritative. Do not reapply the older rf_fanout.py
+routing recipe, which predates the four-layer stackup and final placement.
+RF_50 traces are 0.306 mm wide. The RF50 netclass enforces 0.200 mm clearance. C115/L102 standard0201
+lands retain0.127mm local clearance at their0.180mm internal pad gap. JLC's soldermask-covered grounded-coplanar calculator
+returned 0.3058 mm for 50 ohms on JLC04161H-7628, outer1oz/inner0.5oz,
+L1 referenced to L2, dielectric0.2104mm/Er4.4 and0.2mm gap.
+Evidence: Assets/core/four-layer-stackup-and-rf.json.
+The matching pads and feed inside the antenna window are transitions; their
+impedance is not claimed to equal the calculated uniform-line impedance.
+L2 x14..20,y3..8.5 is protected against signal tracks and remains filled GND.
+Other L2 areas contain a few signal bridges. Antenna matching and radiation
+must be measured with final enclosure, connector cables and screws present.
+
+RELEASE VALIDATION
+The firmware, clock-load values, RF matching, conducted spurious emissions,
+radiated performance, temperature operation and antenna efficiency have
+not been measured on hardware. Manufacturer reference results do not prove
+performance of this60x20mm board. First-article VNA/OTA/RF compliance and
+clock-offset tuning are required before claiming a production-qualified
+radio. Antenna datasheet explicitly says resonance must be adjusted with
+the matching circuit. No module radio certification transfers to this bare
+chip implementation. Complete the parent design's power/thermal5A checks
+as well.
+
+SOURCING AT100PIECES
+JLC live page data checked2026-11-11; stock is not reserved. Selected core
+parts all had sufficient live quantity for100boards before attrition.
+ESP32-S3 C2913192:891stock,$2.0662 each at100.
+W25Q32JVSSIQ C179173:3957stock,$1.0674 each at100.
+7B040000M01 C655034:2714stock,$0.0532 each at100.
+RFECA3216060A1T C127620:22288 stock,$0.0443 each at100 (updated antenna).
+The 29 fitted core parts subtotal using100-piece unit prices=$3.4851/board;
+repeated passives can be cheaper at actual100-board total quantity. This
+excludes PCB, assembly/setup, shipping,tax,spares and all noncore parts.
+core_parts.json includes unit_usd_at_100,jlc_stock_checked,jlc_stock_date.
+Full selected-part snapshot is Assets/core/sourcing-2026-11-11.json.
+Rejected alternatives: C82344 Winbond tube stock0; C47089401 crystal stock2;
+C89334 Johanson antenna stock0. The formerly selected RFANT antenna is
+superseded by RFECA for the centered-input layout. Archived alternative
+datasheets are research records, not approved substitutions. C179173 is exactly the selected
+Winbond MPN in tape/reel. Do not substitute parts without reviewing package,
+voltage, RF characteristics and flash support.
+
+PRIMARY REFERENCES / LOCAL ASSETS
+ESP32-S3 manufacturer datasheet:
+https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf
+Saved esp32-s3_datasheet_en.pdf and text.
+ESP32-S3 official hardware design guidelines:
+https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html
+https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/pcb-layout-design.html
+Saved esp32-s3-hardware-guidelines.pdf and text; powerpp5–8,clockp10,
+RFchecklist and layout chapters.
+Winbond W25Q32JV manufacturer datasheet: saved W25Q32JV.pdf and text.
+Selected inventory:https://jlcpcb.com/partdetail/WinbondElec-W25Q32JVSSIQ/C179173
+HD crystal manufacturer approval sheet:
+https://datasheet.lcsc.com/datasheet/pdf/0de56c2bfa3d91640073aece7ee0453e.pdf
+Saved Crystal-C655034.pdf and text; electricalp1,landpatternp3.
+Walsin RFANT manufacturer approval sheetV05:
+https://atta.szlcsc.com/upload/public/pdf/source/20180326/C127629_E7A81F7A36316F7BB6F0FA74BB27F225.pdf
+Saved Walsin-RFANT3216120A5T.pdf and text; pinorientationp2,matching and
+cornerlandpatternp3.
+Murata inductors/capacitors manufacturer datasheets saved as RF-inductor-
+C98043.pdf,RF-capacitor-C161414.pdf,Power-filter-C18216.pdf,
+Crystal-filter-C913699.pdf,Antenna-match-C77110.pdf. LCSC wrapperHTML
+records source URLs for these downloads.
+
+INDEPENDENT INTEGRATION AUDIT
+The generated hierarchical schematic was exported with KiCad CLI to XML.
+200 assigned core,USB,data-output andbuttonpins matched parts.json exactly.
+Manufacturer pin maps for USBLC6-2SC6 and AHCT1G125 were checked;
+3V3-to5V translation,default-disabled OE logic,andBAT54C button-isolation
+polarity are correct. This verifies connectivity, not firmware or PCB routing.
+The initial automatic placement had RF bypass and clock-series components
+too far from MCU pins. Core placement recommendations are recorded in
+core_placement_recommendations.json; parent owns their final integration.
+The RF bypass must be local to pins2/3, RTC bypass local to20, CPU bypass
+local to46,andVDDA bypass local to55/56. Route each directly before the
+rest of3V3 distribution. Ground-via proximity matters as much as distance.
+Keep flash SPI under30mm and prefer40MHzDIO for initial bringup. USB is full-speed12Mbps, with ESD near the connector and22ohm series
+resistors. Final routing uses several layer transitions and is not claimed
+to be a calibrated90ohm differential pair; validate USB signal integrity
+and enumeration on the assembled board across representative cables/hosts. Firmware must establish available USB current
+and strip voltage mode before enabling strip/data. Hardware cannot detect
+whether an attached strip is5V,12V or24V.
+
+Layout update: five optional 0-ohm data/CS tuning links removed for density.
+R105 clock series footprint and R110 CS pull-up retained. Direct point-to-point
+flash data wiring; begin bring-up at40MHz DIO and qualify before80MHz/QIO.
+This preserves electrical function but reduces later per-line tuning options.
+
+Current selected antenna primary manufacturer document: Walsin V09, Aug2018, pages2-4.
+https://static.chipdip.ru/lib/242/DOC011242636.pdf
+Saved Walsin-RFECA3216060A1T-V09.pdf. Original V07 and superseded RFANT
+datasheets remain in Assets/core as research history.

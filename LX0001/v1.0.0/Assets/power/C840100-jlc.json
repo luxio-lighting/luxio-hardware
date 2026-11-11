@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "componentCode": "C840100",
+    "componentModelEn": "CSD18543Q3A",
+    "componentBrandEn": "Texas Instruments",
+    "componentSpecificationEn": "VSONP-8(3.3x3.3)",
+    "stockCount": 2206,
+    "canPresaleNumber": 1755,
+    "componentLibraryType": "expand",
+    "dataManualOfficialLink": "https://www.ti.com/cn/lit/gpn/csd18543q3a",
+    "dataManualUrl": "https://www.ti.com/cn/lit/gpn/csd18543q3a",
+    "required_100_boards": 200,
+    "unit_price_usd": 0.9694,
+    "observed_at_utc": "2026-11-11T11:34:09Z",
+    "source_url": "https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C840100"
+  }
+}

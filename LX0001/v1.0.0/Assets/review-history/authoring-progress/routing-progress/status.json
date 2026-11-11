@@ -1,0 +1,30 @@
+{
+  "status": "INCOMPLETE \u2014 NOT FOR FABRICATION",
+  "board_sha256": "22fe5d361686df9bf3342631137878c005c6bec55441da95fb6ba2741bc84694",
+  "unrouted_connections": 34,
+  "unrouted_by_net": {
+    "GND": 4,
+    "+3V3": 4,
+    "USB_ILIM": 1,
+    "DC_VCAP": 1,
+    "DC_FUSED": 2,
+    "VBUS_SENSE": 1,
+    "DC_SENSE_B": 2,
+    "USB_ENABLE": 2,
+    "DC_SENSE_R": 2,
+    "VSYS": 3,
+    "ESP_EN": 1,
+    "BOOT": 1,
+    "CC1": 2,
+    "CC1_SENSE": 2,
+    "USB_STRIP_EN": 1,
+    "USB_HIGH_CURRENT": 1,
+    "CC2": 2,
+    "USB_VCAP": 1,
+    "USB_GATE": 1
+  },
+  "pin_mapping": "PASS: 329 mapped pins",
+  "drill_paste": "PASS: 0.10 mm minimum",
+  "manufacturing_release": false,
+  "updated_at": "2026-11-11T18:16:19.525859+00:00"
+}

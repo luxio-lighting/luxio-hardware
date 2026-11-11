@@ -1,0 +1,54 @@
+GCT USB4215-03-A / JLCPCB C37616412 — release USB connector
+Verified 2026-11-11 against manufacturer drawing Rev A, 2024-04-26.
+Saved: C37616412_USB4215-03-A.pdf (manufacturer drawing, distributor mirror).
+Primary product: https://gct.co/connector/usb4215
+Drawing: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6328/USB4215-03-A.pdf
+Supplier: https://jlcpcb.com/partdetail/C37616412
+
+USB 2.0, 16 contacts; 5 A collective VBUS / 48 V connector rating.
+Source-advertised USB current still limits the controller's USB-only load.
+No plastic locating pegs. Four plated slotted shell holes, for 0.80 +/-0.20 mm
+metal stakes. Standard component-side pin-in-paste reflow is intended.
+
+Footprint LX0001:USB_C_GCT_USB4215_03_A uses a body-centered origin.
+Native mouth points +Y. Body 8.94 x 6.50 x 3.16 mm; body x +/-4.47,
+y +/-3.25. All dimensions below are mm and viewed from component side.
+Signal row: y=-3.425; length 1.15. Shared A1/B12, A4/B9, A9/B4, A12/B1
+lands are 0.60 wide at x=-3.20,-2.40,+2.40,+3.20. Eight 0.30-wide lands
+are at x=-1.75,-1.25,-0.75,-0.25,+0.25,+0.75,+1.25,+1.75, in drawing order
+B8,A5,B7,A6,A7,B6,A8,B5. Shared physical lands carry both logical pin names.
+Shell centers x +/-4.32. Rear y=-2.85, land 1.00x1.80, slot 0.60x1.40.
+Front y=+1.15, land 1.00x2.20, slot 0.60x1.80. All shell pads named SH/GND.
+Copper extents x +/-4.82, y=-4.00..+2.25. Body extends to y=+3.25.
+Courtyard x +/-5.07, y=-4.25..+3.50 (plus 0.025 stroke).
+The 5.15 distance from front stake center to signal-land rear edge, 4.00
+stake-row pitch and 2.10 mouth-to-front-stake distance determine registration.
+
+Centered board integration: load native footprint, flip to bottom, rotate
++90 degrees, place at (2.75,10.00). Mouth is x=-0.50. Body spans x=-0.50..6.00,
+y=5.53..14.47. Shell centers are (1.60,5.68),(5.60,5.68),(1.60,14.32),
+(5.60,14.32). Signal lands span x=5.60..6.75. USB component courtyard spans
+x=-0.75..7.00,y=4.93..15.07. J2 centered (6.50,10),rotation270 has body
+x=0.75..12.25,y=6.05..13.95 and terminal copper y=7..9 / 11..13.
+The USB shell lands are 0.82 mm from the nearest J2 copper band.
+
+Intentional opposite-side mechanical overlap:
+The shell annuli extend 0.13 mm under J2's nominal plastic-body edge;
+the metal stakes themselves do NOT reach the top board surface. Nominal
+1.6 mm board leaves 0.60 mm at the maximum 1.00 mm stake depth. Even a
+1.44 mm finished board leaves 0.44 mm. Native shell pads have F.Paste and
+F.Mask only, and *.Cu; when flipped, their paste/mask openings are B-side
+only. There is no intentional top-side annular mask/paste opening or top
+solder fillet. Mask absence is NOT a claim that a large slotted hole can
+be perfectly tented. Assembly must keep PIP solder within the slot and
+component-side fillet; verify the first article's top surface stays clear
+of terminal housing. This geometric opposite-side courtyard overlap is
+intentional; it does not waive electrical clearance. Maintain 1.6 mm PCB.
+
+Approximate preview model USB_C_GCT_USB4215_03_A_preview.wrl uses the stated
+nominal envelope and 0.80 mm stake depth. Cosmetic details are simplified;
+use the manufacturer drawing, not this model, for enclosure certification.
+
+Superseded: HDGC C2936195 and HRO C165948 footprints/PDFs are historical
+comparison evidence only. The HDGC plastic peg holes collide with terminal
+copper when both input connectors are centered; do not substitute it back.

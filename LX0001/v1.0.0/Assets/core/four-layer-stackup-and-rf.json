@@ -1,0 +1,56 @@
+{
+  "checked_date": "2026-11-11",
+  "stackup": "JLC04161H-7628",
+  "nominal_board_thickness_mm": 1.6,
+  "stackup_source": "https://jlcpcb.com/impedance",
+  "layers": [
+    {
+      "name": "F.Cu",
+      "copper_mm": 0.035
+    },
+    {
+      "name": "prepreg 7628",
+      "thickness_mm": 0.2104,
+      "er": 4.4
+    },
+    {
+      "name": "In1.Cu",
+      "copper_mm": 0.0152
+    },
+    {
+      "name": "core",
+      "thickness_mm": 1.065,
+      "er": 4.6
+    },
+    {
+      "name": "In2.Cu",
+      "copper_mm": 0.0152
+    },
+    {
+      "name": "prepreg 7628",
+      "thickness_mm": 0.2104,
+      "er": 4.4
+    },
+    {
+      "name": "B.Cu",
+      "copper_mm": 0.035
+    }
+  ],
+  "calculator_source": "https://jlcpcb.com/pcb-impedance-calculator",
+  "calculator_observation": {
+    "method": "JLCPCB web calculator UI, standard JLC04161H-7628 selected",
+    "target_ohms": 50,
+    "type": "Coplanar Single Ended",
+    "signal_layer": "L1",
+    "reference_layer": "L2",
+    "solder_mask": true,
+    "outer_copper_oz": 1,
+    "inner_copper_oz": 0.5,
+    "gap_input_mm": 0.2,
+    "width_result_mm": 0.3058,
+    "gap_result_mm": 0.1999,
+    "noncoplanar_comparison_width_mm": 0.3586
+  },
+  "layout_width_mm": 0.306,
+  "notes": "Calculated transmission-line geometry; component launches and antenna matching still require first-article VNA/RF measurements."
+}

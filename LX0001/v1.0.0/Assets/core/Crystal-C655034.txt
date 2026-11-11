@@ -1,0 +1,207 @@
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+
+
+www. hd-  crystal. com
+1
+ 
+7B040000M01
+1.
+Scope:
+1.1 This specification applies to the RoHS
+quency of 40MHz  which will be used in
+compliance quartz crystal unit with a fre-
+crystal oscillator  applications.
+Rev   . 1. 1
+3.
+Electrical Characteristics
+3.1
+Nominal Frequency(f):
+3.2
+Load Capacitance(CL):
+3.3
+Frequency Tolerance(△f/f):
+3.4
+Frequency Temperature Stability:
+3.5
+Resonance Resistance(ohm):
+3.6
+Osc mode:
+3.7
+Shunt Capacitance(C0):
+3.8
+Drive Level(DL):
+3.9
+Operating Temperature Range(TOPR):
+3.10 Storage Temperature Range(TSTG):
+3.11 Insulation Resistance(IR):
+3.12 Aging(△fA):
+ 
+Fundamental mode
+ 2pF Max
+100μW Max
+-20 to + 70°C
+-55 to + 125°C
+＞500M ohms
+±3ppm/Year Max
+25 ohms Max 
+40MHz
+ 
+12pF
+±10ppm
+±20ppm
+ 
+   
+   
+JIANGSU HD-CRYSTAL TECHNOLOGY CO., LTD 
+  
+ 
+SMD3225-4
+Crystal Resonator
+2.
+Construction:
+2.1
+Type of Quartz Resonator: SMD3225-4pads
+
+ 
+2
+Rev   . 1. 1
+ 
+Reliability Specification
+ 
+ 
+Item 
+Condition 
+Standard 
+1. 
+Drop characteristics 
+Free drop from 75cm height on a hard wooden 
+board for 3 times. (Board is thickness more than 
+30 mm.) 
+Frequency change:≤±5ppm 
+Rr as specification 
+2 
+Mechanical  shock 
+Device are shocked to half sine wave (1000g) 
+three mutually perpendicular axes each 3 times 
+Frequency change:≤±5ppm 
+Rr as specification 
+3. 
+Shake characteristics 
+Shake frequency 10~55Hz, cyc1~2 minutes, 
+swing 1.5mm, direction x/y/z, all 30 minutes, test 
+after 1 hours. 
+Frequency change:≤±5ppm 
+Rr as specification 
+4. 
+Humidity 
+characteristics 
++40±2℃ & 90%~95% R.H. 250 hours 
+Frequency change:≤±5ppm 
+Rr as specification 
+5. 
+Low temperature 
+characteristics 
+-40±2℃, 250 hours, put in room temperature, 
+test after 1 hours. 
+Frequency change:≤±5ppm 
+Rr as specification 
+6. 
+High temperature 
+characteristics 
++85±2℃, 250 hours, put in room temperature, 
+test after 1 hours. 
+Frequency change:≤±5ppm 
+Rr as specification 
+7. 
+Temperature cycling 
+-30±3℃/30±3 min~+85±2℃/30±3min, 
+5 cycles 
+Frequency change:≤±5ppm 
+Rr as specification 
+8. 
+Refluence 
+examination 
+ 
+Frequency change:≤±5ppm 
+Rr as specification 
+    
+ 
+ 
+
+
+www. hd-  crystal. com
+
+ 
+3
+Rev   . 1. 1
+nÜéñÜíê m¶•óîüê Vîûêü§î†ü§ 
+q¶ííê§•êè nÜè dÜ∞†¶•
+    
+ 
+ 
+
+
+www. hd-  crystal. com
+3.20 ± 0.10
+2.50 ± 0.10
+3
+4
+2
+1
+GND
+GND
+0.70 MAX
+2
+1
+3
+4
+1.2±0.10
+0.7±0.10
+3
+4
+2
+1
+ Internal View Connection
+ Bottom View
+0.65 ± 0.10
+0.9± 0.10
+Units:mm
+Units:mm
+1.4
+0.8
+1.4
+1.2
+1.2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CRYSTAL
+CRYSTAL
+GND
+GND
+
+ 
+ 
+Packing Specification
+ 
+4
+Rev   . 1. 1
+    
+ 
+ 
+
+
+www. hd-  crystal. com
+Qty:3000Pcs
