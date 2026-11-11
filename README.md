@@ -7,9 +7,9 @@ outputs, Wi-Fi, native USB and automatic wired-input priority.
 
 ### 3D views
 
-**Top — angled view from above**
+**Top — isometric, USB bottom left / outputs top right**
 
-![LX0001 top view from above](LX0001/v1.0.0/Export/preview-isometric-top.png)
+![LX0001 isometric top view, USB bottom left and outputs top right](LX0001/v1.0.0/Export/preview-isometric-top.png)
 
 **Underside — isometric**
 

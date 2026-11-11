@@ -12,7 +12,7 @@
     "preview-top.png": "d6083f275f30f2564c490ee40f728ce00501f110af063f40a9d5727e37a50cc9",
     "preview-bottom.png": "9dc6173b93977ac5450d00ee28a908c450661d59e7046c3c223c20a6815a64f7",
     "preview-centered-input-end.png": "d128d971471a7dba043d4a0b4f253f1b56f6ce50cd625a6b8b44b9fc7ea48b49",
-    "preview-isometric-top.png": "1c8b35024aa83e35e7cd9f37a48fe342efdfba8b0c0d3c85e867aa1f2b7092f6",
+    "preview-isometric-top.png": "3a75e31dfa3be71ba9a22c467751785e7ebe99763e51ee1a5b23a4d8937f9f16",
     "preview-isometric-bottom.png": "64f62d72045492023b1f7781c6ddcdab0a50573bf1c3321a316af723067b5202"
   },
   "input_connector_centers_CAD_mm": {
@@ -26,18 +26,27 @@
     ]
   },
   "input_connector_side": "Top",
-  "visual_review": "Top view from above, isometric bottom and input-end native renders inspected. Inputs side by side at the same end, USB shell annuli unobstructed. Button centered at (30,10).",
+  "visual_review": "Corrected isometric top view inspected: USB bottom left, outputs top right, all three unit axes have equal projected lengths. Existing bottom and input-end views retained. Models and physical board unchanged.",
   "top_camera": {
     "side": "top",
+    "projection": "orthographic",
     "rotate_deg": [
-      -30,
+      -54.735610317,
       0,
-      -30
+      45
     ],
     "zoom": 1.15,
     "pixels": [
       2000,
       1200
-    ]
+    ],
+    "projected_unit_axis_lengths": [
+      0.8164965809289622,
+      0.816496580928962,
+      0.8164965809252538
+    ],
+    "isometric_equal_axis_scale_check": true,
+    "orientation": "USB bottom left; outputs top right",
+    "rotation_reference": "https://github.com/KiCad/kicad-source-mirror/blob/10.0/common/gal/3d/camera.cpp"
   }
 }
