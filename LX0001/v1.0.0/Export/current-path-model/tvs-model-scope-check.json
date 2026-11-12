@@ -1,8 +1,8 @@
 {
-  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
+  "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
   "model_scope": "All four saved copper layers; actual stackup thicknesses and interlayer barrel lengths",
   "D3_to_J2_connected": true,
-  "resistance_mohm": 1.8749106150829484,
+  "resistance_mohm": 1.9497383001326924,
   "current_a": 1,
   "surge_qualified": false
 }

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_sch</source>
-    <date>2026-11-11T23:47:47</date>
+    <date>2026-11-12T14:20:34</date>
     <tool>Eeschema 10.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1110,16 +1110,17 @@
       </units>
     </comp>
     <comp ref="J1">
-      <value>USB4215-03-A</value>
-      <footprint>LX0001:USB_C_GCT_USB4215_03_A</footprint>
+      <value>USB-TYPE-C-018</value>
+      <footprint>LX0001:USB_C_DEALON_USB_TYPE_C_018</footprint>
+      <datasheet>https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121330_DEALON-USB-TYPE-C-018_C2927038.pdf</datasheet>
       <fields>
-        <field name="LCSC">C37616412</field>
-        <field name="Footprint">LX0001:USB_C_GCT_USB4215_03_A</field>
-        <field name="Datasheet"/>
+        <field name="LCSC">C2927038</field>
+        <field name="Footprint">LX0001:USB_C_DEALON_USB_TYPE_C_018</field>
+        <field name="Datasheet">https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121330_DEALON-USB-TYPE-C-018_C2927038.pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
-      <property name="LCSC" value="C37616412"/>
+      <property name="LCSC" value="C2927038"/>
       <property name="Sheetname" value="USB-C data and passive 5 V input"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>

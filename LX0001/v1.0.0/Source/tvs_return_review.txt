@@ -1,7 +1,7 @@
 LX0001 TVS return copper review
 
-PCB SHA256: d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5
+PCB SHA256: 3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1
 All four copper layers;0.1mm grid;35/15.2/15.2/35um copper;20um assumed via plating.
-D3 ground to J2 ground: 1.8749 mOhm at20C. Connected mesh; converged solve.
+D3 ground to J2 ground: 1.9497 mOhm at20C. Connected mesh; converged solve.
 DC copper estimate only: excludes inductance, clamping, contacts and solder.
 No surge rating established. Hardware transient measurements remain required.

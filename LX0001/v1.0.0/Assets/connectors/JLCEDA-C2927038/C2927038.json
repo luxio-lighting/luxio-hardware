@@ -1,0 +1,40 @@
+{
+  "componentCode": "C2927038",
+  "componentModelEn": "USB-TYPE-C-018",
+  "componentBrandEn": "DEALON",
+  "stockCount": 194721,
+  "describe": "-25\u2103~+85\u2103 1 10000 times 16P 3A 5V 7.35mm Female Surface Mount, Right Angle Type-C SMD USB Connectors ROHS",
+  "dataManualUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121330_DEALON-USB-TYPE-C-018_C2927038.pdf",
+  "prices": [
+    {
+      "startNumber": 1,
+      "endNumber": 99,
+      "productPrice": 0.0635
+    },
+    {
+      "startNumber": 100,
+      "endNumber": 299,
+      "productPrice": 0.0506
+    },
+    {
+      "startNumber": 300,
+      "endNumber": 1499,
+      "productPrice": 0.044
+    },
+    {
+      "startNumber": 1500,
+      "endNumber": 4499,
+      "productPrice": 0.0393
+    },
+    {
+      "startNumber": 4500,
+      "endNumber": 10499,
+      "productPrice": 0.0354
+    },
+    {
+      "startNumber": 10500,
+      "endNumber": -1,
+      "productPrice": 0.0334
+    }
+  ]
+}

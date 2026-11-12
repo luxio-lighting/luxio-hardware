@@ -1,119 +1,119 @@
 {
   "schema_version": 1,
-  "checked_at_utc": "2026-11-11T22:47:47.894465+00:00",
+  "checked_at_utc": "2026-11-12T13:20:34.683045+00:00",
   "board": "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Source/LX0001.kicad_pcb",
-  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
-  "checker_sha256": "48f279b1657287737c18e73f80606d9222e4142195b729bba1ee6120b7301aae",
+  "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
+  "checker_sha256": "34b7c9734b0ef7adbf4329d100d7ee63acd20c215f940d3e8c2caef1c15d73ba",
   "kicad_version": "10.0.7",
   "method": "Independent geometric intersection of each physical drill shape with each actual paste aperture, including pad rotation, inherited/local paste margins, paste-only aperture pads, both board faces and all net combinations. No CAD edits or DRC result reuse.",
   "geometry_policy": "Routing-via drills must clear paste by the configured minimum; a1nm numerical allowance accepts the nominal boundary. Other component holes are checked for overlap. Unsupported expanded custom/trapezoid/chamfered pads fail explicitly.",
   "minimum_via_paste_clearance_mm": 0.1,
   "numerical_clearance_tolerance_mm": 1e-06,
   "via_in_paste_allowlist": [],
-  "holes_checked": 186,
-  "vias_checked": 180,
+  "holes_checked": 189,
+  "vias_checked": 181,
   "paste_apertures_checked": 320,
-  "pair_comparisons": 59520,
+  "pair_comparisons": 60480,
   "reviewed_component_pin_in_paste_features": [
     {
       "type": "reviewed_component_pin_in_paste",
       "required_clearance_mm": 0,
       "measured_gap_mm": 0.0,
       "drill_kind": "plated_pad_hole",
-      "drill_uuid": "69827bae-4e84-45d8-96ae-5b9148f7316f",
+      "drill_uuid": "d9ab4b5a-edb2-4fa3-9ee1-0bedea33a261",
       "drill_net": "GND",
       "drill_reference": "J1",
       "drill_pad": "SH",
       "drill_position_mm": [
-        5.6,
-        0.93
+        5.625,
+        0.925
       ],
       "drill_size_mm": [
-        0.6,
+        0.8,
+        1.6
+      ],
+      "aperture_uuid": "d9ab4b5a-edb2-4fa3-9ee1-0bedea33a261",
+      "aperture_reference": "J1",
+      "aperture_pad": "SH",
+      "aperture_net": "GND",
+      "paste_layer": "F.Paste",
+      "same_net": true,
+      "source": "Assets/io/C2927038_footprint_notes.txt; DEALON manufacturer drawing Rev A"
+    },
+    {
+      "type": "reviewed_component_pin_in_paste",
+      "required_clearance_mm": 0,
+      "measured_gap_mm": 0.0,
+      "drill_kind": "plated_pad_hole",
+      "drill_uuid": "08d3f6f9-bddc-49df-b487-0c4f3cac7626",
+      "drill_net": "GND",
+      "drill_reference": "J1",
+      "drill_pad": "SH",
+      "drill_position_mm": [
+        1.425,
+        0.925
+      ],
+      "drill_size_mm": [
+        0.8,
         1.4
       ],
-      "aperture_uuid": "69827bae-4e84-45d8-96ae-5b9148f7316f",
+      "aperture_uuid": "08d3f6f9-bddc-49df-b487-0c4f3cac7626",
       "aperture_reference": "J1",
       "aperture_pad": "SH",
       "aperture_net": "GND",
       "paste_layer": "F.Paste",
       "same_net": true,
-      "source": "Assets/io/C37616412_footprint_notes.txt; manufacturer USB4215 drawing Rev A, 2024-04-26"
+      "source": "Assets/io/C2927038_footprint_notes.txt; DEALON manufacturer drawing Rev A"
     },
     {
       "type": "reviewed_component_pin_in_paste",
       "required_clearance_mm": 0,
       "measured_gap_mm": 0.0,
       "drill_kind": "plated_pad_hole",
-      "drill_uuid": "ccb5f338-8394-4234-b47a-03bc945614a4",
+      "drill_uuid": "71e78ba6-3a70-4b75-b4d1-49423875e451",
       "drill_net": "GND",
       "drill_reference": "J1",
       "drill_pad": "SH",
       "drill_position_mm": [
-        1.6,
-        0.93
+        5.625,
+        9.575
       ],
       "drill_size_mm": [
-        0.6,
-        1.8
+        0.8,
+        1.6
       ],
-      "aperture_uuid": "ccb5f338-8394-4234-b47a-03bc945614a4",
+      "aperture_uuid": "71e78ba6-3a70-4b75-b4d1-49423875e451",
       "aperture_reference": "J1",
       "aperture_pad": "SH",
       "aperture_net": "GND",
       "paste_layer": "F.Paste",
       "same_net": true,
-      "source": "Assets/io/C37616412_footprint_notes.txt; manufacturer USB4215 drawing Rev A, 2024-04-26"
+      "source": "Assets/io/C2927038_footprint_notes.txt; DEALON manufacturer drawing Rev A"
     },
     {
       "type": "reviewed_component_pin_in_paste",
       "required_clearance_mm": 0,
       "measured_gap_mm": 0.0,
       "drill_kind": "plated_pad_hole",
-      "drill_uuid": "2358804b-1820-460b-84a1-53b629ad324b",
+      "drill_uuid": "63e9a425-131e-456a-8685-cc3be9af6ea8",
       "drill_net": "GND",
       "drill_reference": "J1",
       "drill_pad": "SH",
       "drill_position_mm": [
-        5.6,
-        9.57
+        1.425,
+        9.575
       ],
       "drill_size_mm": [
-        0.6,
+        0.8,
         1.4
       ],
-      "aperture_uuid": "2358804b-1820-460b-84a1-53b629ad324b",
+      "aperture_uuid": "63e9a425-131e-456a-8685-cc3be9af6ea8",
       "aperture_reference": "J1",
       "aperture_pad": "SH",
       "aperture_net": "GND",
       "paste_layer": "F.Paste",
       "same_net": true,
-      "source": "Assets/io/C37616412_footprint_notes.txt; manufacturer USB4215 drawing Rev A, 2024-04-26"
-    },
-    {
-      "type": "reviewed_component_pin_in_paste",
-      "required_clearance_mm": 0,
-      "measured_gap_mm": 0.0,
-      "drill_kind": "plated_pad_hole",
-      "drill_uuid": "da3706f1-1c76-4f76-b6fd-a6ef70853b5c",
-      "drill_net": "GND",
-      "drill_reference": "J1",
-      "drill_pad": "SH",
-      "drill_position_mm": [
-        1.6,
-        9.57
-      ],
-      "drill_size_mm": [
-        0.6,
-        1.8
-      ],
-      "aperture_uuid": "da3706f1-1c76-4f76-b6fd-a6ef70853b5c",
-      "aperture_reference": "J1",
-      "aperture_pad": "SH",
-      "aperture_net": "GND",
-      "paste_layer": "F.Paste",
-      "same_net": true,
-      "source": "Assets/io/C37616412_footprint_notes.txt; manufacturer USB4215 drawing Rev A, 2024-04-26"
+      "source": "Assets/io/C2927038_footprint_notes.txt; DEALON manufacturer drawing Rev A"
     }
   ],
   "violations": [],
@@ -121,6 +121,6 @@
   "primary_references": [
     "https://raw.githubusercontent.com/KiCad/kicad-source-mirror/10.0/pcbnew/plot_board_layers.cpp",
     "https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html#working-with-pads",
-    "https://gct.co/connector/usb4215"
+    "https://jlcpcb.com/partdetail/C2927038"
   ]
 }

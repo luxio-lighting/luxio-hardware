@@ -1,14 +1,10 @@
 {
-  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
-  "schematic_pdf_sha256": "22b15cccd59448390828a08d654d9b426e3bb65fe4a67925d8448693b14506a8",
+  "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
+  "schematic_pdf_sha256": "1b6aba988572961be393fc014010dc50f04f085a4782c9c565b4eea778498036",
   "pages": 13,
   "reviewed_changed_pages": [
-    2,
-    7,
-    8,
-    11,
-    13
+    7
   ],
-  "method": "Rendered KiCad PDF to1600px PNG pages; inspected MCU NC pins, USB passive resistors, replacement U4 pin map, C18, grounded buffer enables and test pads. No clipped labels observed.",
+  "method": "Rendered revised USB page7 to PNG and visually inspected new J1 value, pin mapping and labels; no clipping or overlap. Other schematic pages unchanged from prior reviewed revision79bcc5b.",
   "pass": true
 }

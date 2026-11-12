@@ -112,6 +112,7 @@ for gi,(slug,title,refs,flags,note) in enumerate(groups):
         for unit in children(s,'symbol'):pins+=children(unit,'pin')
         # All selected functional symbols are single-unit symbols.
         props={'Reference':ref,'Value':p['value'],'Footprint':p['footprint'],'LCSC':p['lcsc']}
+        if p.get('datasheet'):props['Datasheet']=p['datasheet']
         out.append(f'(symbol (lib_id {q(p["libname"])}) (at {x} {y} 0) (unit 1) (in_bom {"yes" if p["lcsc"] else "no"}) (on_board yes) (dnp {"yes" if p.get("dnp") else "no"}) (uuid "{p["uuid"]}")')
         for j,(key,val) in enumerate(props.items()):
             # Keep text beside vertical leads and above horizontal diodes.

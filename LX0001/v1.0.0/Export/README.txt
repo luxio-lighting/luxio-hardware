@@ -1,10 +1,12 @@
-LX0001 v1.0.0 — automatic hardware revision
+LX0001 v1.0.0 — DEALON USB connector revision
 
 Upload the new Gerber ZIP, JLCPCB-BOM.csv and JLCPCB-CPL.csv together.
 This revision changes the electrical design and BOM. Do not mix older files.
 60 x 20 mm,4 layers,1.6 mm,black,ENIG,0.30 mm vias,both-side assembly.
 83 fitted parts:39 top,44 bottom. L104 DNP; test pads and holes not assembled.
-USB and wired inputs remain side by side on top; button and case dimensions unchanged.
+USB and wired inputs remain side by side on top; button and screw positions unchanged. USB mouth now projects1.175mm beyond
+the input edge (0.675mm farther than GCT); wire face remains0.75mm inside.
+J1 is DEALON USB-TYPE-C-018/C2927038, rated3A/5V.
 
 USB alone automatically supplies5 V to controller and strip. Wired5–24 V input
 has hardware priority. No firmware power/current/data-enable GPIO is required.

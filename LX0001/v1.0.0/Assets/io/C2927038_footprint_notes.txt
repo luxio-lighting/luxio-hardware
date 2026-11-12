@@ -1,0 +1,39 @@
+DEALON USB-TYPE-C-018 / JLCPCB C2927038 — release USB connector
+Checked 2026-11-12 against manufacturer Rev A drawing and supplier library.
+Drawing: https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121330_DEALON-USB-TYPE-C-018_C2927038.pdf
+Supplier: https://jlcpcb.com/partdetail/C2927038
+
+16 contacts, USB 2.0 data; manufacturer 3A / 5V connector rating.
+Body 8.94 x 7.35 x 3.16mm. Four 0.65mm-deep recessed metal stakes.
+Two 0.50mm locating pegs use 0.60mm NPTH holes. Metal stakes use plated
+slots with mask both sides and component-side paste; no opposite-side paste.
+
+Footprint LX0001:USB_C_DEALON_USB_TYPE_C_018 has a body-centered origin.
+Mouth +Y; copper lands are dimensioned from manufacturer drawing Rev A.
+Body x +/-4.47, y +/-3.675. Contact row y=-3.675, land length1.10mm.
+Combined GND/VBUS lands0.60mm wide at x +/-3.20 and +/-2.40; signal lands
+0.30mm wide on0.50mm pitch. Separate logical pins share combined lands.
+Shell x +/-4.325; rear y=-3.125, front y=+1.075 (4.20mm row spacing).
+Rear pad1.20x2.00 / slot0.80x1.60; front pad1.20x1.80 / slot0.80x1.40.
+The supplier library corroborates these slot/land sizes; row spacing follows
+DEALON4.20mm rather than the shared HRO library4.18mm. Locator x +/-2.89,
+y=-2.605 (6.28mm back from mouth), using0.60mm NPTH for0.50mm pegs.
+Manufacturer pad-edge-to-rear-slot center1.10mm and pad-edge-to-locator1.60mm
+corroborate contact and locator registration (0.02mm nominal difference).
+
+Placed J1 top, center(2.50,5.25)mm, rotation-90 degrees. Mouth x=-1.175mm.
+Body x=-1.175..6.175, y=0.78..9.72. J2 wire face x=0.75mm.
+Front-face difference1.925mm. Minimum body gap to J2 remains1.58mm.
+J1 contact-row global x=6.175mm, matching the former GCT contact centers.
+Rear shell centers(5.625,0.925),(5.625,9.575); front(1.425,0.925),(1.425,9.575).
+Locators(5.105,2.36),(5.105,8.14). M2 holes and button remain unchanged.
+The USB mouth projects0.675mm farther beyond the PCB than the former GCT.
+No enlargement of the60x20mm board or mounting DRC exception is required.
+
+Model source: JLCEDA/EasyEDA Official Library, https://lceda.cn/ and
+https://easyeda.com/. Exact C2927038 record links to shared HRO model
+USB-C_SMD-TYPE-C-31-M-12, UUID2a4bc2358b36497d9ab2a66ab6419ba3.
+This is a visualization, not a manufacturer-authenticated DEALON model.
+Its7.30mm shell depth /3.25mm height approximate DEALON7.35mm/3.16mm;
+use the manufacturer drawing for enclosure dimensions. Offset(0,-1.075,0)mm,
+rotation(0,0,180)degrees, scale1. Original files retained under Assets/connectors.

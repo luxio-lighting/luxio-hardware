@@ -1,0 +1,26 @@
+{
+  "part": "DEALON USB-TYPE-C-018",
+  "lcsc": "C2927038",
+  "source": "JLCEDA/EasyEDA Official Library",
+  "metadata_url": "https://lceda.cn/api/products/C2927038/components?version=6.4.19.5",
+  "model_uuid": "2a4bc2358b36497d9ab2a66ab6419ba3",
+  "upstream_model_title": "USB-C_SMD-TYPE-C-31-M-12",
+  "step_url": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/2a4bc2358b36497d9ab2a66ab6419ba3",
+  "model_note": "Shared HRO visualization; not authenticated DEALON enclosure geometry. Manufacturer body8.94x7.35x3.16mm; shared shell approx8.94x7.30x3.25mm.",
+  "offset_mm": [
+    0,
+    -1.075,
+    0
+  ],
+  "rotation_degrees": [
+    0,
+    0,
+    180
+  ],
+  "files_sha256": {
+    "C2927038-easyeda.json": "cc21b9d4d3717028506d2b4525d810834a0c94a1e2d734641d1bae27e807831c",
+    "C2927038.json": "b14718df7ac67b9b6c2167421f256104d71579c7f3533ba309936e09a1da062c",
+    "C2927038-library.step": "b083e67ce4d06850a2c3835a6366f4012b2def64f8f2781636381ebcaa33e9a0",
+    "C2927038-library.obj": "c05f126592479dfae9bedf776a405272e8196001a9d97b0fc6ea3e56d58f9447"
+  }
+}

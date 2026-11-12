@@ -45,6 +45,6 @@ for name,layers,mirror in [('assembly-top','F.Fab,F.SilkS,Edge.Cuts',False),('as
  subprocess.run(cmd,check=True)
  subprocess.run(['/opt/homebrew/bin/rsvg-convert','-w','2400','-o',str(out/(name+'.png')),str(out/(name+'.svg'))],check=True)
 files=sorted(src.glob('*.kicad_*'))+[src/'parts.json',src/'connections.csv']
-status={'date':'2026-11-11','status':'FABRICATION DATA CHECKED; UNBUILT FIRST ARTICLE; NOT PRODUCTION-QUALIFIED','board_mm':[60,20,1.6],'copper_layers':4,'soldermask':'black','assembled_parts':len(wanted),'bom_lines':len(groups),'open_connections':0,'electrical_drc_errors':0,'erc_findings':0,'documented_mechanical_flags':0,'source_sha256':{str(f.relative_to(root)):hashlib.sha256(f.read_bytes()).hexdigest() for f in files if f.suffix!='.kicad_prl'}}
+status={'date':datetime.date.today().isoformat(),'status':'FABRICATION DATA CHECKED; UNBUILT FIRST ARTICLE; NOT PRODUCTION-QUALIFIED','board_mm':[60,20,1.6],'copper_layers':4,'soldermask':'black','assembled_parts':len(wanted),'bom_lines':len(groups),'open_connections':0,'electrical_drc_errors':0,'erc_findings':0,'documented_mechanical_flags':0,'source_sha256':{str(f.relative_to(root)):hashlib.sha256(f.read_bytes()).hexdigest() for f in files if f.suffix in {'.kicad_pcb','.kicad_sch','.kicad_pro','.kicad_dru','.json','.csv'}}}
 (out/'verification.json').write_text(json.dumps(status,indent=2)+'\n')
 print('Fabrication files generated; prototype electrical, thermal, RF and USB validation remains required')

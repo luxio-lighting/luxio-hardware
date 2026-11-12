@@ -1,21 +1,21 @@
 {
-  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
-  "unchanged_since_commit": "d17fe18",
+  "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
+  "baseline_commit": "79bcc5b",
   "models": [
     {
       "reference": "J1",
       "models": [
         [
-          "${KIPRJMOD}/libraries/models/USB_C_C37616412_library.step",
+          "${KIPRJMOD}/libraries/models/USB_C_C2927038_library.step",
           [
             0.0,
-            0.0,
-            1.58
+            -1.075,
+            0.0
           ],
           [
             0.0,
             0.0,
-            0.0
+            180.0
           ],
           [
             1.0,
@@ -23,7 +23,8 @@
             1.0
           ]
         ]
-      ]
+      ],
+      "unchanged": false
     },
     {
       "reference": "J2",
@@ -46,7 +47,8 @@
             1.0
           ]
         ]
-      ]
+      ],
+      "unchanged": true
     },
     {
       "reference": "J3",
@@ -69,7 +71,8 @@
             1.0
           ]
         ]
-      ]
+      ],
+      "unchanged": true
     },
     {
       "reference": "J4",
@@ -92,9 +95,13 @@
             1.0
           ]
         ]
-      ]
+      ],
+      "unchanged": true
     }
   ],
   "pass": true,
-  "U4": "Approximate 2x2x0.8mm package preview; see Source/libraries/models/README.txt"
+  "J1": "C2927038 linked shared HRO visualization. Manufacturer drawing governs enclosure dimensions; see Assets/io/C2927038_footprint_notes.txt.",
+  "J1_mechanical_check": "Four plated stakes and two0.60mm NPTH locators match revised footprint. USB mouth1.175mm beyond board edge.",
+  "wire_connectors_button_screw_holes_unchanged": true,
+  "U4": "Approximate2x2x0.8mm package preview; see Source/libraries/models/README.txt"
 }

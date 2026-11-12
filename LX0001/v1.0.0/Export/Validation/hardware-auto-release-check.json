@@ -1,5 +1,5 @@
 {
-  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
+  "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
   "revision": "v1.0.0",
   "board_mm": [
     60,
@@ -9,7 +9,7 @@
   "min_exported_pth_drill_mm": 0.3,
   "exported_pth_tools_mm": {
     "1": 0.3,
-    "2": 0.6
+    "2": 0.8
   },
   "gerber_archive_matches_directory": true,
   "all_placements_match_CPL": true,
@@ -31,7 +31,7 @@
   "zero_ERC_findings": true,
   "independent_drill_paste_check_pass": true,
   "minimum_drill_paste_clearance_mm": 0.1,
-  "routing_via_count": 180,
+  "routing_via_count": 181,
   "normal_component_pin_in_paste_apertures": 4,
   "protected_RF_crystal_flash_routing_items_preserved": 237,
   "hardware_qualified": false

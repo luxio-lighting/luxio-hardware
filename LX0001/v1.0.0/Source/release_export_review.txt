@@ -1,10 +1,12 @@
 LX0001 automatic hardware release review
-PCB SHA256: d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5
+PCB SHA256: 3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1
 83 fitted parts:39 top/44 bottom;46 BOM lines. BOM/CPL match parts.json.
-60x20mm,4 layers,1.6mm. All180 vias use0.30mm drills.
+60x20mm,4 layers,1.6mm. All181 vias use0.30mm drills.
 No open nets,DRC/ERC findings or schematic parity mismatches. No waived DRC findings.
 Independent drill/paste clearance>=0.10mm. Four normal USB pin-in-paste stakes.
-RF/crystal/flash237 routing items preserved. Connector models/transforms retained.
+RF/crystal/flash237 routing items preserved. Wire connector models/transforms retained.
+J1 replaced with DEALON USB-TYPE-C-018/C2927038 and revised footprint/model.
+USB mouth1.175mm beyond input edge;0.675mm farther out than previous connector.
 USB automatically powers5V output; wired input has priority; data buffers enabled.
 No onboard USB current limiter or firmware-controlled power/data-enable pins.
 Fresh wired5A/USB3A/TVS copper models are hash-keyed to this PCB.

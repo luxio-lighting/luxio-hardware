@@ -31,11 +31,28 @@
   "input_connectors": {
     "J1": {
       "center_mm": [
-        2.75,
+        2.5,
         5.25
       ],
       "side": "Top",
-      "mouth_x_mm": -0.5
+      "mouth_x_mm": -1.175,
+      "part": "DEALON USB-TYPE-C-018 / C2927038",
+      "body_mm": [
+        8.94,
+        7.35,
+        3.16
+      ],
+      "locator_holes_mm": [
+        [
+          5.105,
+          2.36
+        ],
+        [
+          5.105,
+          8.14
+        ]
+      ],
+      "locator_drill_mm": 0.6
     },
     "J2": {
       "center_mm": [

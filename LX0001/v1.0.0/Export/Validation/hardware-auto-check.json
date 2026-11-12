@@ -1,6 +1,6 @@
 {
-  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
-  "checked_at_utc": "2026-11-11T22:50:01.216446+00:00",
+  "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
+  "checked_at_utc": "2026-11-12T13:25:50.950916+00:00",
   "scope": "Static schematic/connection-table topology audit plus clean schematic-PCB parity; not a physical power-sequencing test",
   "expected_pin_mappings": {
     "R10": {

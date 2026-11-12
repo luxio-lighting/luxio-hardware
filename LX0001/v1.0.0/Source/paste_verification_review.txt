@@ -25,7 +25,7 @@ Separate boundary cases accept nominal0.10 mm and reject0.09 mm.
 production/export uses the default0.10 mm gate.
 
 USB shell distinction
-J1 uses USB4215-03-A and the manufacturer's four plated slotted shell lands.
+J1 uses USB-TYPE-C-018 and the manufacturer's four plated slotted shell lands.
 Their own top-side paste apertures are the documented pin-in-paste
 assembly intent, not routing vias placed beneath SMT terminals. Only those
 four own-pad intersections are recognized, with exact connector/footprint
@@ -40,6 +40,9 @@ still applies; this geometry check does not prove reflow yield.
 Primary references
 https://raw.githubusercontent.com/KiCad/kicad-source-mirror/10.0/pcbnew/plot_board_layers.cpp
 https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html#working-with-pads
-https://gct.co/connector/usb4215
-Assets/io/C37616412_USB4215-03-A.pdf (manufacturer drawing Rev A, 2024-04-26)
-Assets/io/C37616412_footprint_notes.txt (documented assembly intent)
+https://jlcpcb.com/partdetail/C2927038
+Assets/io/C2927038_USB-TYPE-C-018.pdf (manufacturer drawing Rev A)
+Assets/io/C2927038_footprint_notes.txt (documented assembly intent)
+
+C2927038 adds two0.60mm NPTH locating holes, independently checked against
+both paste layers and routed copper; these are not pin-in-paste exemptions.

@@ -7,7 +7,7 @@
   "generated_at_utc": "2026-11-11T13:00:23Z",
   "input_sha256": {
     "core_parts.json": "517b370f442e53849ad6dc550ffa11624f7c0afd2e904741ca0b73316c151ac0",
-    "io_parts.json": "25ef9b223878fab6fa84277f070724502ca71c670f747a7b24564c22fdd84deb",
+    "io_parts.json": "8d33fbc216bf79d9986130bb6a5d3e29a875823af987f0066a8d94ef4f1f1aba",
     "power_parts.json": "b45666af1feb45b997b4e94d2d77a9f3c2d8153e90eae9d800b065b9a6df8d16"
   },
   "designator_count": 94,
@@ -28,10 +28,10 @@
     "external cables or case"
   ],
   "subtotal_is_complete": true,
-  "component_subtotal_per_board_usd": 12.8304,
-  "component_subtotal_100_boards_usd": 1283.04,
-  "component_subtotal_per_board_usd_exact": "12.8304",
-  "component_subtotal_100_boards_usd_exact": "1283.0400",
+  "component_subtotal_per_board_usd": 12.317,
+  "component_subtotal_100_boards_usd": 1231.7,
+  "component_subtotal_per_board_usd_exact": "12.3170",
+  "component_subtotal_100_boards_usd_exact": "1231.7000",
   "all_required_stock_sufficient": true,
   "unverified_components": [],
   "stock_shortages": [],
@@ -1920,6 +1920,76 @@
       "cost_100_boards_usd": 206.62
     },
     {
+      "lcsc": "C2927038",
+      "manufacturer": "DEALON",
+      "manufacturer_part_number": "USB-TYPE-C-018",
+      "package": "SMD",
+      "library_type": "expand",
+      "available_stock": 194721,
+      "stock_source_field": "stockCount",
+      "overseas_stock": 194721,
+      "total_stock": 194721,
+      "is_buy_component": "1",
+      "no_buy_reason": null,
+      "minimum_purchase_quantity": 1,
+      "assembly_attrition_quantity": 0,
+      "price_tiers": [
+        {
+          "min_quantity": 1,
+          "max_quantity": 99,
+          "unit_usd": 0.0635
+        },
+        {
+          "min_quantity": 100,
+          "max_quantity": 299,
+          "unit_usd": 0.0506
+        },
+        {
+          "min_quantity": 300,
+          "max_quantity": 1499,
+          "unit_usd": 0.044
+        },
+        {
+          "min_quantity": 1500,
+          "max_quantity": 4499,
+          "unit_usd": 0.0393
+        },
+        {
+          "min_quantity": 4500,
+          "max_quantity": 10499,
+          "unit_usd": 0.0354
+        },
+        {
+          "min_quantity": 10500,
+          "max_quantity": null,
+          "unit_usd": 0.0334
+        }
+      ],
+      "price_basis": "Exact public quantity tier for aggregate populated quantity at100 boards",
+      "source_url": "https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C2927038",
+      "part_url": "https://jlcpcb.com/partdetail/C2927038",
+      "observed_at_utc": "2026-11-12T13:22:00.833419+00:00",
+      "verification_status": "verified_live",
+      "previous_evidence_files": [],
+      "designators": [
+        "J1"
+      ],
+      "design_values": [
+        "USB-TYPE-C-018"
+      ],
+      "quantity_per_board": 1,
+      "required_quantity_100_boards": 100,
+      "selected_tier": {
+        "min_quantity": 100,
+        "max_quantity": 299,
+        "unit_usd": 0.0506
+      },
+      "unit_price_usd": 0.0506,
+      "cost_per_board_usd": 0.0506,
+      "cost_100_boards_usd": 5.06,
+      "stock_sufficient": true
+    },
+    {
       "lcsc": "C2941042",
       "designators": [
         "U3",
@@ -2208,76 +2278,6 @@
       ],
       "cost_per_board_usd": 0.85,
       "cost_100_boards_usd": 85.0
-    },
-    {
-      "lcsc": "C37616412",
-      "manufacturer": "Global Connector Technology",
-      "manufacturer_part_number": "USB4215-03-A",
-      "package": "SMD",
-      "library_type": "expand",
-      "available_stock": 1453,
-      "stock_source_field": "canPresaleNumber",
-      "overseas_stock": 1592,
-      "total_stock": 1592,
-      "is_buy_component": "1",
-      "no_buy_reason": null,
-      "minimum_purchase_quantity": 1,
-      "assembly_attrition_quantity": 0,
-      "price_tiers": [
-        {
-          "min_quantity": 1,
-          "max_quantity": 9,
-          "unit_usd": 0.8974
-        },
-        {
-          "min_quantity": 10,
-          "max_quantity": 29,
-          "unit_usd": 0.7307
-        },
-        {
-          "min_quantity": 30,
-          "max_quantity": 99,
-          "unit_usd": 0.6474
-        },
-        {
-          "min_quantity": 100,
-          "max_quantity": 499,
-          "unit_usd": 0.564
-        },
-        {
-          "min_quantity": 500,
-          "max_quantity": 1199,
-          "unit_usd": 0.5149
-        },
-        {
-          "min_quantity": 1200,
-          "max_quantity": null,
-          "unit_usd": 0.4888
-        }
-      ],
-      "price_basis": "Exact public quantity tier for aggregate populated quantity at100 boards",
-      "source_url": "https://jlcpcb.com/api/overseas-pcb-order/v1/smtComponentShopCart/getComponentDetail?componentCode=C37616412",
-      "part_url": "https://jlcpcb.com/partdetail/-/C37616412",
-      "observed_at_utc": "2026-11-11T13:00:23Z",
-      "verification_status": "verified_live",
-      "previous_evidence_files": [],
-      "designators": [
-        "J1"
-      ],
-      "design_values": [
-        "USB4215-03-A"
-      ],
-      "quantity_per_board": 1,
-      "required_quantity_100_boards": 100,
-      "selected_tier": {
-        "min_quantity": 100,
-        "max_quantity": 499,
-        "unit_usd": 0.564
-      },
-      "unit_price_usd": 0.564,
-      "cost_per_board_usd": 0.564,
-      "cost_100_boards_usd": 56.4,
-      "stock_sufficient": true
     },
     {
       "lcsc": "C38117",
@@ -3580,9 +3580,9 @@
     },
     {
       "designator": "J1",
-      "value": "USB4215-03-A",
-      "lcsc": "C37616412",
-      "footprint": "LX0001:USB_C_GCT_USB4215_03_A",
+      "value": "USB-TYPE-C-018",
+      "lcsc": "C2927038",
+      "footprint": "LX0001:USB_C_DEALON_USB_TYPE_C_018",
       "fitted": true
     },
     {
@@ -4028,8 +4028,8 @@
     }
   ],
   "unknown_stock": [],
-  "refresh_note": "Retained dated supplier snapshots for existing parts, recalculated quantity tiers for revised BOM; fetched C122837 and C1588 for this hardware revision. Not a reserved quotation.",
+  "refresh_note": "C2927038 price/stock fetched2026-11-12. Other components retain their dated supplier snapshots. Not a reserved quotation.",
   "dnp_components": 1,
-  "placement_sha256": "2a8fa134bb7e8191912bf007f6c379a1440211bd8e5e6c57d566feb4f8fed34c",
-  "metadata_refreshed_at_utc": "2026-11-11T22:44:12.739354+00:00"
+  "placement_sha256": "b7a4b4a301ad8347436681968a7eed327d9765c0ab3ae97fda1b545f2b0c35ed",
+  "metadata_refreshed_at_utc": "2026-11-12T13:22:00.833419+00:00"
 }

@@ -1,0 +1,57 @@
+{
+  "before_board_sha256": "4ce0b67978240a0ccec6042da28f95543a1dae4d79b496f4ef42788cd2bd2c51",
+  "board_sha256": "a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01",
+  "change": "Only connector model references and model offsets",
+  "physical_board_data_identical": true,
+  "physical_data_comparison": "Entire PCB text identical after replacing each balanced model block with a common marker",
+  "models": [
+    {
+      "footprint": "HDGC_2060_452",
+      "model": "HDGC_2060_452_C55251566.step",
+      "offset_mm": [
+        -0.0025,
+        2.8275,
+        2.3
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": 3,
+      "model_sha256": "9dbd1c53232c4418db1ae4778d374984a2ec308703bf3582d7ce54b83c0ce15d"
+    },
+    {
+      "footprint": "USB_C_GCT_USB4215_03_A",
+      "model": "USB_C_C37616412_library.step",
+      "offset_mm": [
+        0,
+        0,
+        1.58
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "instances": 1,
+      "model_sha256": "c26f2b44d77f8315901b96d2c5b5e21fd8b4ab04cc8adc8002f9279553a11924"
+    }
+  ],
+  "source": "JLCEDA/EasyEDA Official Library",
+  "source_homepages": [
+    "https://lceda.cn/",
+    "https://easyeda.com/"
+  ],
+  "usb_library_model_note": "C37616412 (USB4215-03-A) is linked upstream to a shared model titled USB-C-SMD_GT-USB-7010B. Its body envelope and four shell-stake centers match the GCT drawing; it is not a manufacturer-authenticated GCT model."
+}

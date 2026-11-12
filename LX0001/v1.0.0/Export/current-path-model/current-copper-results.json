@@ -1,6 +1,6 @@
 {
-  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
-  "mesh_sha256": "e78ca91f407f9733118a16c71d17ec699f553fc5605f9eaa4d4cd54dfa04c7c4",
+  "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
+  "mesh_sha256": "2bf306bce3151028bac8e4b67705986303b4b4cfffa6893e20fa27d9312ef84f",
   "solver_sha256": "819d5f6d07c56f635e683273504e98779cd893ea8ba2d40a73b5f5469e5b7f1f",
   "power_source": "wired",
   "model_scope": "All four saved copper layers; actual stackup thicknesses and interlayer barrel lengths",
@@ -209,11 +209,11 @@
       "results": [
         {
           "copper_um": 35,
-          "resistance_mohm": 2.1376239904076835,
-          "drop_mv": 10.688119952038416,
-          "loss_w": 0.05344059976019208,
-          "iterations": 4182,
-          "residual": 9.94040008975572e-11,
+          "resistance_mohm": 2.214124629452766,
+          "drop_mv": 11.070623147263829,
+          "loss_w": 0.05535311573631915,
+          "iterations": 4252,
+          "residual": 9.949548871230225e-11,
           "converged": true,
           "via_currents": [
             {
@@ -224,7 +224,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "02aed3ed-440e-4343-8bc0-633026d0a568",
-              "current_a": 0.33270472361688597
+              "current_a": 0.3171271559018238
             },
             {
               "y": 101,
@@ -234,7 +234,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "05099a44-bdb2-4c8a-a6fb-fd7ac5caf883",
-              "current_a": 0.22791817303464315
+              "current_a": 0.21725125244846483
             },
             {
               "y": 141,
@@ -244,7 +244,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "093827ae-2e39-4e3c-9900-ce4de69ca032",
-              "current_a": 0.010327580679760976
+              "current_a": 0.010341697069099749
             },
             {
               "y": 77,
@@ -254,7 +254,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "0c5bb2de-28c8-494d-8594-4e71994263d6",
-              "current_a": 0.13570093624213422
+              "current_a": 0.1350982475992036
             },
             {
               "y": 101,
@@ -264,7 +264,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "0ff158bd-a25c-4fd9-87e8-a91bee4b3c6b",
-              "current_a": 0.19783539861267307
+              "current_a": 0.19817783214031084
             },
             {
               "y": 111,
@@ -274,7 +274,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "117d5c53-6905-4842-b9ae-dae6d821f07f",
-              "current_a": 0.12236293163851648
+              "current_a": 0.12184748998633681
             },
             {
               "y": 37,
@@ -284,7 +284,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "1bb3c8a2-6665-4fed-aa8a-d5a2aba12203",
-              "current_a": 0.13276237365869858
+              "current_a": 0.13215133637834262
             },
             {
               "y": 134,
@@ -294,7 +294,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "1ff100f5-540a-444b-9f85-9a992558e2a8",
-              "current_a": 0.7558589566779114
+              "current_a": 0.48147109427876644
             },
             {
               "y": 71,
@@ -304,7 +304,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "20a23956-a183-465f-abf5-a4bb4525f983",
-              "current_a": 0.12007072822253002
+              "current_a": 0.12033369884831999
             },
             {
               "y": 131,
@@ -314,7 +314,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "2b72002e-517a-4293-803a-b1dc7c08c2c8",
-              "current_a": 0.09707537535722974
+              "current_a": 0.09705596367203825
             },
             {
               "y": 106,
@@ -324,7 +324,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "2f828c97-c804-441f-9602-786bea25c8ab",
-              "current_a": 0.0759515921680293
+              "current_a": 0.07548584723406541
             },
             {
               "y": 111,
@@ -334,7 +334,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "3210a332-cb3b-4ab7-a097-f7b07745eff0",
-              "current_a": 0.020860642817661205
+              "current_a": 0.020836783163665745
             },
             {
               "y": 41,
@@ -344,7 +344,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "4c047e32-d42f-4dd4-a80b-ec4ff64b290e",
-              "current_a": 0.06425149056749588
+              "current_a": 0.06516851692604655
             },
             {
               "y": 115,
@@ -354,7 +354,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "52a9eeb9-1a29-441c-979b-10eb1e719a4e",
-              "current_a": 0.1269757093590654
+              "current_a": 0.11733572515519627
             },
             {
               "y": 89,
@@ -364,7 +364,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "5506ee98-1abd-4552-9be4-172b432fbb28",
-              "current_a": 0.18767726091577086
+              "current_a": 0.18719680235975839
             },
             {
               "y": 103,
@@ -374,7 +374,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "5be02564-9d6a-4786-87de-6665d9a2dd40",
-              "current_a": 0.02752928028676323
+              "current_a": 0.027544781779539507
             },
             {
               "y": 78,
@@ -384,7 +384,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "5ea8029f-b795-4cfd-abff-80d6b12470cb",
-              "current_a": 0.11351481698885692
+              "current_a": 0.10516116033959831
             },
             {
               "y": 76,
@@ -394,7 +394,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "63c01239-9f60-4ef1-a4ad-b7d7817f69b3",
-              "current_a": 0.08503925954596049
+              "current_a": 0.08730106775347794
             },
             {
               "y": 12,
@@ -404,7 +404,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "6c99d7fe-0838-4f9c-a7ca-4ea30ea60784",
-              "current_a": 0.16970242452541157
+              "current_a": 0.16795737644145503
             },
             {
               "y": 96,
@@ -414,7 +414,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "6d6e0090-0000-4000-8000-000000000003",
-              "current_a": 0.054560132006918255
+              "current_a": 0.05459875733601904
             },
             {
               "y": 115,
@@ -424,7 +424,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "6f9e7968-e3d2-4f67-b06f-be114b8ca60b",
-              "current_a": 0.22129278196701288
+              "current_a": 0.22146127402905275
             },
             {
               "y": 180,
@@ -434,7 +434,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "6fa75130-e4f4-45d5-b056-5cfe1c37384d",
-              "current_a": 0.07593052673599263
+              "current_a": 0.07546238191519242
             },
             {
               "y": 139,
@@ -444,7 +444,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "70951e17-b43f-4d59-bbe6-b69587783113",
-              "current_a": 0.07141237726520049
+              "current_a": 0.07148065854577224
             },
             {
               "y": 33,
@@ -454,7 +454,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "8135a219-7e13-42d7-a524-2335ca799d79",
-              "current_a": 0.1340188367962339
+              "current_a": 0.13311754719823157
             },
             {
               "y": 19,
@@ -464,7 +464,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "820589dd-da5c-4b4c-b65f-850694a71ff1",
-              "current_a": 0.5767153151764396
+              "current_a": 0.5768710555547779
             },
             {
               "y": 81,
@@ -474,7 +474,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "83706966-9ef0-4f56-9f62-81194b89568a",
-              "current_a": 0.22123760434749318
+              "current_a": 0.2201742887959126
             },
             {
               "y": 54,
@@ -484,7 +484,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "89ff34ee-28fb-4d9b-a3a1-78487ab2281d",
-              "current_a": 0.14233946938990047
+              "current_a": 0.1413137754348843
             },
             {
               "y": 50,
@@ -494,7 +494,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "8c5ec96d-6004-4d6b-8f06-edfc0f8efdb3",
-              "current_a": 0.624499779343126
+              "current_a": 0.6245236367064194
             },
             {
               "y": 43,
@@ -504,7 +504,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "91307e10-b176-42e4-93f4-8595d42637d6",
-              "current_a": 0.6022603972480688
+              "current_a": 0.6022258257744724
             },
             {
               "y": 137,
@@ -514,7 +514,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "95dc31de-7f8d-4c7c-926e-5bb8d4f2f72d",
-              "current_a": 0.6864275844434915
+              "current_a": 0.7362647460493772
             },
             {
               "y": 134,
@@ -524,7 +524,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "9a46064d-7820-4123-88eb-fc8b3ed366b9",
-              "current_a": 0.07885907972816174
+              "current_a": 0.07908190117209714
             },
             {
               "y": 22,
@@ -534,7 +534,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "9eebc311-0330-4ddb-b552-ccf69bc21ac1",
-              "current_a": 0.33075866422591627
+              "current_a": 0.3299538241862406
             },
             {
               "y": 36,
@@ -544,7 +544,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "a0f94472-3c63-483f-931d-4121431f3c81",
-              "current_a": 0.5782832219894428
+              "current_a": 0.5781961813170647
             },
             {
               "y": 120,
@@ -554,7 +554,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "a24dc001-ff0b-5c96-981c-15a4dd609625",
-              "current_a": 0.15412448391688863
+              "current_a": 0.15420966310645934
             },
             {
               "y": 87,
@@ -564,7 +564,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "a5827c90-d1f6-4979-973b-ce8f0dcde303",
-              "current_a": 0.25672155076244085
+              "current_a": 0.2570607502947191
             },
             {
               "y": 94,
@@ -574,7 +574,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "a72b5bb8-c151-456a-9909-08656c470ca6",
-              "current_a": 0.03979398107551458
+              "current_a": 0.04305146177454741
             },
             {
               "y": 121,
@@ -584,7 +584,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "a7641425-79bc-44b5-93db-7b8b8d4b7373",
-              "current_a": 1.338213130261371
+              "current_a": 1.5671224469384653
             },
             {
               "y": 126,
@@ -594,7 +594,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "ab01303e-b46e-42c0-81d2-964305cdd2ee",
-              "current_a": 0.057278138361626506
+              "current_a": 0.0594092214087128
             },
             {
               "y": 141,
@@ -604,7 +604,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "ad048399-f4a9-4bb8-a229-f6461439a622",
-              "current_a": 0.006618985561161971
+              "current_a": 0.006592441531747135
             },
             {
               "y": 25,
@@ -614,7 +614,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "b01cf3c0-b178-4a11-99ce-27f0543d8a7d",
-              "current_a": 0.16459002524903318
+              "current_a": 0.15408608628105588
             },
             {
               "y": 94,
@@ -624,7 +624,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "b330edd5-eec6-407b-955a-f09f516efaf2",
-              "current_a": 0.08564734318945903
+              "current_a": 0.10118527522155071
             },
             {
               "y": 112,
@@ -634,7 +634,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "b9e613d6-88de-4b47-b4fe-79d27ce83e2c",
-              "current_a": 0.11156973253437369
+              "current_a": 0.11189459069736063
             },
             {
               "y": 29,
@@ -644,7 +644,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "bc612c59-36d3-441a-9f2f-a8ecebf88433",
-              "current_a": 0.5988894214048563
+              "current_a": 0.5987655254867369
             },
             {
               "y": 168,
@@ -654,7 +654,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "bc706112-a473-47be-9a92-86f66a8a0e9b",
-              "current_a": 0.1453450794262162
+              "current_a": 0.15147853266266603
             },
             {
               "y": 54,
@@ -664,7 +664,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "bd3a7f9d-22e0-4a97-8e2b-7cd23a5f3e5d",
-              "current_a": 0.18645861899260233
+              "current_a": 0.18569739029672946
             },
             {
               "y": 43,
@@ -674,7 +674,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "c0a7a6d0-af46-5747-a4d8-2bacd47b1429",
-              "current_a": 0.12727809726011405
+              "current_a": 0.1267428439761939
             },
             {
               "y": 95,
@@ -684,7 +684,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "c0a7a6d1-94ef-52ac-ac5d-851d678d3770",
-              "current_a": 0.05579029999834477
+              "current_a": 0.05677409493089855
             },
             {
               "y": 7,
@@ -694,7 +694,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "c55940e4-aa71-42fb-b441-5acd813474f8",
-              "current_a": 0.09852603055261461
+              "current_a": 0.09136089553706221
             },
             {
               "y": 49,
@@ -704,7 +704,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "c64dc4ea-df63-412e-833c-f366a8d4797c",
-              "current_a": 0.714711913197197
+              "current_a": 0.7149244962834475
             },
             {
               "y": 143,
@@ -714,7 +714,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "c8ea6f51-e908-4c6f-8f32-72057cef7fd0",
-              "current_a": 0.4010804441484383
+              "current_a": 0.4356288784524222
             },
             {
               "y": 151,
@@ -724,7 +724,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "c94c7ba3-208a-4e28-81db-8da23241a864",
-              "current_a": 0.5871803143525692
+              "current_a": 0.620767338101222
             },
             {
               "y": 145,
@@ -734,7 +734,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "d5a3052f-ee9e-4ce1-9a97-5c25c5f26706",
-              "current_a": 0.16505057011288962
+              "current_a": 0.16706627153616313
             },
             {
               "y": 39,
@@ -744,7 +744,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "d7aa4ec5-c53e-4372-9f60-6d71178e2520",
-              "current_a": 0.2939639068628956
+              "current_a": 0.29266520099506194
             },
             {
               "y": 134,
@@ -754,7 +754,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "d99c6327-ca91-4e92-99fb-76a097ebc4d8",
-              "current_a": 0.05862186676800168
+              "current_a": 0.05878380029056598
             },
             {
               "y": 78,
@@ -764,7 +764,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "e3adb231-c769-440b-a8ef-5fd116204474",
-              "current_a": 0.18099284344163333
+              "current_a": 0.16617618752286084
             },
             {
               "y": 7,
@@ -774,7 +774,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "e7967f87-49db-4492-afcf-10cc0c130ed1",
-              "current_a": 0.2288420946452549
+              "current_a": 0.23035736294032244
             },
             {
               "y": 63,
@@ -784,7 +784,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "e960dc62-37c2-42d3-8d9c-e98e7ccc7b98",
-              "current_a": 0.20420700763717703
+              "current_a": 0.1700478319767428
             },
             {
               "y": 143,
@@ -794,7 +794,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "ec058c57-21d7-47cd-91fb-7bdffe5722c8",
-              "current_a": 0.1767225346385693
+              "current_a": 0.17644540253608637
             },
             {
               "y": 53,
@@ -804,7 +804,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "ee757e76-1e01-4169-86c2-cd67d45cd71a",
-              "current_a": 0.6061570740615615
+              "current_a": 0.4470077686419819
             },
             {
               "y": 66,
@@ -814,7 +814,7 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "ef212194-8464-43d8-b2e0-7e2616dc314f",
-              "current_a": 0.1199864748278604
+              "current_a": 0.11993966295452715
             },
             {
               "y": 11,
@@ -824,71 +824,71 @@
               "drill_mm": 0.3,
               "kind": "routing_via",
               "uuid": "fc6ce6aa-879d-4966-812f-9086b6c0fac2",
-              "current_a": 0.1025529021394425
+              "current_a": 0.09933946125034387
             },
             {
               "y": 10,
               "x": 57,
-              "x_mm": 5.6,
-              "y_mm": 0.93,
-              "drill_mm": 1.109295817894065,
+              "x_mm": 5.625,
+              "y_mm": 0.925,
+              "drill_mm": 1.309295817894065,
               "physical_drill_mm": [
-                0.6,
+                0.8,
+                1.6
+              ],
+              "kind": "plated_component_hole",
+              "reference": "J1",
+              "pad": "SH",
+              "uuid": "d9ab4b5a-edb2-4fa3-9ee1-0bedea33a261",
+              "current_a": 0.33237998500070304
+            },
+            {
+              "y": 10,
+              "x": 15,
+              "x_mm": 1.425,
+              "y_mm": 0.925,
+              "drill_mm": 1.1819718634205487,
+              "physical_drill_mm": [
+                0.8,
                 1.4
               ],
               "kind": "plated_component_hole",
               "reference": "J1",
               "pad": "SH",
-              "uuid": "69827bae-4e84-45d8-96ae-5b9148f7316f",
-              "current_a": 0.34476618562927325
-            },
-            {
-              "y": 10,
-              "x": 17,
-              "x_mm": 1.6,
-              "y_mm": 0.93,
-              "drill_mm": 1.3639437268410979,
-              "physical_drill_mm": [
-                0.6,
-                1.8
-              ],
-              "kind": "plated_component_hole",
-              "reference": "J1",
-              "pad": "SH",
-              "uuid": "ccb5f338-8394-4234-b47a-03bc945614a4",
-              "current_a": 0.30599574608731067
+              "uuid": "08d3f6f9-bddc-49df-b487-0c4f3cac7626",
+              "current_a": 0.2790218979355464
             },
             {
               "y": 96,
               "x": 57,
-              "x_mm": 5.6,
-              "y_mm": 9.57,
-              "drill_mm": 1.109295817894065,
+              "x_mm": 5.625,
+              "y_mm": 9.575,
+              "drill_mm": 1.309295817894065,
               "physical_drill_mm": [
-                0.6,
+                0.8,
+                1.6
+              ],
+              "kind": "plated_component_hole",
+              "reference": "J1",
+              "pad": "SH",
+              "uuid": "71e78ba6-3a70-4b75-b4d1-49423875e451",
+              "current_a": 0.49217936192168626
+            },
+            {
+              "y": 96,
+              "x": 15,
+              "x_mm": 1.425,
+              "y_mm": 9.575,
+              "drill_mm": 1.1819718634205487,
+              "physical_drill_mm": [
+                0.8,
                 1.4
               ],
               "kind": "plated_component_hole",
               "reference": "J1",
               "pad": "SH",
-              "uuid": "2358804b-1820-460b-84a1-53b629ad324b",
-              "current_a": 0.3560121864955573
-            },
-            {
-              "y": 96,
-              "x": 17,
-              "x_mm": 1.6,
-              "y_mm": 9.57,
-              "drill_mm": 1.3639437268410979,
-              "physical_drill_mm": [
-                0.6,
-                1.8
-              ],
-              "kind": "plated_component_hole",
-              "reference": "J1",
-              "pad": "SH",
-              "uuid": "da3706f1-1c76-4f76-b6fd-a6ef70853b5c",
-              "current_a": 0.7625324734657386
+              "uuid": "63e9a425-131e-456a-8685-cc3be9af6ea8",
+              "current_a": 0.8166312910152058
             }
           ]
         }
@@ -898,9 +898,9 @@
   "totals": [
     {
       "copper_um": 35,
-      "resistance_mohm": 6.140471557051515,
-      "drop_mv": 30.702357785257576,
-      "loss_w": 0.15351178892628786
+      "resistance_mohm": 6.216972196096597,
+      "drop_mv": 31.084860980482986,
+      "loss_w": 0.1554243049024149
     }
   ],
   "successful": true

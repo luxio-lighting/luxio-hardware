@@ -1,57 +1,29 @@
 {
-  "before_board_sha256": "4ce0b67978240a0ccec6042da28f95543a1dae4d79b496f4ef42788cd2bd2c51",
-  "board_sha256": "a3ce849e2ad611ed09196a2b8dd63a63f8cf86ec0372bb1993ba641fe22e0c01",
-  "change": "Only connector model references and model offsets",
-  "physical_board_data_identical": true,
-  "physical_data_comparison": "Entire PCB text identical after replacing each balanced model block with a common marker",
-  "models": [
-    {
-      "footprint": "HDGC_2060_452",
-      "model": "HDGC_2060_452_C55251566.step",
-      "offset_mm": [
-        -0.0025,
-        2.8275,
-        2.3
-      ],
-      "rotation_deg": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "instances": 3,
-      "model_sha256": "9dbd1c53232c4418db1ae4778d374984a2ec308703bf3582d7ce54b83c0ce15d"
-    },
-    {
-      "footprint": "USB_C_GCT_USB4215_03_A",
-      "model": "USB_C_C37616412_library.step",
-      "offset_mm": [
-        0,
-        0,
-        1.58
-      ],
-      "rotation_deg": [
-        0,
-        0,
-        0
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "instances": 1,
-      "model_sha256": "c26f2b44d77f8315901b96d2c5b5e21fd8b4ab04cc8adc8002f9279553a11924"
-    }
-  ],
+  "part": "DEALON USB-TYPE-C-018",
+  "lcsc": "C2927038",
   "source": "JLCEDA/EasyEDA Official Library",
-  "source_homepages": [
-    "https://lceda.cn/",
-    "https://easyeda.com/"
+  "metadata_url": "https://lceda.cn/api/products/C2927038/components?version=6.4.19.5",
+  "model_uuid": "2a4bc2358b36497d9ab2a66ab6419ba3",
+  "upstream_model_title": "USB-C_SMD-TYPE-C-31-M-12",
+  "step_url": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/2a4bc2358b36497d9ab2a66ab6419ba3",
+  "model_note": "Shared HRO visualization; not authenticated DEALON enclosure geometry. Manufacturer body8.94x7.35x3.16mm; shared shell approx8.94x7.30x3.25mm.",
+  "offset_mm": [
+    0,
+    -1.075,
+    0
   ],
-  "usb_library_model_note": "C37616412 (USB4215-03-A) is linked upstream to a shared model titled USB-C-SMD_GT-USB-7010B. Its body envelope and four shell-stake centers match the GCT drawing; it is not a manufacturer-authenticated GCT model."
+  "rotation_degrees": [
+    0,
+    0,
+    180
+  ],
+  "files_sha256": {
+    "C2927038-easyeda.json": "cc21b9d4d3717028506d2b4525d810834a0c94a1e2d734641d1bae27e807831c",
+    "C2927038.json": "b14718df7ac67b9b6c2167421f256104d71579c7f3533ba309936e09a1da062c",
+    "C2927038-library.step": "b083e67ce4d06850a2c3835a6366f4012b2def64f8f2781636381ebcaa33e9a0",
+    "C2927038-library.obj": "c05f126592479dfae9bedf776a405272e8196001a9d97b0fc6ea3e56d58f9447"
+  },
+  "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
+  "change": "Replace GCT USB4215-03-A / C37616412 with DEALON USB-TYPE-C-018 / C2927038; update footprint, local USB routing and 3D model",
+  "wire_connector_models_unchanged": true
 }

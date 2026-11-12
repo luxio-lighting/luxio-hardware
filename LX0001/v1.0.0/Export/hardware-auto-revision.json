@@ -99,5 +99,10 @@
       "output": "wired5\u201324 V; USBdata only",
       "ESP32_required": false
     }
-  ]
+  ],
+  "subsequent_revision": {
+    "date": "2026-11-12",
+    "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
+    "details": "USB connector replaced; hardware power/data behavior retained and topology rechecked. See usb-connector-revision.json."
+  }
 }

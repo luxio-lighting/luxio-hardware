@@ -23,7 +23,7 @@ outputs, Wi-Fi, native USB and automatic wired-input priority.
 | LED signals | GPIO16 and GPIO17 translated from 3.3V to 5V |
 | Button | Centered BOOT / GPIO18 user button |
 | Wire connectors | HDGC 2060-452-HDGC, JLCPCB C55251566 |
-| USB connector | GCT USB4215-03-A, JLCPCB C37616412 |
+| USB connector | DEALON USB-TYPE-C-018, JLCPCB C2927038 |
 | Mounting | Two 2.2 mm holes for M2 screws |
 | Fabrication | 0.30 mm minimum via drill; assembly on both sides |
 
@@ -80,18 +80,18 @@ and **(42, 3) mm**, measured from the top-left board corner. Use screw heads
 or standoffs no larger than 4.4 mm in diameter. Keep metal away from the
 antenna and provide cable strain relief.
 
-The USB mouth projects 0.50 mm beyond the input edge; the wire-entry face is
-0.75 mm inside that edge. Account for the 1.25 mm difference when designing
+The USB mouth projects 1.175 mm beyond the input edge; the wire-entry face is
+0.75 mm inside that edge. Account for the 1.925 mm difference when designing
 case openings. Exact coordinates and antenna clearance are in
 [mechanical.json](Source/mechanical.json).
 
 Connector STEP models are from the **JLCEDA/EasyEDA Official Library**
 ([JLCEDA](https://lceda.cn/), [EasyEDA](https://easyeda.com/)). The HDGC model
-is linked to the exact part. C37616412 links to a shared USB model named
-`USB-C-SMD_GT-USB-7010B`; its body and shell-stake geometry match the selected
-GCT drawing, but it is not a manufacturer-authenticated GCT model. Other
-custom part models may be simplified. Use drawings and first articles to
-verify enclosure fit. [Model provenance and alignment](Source/connector-model-update.json).
+is linked to the exact part. C2927038 links to a shared HRO USB model named
+`USB-C_SMD-TYPE-C-31-M-12`. It approximates the DEALON connector; use its
+[manufacturer drawing](Assets/io/C2927038_USB-TYPE-C-018.pdf) for enclosure fit.
+Other custom part models may be simplified.
+[Model provenance and alignment](Source/connector-model-update.json).
 
 ### Manufacturing and status
 
@@ -99,7 +99,7 @@ verify enclosure fit. [Model provenance and alignment](Source/connector-model-up
 Upload the Gerber ZIP, BOM and CPL together, using the included
 [order settings](Export/JLCPCB-order-settings.txt). The current
 release contains 83 fitted components; L104 is DNP. The component-only estimate
-is $12.83 per board for 100 boards, excluding PCB and assembly costs.
+is $12.32 per board for 100 boards, excluding PCB and assembly costs.
 
 The saved design passes ERC, DRC, schematic/PCB parity and the independent
 drill-to-paste check, with zero open connections or mechanical DRC exceptions.

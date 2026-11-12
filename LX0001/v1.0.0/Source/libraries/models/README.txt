@@ -82,3 +82,7 @@ TPS22965_DSG0008A_preview.wrl: approximate2x2mm body,0.8mm maxheight,
 0.5mm leadpitch from TI DSG0008A drawing in Assets/power/tps22965.pdf.
 Generated geometric preview; not a manufacturer STEP model. No geometry
 or pad positions in the PCB are changed by this model.
+
+Current J1: USB_C_C2927038_library.step, C2927038 supplier-linked shared HRO
+visualization. See Assets/io/C2927038_footprint_notes.txt and connector-model-update.json.
+USB_C_C37616412_library.step is retained only for the superseded GCT footprint.

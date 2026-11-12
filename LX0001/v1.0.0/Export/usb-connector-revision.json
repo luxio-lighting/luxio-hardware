@@ -1,0 +1,30 @@
+{
+  "revision": "v1.0.0",
+  "base_commit": "79bcc5b",
+  "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
+  "change": "Replace GCT USB4215-03-A / C37616412 with DEALON USB-TYPE-C-018 / C2927038; update footprint, local USB routing and 3D model",
+  "board_mm": [
+    60,
+    20,
+    1.6
+  ],
+  "USB_current_rating_A": 3,
+  "USB_voltage_rating_V": 5,
+  "J1_center_CAD_mm": [
+    2.5,
+    5.25
+  ],
+  "J1_side": "Top",
+  "J1_rotation_degrees": -90,
+  "USB_mouth_x_mm": -1.175,
+  "wire_entry_x_mm": 0.75,
+  "front_face_difference_mm": 1.925,
+  "mouth_projection_increase_mm": 0.675,
+  "mounting_holes_and_button_unchanged": true,
+  "connector_unit_price_at_100_usd": 0.0506,
+  "previous_estimated_connector_price_at_100_usd": 0.564,
+  "saving_100_boards_usd": 51.34,
+  "part_count": 83,
+  "mechanical_exceptions": 0,
+  "hardware_qualified": false
+}

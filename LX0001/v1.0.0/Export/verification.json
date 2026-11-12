@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "status": "FABRICATION DATA CHECKED; UNBUILT FIRST ARTICLE; NOT PRODUCTION-QUALIFIED",
   "board_mm": [
     60,
@@ -16,7 +16,7 @@
   "documented_mechanical_flags": 0,
   "source_sha256": {
     "Source/LX0001.kicad_dru": "57b2e96d86ae4283566cc5be0d2a4e260417f2370e46dcaf95885431f04816f9",
-    "Source/LX0001.kicad_pcb": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
+    "Source/LX0001.kicad_pcb": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
     "Source/LX0001.kicad_pro": "8ca1021d385bddc7c40e71c27637c0b99dc026baf2e0259402e9833196e3d03e",
     "Source/LX0001.kicad_sch": "311e634de19253bf3b468b0527d4227af6bfb91c040713264ecd315e17084051",
     "Source/button.kicad_sch": "5d42c35a508a14db8a263467778dad06a03ee7e39a4c3a86ddeb9684b1715f8c",
@@ -30,8 +30,8 @@
     "Source/regulators_2.kicad_sch": "2457030d9cc5cc9d19c84b8ffff4e4e42dbe1dcf646425da3c8c8c2728063f6b",
     "Source/rf.kicad_sch": "93a2fe3e8b15f923a06acf9edfa7ceab1271914b25370d1526a92689835c66db",
     "Source/test.kicad_sch": "fda53de2cadb59bcc8e339458eab4885f3a7126be0fbde6859260e7382a8b7c4",
-    "Source/usb.kicad_sch": "85bf09507f102e0b9d7fc28961e0cfa178701ffd62d656b21fe67f2fcf65af65",
-    "Source/parts.json": "75d02f4e00638e464d9dc3851326fa65d1bdf791a56bf741058e768831b7e7f6",
-    "Source/connections.csv": "07ede872f4c450e14181f23e00cbfd1e3000b91756d99b0ac4c79465a981b977"
+    "Source/usb.kicad_sch": "1879c295f82be2d477e906c3aed0fb764f0bf7c10c486626d0fcfb2106ddd786",
+    "Source/parts.json": "40bbd44229d2bbcb4558fa42f29f45697da19e83aceeab48285d1964364853bd",
+    "Source/connections.csv": "fa5f92ef2600af4838dec2e8c22970a63fbaec4ecc7e439df4232e06259a0256"
   }
 }

@@ -937,9 +937,9 @@
   {
     "ref": "J1",
     "libname": "Connector:USB_C_Receptacle_USB2.0_16P",
-    "value": "USB4215-03-A",
-    "footprint": "LX0001:USB_C_GCT_USB4215_03_A",
-    "lcsc": "C37616412",
+    "value": "USB-TYPE-C-018",
+    "footprint": "LX0001:USB_C_DEALON_USB_TYPE_C_018",
+    "lcsc": "C2927038",
     "pins": {
       "A1": "GND",
       "A4": "USB_5V",
@@ -962,12 +962,13 @@
       48.260000000000005
     ],
     "place": [
-      2.75,
+      2.5,
       5.25,
-      -90.0
+      -90
     ],
     "side": "Top",
     "group": "usb",
+    "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121330_DEALON-USB-TYPE-C-018_C2927038.pdf",
     "uuid": "937e0027-4a1d-5494-ba8b-d18ababe5c66",
     "sheet_path": "/8e51aaf7-064d-59a2-8d8e-42f2d20cc698/21931364-2536-5524-9470-7bcaa1932f5d"
   },

@@ -1,5 +1,5 @@
 {
-  "board_sha256": "d0825767d189e67077ca0bd0c148c90193fa2e034c6ded3111c62c6b4a54e5a5",
+  "board_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
   "renderer": "KiCad10 native raytracer",
   "board_mm": [
     60,
@@ -17,12 +17,12 @@
     -45
   ],
   "orthographic": true,
-  "visual_review": "Inspected top/underside isometric renders. Connector models retained; U4 approximate body shown. Inputs and mounting geometry unchanged.",
+  "visual_review": "Inspected all five updated renders. J1 uses the C2927038 library-linked shared HRO visualization; manufacturer drawing governs case dimensions. USB mouth is1.175mm beyond the input edge. Wire connectors, button and mounting holes retained; U4 approximate body shown.",
   "views": {
-    "preview-top.png": "6fd704af73582370bdb7225da421b7054c0ab41ee6d69783232ba7a4dfb4f3e5",
-    "preview-bottom.png": "20cc1db4ac42d85725c47d7d28910f3fc4086bdefba020b86851ef81dd6a2396",
-    "preview-centered-input-end.png": "9fe83c1718e90352c074940a36ba08c8d9f189d00a1f6dfb442eaf8324c0b672",
-    "preview-isometric-top.png": "8803ce8d0741195bded0086006e57c7a59f9aa6fdb8998bc1ee63a011d2724f2",
-    "preview-isometric-bottom.png": "e983650b394e20b938818957fceaa99653b0b0e9bae306dfcab64e33155f6c15"
+    "preview-top.png": "295e4c4c876e2f7d39fddb59b78f01b6aa3eb6860f0cce22ee43d054f6b50738",
+    "preview-bottom.png": "d651c5450de7d1bba6349af4935689e2a1be43cf274f947101f1f278ab1310e0",
+    "preview-centered-input-end.png": "ab7ef0b8ae229291d1cf7a0c69f1f6d623aec8e68b7097ce976468833e8a06f9",
+    "preview-isometric-top.png": "980d0b84452968a374a91c9ea6eb9ca1d6fcd46d9ae0fa6a6fbb4c2c0e74b14e",
+    "preview-isometric-bottom.png": "78cb3817ee03c93ea61cc07b1bf284bc280105bef692f2d4604bc55c4061aa5c"
   }
 }

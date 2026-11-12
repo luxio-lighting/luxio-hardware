@@ -2,9 +2,9 @@
   "batch_boards": 100,
   "purchased_placements_per_board": 83,
   "unique_purchased_components": 46,
-  "component_subtotal_per_board_usd": 12.8304,
-  "component_subtotal_100_boards_usd": 1283.04,
-  "refresh_note": "Retained dated supplier snapshots for existing parts, recalculated quantity tiers for revised BOM; fetched C122837 and C1588 for this hardware revision. Not a reserved quotation.",
+  "component_subtotal_per_board_usd": 12.317,
+  "component_subtotal_100_boards_usd": 1231.7,
+  "refresh_note": "C2927038 price/stock fetched2026-11-12. Other components retain their dated supplier snapshots. Not a reserved quotation.",
   "exclusions": [
     "PCB fabrication",
     "assembly placement",
