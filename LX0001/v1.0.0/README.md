@@ -1,23 +1,14 @@
-# Luxio hardware
+# LX0001 · v1.0.0
 
-## LX0001 · v1.0.0
-
-A compact ESP32-S3 controller for addressable LED strips, with two 5 V logic
+A compact ESP32-S3 controller for addressable LED strips, with two 5V logic
 outputs, Wi-Fi, native USB and automatic wired-input priority.
 
 ### 3D views
 
-**Top — isometric, USB bottom left / outputs top right**
-
-![LX0001 isometric top view, USB bottom left and outputs top right](LX0001/v1.0.0/Export/preview-isometric-top.png)
-
-**Underside — same view, flipped 180° around the long axis**
-
-![LX0001 bottom isometric view](LX0001/v1.0.0/Export/preview-isometric-bottom.png)
-
-[Input-end view](LX0001/v1.0.0/Export/preview-centered-input-end.png) ·
-[Top assembly drawing](LX0001/v1.0.0/Export/assembly-top.png) ·
-[Bottom assembly drawing](LX0001/v1.0.0/Export/assembly-bottom.png)
+| | | |
+| --- | --- | --- |
+| [![Isometric top](Export/preview-isometric-top.png)](Export/preview-isometric-top.png) | [![Isometric underside](Export/preview-isometric-bottom.png)](Export/preview-isometric-bottom.png) | [![Input end](Export/preview-centered-input-end.png)](Export/preview-centered-input-end.png) |
+| [![Top](Export/preview-top.png)](Export/preview-top.png) | [![Bottom](Export/preview-bottom.png)](Export/preview-bottom.png) | |
 
 ### Hardware
 
@@ -27,9 +18,9 @@ outputs, Wi-Fi, native USB and automatic wired-input priority.
 | Appearance | Black solder mask, white silkscreen, ENIG |
 | MCU | ESP32-S3, external 4 MB flash, no PSRAM |
 | Wireless | 2.4 GHz Wi-Fi with ceramic antenna |
-| Wired input | 5–24 V DC; designed for a 5 A continuous strip load, pending thermal validation |
-| USB | USB-C, native USB 2.0 data and 5 V power; no USB PD |
-| LED signals | GPIO16 and GPIO17 translated from 3.3 V to 5 V |
+| Wired input | 5–24V DC; designed for a 5 A continuous strip load, pending thermal validation |
+| USB | USB-C, native USB 2.0 data and 5V power; no USB PD |
+| LED signals | GPIO16 and GPIO17 translated from 3.3V to 5V |
 | Button | Centered BOOT / GPIO18 user button |
 | Wire connectors | HDGC 2060-452-HDGC, JLCPCB C55251566 |
 | USB connector | GCT USB4215-03-A, JLCPCB C37616412 |
@@ -42,24 +33,40 @@ left, input order is **GND, VCC** and output order is **GND, GPIO16, GPIO17, VCC
 from top to bottom. GPIO17 can be a second data channel or a clock signal,
 depending on firmware and strip type.
 
+### GPIO
+
+| GPIO | Function | Notes |
+| --- | --- | --- |
+| 0 | BOOT button | 10 kΩ pull-up; hold during reset or power-up to enter download mode |
+| 16 | LED data 1 | Always-enabled 5V level shifting |
+| 17 | LED data 2 / clock | Always-enabled 5V level shifting |
+| 18 | User button | Active-low; shares the BOOT button through isolation diodes |
+| 19 | USB D− | Native USB |
+| 20 | USB D+ | Native USB |
+| 27–32 | External flash | Reserved |
+| 43 | UART TX | Recovery test pad |
+| 44 | UART RX | Recovery test pad |
+| 45, 46 | Boot straps | Pulled low; reserved |
+| 1, 2, 4, 5, 6, 21 | Unused | Unconnected; no power or data-enable control required |
+
 ### Power behavior
 
 - A powered two-wire input supplies both controller and strip and takes
   priority over USB. USB remains available for data.
-- USB alone automatically powers both the controller and LED output at 5 V.
-- A 12 V or 24 V strip requires a matching wired supply. The board cannot
+- USB alone automatically powers both the controller and LED output at 5V.
+- A 12V or 24V strip requires a matching wired supply. The board cannot
   automatically identify a strip's rated voltage and does not convert the
   output supply to a different strip voltage.
 - USB has no onboard current limiter or power negotiation. Use a regulated
-  5 V adapter and cable rated for the controller plus strip load. The USB
+  5V adapter and cable rated for the controller plus strip load. The USB
   connector design ceiling is 3 A total, pending thermal validation; it is
   not a current clamp. Use the wired input for the 5 A strip design target.
-- Both 5 V data buffers are always enabled. Hardware pull-downs hold their
+- Both 5V data buffers are always enabled. Hardware pull-downs hold their
   inputs low during reset. GPIO5, GPIO6 and GPIO21 are unused.
 - Power selection and data-buffer enables require no firmware changes.
   Firmware still generates the LED data on GPIO16/17.
 
-Firmware is not included. See the [firmware interface](LX0001/v1.0.0/Source/firmware-interface.txt)
+Firmware is not included. See the [firmware interface](Source/firmware-interface.txt)
 for pin assignments and boot recovery. A computer USB port can be used for
 data with wired power present. USB-only strip loading does not enforce host
 enumeration or suspend current budgets.
@@ -76,7 +83,7 @@ antenna and provide cable strain relief.
 The USB mouth projects 0.50 mm beyond the input edge; the wire-entry face is
 0.75 mm inside that edge. Account for the 1.25 mm difference when designing
 case openings. Exact coordinates and antenna clearance are in
-[mechanical.json](LX0001/v1.0.0/Source/mechanical.json).
+[mechanical.json](Source/mechanical.json).
 
 Connector STEP models are from the **JLCEDA/EasyEDA Official Library**
 ([JLCEDA](https://lceda.cn/), [EasyEDA](https://easyeda.com/)). The HDGC model
@@ -84,13 +91,13 @@ is linked to the exact part. C37616412 links to a shared USB model named
 `USB-C-SMD_GT-USB-7010B`; its body and shell-stake geometry match the selected
 GCT drawing, but it is not a manufacturer-authenticated GCT model. Other
 custom part models may be simplified. Use drawings and first articles to
-verify enclosure fit. [Model provenance and alignment](LX0001/v1.0.0/Source/connector-model-update.json).
+verify enclosure fit. [Model provenance and alignment](Source/connector-model-update.json).
 
 ### Manufacturing and status
 
-[Download the JLCPCB release package](LX0001/v1.0.0/Export/LX0001-v1.0.0-JLCPCB.zip).
+[Download the JLCPCB release package](Export/LX0001-v1.0.0-JLCPCB.zip).
 Upload the Gerber ZIP, BOM and CPL together, using the included
-[order settings](LX0001/v1.0.0/Export/JLCPCB-order-settings.txt). The current
+[order settings](Export/JLCPCB-order-settings.txt). The current
 release contains 83 fitted components; L104 is DNP. The component-only estimate
 is $12.83 per board for 100 boards, excluding PCB and assembly costs.
 
@@ -102,18 +109,18 @@ four layers; they are not thermal qualification.
 **Status: fabrication data checked; hardware not yet production-qualified.**
 Build and validate first articles before the planned 100-board lot. Electrical,
 5 A thermal, RF, USB and assembly acceptance steps are recorded in
-[first-article validation](LX0001/v1.0.0/Source/first-article-validation.txt).
+[first-article validation](Source/first-article-validation.txt).
 No fabrication order has been placed.
 
 ### Files
 
-- [Source](LX0001/v1.0.0/Source/): editable KiCad project, schematic, PCB,
+- [Source](Source/): editable KiCad project, schematic, PCB,
   local footprints/models, electrical notes and verification/export tools.
-- [Assets](LX0001/v1.0.0/Assets/): datasheets, supplier models and review evidence.
-- [Export](LX0001/v1.0.0/Export/): current Gerbers, BOM/CPL, schematic PDF,
+- [Assets](Assets/): datasheets, supplier models and review evidence.
+- [Export](Export/): current Gerbers, BOM/CPL, schematic PDF,
   assembly drawings, renders and validation records.
 
-Open [LX0001.kicad_pro](LX0001/v1.0.0/Source/LX0001.kicad_pro) with KiCad 10.
+Open [LX0001.kicad_pro](Source/LX0001.kicad_pro) with KiCad 10.
 The saved PCB is the final routed design; development placement/router scripts
-are not a one-command rebuild recipe. See [tool notes](LX0001/v1.0.0/Source/tools/README.txt).
+are not a one-command rebuild recipe. See [tool notes](Source/tools/README.txt).
 Historical files under `Assets/review-history` are not manufacturing inputs.
