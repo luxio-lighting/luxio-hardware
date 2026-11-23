@@ -1,0 +1,46 @@
+{
+  "pcb_source": "Export/Enclosure/LX0001-assembled-mm.stl",
+  "pcb_source_sha256": "426f016c78552e416f5b1b8c98f2ed9db5187d964ff6a756f0a814df3c1c6bf8",
+  "base_source": "base-assembly.stl",
+  "base_source_sha256": "85f7337c464a7268e812b8bf613cc0534db1d41c752454072a7a15e5604a9425",
+  "pcb_source_transform": "Z translation only, +5.1988mm",
+  "glb_mapping_if_available": "(X,-Z,Y)*1000 + (0,0,5.1988); determinant positive",
+  "pcb_glb_sha256": "60e5bcdfd71f1ee4e936cc86cede824575fc4c3bc24270aa24fbdce87a0d7fb1",
+  "camera": {
+    "eye": [
+      30.225,
+      -10,
+      110
+    ],
+    "target": [
+      30.225,
+      -10,
+      5
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "parallel_scale_mm": 16.5
+  },
+  "landmarks_xy_mm": {
+    "H1": [
+      9.5,
+      -8
+    ],
+    "H2": [
+      42,
+      -3
+    ],
+    "USB-C": [
+      0,
+      -5.25
+    ],
+    "wire_input": [
+      0,
+      -15.25
+    ]
+  },
+  "image_sha256": "92f55e9285b5f146a8fcddad2dd6aae59d046ac80dee87496eabc143ade0daae"
+}

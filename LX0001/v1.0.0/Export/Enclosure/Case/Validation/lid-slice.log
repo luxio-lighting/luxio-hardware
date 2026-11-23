@@ -1,0 +1,154 @@
+[2026-11-23 18:46:53.670418] [0x00000001ee41d300] [trace]   Initializing StaticPrintConfigs
+[2026-11-23 18:46:53.676191] [0x00000001ee41d300] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-11-23 18:46:53.676291] [0x00000001ee41d300] [info]    Will start to read model file now, file count :1
+
+[2026-11-23 18:46:53.676375] [0x00000001ee41d300] [info]    allow_multicolor_oneplate 1, allow_rotations 1 skip_modified_gcodes 0 avoid_extrusion_cali_region 0 loaded_filament_ids size 0, clone_objects size 0, skip_useless_pick 0, allow_newer_file 0, allow_mix_temp 0
+[2026-11-23 18:46:53.676451] [0x00000001ee41d300] [info]    plate_to_slice=0, normative_check=1, use_first_fila_as_default=0
+[2026-11-23 18:46:53.676557] [0x00000001ee41d300] [info]    read model file:/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/v1.0.0/Export/Enclosure/Case/lid.stl
+
+[2026-11-23 18:46:53.679246] [0x00000001ee41d300] [info]    object lid.stl, id :5, from stl or other 3mf
+
+[2026-11-23 18:46:53.679347] [0x00000001ee41d300] [info]    run:before load settings, file count=2
+
+[2026-11-23 18:46:53.679428] [0x00000001ee41d300] [info]    operator():load setting file /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/machine.json, with rule 1
+
+[2026-11-23 18:46:53.679916] [0x00000001ee41d300] [info]    no substitutions performed from file /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/machine.json
+
+[2026-11-23 18:46:53.679998] [0x00000001ee41d300] [info]    loaded machine config /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/machine.json, type Bambu Lab X1 Carbon 0.4 nozzle, name system, inherits Bambu Lab X1 Carbon 0.4 nozzle, printer_model_id 
+[2026-11-23 18:46:53.680075] [0x00000001ee41d300] [info]    operator():load setting file /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/process.json, with rule 1
+
+[2026-11-23 18:46:53.680484] [0x00000001ee41d300] [info]    no substitutions performed from file /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/process.json
+
+[2026-11-23 18:46:53.680560] [0x00000001ee41d300] [info]    loaded process config /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/process.json, type LX0001 0.10mm PLA no-support reference, name system, inherits LX0001 0.10mm PLA no-support reference
+[2026-11-23 18:46:53.680637] [0x00000001ee41d300] [info]    operator():load setting file /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/filament.json, with rule 1
+
+[2026-11-23 18:46:53.681044] [0x00000001ee41d300] [info]    no substitutions performed from file /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/filament.json
+
+[2026-11-23 18:46:53.681142] [0x00000001ee41d300] [info]    loaded filament 1 from file /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/filament.json, type system, name Bambu PLA Basic @BBL X1C, inherits 
+[2026-11-23 18:46:53.681217] [0x00000001ee41d300] [info]    current printer , new printer Bambu Lab X1 Carbon 0.4 nozzle, current process , new process LX0001 0.10mm PLA no-support reference
+[2026-11-23 18:46:53.681290] [0x00000001ee41d300] [info]    current printer inherits , new printer inherits Bambu Lab X1 Carbon 0.4 nozzle, current process inherits , new process inherits LX0001 0.10mm PLA no-support reference
+[2026-11-23 18:46:53.681361] [0x00000001ee41d300] [info]    index 0, new print compatible printer Bambu Lab X1 Carbon 0.4 nozzle
+[2026-11-23 18:46:53.681433] [0x00000001ee41d300] [info]    index 1, new print compatible printer Bambu Lab X1 0.4 nozzle
+[2026-11-23 18:46:53.681504] [0x00000001ee41d300] [info]    index 2, new print compatible printer Bambu Lab P1S 0.4 nozzle
+[2026-11-23 18:46:53.681575] [0x00000001ee41d300] [info]    index 3, new print compatible printer Bambu Lab X1E 0.4 nozzle
+[2026-11-23 18:46:53.681649] [0x00000001ee41d300] [info]    new printer Bambu Lab X1 Carbon 0.4 nozzle, inherited from Bambu Lab X1 Carbon 0.4 nozzle, new process LX0001 0.10mm PLA no-support reference, inherited from LX0001 0.10mm PLA no-support reference ,compatible 1
+[2026-11-23 18:46:53.681732] [0x00000001ee41d300] [info]    update printer config to newest, different size 0, different_settings: 
+[2026-11-23 18:46:53.681816] [0x00000001ee41d300] [info]    update_full_config: config keys count 109
+[2026-11-23 18:46:53.681952] [0x00000001ee41d300] [info]    load a new printer, update all the keys, different_settings: 
+[2026-11-23 18:46:53.682032] [0x00000001ee41d300] [info]    check printer cli safe params, current_printer_name , new_printer_name Bambu Lab X1 Carbon 0.4 nozzle, printer_model Bambu Lab X1 Carbon
+[2026-11-23 18:46:53.682113] [0x00000001ee41d300] [info]    line 3260 , will parse file /Applications/BambuStudio.app/Contents/Resources/profiles/BBL/cli_config.json
+[2026-11-23 18:46:53.682395] [0x00000001ee41d300] [info]    can not find machine_limits for printer Bambu Lab X1 Carbon in cli_config.json
+[2026-11-23 18:46:53.682509] [0x00000001ee41d300] [info]    update process config to newest, different size 0, different_settings: 
+[2026-11-23 18:46:53.682584] [0x00000001ee41d300] [info]    update_full_config: config keys count 188
+[2026-11-23 18:46:53.682756] [0x00000001ee41d300] [info]    load a new process, update all the keys, different_settings: 
+[2026-11-23 18:46:53.682842] [0x00000001ee41d300] [info]    update filament 1's config to newest, different size 0, name Bambu PLA Basic @BBL X1C, different_settings 
+[2026-11-23 18:46:53.683010] [0x00000001ee41d300] [warning] no filament colors found in projects
+[2026-11-23 18:46:53.683084] [0x00000001ee41d300] [info]    total 1 models, 0 objects
+
+[2026-11-23 18:46:53.683802] [0x00000001ee41d300] [info]    4160, remove_wrapping_detect 0, old value 0
+[2026-11-23 18:46:53.683978] [0x00000001ee41d300] [info]    translate_old 0, shrink_to_new_bed 0, old bed size {256, 256, 250}
+[2026-11-23 18:46:53.684058] [0x00000001ee41d300] [info]    reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+[2026-11-23 18:46:53.684129] [0x00000001ee41d300] [info]    reset_size:after size: plate_width 256, plate_depth 256, plate_height 250
+[2026-11-23 18:46:53.684206] [0x00000001ee41d300] [info]    set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-11-23 18:46:53.684278] [0x00000001ee41d300] [info]    set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 250
+[2026-11-23 18:46:53.684350] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-11-23 18:46:53.684422] [0x00000001ee41d300] [info]    set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-11-23 18:46:53.684494] [0x00000001ee41d300] [info]    set_pos_and_size: with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 250
+[2026-11-23 18:46:53.684565] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-11-23 18:46:53.684646] [0x00000001ee41d300] [info]    will start transforms, commands count 2
+
+[2026-11-23 18:46:53.684716] [0x00000001ee41d300] [info]    process transform orient
+
+[2026-11-23 18:46:53.684787] [0x00000001ee41d300] [info]    object lid.stl, id :5, no need to orient when setting orient to 0
+
+[2026-11-23 18:46:53.684858] [0x00000001ee41d300] [info]    orient_option 0
+[2026-11-23 18:46:53.684933] [0x00000001ee41d300] [info]    process transform arrange
+
+[2026-11-23 18:46:53.685006] [0x00000001ee41d300] [info]    finished model pre-process commands
+
+[2026-11-23 18:46:53.685083] [0x00000001ee41d300] [info]    before arrange, need_arrange=1, duplicate_count 0, filament_color_changed 0
+[2026-11-23 18:46:53.685526] [0x00000001ee41d300] [info]    Arrange full params: {"min_obj_distance":0,"accuracy":1.000000,"parallel":1,"allow_rotations":1,"do_final_align":1,"allow_multi_materials_on_same_plate":1,"avoid_extrusion_cali_region":0,"is_seq_print":0,"bed_shrink_x":0.000000,"bed_shrink_y":0.000000,"brim_skirt_distance":0.000000,"clearance_height_to_rod":34.000000,"clearance_height_to_lid":90.000000,"cleareance_radius":68.000000,"printable_height":250.000000,
+[2026-11-23 18:46:53.685605] [0x00000001ee41d300] [info]    arrange: items selected before arranging: 1
+[2026-11-23 18:46:53.685677] [0x00000001ee41d300] [info]    arrange: items unselected before arranging: 16
+[2026-11-23 18:46:53.685749] [0x00000001ee41d300] [info]    start 1 th arranging...
+[2026-11-23 18:46:53.691342] [0x00000001ee41d300] [info]    finished 1 th arranging...
+[2026-11-23 18:46:53.691467] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-11-23 18:46:53.691554] [0x00000001ee41d300] [info]    rebuild_plates_after_arrangement:before rebuild, plates count 1, recycle_plates 1
+[2026-11-23 18:46:53.691636] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-11-23 18:46:53.691724] [0x00000001ee41d300] [info]    add_instance: plate 0 , m_ready_for_slice changes to 1
+[2026-11-23 18:46:53.691798] [0x00000001ee41d300] [info]    rebuild_plates_after_arrangement:after rebuild, plates count 1
+[2026-11-23 18:46:53.691878] [0x00000001ee41d300] [info]    Need to slice for plate 0, total plate count 1 partplates!
+
+[2026-11-23 18:46:53.691953] [0x00000001ee41d300] [info]    Plate 1: pre_check 1, start
+[2026-11-23 18:46:53.692040] [0x00000001ee41d300] [info]    update_print_volume_state, print_volume {0, 0, 0} to {256, 256, 250}, got 1 printable istances
+[2026-11-23 18:46:53.692122] [0x00000001ee41d300] [info]    plate 1: load cached data success, go on.
+[2026-11-23 18:46:53.692384] [0x00000001ee41d300] [info]    apply, Line 1184: enter
+[2026-11-23 18:46:53.692468] [0x00000001ee41d300] [info]    apply, has_scarf_joint_seam:false
+[2026-11-23 18:46:53.692544] [0x00000001ee41d300] [info]    apply, has_scarf_joint_seam:false
+[2026-11-23 18:46:53.692621] [0x00000001ee41d300] [info]    update_values_to_printer_extruders, Line 8679: extruder_count 1, extruder_nozzle_volume_count 1
+[2026-11-23 18:46:53.692693] [0x00000001ee41d300] [info]    update_values_to_printer_extruders, Line 8683: different nozzle volume processing
+[2026-11-23 18:46:53.692772] [0x00000001ee41d300] [info]    update_values_to_printer_extruders, Line 8679: extruder_count 1, extruder_nozzle_volume_count 1
+[2026-11-23 18:46:53.692844] [0x00000001ee41d300] [info]    update_values_to_printer_extruders, Line 8683: different nozzle volume processing
+[2026-11-23 18:46:53.692926] [0x00000001ee41d300] [info]    update_values_to_printer_extruders, Line 8679: extruder_count 1, extruder_nozzle_volume_count 1
+[2026-11-23 18:46:53.692997] [0x00000001ee41d300] [info]    update_values_to_printer_extruders, Line 8683: different nozzle volume processing
+[2026-11-23 18:46:53.693176] [0x00000001ee41d300] [info]    update_values_to_printer_extruders_for_multiple_filaments, Line 8892: extruder_count 1, extruder_nozzle_volume_count 1
+[2026-11-23 18:46:53.693249] [0x00000001ee41d300] [info]    update_values_to_printer_extruders_for_multiple_filaments, Line 8896: different nozzle volume processing
+[2026-11-23 18:46:53.693632] [0x00000001ee41d300] [info]    apply, got print_diff 129, object_diff 18, region_diff 30, set status to APPLY_STATUS_CHANGED
+[2026-11-23 18:46:53.693763] [0x00000001ee41d300] [info]    apply 1508: found full_config_diff changed.
+[2026-11-23 18:46:53.694020] [0x00000001ee41d300] [info]    apply 1835: found print object changed.
+[2026-11-23 18:46:53.694096] [0x00000001ee41d300] [info]    apply, got new_changed_keys, size=1
+[2026-11-23 18:46:53.694167] [0x00000001ee41d300] [info]    apply, i=0, key=enable_prime_tower
+[2026-11-23 18:46:53.694308] [0x00000001ee41d300] [info]    apply 2121: finished,  this 0x7b7ce04000, m_modified_count 1, apply_status 1, m_support_used 0
+[2026-11-23 18:46:53.694388] [0x00000001ee41d300] [info]    set no_check to 0:
+[2026-11-23 18:46:53.694498] [0x00000001ee41d300] [info]    start Print::process for partplate 1
+
+[2026-11-23 18:46:53.694579] [0x00000001ee41d300] [info]    set print's callback to default_status_callback.
+[2026-11-23 18:46:53.694652] [0x00000001ee41d300] [info]    printer_model_string: Bambu Lab X1 Carbon, is_bbl_vendor_preset 1
+[2026-11-23 18:46:53.694849] [0x00000001ee41d300] [info]    process: this=0x7b7ce04000, enter, use_cache=0, object size=1
+[2026-11-23 18:46:53.694939] [0x00000001ee41d300] [info]    process: total object counts 1 in current print, need to slice 1
+[2026-11-23 18:46:53.695014] [0x00000001ee41d300] [info]    Starting the slicing process. Resident memory: 52MB; Peak memory usage: 52MB
+[2026-11-23 18:46:53.695095] [0x00000001ee41d300] [info]    Slicing volumes... Resident memory: 52MB; Peak memory usage: 52MB
+[2026-11-23 18:46:53.707875] [0x00000001ee41d300] [info]    Generating walls... Resident memory: 60MB; Peak memory usage: 60MB
+[2026-11-23 18:46:53.758683] [0x00000001ee41d300] [info]    Detecting solid surfaces... Resident memory: 63MB; Peak memory usage: 63MB
+[2026-11-23 18:46:53.765769] [0x00000001ee41d300] [info]    Preparing fill surfaces... Resident memory: 64MB; Peak memory usage: 64MB
+[2026-11-23 18:46:53.765901] [0x00000001ee41d300] [info]    Discovering vertical shells... Resident memory: 64MB; Peak memory usage: 64MB
+[2026-11-23 18:46:53.773397] [0x00000001ee41d300] [info]    Processing external surfaces... Resident memory: 65MB; Peak memory usage: 65MB
+[2026-11-23 18:46:53.784647] [0x00000001ee41d300] [info]    Bridge over infill - Start Resident memory: 65MB; Peak memory usage: 65MB
+[2026-11-23 18:46:53.802521] [0x00000001ee41d300] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 65MB; Peak memory usage: 65MB
+[2026-11-23 18:46:53.802646] [0x00000001ee41d300] [info]    Bridge over infill - End Resident memory: 65MB; Peak memory usage: 65MB
+[2026-11-23 18:46:53.817900] [0x00000001ee41d300] [warning] tree support default to organic support
+[2026-11-23 18:46:53.830517] [0x00000001ee41d300] [info]    max_cantilever_dist=0
+[2026-11-23 18:46:53.830687] [0x00000001ee41d300] [info]    is_support_necessary takes 0 secs.
+[2026-11-23 18:46:53.832413] [0x00000001ee41d300] [info]    update_filament_maps_to_config: filament maps changed after pre-slicing.
+[2026-11-23 18:46:53.832617] [0x00000001ee41d300] [info]    update_filament_maps_to_config, Line 2887:  extruder_count 1, extruder_volume_type_count 1
+[2026-11-23 18:46:53.832701] [0x00000001ee41d300] [info]    update_values_to_printer_extruders_for_multiple_filaments, Line 8892: extruder_count 1, extruder_nozzle_volume_count 1
+[2026-11-23 18:46:53.832778] [0x00000001ee41d300] [info]    update_values_to_printer_extruders_for_multiple_filaments, Line 8896: different nozzle volume processing
+[2026-11-23 18:46:53.841768] [0x00000001ee41d300] [info]    gcode path conflicts check takes 0 secs.
+[2026-11-23 18:46:53.841886] [0x00000001ee41d300] [info]    Slicing process finished. Resident memory: 70MB; Peak memory usage: 70MB
+[2026-11-23 18:46:53.841965] [0x00000001ee41d300] [info]    print::process: first time_using_cache is 0 secs.
+[2026-11-23 18:46:53.842047] [0x00000001ee41d300] [info]    process finished, will export gcode temporily to /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/lid/plate_1.gcode
+
+[2026-11-23 18:46:53.842241] [0x00000001ee41d300] [info]    reset 1589: this=0x16da0f758 reset finished
+[2026-11-23 18:46:53.842349] [0x00000001ee41d300] [info]    Will export G-code to plate_1.gcode soon
+[2026-11-23 18:46:53.842535] [0x00000001ee41d300] [info]    Exporting G-code... Resident memory: 70MB; Peak memory usage: 70MB
+[2026-11-23 18:46:53.842727] [0x00000001ee41d300] [info]    reset 1589: this=0x16da0f758 reset finished
+[2026-11-23 18:46:54.007697] [0x00000001ee41d300] [info]    post_process:  before process plate_1.gcode.tmp
+[2026-11-23 18:46:54.012645] [0x00000001ee41d300] [info]    post_process:  after process plate_1.gcode.tmp
+[2026-11-23 18:46:54.013691] [0x00000001ee41d300] [info]    rename_file from plate_1.gcode.tmp to plate_1.gcode successfully
+[2026-11-23 18:46:54.013802] [0x00000001ee41d300] [info]    Exporting G-code finished Resident memory: 86MB; Peak memory usage: 86MB
+[2026-11-23 18:46:54.014062] [0x00000001ee41d300] [info]    export_gcode finished: time_using_cache update to 172 secs.
+[2026-11-23 18:46:54.014144] [0x00000001ee41d300] [info]    Slicing result exported to /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/lid/plate_1.gcode
+
+[2026-11-23 18:46:54.014220] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 1
+[2026-11-23 18:46:54.014309] [0x00000001ee41d300] [info]    ~PrintObject: this=0x7b7d344c00, m_shared_object 0
+[2026-11-23 18:46:54.015085] [0x00000001ee41d300] [info]    Plate 1: slice data released to free memory.
+[2026-11-23 18:46:54.015189] [0x00000001ee41d300] [info]    run, Finished
+
+[2026-11-23 18:46:54.015273] [0x00000001ee41d300] [info]    record_exit_reson:586 Slicer_Info_Report: plate_id=0, return_code=0, error_message=Success., slice_time_s=0.322, pring_time_s=1291, filament_usage_g=3.87298
+
+[2026-11-23 18:46:54.015478] [0x00000001ee41d300] [info]    record_exit_reson:604, saved config to /var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/lid/result.json
+
+[2026-11-23 18:46:54.015569] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 1 to 0
+[2026-11-23 18:46:54.015641] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-11-23 18:46:54.015769] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-11-23 18:46:54.015843] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0

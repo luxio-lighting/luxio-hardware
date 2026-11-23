@@ -1,0 +1,4 @@
+# name	STL	RGB	translation mm
+Base	base-assembly.stl	48,58,66	0,0,0
+Lid	lid-assembly.stl	195,204,209	0,0,16
+PCB reference	pcb-reference.stl	35,80,50	0,0,0

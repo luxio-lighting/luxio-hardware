@@ -1,0 +1,84 @@
+Reference,Value,Side,Center X mm (top view),Center Y mm (top view),Rotation deg,Envelope X min mm,Envelope Y min mm,Envelope X max mm,Envelope Y max mm,Height from mounted PCB face mm,Envelope source
+ANT1,RFECA3216060A1T,Top,14.5,1.5,0.0,12.95,0.7,16.05,2.3,0.61,Library 3D model
+C10,22uF 25V,Bottom,39.8,9.5,90.0,39.175,8.5,40.425,10.5,1.25,Library 3D model
+C100,10uF 10V,Bottom,20.5,5.8,0.0,19.7,5.4,21.3,6.2,0.8,Library 3D model
+C101,100nF 16V,Top,15.7,10.1,0.0,15.2,9.85,16.2,10.35,0.5,Library 3D model
+C102,100nF 16V,Top,17.25,9.1,-90.0,17.0,8.6,17.5,9.6,0.5,Library 3D model
+C103,100nF 16V,Top,21.12,14.8,180.0,20.62,14.55,21.62,15.05,0.5,Library 3D model
+C104,100nF 16V,Top,24.4,5.3,0.0,23.9,5.05,24.9,5.55,0.5,Library 3D model
+C105,100nF 16V,Top,18.4,5.3,180.0,17.9,5.05,18.9,5.55,0.5,Library 3D model
+C106,1uF 25V,Top,22.25,5.3,0.0,21.75,5.05,22.75,5.55,0.5,Library 3D model
+C107,10uF 10V,Top,27.0,2.0,90.0,26.6,1.2,27.4,2.8,0.8,Library 3D model
+C108,100nF 16V,Top,27.4,13.6,0.0,26.9,13.35,27.9,13.85,0.5,Library 3D model
+C109,1uF 25V,Bottom,27.6,13.2,0.0,27.1,12.95,28.1,13.45,0.5,Library 3D model
+C11,22uF 25V,Bottom,39.8,13.1,-90.0,39.175,12.1,40.425,14.1,1.25,Library 3D model
+C110,100nF 16V,Top,38.63,0.83,0.0,38.13,0.58,39.13,1.08,0.5,Library 3D model
+C111,1uF 25V,Bottom,26.6,4.8,90.0,26.35,4.3,26.85,5.3,0.5,Library 3D model
+C112,18pF 50V C0G,Top,19.05,3.48,90.0,18.8,2.98,19.3,3.98,0.5,Library 3D model
+C113,18pF 50V C0G,Top,25.52,1.59,90.0,25.27,1.09,25.77,2.09,0.5,Library 3D model
+C114,1.5pF 50V C0G,Top,17.75,7.4,-90.0,17.6,7.1,17.9,7.7,0.3,Library 3D model
+C115,1.5pF 50V C0G,Top,15.1,7.4,-90.0,14.95,7.1,15.25,7.7,0.3,Library 3D model
+C12,22uF 25V,Bottom,55.0,11.8,0.0,54.0,11.175,56.0,12.425,1.25,Library 3D model
+C13,22uF 25V,Bottom,56.0,17.0,90.0,55.375,16.0,56.625,18.0,1.25,Library 3D model
+C14,100nF 50V,Bottom,47.8,4.0,90.0,47.4,3.2,48.2,4.8,0.8,Library 3D model
+C17,100nF 50V,Bottom,57.0,8.0,90.0,56.6,7.2,57.4,8.8,0.8,Library 3D model
+C18,1nF 50V,Bottom,4.099999,4.0,0.0,3.3,3.6,4.9,4.4,0.8,Library 3D model
+C5,100nF 50V,Top,17.5,15.2,0.0,17.0,14.95,18.0,15.45,0.5,Library 3D model
+C6,1uF 50V,Bottom,1.3,6.2,90.0,0.9,5.4,1.7,7.0,0.8,Library 3D model
+C7,100nF 50V,Bottom,18.9,19.36,180.0,18.4,19.11,19.4,19.61,0.5,Library 3D model
+C8,10uF 50V,Bottom,31.0,3.25,180.0,29.4,2.45,32.6,4.05,1.6,Library 3D model
+C9,100nF 50V,Bottom,31.5,9.2,0.0,30.7,8.8,32.3,9.6,0.8,Library 3D model
+D1,1N4148W,Bottom,30.09,17.87,0.0,28.19,17.07,31.99,18.67,1.26,Library 3D model
+D2,SS14,Bottom,51.25,16.0,180.0,48.75,14.65,53.75,17.35,2.22,Library 3D model
+D3,SMBJ24A,Top,32.0,15.6,90.0,30.225,12.95,33.775,18.25,2.15,Library 3D model
+D4,BAT54C,Bottom,30.64,14.18,0.0,29.39,12.68,31.89,15.68,1.2,Library 3D model
+F1,8A 32V,Top,17.54,18.4,0.0,15.99,17.625,19.09,19.175,0.55,Library 3D model
+J1,USB-TYPE-C-018,Top,2.5,5.25,-90.0,-1.175,0.78,6.175,9.72,3.16,Manufacturer nominal body
+J2,2060-452-HDGC,Top,6.5,15.25,-90.0,0.75,11.3,12.25,19.2,4.5,Manufacturer nominal body
+J3,2060-452-HDGC,Top,53.5,5.75,90.0,47.75,1.8,59.25,9.7,4.5,Manufacturer nominal body
+J4,2060-452-HDGC,Top,53.5,14.25,90.0,47.75,10.3,59.25,18.2,4.5,Manufacturer nominal body
+L1,10uH 1.5A Isat1.95A,Bottom,35.5,10.0,0.0,33.5,8,37.5,12,3.0,Library 3D model
+L100,2nH 900mA,Top,15.7,8.7,0.0,15.2,8.45,16.2,8.95,0.5,Library 3D model
+L101,24nH,Top,20.4,5.0,0.0,19.9,4.75,20.9,5.25,0.5,Library 3D model
+L102,2.7nH,Top,16.399999,7.72,180.0,16.1,7.57,16.7,7.87,0.3,Library 3D model
+L2,4.7uH 2A Isat2.9A,Bottom,50.0,12.0,180.0,48,10,52,14,3.0,Library 3D model
+Q1,CSD18543Q3A,Top,22.0,17.5,0.0,20.35,15.86,23.65,19.14,0.97,Library 3D model
+Q2,MMBT3904,Top,9.2,3.45,0.0,7.95,1.95,10.45,4.95,1.2,Library 3D model
+Q3,CSD18543Q3A,Bottom,24.5,17.0,0.0,22.85,15.36,26.15,18.64,0.97,Library 3D model
+R1,5.1k,Top,13.3,5.9,0.0,12.5,5.5,14.1,6.3,0.45,Library 3D model
+R10,100k,Bottom,3.6,11.0,0.0,2.8,10.6,4.4,11.4,0.45,Library 3D model
+R100,10k,Top,24.94,4.22,0.0,24.44,3.97,25.44,4.47,0.35,Library 3D model
+R101,10k,Top,16.9,13.65,0.0,16.4,13.4,17.4,13.9,0.35,Library 3D model
+R102,10k,Top,26.62,4.88,90.0,26.37,4.38,26.87,5.38,0.35,Library 3D model
+R103,10k,Bottom,23.0,3.4,0.0,22.5,3.15,23.5,3.65,0.35,Library 3D model
+R105,0,Top,27.6,12.5,0.0,27.1,12.25,28.1,12.75,0.35,Library 3D model
+R110,10k,Top,25.11,3.2,0.0,24.61,2.95,25.61,3.45,0.35,Library 3D model
+R12,47k,Top,13.3,4.099999,0.0,12.5,3.7,14.1,4.5,0.45,Library 3D model
+R13,100k,Bottom,18.95,13.75,90.0,18.55,12.95,19.35,14.55,0.45,Library 3D model
+R14,73.2k,Bottom,45.5,18.7,0.0,44.7,18.3,46.3,19.1,0.45,Library 3D model
+R15,10k,Bottom,49.0,18.7,0.0,48.2,18.3,49.8,19.1,0.45,Library 3D model
+R16,100,Bottom,50.23,8.33,0.0,49.43,7.93,51.03,8.73,0.45,Library 3D model
+R17,100k,Bottom,54.44,3.25,90.0,54.04,2.45,54.84,4.05,0.45,Library 3D model
+R18,100k,Bottom,50.81,1.04,0.0,50.01,0.64,51.61,1.44,0.45,Library 3D model
+R2,5.1k,Bottom,16.45,14.1,0.0,15.65,13.7,17.25,14.5,0.45,Library 3D model
+R22,100k,Bottom,27.9,5.6,90.0,27.5,4.8,28.3,6.4,0.45,Library 3D model
+R23,22k,Bottom,27.9,9.0,-90.0,27.5,8.2,28.3,9.8,0.45,Library 3D model
+R24,10k,Bottom,29.5,11.5,0.0,28.7,11.1,30.3,11.9,0.45,Library 3D model
+R27,100,Bottom,47.77,6.65,0.0,46.97,6.25,48.57,7.05,0.45,Library 3D model
+R28,100k,Bottom,58.0,18.1,90.0,57.6,17.3,58.4,18.9,0.45,Library 3D model
+R29,100k,Bottom,46.3,1.5,0.0,45.5,1.1,47.1,1.9,0.45,Library 3D model
+R3,22,Top,25.2,15.7,90.0,24.8,14.9,25.6,16.5,0.45,Library 3D model
+R30,10k,Bottom,33.68,14.79,90.0,33.28,13.99,34.08,15.59,0.45,Library 3D model
+R4,22,Top,27.0,15.7,90.0,26.6,14.9,27.4,16.5,0.45,Library 3D model
+SW1,TS-1088-AR02016,Top,30.0,10.0,180.0,28.05,8.5,31.95,11.5,2.0,Manufacturer nominal body
+U1,ESP32-S3,Top,22.2,10.0,0.0,18.7,6.5,25.7,13.5,0.885,Library 3D model
+U10,W25Q32JVSSIQ,Top,33.0,4.0,0.0,29.1,1.35,36.9,6.65,2.16,Library 3D model
+U2,USBLC6-2SC6,Bottom,9.75,12.85,0.0,8.35,11.4,11.15,14.3,1.55,Library 3D model
+U3,LM74700QDBVRQ1,Bottom,15.5,17.0,180.0,14.1,15.55,16.9,18.45,1.55,Library 3D model
+U4,TPS22965DSGR,Bottom,4.5,6.5,0.0,3.5,5.5,5.5,7.5,0.805,Library 3D model
+U5,LM74700QDBVRQ1,Bottom,20.0,17.0,0.0,18.6,15.55,21.4,18.45,1.55,Library 3D model
+U6,LMR51410YFDBVR,Bottom,31.0,6.5,0.0,29.6,5.05,32.4,7.95,1.55,Library 3D model
+U7,MT3608,Bottom,45.5,15.5,180.0,44.1,14.05,46.9,16.95,1.55,Library 3D model
+U8,SN74AHCT1G125DBVR,Bottom,51.0,4.0,180.0,49.6,2.55,52.4,5.45,1.55,Library 3D model
+U9,SN74AHCT1G125DBVR,Bottom,54.0,8.0,180.0,52.6,6.55,55.4,9.45,1.55,Library 3D model
+Y1,40MHz 12pF 10ppm,Top,21.8,2.4,0.0,20.2007,1.1505,23.4011,3.6513,0.64,Library 3D model

@@ -1,0 +1,135 @@
+{
+  "pcb_sha256": "3cc160da4f7fa13ef59384af6bed833262a5ae5767c5308019eb83b8bfa82ea1",
+  "parameters": {
+    "material": "PLA",
+    "nozzle_mm": 0.4,
+    "layer_mm": 0.1,
+    "outer_x_mm": [
+      -1.5,
+      61.95
+    ],
+    "outer_y_mm": [
+      -3.15,
+      23.15
+    ],
+    "floor_outer_z_mm": -6.8,
+    "floor_inner_z_mm": -5.2,
+    "roof_inner_z_mm": 2.9,
+    "roof_outer_z_mm": 4.5,
+    "outer_corner_radius_mm": 1.2,
+    "inner_wall_thickness_mm": 1.0,
+    "pcb_side_clearance_mm": 0.7,
+    "wall_fit_clearance_mm": 0.25,
+    "snap_centers_x_mm": [
+      9.5,
+      42.0
+    ],
+    "snap_beam_width_mm": 4.4,
+    "snap_slot_width_mm": 0.8,
+    "snap_root_z_mm": -4.4,
+    "snap_tip_z_mm": 2.6,
+    "snap_engagement_mm": 0.25,
+    "boss_diameter_mm": 4.2,
+    "locating_pin_diameter_mm": 1.8,
+    "pin_tip_z_mm": 0.6,
+    "pcb_capture_top_z_mm": 0.22,
+    "lid_pin_socket_diameter_mm": 2.3,
+    "button_xy_mm": [
+      30.0,
+      10.0
+    ],
+    "button_membrane_diameter_mm": 22.0,
+    "button_membrane_thickness_mm": 0.4,
+    "button_plunger_diameter_mm": 1.5,
+    "button_tip_z_mm": 2.6,
+    "notes": "Prototype fit values. Z=0 is nominal PCB top. Positive Y follows the PCB top-view drawing.",
+    "end_seam_clearance_mm": 0.2,
+    "end_wall_side_margin_mm": 0.7,
+    "end_wall_side_fit_mm": 0.25,
+    "inner_corner_end_clearance_mm": 0.2,
+    "usb_clearance_per_side_mm": 0.3,
+    "usb_nominal_width_mm": 8.94,
+    "usb_nominal_height_mm": 3.16,
+    "usb_inferred_corner_radius_mm": 1.0,
+    "usb_opening_vertical_offset_mm": 0.1,
+    "usb_ceiling_z_mm": 3.6,
+    "terminal_top_clearance_mm": 0.4
+  },
+  "base_lid_overlap_mm3": 0,
+  "print_meshes": {
+    "base": {
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 4000.6553732060493,
+      "bounds_mm": [
+        [
+          -2.220446049250313e-16,
+          0.0,
+          0.0
+        ],
+        [
+          63.45000076293945,
+          26.299999237060547,
+          9.399999618530273
+        ]
+      ],
+      "faces": 6244,
+      "connected_bodies": 1
+    },
+    "lid": {
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 2877.4850251437147,
+      "bounds_mm": [
+        [
+          -2.220446049250313e-16,
+          -8.881784197001252e-16,
+          -1.9230659104800107e-15
+        ],
+        [
+          63.45000076293945,
+          26.299999237060547,
+          9.699999809265137
+        ]
+      ],
+      "faces": 4708,
+      "connected_bodies": 1
+    }
+  },
+  "physical_fit_tested": false,
+  "coordinates": {
+    "construction": "2D PCB drawing coordinates: X right, Y down; converted before export",
+    "physical_assembly": "Original KiCad STEP axes: X right, Y up in top view, Z toward top components; PCB top Z=6.8mm",
+    "construction_to_physical": "(x,y,z) -> (x,-y,z)",
+    "pcb_reference_transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        5.1988
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pcb_reference_transform_determinant": 1.0
+  },
+  "button_note": "Continuous22.0mm diameter,0.4mm thick PLA membrane;0.6000000000000001mm nominal switch gap. No assumed housing-stop geometry; force/travel requires physical fit testing.",
+  "pcb_capture_gap_mm": 1.82,
+  "intended_print_orientation": "STL base floor down; STL lid exterior roof down; no supports."
+}

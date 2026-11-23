@@ -3,7 +3,7 @@
 A compact ESP32-S3 controller for addressable LED strips, with two 5V logic
 outputs, Wi-Fi, native USB and automatic wired-input priority.
 
-### 3D views
+## PCB
 
 | | | |
 | --- | --- | --- |
@@ -73,7 +73,41 @@ enumeration or suspend current budgets.
 Hold the button during reset or power-up to enter ROM download mode; pressing
 it alone does not reset a running controller.
 
-### Enclosure
+### Manufacturing and status
+
+[Download the JLCPCB release package](Export/LX0001-v1.0.0-JLCPCB.zip).
+Upload the Gerber ZIP, BOM and CPL together, using the included
+[order settings](Export/JLCPCB-order-settings.txt). The current
+release contains 83 fitted components; L104 is DNP. The component-only estimate
+is $12.32 per board for 100 boards, excluding PCB and assembly costs.
+
+The saved design passes ERC, DRC, schematic/PCB parity and the independent
+drill-to-paste check, with zero open connections or mechanical DRC exceptions.
+All routing vias have 0.30 mm drills. Copper-loss estimates include all
+four layers; they are not thermal qualification.
+
+**Status: assembled prototypes tested; production qualification remains open.**
+Received boards have been flashed and tested controlling LEDs with USB-C and
+24V power. Electrical, 5 A thermal, RF, USB and assembly qualification steps
+are recorded in [first-article validation](Source/first-article-validation.txt).
+
+## Casing
+
+| Closed | Exploded | Inside / print orientation |
+| --- | --- | --- |
+| [![Closed casing](Export/Enclosure/Case/case-closed.png)](Export/Enclosure/Case/case-closed.png) | [![Exploded casing](Export/Enclosure/Case/case-exploded.png)](Export/Enclosure/Case/case-exploded.png) | [![Casing inside](Export/Enclosure/Case/case-inside.png)](Export/Enclosure/Case/case-inside.png) |
+
+Two printed PLA parts with a snap closure, screwless PCB retention and an
+integrated BOOT button. Outside dimensions: **63.45 × 26.30 × 11.30 mm**.
+The wire-release tabs remain accessible from above.
+
+[3MF](Export/Enclosure/Case/LX0001-case-print-layout.3mf) ·
+[SketchUp](Export/Enclosure/Case/LX0001-case.skp) ·
+[STEP](Export/Enclosure/Case/LX0001-case-assembly.step) ·
+[Complete package](Export/Enclosure/LX0001-case.zip) ·
+[Print and assembly instructions](Export/Enclosure/Case/README.md)
+
+### Mechanical reference
 
 The button center is **(30, 10) mm**. Mounting-hole centers are **(9.5, 8) mm**
 and **(42, 3) mm**, measured from the top-left board corner. Use screw heads
@@ -93,26 +127,7 @@ is linked to the exact part. C2927038 links to a shared HRO USB model named
 Other custom part models may be simplified.
 [Model provenance and alignment](Source/connector-model-update.json).
 
-### Manufacturing and status
-
-[Download the JLCPCB release package](Export/LX0001-v1.0.0-JLCPCB.zip).
-Upload the Gerber ZIP, BOM and CPL together, using the included
-[order settings](Export/JLCPCB-order-settings.txt). The current
-release contains 83 fitted components; L104 is DNP. The component-only estimate
-is $12.32 per board for 100 boards, excluding PCB and assembly costs.
-
-The saved design passes ERC, DRC, schematic/PCB parity and the independent
-drill-to-paste check, with zero open connections or mechanical DRC exceptions.
-All routing vias have 0.30 mm drills. Copper-loss estimates include all
-four layers; they are not thermal qualification.
-
-**Status: fabrication data checked; hardware not yet production-qualified.**
-Build and validate first articles before the planned 100-board lot. Electrical,
-5 A thermal, RF, USB and assembly acceptance steps are recorded in
-[first-article validation](Source/first-article-validation.txt).
-No fabrication order has been placed.
-
-### Files
+## Files
 
 - [Source](Source/): editable KiCad project, schematic, PCB,
   local footprints/models, electrical notes and verification/export tools.

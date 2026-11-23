@@ -1,0 +1,55 @@
+{
+  "material": "PLA",
+  "nozzle_mm": 0.4,
+  "layer_mm": 0.1,
+  "outer_x_mm": [
+    -1.5,
+    61.95
+  ],
+  "outer_y_mm": [
+    -3.15,
+    23.15
+  ],
+  "floor_outer_z_mm": -6.8,
+  "floor_inner_z_mm": -5.2,
+  "roof_inner_z_mm": 2.9,
+  "roof_outer_z_mm": 4.5,
+  "outer_corner_radius_mm": 1.2,
+  "inner_wall_thickness_mm": 1.0,
+  "pcb_side_clearance_mm": 0.7,
+  "wall_fit_clearance_mm": 0.25,
+  "snap_centers_x_mm": [
+    9.5,
+    42.0
+  ],
+  "snap_beam_width_mm": 4.4,
+  "snap_slot_width_mm": 0.8,
+  "snap_root_z_mm": -4.4,
+  "snap_tip_z_mm": 2.6,
+  "snap_engagement_mm": 0.25,
+  "boss_diameter_mm": 4.2,
+  "locating_pin_diameter_mm": 1.8,
+  "pin_tip_z_mm": 0.6,
+  "pcb_capture_top_z_mm": 0.22,
+  "lid_pin_socket_diameter_mm": 2.3,
+  "button_xy_mm": [
+    30.0,
+    10.0
+  ],
+  "button_membrane_diameter_mm": 22.0,
+  "button_membrane_thickness_mm": 0.4,
+  "button_plunger_diameter_mm": 1.5,
+  "button_tip_z_mm": 2.6,
+  "notes": "Prototype fit values. Z=0 is nominal PCB top. Positive Y follows the PCB top-view drawing.",
+  "end_seam_clearance_mm": 0.2,
+  "end_wall_side_margin_mm": 0.7,
+  "end_wall_side_fit_mm": 0.25,
+  "inner_corner_end_clearance_mm": 0.2,
+  "usb_clearance_per_side_mm": 0.3,
+  "usb_nominal_width_mm": 8.94,
+  "usb_nominal_height_mm": 3.16,
+  "usb_inferred_corner_radius_mm": 1.0,
+  "usb_opening_vertical_offset_mm": 0.1,
+  "usb_ceiling_z_mm": 3.6,
+  "terminal_top_clearance_mm": 0.4
+}
