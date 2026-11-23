@@ -1,0 +1,1560 @@
+{
+  "stl_sha256": "79a5fd2201074bc88ee976247fe22150c7b60cdab7da9b5c5827c8ca5b9546be",
+  "gcode_sha256": "a7f2dfa1d62e5652b83804bbc47395e63042da67d01db6bd606e7a4425af6cbc",
+  "command": [
+    "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+    "--debug",
+    "3",
+    "--datadir",
+    "/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/data",
+    "--load-settings",
+    "/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/machine.json;/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/process.json",
+    "--load-filaments",
+    "/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/filament.json",
+    "--orient",
+    "0",
+    "--arrange",
+    "1",
+    "--slice",
+    "0",
+    "--outputdir",
+    "/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0001-reference-slice-2y5mbyb9/lid",
+    "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0001/Enclosure/v1.0.0/Export/Case/lid.stl"
+  ],
+  "slicer_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.10000000149011612,
+    "plate_index": 0,
+    "prepare_time": 15,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 47.73617935180664,
+          "Bridge": 0.7885322570800781,
+          "Custom": 445.3525085449219,
+          "Flush": 29.0,
+          "Gap infill": 120.61500549316406,
+          "Inner wall": 25.637020111083984,
+          "Internal solid infill": 212.9531707763672,
+          "Outer wall": 252.6727752685547,
+          "Top surface": 42.68256378173828,
+          "Travel": 128.82090759277344,
+          "Undefined": 113.52621459960938
+        },
+        "filament_change_times": 0,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 3.872976541519165,
+            "total_used_g": 3.872976541519165
+          }
+        ],
+        "generate_support_material_time": 13,
+        "id": 1,
+        "infill_time": 59,
+        "layer_filament_change": 0,
+        "main_predication": 802.9769287109375,
+        "make_perimeters_time": 63,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 26.29999542236328,
+              "height": 9.699999809265137,
+              "width": 63.45000457763672,
+              "x": 96.27498626708984,
+              "y": 114.85001373291016,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "lid.stl",
+            "triangle_count": 4708
+          }
+        ],
+        "sliced_time": 322,
+        "sliced_time_with_cache": 172,
+        "total_predication": 1291.004150390625,
+        "triangle_count": 4708,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "wall_loops": 2
+  },
+  "layers": 97,
+  "layer_z_mm": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.7,
+    1.8,
+    1.9,
+    2.0,
+    2.1,
+    2.2,
+    2.3,
+    2.4,
+    2.5,
+    2.6,
+    2.7,
+    2.8,
+    2.9,
+    3.0,
+    3.1,
+    3.2,
+    3.3,
+    3.4,
+    3.5,
+    3.6,
+    3.7,
+    3.8,
+    3.9,
+    4.0,
+    4.1,
+    4.2,
+    4.3,
+    4.4,
+    4.5,
+    4.6,
+    4.7,
+    4.8,
+    4.9,
+    5.0,
+    5.1,
+    5.2,
+    5.3,
+    5.4,
+    5.5,
+    5.6,
+    5.7,
+    5.8,
+    5.9,
+    6.0,
+    6.1,
+    6.2,
+    6.3,
+    6.4,
+    6.5,
+    6.6,
+    6.7,
+    6.8,
+    6.9,
+    7.0,
+    7.1,
+    7.2,
+    7.3,
+    7.4,
+    7.5,
+    7.6,
+    7.7,
+    7.8,
+    7.9,
+    8.0,
+    8.1,
+    8.2,
+    8.3,
+    8.4,
+    8.5,
+    8.6,
+    8.7,
+    8.8,
+    8.9,
+    9.0,
+    9.1,
+    9.2,
+    9.3,
+    9.4,
+    9.5,
+    9.6,
+    9.7
+  ],
+  "feature_move_counts": {
+    "Inner wall": 518,
+    "Outer wall": 3512,
+    "Bottom surface": 334,
+    "Internal solid infill": 7756,
+    "Bridge": 34,
+    "Gap infill": 4038,
+    "Top surface": 393
+  },
+  "bridge_paths": [
+    {
+      "z_mm": 0.3,
+      "length_mm": 1.0009999999999906,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        126.921,
+        127.86
+      ],
+      "end_xy": [
+        127.922,
+        127.86
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.2228945939227809,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        127.922,
+        127.86
+      ],
+      "end_xy": [
+        128.143,
+        127.831
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.2318965286501624,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        128.143,
+        127.831
+      ],
+      "end_xy": [
+        128.367,
+        127.771
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.24884734276260245,
+      "maximum_unbacked_centerline_run_mm": 0.0498,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        128.367,
+        127.771
+      ],
+      "end_xy": [
+        128.597,
+        127.676
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.24100000000000502,
+      "maximum_unbacked_centerline_run_mm": 0.0241,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        128.597,
+        127.676
+      ],
+      "end_xy": [
+        128.806,
+        127.556
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.1836001089324223,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        128.806,
+        127.556
+      ],
+      "end_xy": [
+        128.953,
+        127.446
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 2.355000000000004,
+      "maximum_unbacked_centerline_run_mm": 0.1983,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        128.953,
+        127.446
+      ],
+      "end_xy": [
+        126.598,
+        127.446
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.29993332592428407,
+      "maximum_unbacked_centerline_run_mm": 0.025,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        126.598,
+        127.446
+      ],
+      "end_xy": [
+        126.38,
+        127.24
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.2616275979326269,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        126.38,
+        127.24
+      ],
+      "end_xy": [
+        126.22,
+        127.033
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 3.1100000000000136,
+      "maximum_unbacked_centerline_run_mm": 0.0498,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        126.22,
+        127.033
+      ],
+      "end_xy": [
+        129.33,
+        127.033
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.26555978611227554,
+      "maximum_unbacked_centerline_run_mm": 0.0483,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        129.33,
+        127.033
+      ],
+      "end_xy": [
+        129.461,
+        126.802
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.19684765683136562,
+      "maximum_unbacked_centerline_run_mm": 0.0492,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        129.461,
+        126.802
+      ],
+      "end_xy": [
+        129.536,
+        126.62
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 3.521000000000001,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        129.536,
+        126.62
+      ],
+      "end_xy": [
+        126.015,
+        126.62
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.22692069099137221,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        126.015,
+        126.62
+      ],
+      "end_xy": [
+        125.952,
+        126.402
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.19729419656949607,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        125.952,
+        126.402
+      ],
+      "end_xy": [
+        125.922,
+        126.207
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 3.7069999999999936,
+      "maximum_unbacked_centerline_run_mm": 1.1444,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        125.922,
+        126.207
+      ],
+      "end_xy": [
+        129.629,
+        126.207
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.20541178155110634,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        129.629,
+        126.207
+      ],
+      "end_xy": [
+        129.642,
+        126.002
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.20940391591370855,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        129.642,
+        126.002
+      ],
+      "end_xy": [
+        129.629,
+        125.793
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 3.708999999999989,
+      "maximum_unbacked_centerline_run_mm": 1.1948,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        129.629,
+        125.793
+      ],
+      "end_xy": [
+        125.92,
+        125.793
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.20270421801235716,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        125.92,
+        125.793
+      ],
+      "end_xy": [
+        125.953,
+        125.593
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.22184003245582873,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        125.953,
+        125.593
+      ],
+      "end_xy": [
+        126.015,
+        125.38
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 3.521000000000001,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        126.015,
+        125.38
+      ],
+      "end_xy": [
+        129.536,
+        125.38
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.24462420158275047,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        129.536,
+        125.38
+      ],
+      "end_xy": [
+        129.44,
+        125.155
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.21781643647805288,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        129.44,
+        125.155
+      ],
+      "end_xy": [
+        129.33,
+        124.967
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 3.1100000000000136,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        129.33,
+        124.967
+      ],
+      "end_xy": [
+        126.22,
+        124.967
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.2934655005277393,
+      "maximum_unbacked_centerline_run_mm": 0.1223,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        126.22,
+        124.967
+      ],
+      "end_xy": [
+        126.401,
+        124.736
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.26600751869073513,
+      "maximum_unbacked_centerline_run_mm": 0.2418,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        126.401,
+        124.736
+      ],
+      "end_xy": [
+        126.595,
+        124.554
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 2.358000000000004,
+      "maximum_unbacked_centerline_run_mm": 0.0248,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        126.595,
+        124.554
+      ],
+      "end_xy": [
+        128.953,
+        124.554
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.18140011025356323,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        128.953,
+        124.554
+      ],
+      "end_xy": [
+        128.808,
+        124.445
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.23740261161157059,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        128.808,
+        124.445
+      ],
+      "end_xy": [
+        128.602,
+        124.327
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.2110094784601068,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        128.602,
+        124.327
+      ],
+      "end_xy": [
+        128.408,
+        124.244
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.2741751265158639,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        128.408,
+        124.244
+      ],
+      "end_xy": [
+        128.144,
+        124.17
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 0.20421557237391344,
+      "maximum_unbacked_centerline_run_mm": 0.0,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        128.144,
+        124.17
+      ],
+      "end_xy": [
+        127.942,
+        124.14
+      ]
+    },
+    {
+      "z_mm": 0.3,
+      "length_mm": 1.0209999999999866,
+      "maximum_unbacked_centerline_run_mm": 0.0498,
+      "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+      "start_xy": [
+        127.942,
+        124.14
+      ],
+      "end_xy": [
+        126.921,
+        124.14
+      ]
+    }
+  ],
+  "whole_floating_islands": [],
+  "raster_pixel_mm": 0.05,
+  "support_contact_tolerance_mm": 0.1,
+  "layer_audit": [
+    {
+      "layer": 1,
+      "z_mm": 0.1,
+      "extrusion_moves": 383,
+      "extruded_area_mm2": 1244.5675,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "z_mm": 0.2,
+      "extrusion_moves": 460,
+      "extruded_area_mm2": 1247.4525000000003,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 11.130000000000003
+    },
+    {
+      "layer": 3,
+      "z_mm": 0.3,
+      "extrusion_moves": 502,
+      "extruded_area_mm2": 1247.6400000000003,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.7225000000000001
+    },
+    {
+      "layer": 4,
+      "z_mm": 0.4,
+      "extrusion_moves": 641,
+      "extruded_area_mm2": 1250.3200000000002,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 5,
+      "z_mm": 0.5,
+      "extrusion_moves": 548,
+      "extruded_area_mm2": 881.4700000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0125
+    },
+    {
+      "layer": 6,
+      "z_mm": 0.6,
+      "extrusion_moves": 550,
+      "extruded_area_mm2": 881.7625,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.035
+    },
+    {
+      "layer": 7,
+      "z_mm": 0.7,
+      "extrusion_moves": 546,
+      "extruded_area_mm2": 881.4100000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.04750000000000001
+    },
+    {
+      "layer": 8,
+      "z_mm": 0.8,
+      "extrusion_moves": 547,
+      "extruded_area_mm2": 881.9475000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.04000000000000001
+    },
+    {
+      "layer": 9,
+      "z_mm": 0.9,
+      "extrusion_moves": 584,
+      "extruded_area_mm2": 881.5025,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.04750000000000001
+    },
+    {
+      "layer": 10,
+      "z_mm": 1.0,
+      "extrusion_moves": 561,
+      "extruded_area_mm2": 809.3800000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.037500000000000006
+    },
+    {
+      "layer": 11,
+      "z_mm": 1.1,
+      "extrusion_moves": 561,
+      "extruded_area_mm2": 808.5075000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.3225
+    },
+    {
+      "layer": 12,
+      "z_mm": 1.2,
+      "extrusion_moves": 560,
+      "extruded_area_mm2": 808.3325000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.14500000000000002
+    },
+    {
+      "layer": 13,
+      "z_mm": 1.3,
+      "extrusion_moves": 553,
+      "extruded_area_mm2": 807.7750000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.07250000000000001
+    },
+    {
+      "layer": 14,
+      "z_mm": 1.4,
+      "extrusion_moves": 562,
+      "extruded_area_mm2": 808.1500000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.1625
+    },
+    {
+      "layer": 15,
+      "z_mm": 1.5,
+      "extrusion_moves": 558,
+      "extruded_area_mm2": 807.7575000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.09750000000000002
+    },
+    {
+      "layer": 16,
+      "z_mm": 1.6,
+      "extrusion_moves": 419,
+      "extruded_area_mm2": 810.2325000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.05
+    },
+    {
+      "layer": 17,
+      "z_mm": 1.7,
+      "extrusion_moves": 168,
+      "extruded_area_mm2": 189.39000000000001,
+      "path_components": 6,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 18,
+      "z_mm": 1.8,
+      "extrusion_moves": 161,
+      "extruded_area_mm2": 189.27250000000004,
+      "path_components": 6,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 19,
+      "z_mm": 1.9,
+      "extrusion_moves": 176,
+      "extruded_area_mm2": 189.54500000000002,
+      "path_components": 6,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.13250000000000003
+    },
+    {
+      "layer": 20,
+      "z_mm": 2.0,
+      "extrusion_moves": 244,
+      "extruded_area_mm2": 186.1725,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 21,
+      "z_mm": 2.1,
+      "extrusion_moves": 223,
+      "extruded_area_mm2": 184.41000000000003,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 22,
+      "z_mm": 2.2,
+      "extrusion_moves": 194,
+      "extruded_area_mm2": 182.86,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 23,
+      "z_mm": 2.3,
+      "extrusion_moves": 175,
+      "extruded_area_mm2": 181.22500000000002,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 24,
+      "z_mm": 2.4,
+      "extrusion_moves": 180,
+      "extruded_area_mm2": 179.61,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 25,
+      "z_mm": 2.5,
+      "extrusion_moves": 174,
+      "extruded_area_mm2": 178.84500000000003,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 26,
+      "z_mm": 2.6,
+      "extrusion_moves": 182,
+      "extruded_area_mm2": 178.63750000000002,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 27,
+      "z_mm": 2.7,
+      "extrusion_moves": 173,
+      "extruded_area_mm2": 174.19750000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 28,
+      "z_mm": 2.8,
+      "extrusion_moves": 170,
+      "extruded_area_mm2": 174.29000000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 29,
+      "z_mm": 2.9,
+      "extrusion_moves": 171,
+      "extruded_area_mm2": 174.3075,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 30,
+      "z_mm": 3.0,
+      "extrusion_moves": 172,
+      "extruded_area_mm2": 174.38500000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 31,
+      "z_mm": 3.1,
+      "extrusion_moves": 175,
+      "extruded_area_mm2": 174.36750000000004,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 32,
+      "z_mm": 3.2,
+      "extrusion_moves": 182,
+      "extruded_area_mm2": 175.20000000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 33,
+      "z_mm": 3.3,
+      "extrusion_moves": 142,
+      "extruded_area_mm2": 176.49,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 34,
+      "z_mm": 3.4,
+      "extrusion_moves": 142,
+      "extruded_area_mm2": 170.16500000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 35,
+      "z_mm": 3.5,
+      "extrusion_moves": 164,
+      "extruded_area_mm2": 171.77,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 36,
+      "z_mm": 3.6,
+      "extrusion_moves": 175,
+      "extruded_area_mm2": 173.43000000000004,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 37,
+      "z_mm": 3.7,
+      "extrusion_moves": 113,
+      "extruded_area_mm2": 175.14750000000004,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 38,
+      "z_mm": 3.8,
+      "extrusion_moves": 94,
+      "extruded_area_mm2": 175.03000000000003,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 39,
+      "z_mm": 3.9,
+      "extrusion_moves": 95,
+      "extruded_area_mm2": 174.9625,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 40,
+      "z_mm": 4.0,
+      "extrusion_moves": 98,
+      "extruded_area_mm2": 174.97500000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 41,
+      "z_mm": 4.1,
+      "extrusion_moves": 97,
+      "extruded_area_mm2": 174.9625,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 42,
+      "z_mm": 4.2,
+      "extrusion_moves": 96,
+      "extruded_area_mm2": 175.00250000000003,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 43,
+      "z_mm": 4.3,
+      "extrusion_moves": 97,
+      "extruded_area_mm2": 174.97500000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 44,
+      "z_mm": 4.4,
+      "extrusion_moves": 72,
+      "extruded_area_mm2": 156.09000000000003,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 45,
+      "z_mm": 4.5,
+      "extrusion_moves": 74,
+      "extruded_area_mm2": 155.95000000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 46,
+      "z_mm": 4.6,
+      "extrusion_moves": 68,
+      "extruded_area_mm2": 150.25,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 47,
+      "z_mm": 4.7,
+      "extrusion_moves": 71,
+      "extruded_area_mm2": 150.25750000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 48,
+      "z_mm": 4.8,
+      "extrusion_moves": 72,
+      "extruded_area_mm2": 150.2775,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 49,
+      "z_mm": 4.9,
+      "extrusion_moves": 69,
+      "extruded_area_mm2": 150.27,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 50,
+      "z_mm": 5.0,
+      "extrusion_moves": 66,
+      "extruded_area_mm2": 150.2675,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 51,
+      "z_mm": 5.1,
+      "extrusion_moves": 68,
+      "extruded_area_mm2": 150.245,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 52,
+      "z_mm": 5.2,
+      "extrusion_moves": 68,
+      "extruded_area_mm2": 150.2675,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 53,
+      "z_mm": 5.3,
+      "extrusion_moves": 69,
+      "extruded_area_mm2": 150.28000000000003,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 54,
+      "z_mm": 5.4,
+      "extrusion_moves": 68,
+      "extruded_area_mm2": 150.26250000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 55,
+      "z_mm": 5.5,
+      "extrusion_moves": 69,
+      "extruded_area_mm2": 150.25750000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 56,
+      "z_mm": 5.6,
+      "extrusion_moves": 66,
+      "extruded_area_mm2": 150.2675,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 57,
+      "z_mm": 5.7,
+      "extrusion_moves": 71,
+      "extruded_area_mm2": 150.26000000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 58,
+      "z_mm": 5.8,
+      "extrusion_moves": 69,
+      "extruded_area_mm2": 150.26250000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 59,
+      "z_mm": 5.9,
+      "extrusion_moves": 72,
+      "extruded_area_mm2": 150.26500000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 60,
+      "z_mm": 6.0,
+      "extrusion_moves": 71,
+      "extruded_area_mm2": 150.25750000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 61,
+      "z_mm": 6.1,
+      "extrusion_moves": 67,
+      "extruded_area_mm2": 150.2825,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 62,
+      "z_mm": 6.2,
+      "extrusion_moves": 68,
+      "extruded_area_mm2": 150.24750000000003,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 63,
+      "z_mm": 6.3,
+      "extrusion_moves": 66,
+      "extruded_area_mm2": 150.25750000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 64,
+      "z_mm": 6.4,
+      "extrusion_moves": 70,
+      "extruded_area_mm2": 150.275,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 65,
+      "z_mm": 6.5,
+      "extrusion_moves": 67,
+      "extruded_area_mm2": 150.27,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 66,
+      "z_mm": 6.6,
+      "extrusion_moves": 68,
+      "extruded_area_mm2": 150.275,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 67,
+      "z_mm": 6.7,
+      "extrusion_moves": 66,
+      "extruded_area_mm2": 150.2775,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 68,
+      "z_mm": 6.8,
+      "extrusion_moves": 68,
+      "extruded_area_mm2": 150.25750000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 69,
+      "z_mm": 6.9,
+      "extrusion_moves": 72,
+      "extruded_area_mm2": 150.28000000000003,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 70,
+      "z_mm": 7.0,
+      "extrusion_moves": 67,
+      "extruded_area_mm2": 150.25750000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 71,
+      "z_mm": 7.1,
+      "extrusion_moves": 72,
+      "extruded_area_mm2": 150.2725,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 72,
+      "z_mm": 7.2,
+      "extrusion_moves": 70,
+      "extruded_area_mm2": 150.2675,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 73,
+      "z_mm": 7.3,
+      "extrusion_moves": 66,
+      "extruded_area_mm2": 150.03000000000003,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 74,
+      "z_mm": 7.4,
+      "extrusion_moves": 74,
+      "extruded_area_mm2": 150.2775,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.030000000000000006
+    },
+    {
+      "layer": 75,
+      "z_mm": 7.5,
+      "extrusion_moves": 71,
+      "extruded_area_mm2": 150.2675,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 76,
+      "z_mm": 7.6,
+      "extrusion_moves": 67,
+      "extruded_area_mm2": 150.26500000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 77,
+      "z_mm": 7.7,
+      "extrusion_moves": 70,
+      "extruded_area_mm2": 150.26500000000001,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 78,
+      "z_mm": 7.8,
+      "extrusion_moves": 67,
+      "extruded_area_mm2": 150.27,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 79,
+      "z_mm": 7.9,
+      "extrusion_moves": 67,
+      "extruded_area_mm2": 150.27,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 80,
+      "z_mm": 8.0,
+      "extrusion_moves": 66,
+      "extruded_area_mm2": 150.25750000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 81,
+      "z_mm": 8.1,
+      "extrusion_moves": 66,
+      "extruded_area_mm2": 150.2775,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 82,
+      "z_mm": 8.2,
+      "extrusion_moves": 68,
+      "extruded_area_mm2": 150.275,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 83,
+      "z_mm": 8.3,
+      "extrusion_moves": 71,
+      "extruded_area_mm2": 150.2775,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 84,
+      "z_mm": 8.4,
+      "extrusion_moves": 69,
+      "extruded_area_mm2": 150.26250000000002,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 85,
+      "z_mm": 8.5,
+      "extrusion_moves": 74,
+      "extruded_area_mm2": 148.6625,
+      "path_components": 2,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 86,
+      "z_mm": 8.6,
+      "extrusion_moves": 75,
+      "extruded_area_mm2": 136.25750000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.34500000000000003
+    },
+    {
+      "layer": 87,
+      "z_mm": 8.7,
+      "extrusion_moves": 78,
+      "extruded_area_mm2": 135.68000000000004,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 88,
+      "z_mm": 8.8,
+      "extrusion_moves": 78,
+      "extruded_area_mm2": 135.10500000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 89,
+      "z_mm": 8.9,
+      "extrusion_moves": 77,
+      "extruded_area_mm2": 134.5,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 90,
+      "z_mm": 9.0,
+      "extrusion_moves": 79,
+      "extruded_area_mm2": 133.94250000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 91,
+      "z_mm": 9.1,
+      "extrusion_moves": 75,
+      "extruded_area_mm2": 133.38250000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 92,
+      "z_mm": 9.2,
+      "extrusion_moves": 72,
+      "extruded_area_mm2": 132.8025,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 93,
+      "z_mm": 9.3,
+      "extrusion_moves": 76,
+      "extruded_area_mm2": 132.2125,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 94,
+      "z_mm": 9.4,
+      "extrusion_moves": 77,
+      "extruded_area_mm2": 131.99750000000003,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 95,
+      "z_mm": 9.5,
+      "extrusion_moves": 78,
+      "extruded_area_mm2": 131.98000000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 96,
+      "z_mm": 9.6,
+      "extrusion_moves": 77,
+      "extruded_area_mm2": 132.01500000000001,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 97,
+      "z_mm": 9.7,
+      "extrusion_moves": 75,
+      "extruded_area_mm2": 132.00500000000002,
+      "path_components": 4,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    }
+  ],
+  "nominal_mesh_height_mm": 9.7,
+  "last_print_z_mm": 9.7,
+  "height_quantization_mm": 0.0,
+  "path_migration": {
+    "reference_root": "LX0001",
+    "scope": "Only recorded path strings rebased after directory reorganization; analysis results and geometry were not regenerated. Raw execution logs retain the original paths.",
+    "geometry_revalidated": false
+  }
+}

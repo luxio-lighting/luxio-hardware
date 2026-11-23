@@ -1,0 +1,68 @@
+{
+  "reference_root": "LX0001",
+  "source_changes": [
+    {
+      "file": "Enclosure/v1.0.0/Source/enclosure.py",
+      "previous_sha256": "e65c17b09c9667828ddae2028f736e28867f9463fda83735965599d30a403778",
+      "current_sha256": "47dcb0aae000339c9e092e0920411e35c7ce005b58d239d6782625011d08e714",
+      "scope": "Path strings and common-root parent index only; normalized AST unchanged."
+    },
+    {
+      "file": "Enclosure/v1.0.0/Source/export_print_3mf.py",
+      "previous_sha256": "bbf7b2444131ed24a946769a630973972cd6ab15d3d32f6013948b74dcd870d0",
+      "current_sha256": "eaae80378a9d0d99c6f0b6e1158639ea35cf318e4fb89285b31de89e9e1d4840",
+      "scope": "Path strings and common-root parent index only; normalized AST unchanged."
+    },
+    {
+      "file": "Enclosure/v1.0.0/Source/export_sketchup_models.py",
+      "previous_sha256": "c91af5e807e87242cda84fd2a1c1fae3b3c608dcbdc2c136091309ee1aff03f8",
+      "current_sha256": "aa167c0f1fe5aea95a569a91498b508cd7c81b8a364c87b9c5767da3d2d8e8f0",
+      "scope": "Path strings and common-root parent index only; normalized AST unchanged."
+    },
+    {
+      "file": "Enclosure/v1.0.0/Source/package_case.py",
+      "previous_sha256": "e3d0bacdd1284019b98d67b51ac203cb8b84347619dbd80ccb6a7b0613e4d1ba",
+      "current_sha256": "0d15eaa75988ca0cc39437b1b16a90c216b13e3aabab42001137bb934bfc17f9",
+      "scope": "Path strings and common-root parent index only; normalized AST unchanged."
+    },
+    {
+      "file": "Enclosure/v1.0.0/Source/render_case.py",
+      "previous_sha256": "2b819a5ba7e9121b8e7f9f0e7897b6fbb871feff94816057bb7eaa2ad644e579",
+      "current_sha256": "a9acaa2fb59b49d7fdf7c7ade14292978ce859b66451c034c4d3218195e7db4b",
+      "scope": "Path strings and common-root parent index only; normalized AST unchanged."
+    },
+    {
+      "file": "Enclosure/v1.0.0/Source/render_orientation_check.py",
+      "previous_sha256": "6225a822013f60a56d1d723c61d023e491a2d1524cb83f20e172c86be42b8fcd",
+      "current_sha256": "9e984462ee04feedbfe69731fc374b57b7b16fb82ed6d78eba5849327875c88d",
+      "scope": "Path strings and common-root parent index only; normalized AST unchanged."
+    },
+    {
+      "file": "Enclosure/v1.0.0/Source/slice_check.py",
+      "previous_sha256": "0e52a80c56e8cc2d4ae39c22755837c66bb155432d2741291c1bfae1bfb46197",
+      "current_sha256": "3e56e333cd9a87f5f1df0f346c39e0f6116e95ff343b882bcb9c37d0b27131f7",
+      "scope": "Path strings and common-root parent index only; normalized AST unchanged."
+    },
+    {
+      "file": "Enclosure/v1.0.0/Source/verify_mechanical.py",
+      "previous_sha256": "23c75f8c9778c7e25c5c8434e341797bb62dc9b776d8a5d85098ad210f0e4e9f",
+      "current_sha256": "5ce8238d3a2deea9135af5eb76b5094f284bdaa954fe31ae2a87092849b91b28",
+      "scope": "Path strings and common-root parent index only; normalized AST unchanged."
+    }
+  ],
+  "validation_reused": "AST comparison verified path constants and .parents common-root depth only. Existing shape, mesh, render and print results remain tied to their unchanged file hashes.",
+  "geometry_regenerated": false,
+  "geometry_revalidated": false,
+  "raw_logs_rewritten": false,
+  "structured_paths_rebased": [
+    "Enclosure/v1.0.0/Assets/assembled-export-verification.json",
+    "Enclosure/v1.0.0/Assets/enclosure-geometry.json",
+    "Enclosure/v1.0.0/Export/Case/Validation/base-layer-audit.json",
+    "Enclosure/v1.0.0/Export/Case/Validation/lid-layer-audit.json",
+    "Enclosure/v1.0.0/Export/Case/Validation/mechanical-review.json",
+    "Enclosure/v1.0.0/Export/Case/Validation/portable-3mf.json",
+    "Enclosure/v1.0.0/Export/Case/Validation/usb-profile-evidence.json",
+    "Enclosure/v1.0.0/Export/Case/orientation-check.json",
+    "Enclosure/v1.0.0/Export/Case/sketchup-verification.json"
+  ]
+}
