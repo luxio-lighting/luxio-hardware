@@ -1,0 +1,87 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-25T16:21:16",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d",
+            "violations": []
+        },
+        {
+            "path": "/ESP32-S3FH4R2 / 4MB flash + 2MB PSRAM/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/b93a6c86-504f-51eb-8ebe-2ae258ddca6d",
+            "violations": []
+        },
+        {
+            "path": "/MCU power, straps and 40 MHz clock/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50",
+            "violations": []
+        },
+        {
+            "path": "/MCU power, straps and 40 MHz clock (continued)/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/f20a1e81-3e16-5df8-8c35-448de6527dd4",
+            "violations": []
+        },
+        {
+            "path": "/In-package flash supply bypassing/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/59c12b93-5acf-5a8e-8636-a3c0937109a1",
+            "violations": []
+        },
+        {
+            "path": "/2.4 GHz ceramic antenna and RF matching/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/2d8299ab-939a-57dc-98f2-9fa6a233969d",
+            "violations": []
+        },
+        {
+            "path": "/USB-C data and passive 5V input/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/4159179b-64ec-5e8b-9991-4e76442693e2",
+            "violations": []
+        },
+        {
+            "path": "/USB 5V to 3.3V synchronous buck/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c",
+            "violations": []
+        },
+        {
+            "path": "/Two 5V data outputs and strip terminals/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413",
+            "violations": []
+        },
+        {
+            "path": "/Centered BOOT / GPIO18 button/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/067874be-c251-5de6-aa26-96b93969ad7a",
+            "violations": []
+        },
+        {
+            "path": "/Production and recovery test pads/",
+            "uuid_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/3f669d52-3413-54c5-8364-bea622d1fee6",
+            "violations": []
+        }
+    ],
+    "source": "LX0002.kicad_sch"
+}

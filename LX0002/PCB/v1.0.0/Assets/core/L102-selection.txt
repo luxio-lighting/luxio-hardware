@@ -1,0 +1,23 @@
+L102 procurement and package review, 2026-11-25
+
+Selected Murata LQP03HQ2N7B02D / JLCPCB C7216765.
+The prior LQP03TN2N7B02D/C98043 had only 4 available units in the
+2026-11-25 JLCPCB catalog snapshot; C7216765 had 29,824.
+
+Same nominal 2.7nH +/-0.1nH RF matching value and 0201 outline.
+Murata JELF243C_0021J-01, pages2/6/10: Q>=20 at500MHz, SRF>=9GHz,
+DCR<=0.12ohm,600mA; body0.60+/-0.03 x0.30+/-0.03 x0.40+/-0.02mm.
+Recommended land gap0.3mm, outer span0.9mm, width0.25..0.30mm.
+The existing KiCad IPC0201 lands are larger and retained without changing
+routing; this is not a claim of exact manufacturer-land equivalence.
+The generic passive 3D model is approximate; use0.42mm maximum body height
+for clearance review.
+
+The different series has different high-frequency parasitics. Final RF matching,
+antenna/case tuning and radiated performance require first-article measurement.
+Nominal inductance alone does not establish an identical RF network.
+
+Sources:
+https://jlcpcb.com/partdetail/MurataElectronics-LQP03HQ2N7B02D/C7216765
+C7216765_LQP03HQ2N7B02D.pdf (Murata manufacturer document via JLCPCB)
+../pricing/C7216765.json and ../pricing/C98043.json

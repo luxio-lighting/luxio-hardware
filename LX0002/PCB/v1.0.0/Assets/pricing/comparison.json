@@ -1,0 +1,592 @@
+{
+  "date": "2026-11-25",
+  "quantity_boards": 100,
+  "currency": "USD",
+  "basis": "JLCPCB public live component API, aggregate quantities per SKU; no placement attrition, taxes, freight or discounts included",
+  "discrete_replaced_refs": [
+    "ANT1",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C110",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "L100",
+    "L101",
+    "L102",
+    "R105",
+    "R110",
+    "U1",
+    "U10",
+    "Y1"
+  ],
+  "discrete_cluster_usd_per_board": "3.3121",
+  "module": "ESP32-S3-MINI-1-N8/C2913206",
+  "module_usd_each": "3.3452",
+  "discrete_board_component_total": "5.2629",
+  "module_variant_component_total_with_retained_parts_repriced": "5.2960",
+  "component_delta_per_board": "0.0331",
+  "populated_components_before": 59,
+  "populated_components_after": 38,
+  "unique_feeders_before": 30,
+  "unique_feeders_after": 21,
+  "estimated_standard_assembly_delta_per_batch_100": {
+    "components": "3.3100",
+    "feeders": -13.77,
+    "solder_joints_43_fewer_assuming_65_module_contacts": -6.88,
+    "possible_additional_xray": 49,
+    "warning": "Budget scenarios only, not a JLC quote. MINI page requires X-ray; bare-chip catalog flag false but general QFN inspection policy can still apply. Per-board assembly minimum and actual pin count may alter delta."
+  },
+  "rows": [
+    {
+      "ref": "U1",
+      "part": "ESP32-S3",
+      "jlc": "C2913192",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "2.0084",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "U10",
+      "part": "W25Q32JVSSIQ",
+      "jlc": "C179173",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "1.0239",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "L100",
+      "part": "2nH 900mA",
+      "jlc": "C18216",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0228",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C100",
+      "part": "10uF 10V",
+      "jlc": "C19702",
+      "board_quantity": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0105",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C101",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0029",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C102",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0029",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C103",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0029",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C104",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0029",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C105",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0029",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C106",
+      "part": "1uF 25V",
+      "jlc": "C52923",
+      "board_quantity": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0055",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C107",
+      "part": "10uF 10V",
+      "jlc": "C19702",
+      "board_quantity": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0105",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C108",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0029",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C109",
+      "part": "1uF 25V",
+      "jlc": "C52923",
+      "board_quantity": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0055",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C110",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0029",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "R100",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0009",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C111",
+      "part": "1uF 25V",
+      "jlc": "C52923",
+      "board_quantity": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0055",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R101",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0009",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R102",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0009",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R103",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0009",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "Y1",
+      "part": "40MHz 12pF 10ppm",
+      "jlc": "C655034",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0533",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C112",
+      "part": "18pF 50V C0G",
+      "jlc": "C1549",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0017",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C113",
+      "part": "18pF 50V C0G",
+      "jlc": "C1549",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0017",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "L101",
+      "part": "24nH",
+      "jlc": "C913699",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0946",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C114",
+      "part": "1.5pF 50V C0G",
+      "jlc": "C161414",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0048",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "L102",
+      "part": "2.7nH",
+      "jlc": "C98043",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0166",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "C115",
+      "part": "1.5pF 50V C0G",
+      "jlc": "C161414",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0048",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "ANT1",
+      "part": "RFECA3216060A1T",
+      "jlc": "C127620",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0385",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "R105",
+      "part": "0",
+      "jlc": "C17168",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0012",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "R110",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0009",
+      "replaced_by_module": true
+    },
+    {
+      "ref": "J1",
+      "part": "USB-TYPE-C-018",
+      "jlc": "C2927038",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0507",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R1",
+      "part": "5.1k",
+      "jlc": "C25905",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0014",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R2",
+      "part": "5.1k",
+      "jlc": "C25905",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0014",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R3",
+      "part": "22",
+      "jlc": "C25092",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0011",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R4",
+      "part": "22",
+      "jlc": "C25092",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0011",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "U2",
+      "part": "USBLC6-2SC6",
+      "jlc": "C7519",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.116",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C6",
+      "part": "1uF 25V",
+      "jlc": "C52923",
+      "board_quantity": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0055",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "U6",
+      "part": "LMR51410YFDBVR",
+      "jlc": "C32347484",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.9338",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C8",
+      "part": "10uF 10V",
+      "jlc": "C19702",
+      "board_quantity": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0105",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C19",
+      "part": "10uF 10V",
+      "jlc": "C19702",
+      "board_quantity": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0105",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C9",
+      "part": "100nF 50V",
+      "jlc": "C14663",
+      "board_quantity": 3,
+      "purchased_quantity_for_100_boards": 300,
+      "usd_each": "0.0052",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "L1",
+      "part": "10uH 1.5A Isat1.95A",
+      "jlc": "C38117",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0385",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C10",
+      "part": "22uF 25V",
+      "jlc": "C45783",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0874",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C11",
+      "part": "22uF 25V",
+      "jlc": "C45783",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0874",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R22",
+      "part": "100k",
+      "jlc": "C25741",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0009",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R23",
+      "part": "22k",
+      "jlc": "C25768",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.001",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R24",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0009",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "U8",
+      "part": "SN74AHCT1G125DBVR",
+      "jlc": "C7484",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0787",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R16",
+      "part": "100",
+      "jlc": "C22775",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0017",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R18",
+      "part": "100k",
+      "jlc": "C25803",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0026",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C14",
+      "part": "100nF 50V",
+      "jlc": "C14663",
+      "board_quantity": 3,
+      "purchased_quantity_for_100_boards": 300,
+      "usd_each": "0.0052",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "SW1",
+      "part": "TS-1088-AR02016",
+      "jlc": "C720477",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0403",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "U9",
+      "part": "SN74AHCT1G125DBVR",
+      "jlc": "C7484",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0787",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R27",
+      "part": "100",
+      "jlc": "C22775",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0017",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R29",
+      "part": "100k",
+      "jlc": "C25803",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0026",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "C17",
+      "part": "100nF 50V",
+      "jlc": "C14663",
+      "board_quantity": 3,
+      "purchased_quantity_for_100_boards": 300,
+      "usd_each": "0.0052",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "J3",
+      "part": "2060-452-HDGC",
+      "jlc": "C55251566",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.1664",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "J4",
+      "part": "2060-452-HDGC",
+      "jlc": "C55251566",
+      "board_quantity": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.1664",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "D4",
+      "part": "BAT54C",
+      "jlc": "C2135",
+      "board_quantity": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0246",
+      "replaced_by_module": false
+    },
+    {
+      "ref": "R30",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity": 7,
+      "purchased_quantity_for_100_boards": 700,
+      "usd_each": "0.0009",
+      "replaced_by_module": false
+    }
+  ],
+  "alternative_integrated_flash_chip": {
+    "mpn": "ESP32-S3FN8",
+    "jlc": "C2913196",
+    "flash_mb": 8,
+    "psram_mb": 0,
+    "unit_usd_at_100": 2.5392,
+    "rough_cluster_usd": 2.819,
+    "method": "3.3121 - bare ESP32-S3 2.0084 - external W25Q32 1.0239 + ESP32-S3FN8 2.5392. Conservatively retains all original other passive costs; some flash-only parts can also disappear. Requires circuit/layout update and validation. Not implemented.",
+    "saving_vs_MINI1N8_parts_only_usd": 0.5262,
+    "available_at_check": 2448,
+    "source": "https://jlcpcb.com/partdetail/EspressifSystems-ESP32_S3_FN8/C2913196"
+  }
+}

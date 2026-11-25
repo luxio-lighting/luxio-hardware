@@ -1,0 +1,147 @@
+{
+  "scope": "Coredecouplers,RF,clock,MCUEN/BOOTescape,EPgroundviasandtemporaryUSB_DP F.CuclearanceprobeX6.975Y10.75..13.45thenY13.45toX10.5. Notcompleteboardrouting.",
+  "layout_sha256": "b084c5f33068c831444a09612c656b02ccd6e0dc09eb7af0596d18dff17ccb02",
+  "electrical_courtyard_mask_edge_errors": [],
+  "minimum_drill_paste_margin_mm": 0.1199999999999993,
+  "nearest_paste_apertures": [
+    [
+      0.1199999999999993,
+      "C115",
+      "",
+      7.65,
+      7.72,
+      "GND"
+    ],
+    [
+      0.14000000000000143,
+      "C113",
+      "2",
+      19.8,
+      5.18,
+      "GND"
+    ],
+    [
+      0.1759601202601315,
+      "C100",
+      "2",
+      7.55,
+      11.85,
+      "GND"
+    ],
+    [
+      0.17596012026013305,
+      "C107",
+      "2",
+      7.55,
+      11.85,
+      "GND"
+    ],
+    [
+      0.19000000000000097,
+      "C105",
+      "2",
+      10.2,
+      5.6,
+      "GND"
+    ],
+    [
+      0.2459999999999997,
+      "C114",
+      "",
+      10.5,
+      6.5,
+      "GND"
+    ],
+    [
+      0.2502499219237897,
+      "C113",
+      "2",
+      18.8,
+      5.85,
+      "GND"
+    ],
+    [
+      0.27719983614346055,
+      "Y1",
+      "2",
+      14.8,
+      4.6,
+      "GND"
+    ],
+    [
+      0.2999989999999997,
+      "Y1",
+      "1",
+      14.5,
+      0.7,
+      "GND"
+    ],
+    [
+      0.30000100000000174,
+      "Y1",
+      "4",
+      18.3,
+      1.3,
+      "GND"
+    ]
+  ],
+  "signal_via_paste_margin": [
+    [
+      0.3599019513592786,
+      "U1",
+      "45",
+      16.6,
+      7.45,
+      "+3V3"
+    ],
+    [
+      0.39999999999999925,
+      "U1",
+      "6",
+      12.5,
+      9.4,
+      "BOOT"
+    ],
+    [
+      0.39999999999999925,
+      "U1",
+      "4",
+      12.5,
+      8.6,
+      "ESP_EN"
+    ]
+  ],
+  "expected_drc_findings": {
+    "via_dangling": 22,
+    "track_dangling": 4,
+    "lib_footprint_mismatch": 17,
+    "lib_footprint_issues": 4
+  },
+  "findings_explanation": "NoGNDzones causesdanglingGNDvias;new3V3portalBrouteunfinished;EN/BOOTpartialBstubsandUSBprobehaveopenends;standalonedonorfootprintmetadatawarnings.",
+  "remaining_power_connections": {
+    "left_input_plus3v3": [
+      9.575,
+      13.1
+    ],
+    "mcu_top_plus3v3_via": [
+      16.6,
+      7.45
+    ],
+    "mcu_lower_plus3v3_pin": [
+      14.4,
+      13.45
+    ],
+    "note": "Allthreejoin3V3regulatoroutputduringintegration. LowerMCUpin20fedviaC103;toprow46/55/56fedviaB.Cuvia16.6/7.45,aboveEPground. NoFleftmoatnorleftsidepowerrail."
+  },
+  "remaining_control_connections": {
+    "ESP_EN_B_Cu": [
+      11.95,
+      10.3
+    ],
+    "BOOT_B_Cu": [
+      12.5,
+      10.8
+    ]
+  },
+  "ground_reference": "RFandclockregionsunchanged;B.CucontinuousunderEPx13..17,y8..12. NonRFsignalbandsoutsideEPavailable."
+}

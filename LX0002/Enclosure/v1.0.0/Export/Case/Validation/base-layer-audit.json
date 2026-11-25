@@ -1,0 +1,706 @@
+{
+  "stl_sha256": "69c09ac7f11872039fc5c684b5a19b8891ca8829133a07d64b8ed3627abdbeb6",
+  "gcode_sha256": "a073cac5bf4c37218bf7081df4695ab67f781fc881b206de82683e54581360ee",
+  "command": [
+    "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+    "--debug",
+    "3",
+    "--datadir",
+    "/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0002-reference-slice-91uu8vz8/data",
+    "--load-settings",
+    "/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0002-reference-slice-91uu8vz8/machine.json;/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0002-reference-slice-91uu8vz8/process.json",
+    "--load-filaments",
+    "/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0002-reference-slice-91uu8vz8/filament.json",
+    "--orient",
+    "0",
+    "--arrange",
+    "1",
+    "--slice",
+    "0",
+    "--outputdir",
+    "/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0002-reference-slice-91uu8vz8/base",
+    "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/Enclosure/v1.0.0/Export/Case/base.stl"
+  ],
+  "slicer_result": {
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.10000000149011612,
+    "plate_index": 0,
+    "prepare_time": 25,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 38.74238204956055,
+          "Custom": 445.5010070800781,
+          "Flush": 29.0,
+          "Gap infill": 24.50330924987793,
+          "Inner wall": 11.380152702331543,
+          "Internal solid infill": 146.8141326904297,
+          "Outer wall": 197.03855895996094,
+          "Top surface": 28.562034606933594,
+          "Travel": 98.08540344238281,
+          "Undefined": 82.65795135498047
+        },
+        "filament_change_times": 0,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 2.6420726776123047,
+            "total_used_g": 2.6420726776123047
+          }
+        ],
+        "generate_support_material_time": 7,
+        "id": 1,
+        "infill_time": 21,
+        "layer_filament_change": 0,
+        "main_predication": 516.185791015625,
+        "make_perimeters_time": 25,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 25.600004196166992,
+              "height": 6.0,
+              "width": 45.45000457763672,
+              "x": 105.27498626708984,
+              "y": 115.19999694824219,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "base.stl",
+            "triangle_count": 4568
+          }
+        ],
+        "sliced_time": 196,
+        "sliced_time_with_cache": 133,
+        "total_predication": 1004.228759765625,
+        "triangle_count": 4568,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 15.0,
+    "wall_loops": 2
+  },
+  "layers": 60,
+  "layer_z_mm": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.7,
+    1.8,
+    1.9,
+    2.0,
+    2.1,
+    2.2,
+    2.3,
+    2.4,
+    2.5,
+    2.6,
+    2.7,
+    2.8,
+    2.9,
+    3.0,
+    3.1,
+    3.2,
+    3.3,
+    3.4,
+    3.5,
+    3.6,
+    3.7,
+    3.8,
+    3.9,
+    4.0,
+    4.1,
+    4.2,
+    4.3,
+    4.4,
+    4.5,
+    4.6,
+    4.7,
+    4.8,
+    4.9,
+    5.0,
+    5.1,
+    5.2,
+    5.3,
+    5.4,
+    5.5,
+    5.6,
+    5.7,
+    5.8,
+    5.9,
+    6.0
+  ],
+  "feature_move_counts": {
+    "Inner wall": 264,
+    "Outer wall": 2702,
+    "Bottom surface": 192,
+    "Internal solid infill": 2525,
+    "Gap infill": 194,
+    "Top surface": 220
+  },
+  "bridge_paths": [],
+  "whole_floating_islands": [],
+  "raster_pixel_mm": 0.05,
+  "support_contact_tolerance_mm": 0.1,
+  "layer_audit": [
+    {
+      "layer": 1,
+      "z_mm": 0.1,
+      "extrusion_moves": 212,
+      "extruded_area_mm2": 1137.9525,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 2,
+      "z_mm": 0.2,
+      "extrusion_moves": 251,
+      "extruded_area_mm2": 1127.3375,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 6.6875
+    },
+    {
+      "layer": 3,
+      "z_mm": 0.3,
+      "extrusion_moves": 251,
+      "extruded_area_mm2": 1127.2350000000001,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.010000000000000002
+    },
+    {
+      "layer": 4,
+      "z_mm": 0.4,
+      "extrusion_moves": 251,
+      "extruded_area_mm2": 1127.3100000000002,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.015000000000000003
+    },
+    {
+      "layer": 5,
+      "z_mm": 0.5,
+      "extrusion_moves": 251,
+      "extruded_area_mm2": 1127.2275000000002,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.010000000000000002
+    },
+    {
+      "layer": 6,
+      "z_mm": 0.6,
+      "extrusion_moves": 254,
+      "extruded_area_mm2": 1127.5,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.015000000000000003
+    },
+    {
+      "layer": 7,
+      "z_mm": 0.7,
+      "extrusion_moves": 251,
+      "extruded_area_mm2": 1127.2400000000002,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0075000000000000015
+    },
+    {
+      "layer": 8,
+      "z_mm": 0.8,
+      "extrusion_moves": 251,
+      "extruded_area_mm2": 1127.3150000000003,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0175
+    },
+    {
+      "layer": 9,
+      "z_mm": 0.9,
+      "extrusion_moves": 254,
+      "extruded_area_mm2": 1126.845,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.010000000000000002
+    },
+    {
+      "layer": 10,
+      "z_mm": 1.0,
+      "extrusion_moves": 251,
+      "extruded_area_mm2": 1127.3,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0075000000000000015
+    },
+    {
+      "layer": 11,
+      "z_mm": 1.1,
+      "extrusion_moves": 254,
+      "extruded_area_mm2": 1127.505,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0125
+    },
+    {
+      "layer": 12,
+      "z_mm": 1.2,
+      "extrusion_moves": 196,
+      "extruded_area_mm2": 1133.4225000000001,
+      "path_components": 1,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0075000000000000015
+    },
+    {
+      "layer": 13,
+      "z_mm": 1.3,
+      "extrusion_moves": 97,
+      "extruded_area_mm2": 154.94500000000002,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 14,
+      "z_mm": 1.4,
+      "extrusion_moves": 98,
+      "extruded_area_mm2": 154.90750000000003,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 15,
+      "z_mm": 1.5,
+      "extrusion_moves": 97,
+      "extruded_area_mm2": 154.94000000000003,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 16,
+      "z_mm": 1.6,
+      "extrusion_moves": 98,
+      "extruded_area_mm2": 148.5625,
+      "path_components": 5,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 17,
+      "z_mm": 1.7,
+      "extrusion_moves": 122,
+      "extruded_area_mm2": 146.81000000000003,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 18,
+      "z_mm": 1.8,
+      "extrusion_moves": 101,
+      "extruded_area_mm2": 145.375,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 19,
+      "z_mm": 1.9,
+      "extrusion_moves": 56,
+      "extruded_area_mm2": 119.6175,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 20,
+      "z_mm": 2.0,
+      "extrusion_moves": 56,
+      "extruded_area_mm2": 119.3125,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 21,
+      "z_mm": 2.1,
+      "extrusion_moves": 56,
+      "extruded_area_mm2": 119.32000000000001,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 22,
+      "z_mm": 2.2,
+      "extrusion_moves": 56,
+      "extruded_area_mm2": 119.3125,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 23,
+      "z_mm": 2.3,
+      "extrusion_moves": 56,
+      "extruded_area_mm2": 119.3175,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 24,
+      "z_mm": 2.4,
+      "extrusion_moves": 58,
+      "extruded_area_mm2": 119.32250000000002,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 25,
+      "z_mm": 2.5,
+      "extrusion_moves": 56,
+      "extruded_area_mm2": 119.3075,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 26,
+      "z_mm": 2.6,
+      "extrusion_moves": 56,
+      "extruded_area_mm2": 119.29000000000002,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 27,
+      "z_mm": 2.7,
+      "extrusion_moves": 56,
+      "extruded_area_mm2": 119.31500000000001,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 28,
+      "z_mm": 2.8,
+      "extrusion_moves": 57,
+      "extruded_area_mm2": 119.28750000000001,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 29,
+      "z_mm": 2.9,
+      "extrusion_moves": 57,
+      "extruded_area_mm2": 119.3375,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 30,
+      "z_mm": 3.0,
+      "extrusion_moves": 57,
+      "extruded_area_mm2": 119.29750000000001,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 31,
+      "z_mm": 3.1,
+      "extrusion_moves": 57,
+      "extruded_area_mm2": 119.29500000000002,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 32,
+      "z_mm": 3.2,
+      "extrusion_moves": 95,
+      "extruded_area_mm2": 118.41250000000001,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 33,
+      "z_mm": 3.3,
+      "extrusion_moves": 58,
+      "extruded_area_mm2": 77.98000000000002,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.2625
+    },
+    {
+      "layer": 34,
+      "z_mm": 3.4,
+      "extrusion_moves": 57,
+      "extruded_area_mm2": 77.35250000000002,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 35,
+      "z_mm": 3.5,
+      "extrusion_moves": 58,
+      "extruded_area_mm2": 77.02000000000001,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 36,
+      "z_mm": 3.6,
+      "extrusion_moves": 58,
+      "extruded_area_mm2": 76.52250000000001,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 37,
+      "z_mm": 3.7,
+      "extrusion_moves": 59,
+      "extruded_area_mm2": 75.99000000000001,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 38,
+      "z_mm": 3.8,
+      "extrusion_moves": 61,
+      "extruded_area_mm2": 78.8125,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 2.4350000000000005
+    },
+    {
+      "layer": 39,
+      "z_mm": 3.9,
+      "extrusion_moves": 53,
+      "extruded_area_mm2": 78.45500000000001,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 40,
+      "z_mm": 4.0,
+      "extrusion_moves": 53,
+      "extruded_area_mm2": 78.11250000000001,
+      "path_components": 13,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 41,
+      "z_mm": 4.1,
+      "extrusion_moves": 50,
+      "extruded_area_mm2": 77.03750000000001,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 42,
+      "z_mm": 4.2,
+      "extrusion_moves": 50,
+      "extruded_area_mm2": 76.96500000000002,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 43,
+      "z_mm": 4.3,
+      "extrusion_moves": 50,
+      "extruded_area_mm2": 76.8875,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 44,
+      "z_mm": 4.4,
+      "extrusion_moves": 50,
+      "extruded_area_mm2": 76.8125,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 45,
+      "z_mm": 4.5,
+      "extrusion_moves": 67,
+      "extruded_area_mm2": 77.23750000000001,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 46,
+      "z_mm": 4.6,
+      "extrusion_moves": 78,
+      "extruded_area_mm2": 78.29500000000002,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 47,
+      "z_mm": 4.7,
+      "extrusion_moves": 78,
+      "extruded_area_mm2": 79.75500000000001,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 48,
+      "z_mm": 4.8,
+      "extrusion_moves": 78,
+      "extruded_area_mm2": 80.84500000000001,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 49,
+      "z_mm": 4.9,
+      "extrusion_moves": 78,
+      "extruded_area_mm2": 81.94500000000001,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 50,
+      "z_mm": 5.0,
+      "extrusion_moves": 70,
+      "extruded_area_mm2": 82.67500000000001,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 51,
+      "z_mm": 5.1,
+      "extrusion_moves": 86,
+      "extruded_area_mm2": 82.4975,
+      "path_components": 12,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 52,
+      "z_mm": 5.2,
+      "extrusion_moves": 60,
+      "extruded_area_mm2": 64.925,
+      "path_components": 10,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 53,
+      "z_mm": 5.3,
+      "extrusion_moves": 60,
+      "extruded_area_mm2": 64.925,
+      "path_components": 10,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 54,
+      "z_mm": 5.4,
+      "extrusion_moves": 60,
+      "extruded_area_mm2": 64.925,
+      "path_components": 10,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 55,
+      "z_mm": 5.5,
+      "extrusion_moves": 60,
+      "extruded_area_mm2": 64.19500000000001,
+      "path_components": 10,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 56,
+      "z_mm": 5.6,
+      "extrusion_moves": 60,
+      "extruded_area_mm2": 63.46500000000001,
+      "path_components": 10,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 57,
+      "z_mm": 5.7,
+      "extrusion_moves": 60,
+      "extruded_area_mm2": 62.24000000000001,
+      "path_components": 10,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 58,
+      "z_mm": 5.8,
+      "extrusion_moves": 60,
+      "extruded_area_mm2": 61.265,
+      "path_components": 10,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 59,
+      "z_mm": 5.9,
+      "extrusion_moves": 60,
+      "extruded_area_mm2": 60.54500000000001,
+      "path_components": 10,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    },
+    {
+      "layer": 60,
+      "z_mm": 6.0,
+      "extrusion_moves": 56,
+      "extruded_area_mm2": 59.48000000000001,
+      "path_components": 10,
+      "floating_components": [],
+      "outside_previous_layer_plus_0_10mm_mm2": 0.0
+    }
+  ],
+  "nominal_mesh_height_mm": 6.0,
+  "last_print_z_mm": 6.0,
+  "height_quantization_mm": 0.0
+}

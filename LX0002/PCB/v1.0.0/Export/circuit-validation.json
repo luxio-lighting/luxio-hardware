@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "scope": "Schematic electrical topology only; PCB layout and physical validation are separate",
+  "netlist_sha256": "9b56aa9080d3d6d764409ef5ac2bbaca289e903a1b41c268086e815e0fff4671",
+  "footprint_count": 64,
+  "populated_bom_count": 55,
+  "checks": [
+    "USB VBUS is directly on LED VCC; no DC input, power-path diodes, source switches or boost converter",
+    "Independent 5.1k CC1 and CC2 pull-downs",
+    "GPIO16 and GPIO17 use permanently enabled 5V AHCT buffers and separate 100-ohm output resistors",
+    "BOOT and GPIO18 have separate 10k pull-ups and Schottky isolation to the shared button",
+    "Original synchronous buck topology and nominal 3.3V feedback ratio retained",
+    "0805 zero-ohm R106 bridges VDDA55/56 and C105 from 3V3 while C106 retains the main supply",
+    "ESP32-S3FH4R2 has 4MB in-package Quad-SPI flash and 2MB Quad-SPI PSRAM; seven memory pads reserved/NC and VDD_SPI bypassing retained",
+    "FH4R2 fixed 3.3V VDD_SPI needs no GPIO45 pulldown; GPIO46 boot pulldown retained",
+    "Ceramic antenna and native USB ESD/data connections retained",
+    "Optional UART testpads omitted; UART GPIO43/44 left unconnected, native USB retained",
+    "LX0001 core pinout, supply, crystal and RF values preserved except FH4R2 memory migration, VDDA jumper bridge, equivalent 2.7nH 0201 L102 sourcing substitution and omitted UART debug nets"
+  ],
+  "nominal_buck_output_v": 3.3000000000000003,
+  "usb_power": "Direct nominal 5V, no PD and no onboard input current limiter. Total current includes controller and strip."
+}

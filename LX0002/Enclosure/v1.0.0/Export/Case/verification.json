@@ -1,0 +1,157 @@
+{
+  "pcb_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "parameters": {
+    "material": "PLA",
+    "nozzle_mm": 0.4,
+    "layer_mm": 0.1,
+    "outer_y_mm": [
+      -2.8,
+      22.8
+    ],
+    "floor_outer_z_mm": -3.4,
+    "floor_inner_z_mm": -2.2,
+    "roof_inner_z_mm": 3.5,
+    "roof_outer_z_mm": 4.5,
+    "outer_corner_radius_mm": 1.2,
+    "inner_wall_thickness_mm": 0.8,
+    "pcb_side_clearance_mm": 0.6,
+    "wall_fit_clearance_mm": 0.2,
+    "snap_centers_x_mm": [
+      8.0,
+      34.5
+    ],
+    "snap_beam_width_mm": 4.4,
+    "snap_slot_width_mm": 0.8,
+    "snap_root_z_mm": -1.8,
+    "snap_tip_z_mm": 2.6,
+    "snap_engagement_mm": 0.2,
+    "boss_diameter_mm": 4.2,
+    "locating_pin_diameter_mm": 1.8,
+    "pin_tip_z_mm": 0.6,
+    "pcb_capture_top_z_mm": 0.2,
+    "button_membrane_thickness_mm": 0.4,
+    "button_plunger_diameter_mm": 1.5,
+    "button_tip_z_mm": 2.6,
+    "notes": "Prototype fit values. Z=0 is nominal PCB top; drawing Y is downward and converted once to native physical Y before case export. One locating pin and four edge capture pads retain the PCB when the lid is closed.",
+    "end_seam_clearance_mm": 0.2,
+    "end_wall_side_margin_mm": 0.7,
+    "end_wall_side_fit_mm": 0.25,
+    "inner_corner_end_clearance_mm": 0.2,
+    "usb_clearance_per_side_mm": 0.3,
+    "usb_nominal_width_mm": 8.94,
+    "usb_nominal_height_mm": 3.16,
+    "usb_inferred_corner_radius_mm": 1.0,
+    "usb_opening_vertical_offset_mm": 0.1,
+    "usb_ceiling_z_mm": 3.6,
+    "terminal_top_clearance_mm": 0.4,
+    "pcb_edge_capture_centers_x_mm": [
+      3.8,
+      30.3
+    ],
+    "pcb_edge_capture_width_mm": 3.0,
+    "pcb_edge_capture_overlap_mm": 0.55,
+    "pcb_end_overhang_mm": [
+      1.5,
+      1.95
+    ],
+    "button_membrane_size_mm": [
+      15,
+      18
+    ],
+    "outer_x_mm": [
+      -1.5,
+      43.95
+    ],
+    "button_xy_mm": [
+      21,
+      10
+    ]
+  },
+  "base_lid_overlap_mm3": 0,
+  "print_meshes": {
+    "base": {
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 1875.6183278507126,
+      "bounds_mm": [
+        [
+          -2.220446049250313e-16,
+          0.0,
+          0.0
+        ],
+        [
+          45.45000076293945,
+          25.600000381469727,
+          6.0
+        ]
+      ],
+      "faces": 4568,
+      "connected_bodies": 1
+    },
+    "lid": {
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 1464.509587416958,
+      "bounds_mm": [
+        [
+          -2.220446049250313e-16,
+          -4.440892098500626e-16,
+          -2.811244330180136e-15
+        ],
+        [
+          45.45000076293945,
+          25.600000381469727,
+          6.699999809265137
+        ]
+      ],
+      "faces": 2972,
+      "connected_bodies": 1
+    }
+  },
+  "physical_fit_tested": false,
+  "final_pcb_overlay_verified": true,
+  "stage": "CAD FIT AND HANDEDNESS CHECKED; physical fit and force testing remain required",
+  "coordinates": {
+    "construction": "2D PCB drawing coordinates: X right, Y down; converted before export",
+    "physical_assembly": "Original KiCad STEP axes: X right, Y up in top view, Z toward top components; PCB top shifted above the base datum",
+    "construction_to_physical": "(x,y,z) -> (x,-y,z)",
+    "pcb_reference_available": true,
+    "pcb_reference_transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.7988
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pcb_reference_transform_determinant": 1.0
+  },
+  "button_note": "Continuous15\u00d718mm elliptical membrane,0.4mm thick PLA membrane;0.6000000000000001mm nominal switch gap. No assumed housing-stop geometry; force/travel requires physical fit testing.",
+  "pcb_capture_gap_mm": 1.8,
+  "intended_print_orientation": "STL base floor down; STL lid exterior roof down; no supports.",
+  "latch_estimate": {
+    "beam_length_mm": 4.4,
+    "thickness_mm": 0.8,
+    "required_tip_deflection_mm": 0.2,
+    "small_deflection_surface_strain_estimate": 0.012396694214876033,
+    "note": "First-order cantilever estimate only, no FEA or PLA fatigue qualification."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "model": "LX0002",
+  "revision": "1.0.0",
+  "size_mm": [
+    42,
+    20,
+    1.6
+  ],
+  "cad_outline_mm": [
+    0,
+    0,
+    42,
+    20
+  ],
+  "coordinate_system": "KiCad drawing X right, Y down. STEP physical Y negative.",
+  "mounting_holes": {
+    "H2": [
+      24.8,
+      3
+    ]
+  },
+  "mounting_drill_mm": 2.2,
+  "mounting_keepout_radius_mm": 2.2,
+  "button_center": [
+    21,
+    10
+  ],
+  "antenna_clearance": [
+    [
+      6.2,
+      0
+    ],
+    [
+      14.2,
+      0
+    ],
+    [
+      14.2,
+      3
+    ],
+    [
+      6.2,
+      3
+    ]
+  ],
+  "usb": {
+    "center": [
+      2.5,
+      10
+    ],
+    "rotation_deg": -90,
+    "mouth_x": -1.175
+  },
+  "output_centers": [
+    [
+      35.5,
+      5.75
+    ],
+    [
+      35.5,
+      14.25
+    ]
+  ],
+  "pcb_retention": "One 2.2mm locating hole plus enclosure edge capture; no screws."
+}

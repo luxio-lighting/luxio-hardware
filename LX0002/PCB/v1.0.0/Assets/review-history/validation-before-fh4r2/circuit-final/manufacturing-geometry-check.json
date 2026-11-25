@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-11-25T13:30:23.856706+00:00",
+  "board": "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Source/LX0002.kicad_pcb",
+  "board_sha256": "d9b352b0f89878b8384a4712ac2eacfa887ab9ee29b07d56b17992e2dfb0c848",
+  "checker_sha256": "e589c1b282d633a6357f17fb23deb62e3850cfc01f06d65d114c0185d5600b27",
+  "kicad_version": "10.0.7",
+  "method": "Independent geometric intersection of each physical drill shape with each actual paste aperture, including pad rotation, inherited/local paste margins, paste-only aperture pads, both board faces and all net combinations. No CAD edits or DRC result reuse.",
+  "geometry_policy": "Routing-via drills must clear paste by the configured minimum; a1nm numerical allowance accepts the nominal boundary. Other component holes are checked for overlap. Unsupported expanded custom/trapezoid/chamfered pads fail explicitly.",
+  "minimum_via_paste_clearance_mm": 0.1,
+  "numerical_clearance_tolerance_mm": 1e-06,
+  "via_in_paste_allowlist": [],
+  "holes_checked": 154,
+  "vias_checked": 147,
+  "paste_apertures_checked": 229,
+  "pair_comparisons": 35266,
+  "reviewed_component_pin_in_paste_features": [
+    {
+      "type": "reviewed_component_pin_in_paste",
+      "required_clearance_mm": 0,
+      "measured_gap_mm": 0.0,
+      "drill_kind": "plated_pad_hole",
+      "drill_uuid": "b62a24b5-944a-4a0a-a682-9c7a62ca4854",
+      "drill_net": "GND",
+      "drill_reference": "J1",
+      "drill_pad": "SH",
+      "drill_position_mm": [
+        5.625,
+        5.675
+      ],
+      "drill_size_mm": [
+        0.8,
+        1.6
+      ],
+      "aperture_uuid": "b62a24b5-944a-4a0a-a682-9c7a62ca4854",
+      "aperture_reference": "J1",
+      "aperture_pad": "SH",
+      "aperture_net": "GND",
+      "paste_layer": "F.Paste",
+      "same_net": true,
+      "source": "Assets/io/C2927038_footprint_notes.txt; DEALON manufacturer drawing Rev A"
+    },
+    {
+      "type": "reviewed_component_pin_in_paste",
+      "required_clearance_mm": 0,
+      "measured_gap_mm": 0.0,
+      "drill_kind": "plated_pad_hole",
+      "drill_uuid": "b6c43657-da4f-445b-8926-5a64f361db67",
+      "drill_net": "GND",
+      "drill_reference": "J1",
+      "drill_pad": "SH",
+      "drill_position_mm": [
+        1.425,
+        5.675
+      ],
+      "drill_size_mm": [
+        0.8,
+        1.4
+      ],
+      "aperture_uuid": "b6c43657-da4f-445b-8926-5a64f361db67",
+      "aperture_reference": "J1",
+      "aperture_pad": "SH",
+      "aperture_net": "GND",
+      "paste_layer": "F.Paste",
+      "same_net": true,
+      "source": "Assets/io/C2927038_footprint_notes.txt; DEALON manufacturer drawing Rev A"
+    },
+    {
+      "type": "reviewed_component_pin_in_paste",
+      "required_clearance_mm": 0,
+      "measured_gap_mm": 0.0,
+      "drill_kind": "plated_pad_hole",
+      "drill_uuid": "63145810-5122-4e0a-80b1-5fe287ba07bc",
+      "drill_net": "GND",
+      "drill_reference": "J1",
+      "drill_pad": "SH",
+      "drill_position_mm": [
+        5.625,
+        14.325
+      ],
+      "drill_size_mm": [
+        0.8,
+        1.6
+      ],
+      "aperture_uuid": "63145810-5122-4e0a-80b1-5fe287ba07bc",
+      "aperture_reference": "J1",
+      "aperture_pad": "SH",
+      "aperture_net": "GND",
+      "paste_layer": "F.Paste",
+      "same_net": true,
+      "source": "Assets/io/C2927038_footprint_notes.txt; DEALON manufacturer drawing Rev A"
+    },
+    {
+      "type": "reviewed_component_pin_in_paste",
+      "required_clearance_mm": 0,
+      "measured_gap_mm": 0.0,
+      "drill_kind": "plated_pad_hole",
+      "drill_uuid": "4116be07-980e-4efc-81a4-af1657db355e",
+      "drill_net": "GND",
+      "drill_reference": "J1",
+      "drill_pad": "SH",
+      "drill_position_mm": [
+        1.425,
+        14.325
+      ],
+      "drill_size_mm": [
+        0.8,
+        1.4
+      ],
+      "aperture_uuid": "4116be07-980e-4efc-81a4-af1657db355e",
+      "aperture_reference": "J1",
+      "aperture_pad": "SH",
+      "aperture_net": "GND",
+      "paste_layer": "F.Paste",
+      "same_net": true,
+      "source": "Assets/io/C2927038_footprint_notes.txt; DEALON manufacturer drawing Rev A"
+    }
+  ],
+  "violations": [],
+  "pass": true,
+  "primary_references": [
+    "https://raw.githubusercontent.com/KiCad/kicad-source-mirror/10.0/pcbnew/plot_board_layers.cpp",
+    "https://docs.kicad.org/10.0/en/pcbnew/pcbnew.html#working-with-pads",
+    "https://jlcpcb.com/partdetail/C2927038"
+  ]
+}

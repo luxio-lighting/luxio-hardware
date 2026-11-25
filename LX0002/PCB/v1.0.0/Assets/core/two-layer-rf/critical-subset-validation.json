@@ -1,0 +1,15 @@
+{
+  "scope": "Isolatedcriticalsubset, notcompleteboard validation. AddedJ1,U10,SW1to checkadjacentcomponentclearances. NoGNDzonesinthisscratchtest. HistoricalinitialsubsetbeforedecouplersandEPvias; currentlayoutvalidationisinthesupersedingreport.",
+  "layout_sha256": "f875100a32f74e1198aee7580a3bf97b3ec742cb8566eadd1f3de8ecef29ff67",
+  "critical_signal_gaps": [],
+  "unexpected_drc_violations": [],
+  "ignored_findings_reason": {
+    "via_dangling": "Scratchsubset has noGNDpours;all13GNDvias connect in finalfilledboard.",
+    "lib_footprint_mismatch": "Donorboardlocalmodifiedfootprints in standalone scratchproject.",
+    "lib_footprint_issues": "No local footprintlibrarytables in scratchproject."
+  },
+  "drill_to_paste_minimum_mm": 0.12,
+  "drill_to_paste_method": "Circle(drillradius0.15) toconservative rotatedpadrectangle ofeachF.Pasteaperture;minimum C115.",
+  "status": "superseded_by_core_escape_validation",
+  "superseded_by": "core-escape-validation.json"
+}

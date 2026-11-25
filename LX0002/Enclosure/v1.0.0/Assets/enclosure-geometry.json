@@ -1,0 +1,43 @@
+{
+  "pcb_source": "PCB/v1.0.0/Source/LX0002.kicad_pcb",
+  "units": "mm",
+  "datum": "Top-left PCB corner in top view; X right, Y down. Z=0 nominal top PCB face.",
+  "heights_from_mounting_face_mm": {
+    "J1": 3.16,
+    "J3": 4.5,
+    "J4": 4.5,
+    "SW1": 2,
+    "L1": 3
+  },
+  "notes": [
+    "PCB outline, locating hole and connector/button anchors come directly from PCB/v1.0.0/Source/mechanical.json. Final populated STEP overlay is required.",
+    "USB corner radius inferred from supplier model; manufacturer drawing controls width/height.",
+    "No mirrored PCB reference is permitted."
+  ],
+  "key_body_bounds_relative_to_center_xy": {
+    "J1": [
+      -3.675,
+      -4.47,
+      4.225,
+      4.47
+    ],
+    "J3": [
+      -5.75,
+      -3.95,
+      5.75,
+      3.95
+    ],
+    "J4": [
+      -5.75,
+      -3.95,
+      5.75,
+      3.95
+    ],
+    "SW1": [
+      -1.95,
+      -1.5,
+      1.95,
+      1.5
+    ]
+  }
+}

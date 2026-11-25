@@ -1,0 +1,3 @@
+# Metadata-only calculation baselines
+
+The original0.05mm numerical results and mesh inputs are retained here. The25µm result was computed on PCB b2a647ab; the20µm result was computed on PCB1c0c52ff. The latter mesh was regenerated from the byte-identical saved PCB in a temporary path; normalizing only board_path back to the path stored in that result reproduces its original mesh SHA256 exactly. Both full mesh objects equal the final d9b352b0 mesh after excluding only board_path and board_sha256. No masks, terminals, vias or physical solver parameters changed. Export/current-path-model/metadata-mesh-equivalence.json records the original and final hashes and the geometry fingerprint. Final result files identify this reuse explicitly.

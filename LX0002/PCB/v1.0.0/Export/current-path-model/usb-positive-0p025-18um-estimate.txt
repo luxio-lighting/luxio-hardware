@@ -1,0 +1,18 @@
+LX0002 copper-only DC estimate
+
+Board: /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Source/LX0002.kicad_pcb
+SHA256: d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448
+Grid: 0.025mm; copper resistivity: 1.724e-08ohm-m at20°C
+Via model: 1.6mm barrel, 18.0µm wall, actual drill diameter
+Saved filled polygons, tracks and pads; ideal equipotential terminal pads.
+Excludes USB cable/contacts, wire-terminal contacts, solder joints and regulator/controller/LED losses.
+3A is the connector ceiling for total controller-plus-strip current, not negotiated or limited current.
+The full3A loop loading is conservative for strip copper because controller current reduces available strip current.
+Grid discretization can miss narrow features. No thermal or current-rating claim.
+
+USB_5V       35µm:  14.9963mΩ,   44.989mV, 0.13497W at3A; residual1e-08
+
+SUM 35µm: 14.9963mΩ, 44.989mV, 0.13497W
+
+Re-extract after any routing, footprint, via or zone-fill change.
+This report does not establish continuous current capability or safe fault behavior.

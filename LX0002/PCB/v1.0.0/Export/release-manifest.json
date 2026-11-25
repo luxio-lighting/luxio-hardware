@@ -1,0 +1,30 @@
+{
+  "pcb_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "status": "Checked fabrication data; first-article qualification remains",
+  "sha256": {
+    "LX0002-v1.0.0-Gerbers.zip": "dfb07553cb6abe6b8dbf79fd689a1c8c3ebfacc4bb640a0c54daf8fc058b65dd",
+    "JLCPCB-BOM.csv": "667a0e584e29fa482a68f459640e9dd3c600baee3cc7eadd24b617c7362a6270",
+    "JLCPCB-CPL.csv": "f761bfa91889b6515117f09055bcfd7c79b9ed823e0d7d85a059b76ecb720cb7",
+    "README.txt": "f3b9fe471425d9d71e2f8b34879e52f3c82eb23ef658c1378dd7d45f669f5886",
+    "order-settings.txt": "901816933738501d96d13ebe1f4807d76b10aa26a52f07cdcaa27132c404bddb",
+    "schematic.pdf": "06c21eb2c4deb1f36600d59fda62777b11daa88f86fb1c5ea6eb0ed00a970d3b",
+    "assembly-top.svg": "8cf942f4f9147a065b81ffdad0794c80375fd648f2fae62602c3f4a1e90385c5",
+    "assembly-top.png": "891a0d97ffa9170a76c9c41f506e3060b896469598221b12c90a2cab0106d06d",
+    "assembly-bottom.svg": "b7fd3ec72da5e28885586579b4ad2b1e1f053383348acd6a358ae489902afc2a",
+    "assembly-bottom.png": "b6207ff72483dc497dfd8705352a9d954f2ab01f57687d0bac30aa62ab6a5960",
+    "verification.json": "d3faaa1c442358840624c30551ba9177b7f08bb5cda8c05fbf3c22b6cd5bd88c",
+    "drc.json": "7a78bbae70207b82b2a8237662dbadaa300ca81c6b933ea01b7a4facb1b19f33",
+    "erc.json": "35f3c793bc0d6be4a5cb2a008ad16e9c4dbeba0717cede41445fd8e5c288abbe",
+    "connection-check.json": "e406ab5e223a70a52a5eb009a95acf80a35483f06f71b05dca3fb9053a871f69",
+    "manufacturing-geometry-check.json": "4b57fe41f50df38d1de4cb07d94f3fa8e5abe839dc27e5a944c547f9ce71fa5a",
+    "circuit-validation.json": "138906d6a304841fb6d31164048ddf8c5b12fa9d8f0289e0ade9e3f4a411889d",
+    "rf-reference-check.json": "c5bda0d3e965617130008c821c13b96175a6b31928dc955f1c982445569e2446",
+    "rebuild-check.json": "2b931ff3e687baf0a4c96036db5be77954f625e8f3bca988cc7ef83c89abcf8f",
+    "current-path-model/current-review-summary.json": "63e94290bddffa2376163a0f7aa6db36471077dfcf3cb441030b586f39a15649",
+    "current-path-model/3v3-path-review.json": "8bfd1ef4826cb3787e587fe0aabb7dc6068d791d5478970c939e67679d045d3f",
+    "first-article-validation.md": "c8503d95263d904a1cfb2cad85256d7ee6fed9709fc551ceee187e818296565f",
+    "power-integrity-review.md": "de046a255c32a76b019fda0ee083f0f772718ee2daefb35da50457e748f50532",
+    "current_path_review.txt": "ae5b64702b0b61fb59f7f9923f845b75aa874c22e67a73d9519ebdfaa466fc64",
+    "FH4R2-package-verification.json": "1f3c4f1550ae25a7d16518ae19f1ea04623b41e38fcb48cb986e79b0fa98b00f"
+  }
+}

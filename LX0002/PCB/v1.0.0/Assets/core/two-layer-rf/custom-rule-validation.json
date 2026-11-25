@@ -1,0 +1,120 @@
+{
+  "purpose": "Native KiCad rule enforcement probe, not full-board production DRC",
+  "rule_file": "Source/LX0002.kicad_dru",
+  "rule_sha256": "6bb2fb31bf1a51c54af452a6a4ff46b0d23531dfd52f820bd291e3c551e1688a",
+  "expected_rejections": 6,
+  "actual_rejections": 6,
+  "ground_vias_permitted": true,
+  "unrelated_via_outside_reference_permitted": true,
+  "RF_50_ANT_TUNE_GND_antenna_tracks_permitted": true,
+  "reference_boundary_straddling_via_rejected": true,
+  "rejections": [
+    {
+      "description": "Items not allowed (rule 'Antenna window - only manufacturer feed and ground')",
+      "items": [
+        {
+          "description": "Track [PROBE] on F.Cu, length 0.4000 mm",
+          "pos": {
+            "x": 8.0,
+            "y": 1.0
+          },
+          "uuid": "6c6084f0-02a7-42ae-990d-2432338b66c3"
+        }
+      ],
+      "severity": "error",
+      "type": "items_not_allowed"
+    },
+    {
+      "description": "Items not allowed (rule 'Buck input ground reference - ground vias only')",
+      "items": [
+        {
+          "description": "Via [PROBE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 27.0,
+            "y": 16.0
+          },
+          "uuid": "0509d989-b711-4f5f-be58-9231f01646e0"
+        }
+      ],
+      "severity": "error",
+      "type": "items_not_allowed"
+    },
+    {
+      "description": "Items not allowed (rule 'Continuous RF clock and core ground - ground vias only')",
+      "items": [
+        {
+          "description": "Via [PROBE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 18.0,
+            "y": 3.0
+          },
+          "uuid": "3f4e47de-8e0f-4a22-abc2-a18600a69544"
+        }
+      ],
+      "severity": "error",
+      "type": "items_not_allowed"
+    },
+    {
+      "description": "Items not allowed (rule 'Continuous RF clock and core ground - ground vias only')",
+      "items": [
+        {
+          "description": "Via [PROBE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 15.0,
+            "y": 10.0
+          },
+          "uuid": "540c1b5f-0073-429d-ae20-f3203b761db6"
+        }
+      ],
+      "severity": "error",
+      "type": "items_not_allowed"
+    },
+    {
+      "description": "Items not allowed (rule 'Continuous RF clock and core ground - ground vias only')",
+      "items": [
+        {
+          "description": "Via [PROBE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 8.0,
+            "y": 5.0
+          },
+          "uuid": "7a4fd694-f137-4b3e-9a5b-7cf684c51291"
+        }
+      ],
+      "severity": "error",
+      "type": "items_not_allowed"
+    },
+    {
+      "description": "Items not allowed (rule 'Continuous RF clock and core ground - ground vias only')",
+      "items": [
+        {
+          "description": "Via [PROBE] on F.Cu - B.Cu",
+          "pos": {
+            "x": 12.8,
+            "y": 11.0
+          },
+          "uuid": "a2bcc889-2d45-459b-9cd2-2e965f7f9ff7"
+        }
+      ],
+      "severity": "error",
+      "type": "items_not_allowed"
+    }
+  ],
+  "ignored_deliberate_incomplete_probe_findings": {
+    "track_dangling": 4,
+    "via_dangling": 10
+  },
+  "own_pad_rule_validation": {
+    "board_sha256": "fb7f0669ea9f011ac28bef67def55b60d50a3b9d7c2966c5d4db0ba8e74314a9",
+    "condition": "Pad-to-pad only, same footprint reference L102 or C115",
+    "minimum_clearance_mm": 0.127,
+    "standard_actual_pad_gap_mm": 0.18,
+    "post_rule_copper_clearance_violations": 0,
+    "remaining_incomplete_routing_findings": {
+      "via_dangling": 5,
+      "track_dangling": 2
+    },
+    "remaining_unconnected_items": 38,
+    "syntax_reference": "https://docs.kicad.org/9.0/en/pcbnew/pcbnew.html#custom_design_rules"
+  }
+}

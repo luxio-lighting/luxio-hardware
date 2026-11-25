@@ -1,0 +1,1488 @@
+{
+  "status": "Final native routing snapshot; validate with the current Export reports.",
+  "coordinate_system": "KiCad board millimeters: X right, Y down; KiCad rotation degrees.",
+  "source_board_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "placements": {
+    "C6": [
+      2.5,
+      4.3,
+      180.0
+    ],
+    "J1": [
+      2.5,
+      10.0,
+      -90.0
+    ],
+    "R1": [
+      5.2,
+      1.5,
+      90.0
+    ],
+    "R2": [
+      5.2,
+      3.5,
+      90.0
+    ],
+    "R3": [
+      19.3,
+      17.4,
+      90.0
+    ],
+    "R4": [
+      19.3,
+      15.4,
+      90.0
+    ],
+    "U2": [
+      2.5,
+      2.05,
+      0.0
+    ]
+  },
+  "routes": [
+    {
+      "net": "CC1",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          4.2,
+          3.8
+        ],
+        [
+          4.2,
+          8.35
+        ]
+      ]
+    },
+    {
+      "net": "CC1",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          4.2,
+          8.35
+        ],
+        [
+          4.6,
+          8.75
+        ]
+      ]
+    },
+    {
+      "net": "CC1",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          5.9,
+          2.1
+        ],
+        [
+          4.2,
+          3.8
+        ]
+      ]
+    },
+    {
+      "net": "CC1",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          4.6,
+          8.75
+        ],
+        [
+          6.175,
+          8.75
+        ]
+      ]
+    },
+    {
+      "net": "CC1",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          5.2,
+          2.009999
+        ],
+        [
+          5.9,
+          2.009999
+        ]
+      ]
+    },
+    {
+      "net": "CC1",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          5.9,
+          2.009999
+        ],
+        [
+          5.9,
+          2.1
+        ]
+      ]
+    },
+    {
+      "net": "CC2",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          3.6,
+          4.91
+        ],
+        [
+          3.6,
+          11.5
+        ]
+      ]
+    },
+    {
+      "net": "CC2",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          3.6,
+          11.5
+        ],
+        [
+          5.4,
+          11.5
+        ]
+      ]
+    },
+    {
+      "net": "CC2",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          4.5,
+          4.01
+        ],
+        [
+          3.6,
+          4.91
+        ]
+      ]
+    },
+    {
+      "net": "CC2",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          5.2,
+          4.01
+        ],
+        [
+          4.5,
+          4.01
+        ]
+      ]
+    },
+    {
+      "net": "CC2",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          5.4,
+          11.5
+        ],
+        [
+          5.65,
+          11.75
+        ]
+      ]
+    },
+    {
+      "net": "CC2",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          5.65,
+          11.75
+        ],
+        [
+          6.175,
+          11.75
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          16.8,
+          14.4
+        ],
+        [
+          16.8,
+          14.85
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          16.8,
+          14.85
+        ],
+        [
+          17.4,
+          14.85
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          17.4,
+          14.85
+        ],
+        [
+          17.9,
+          15.35
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          17.9,
+          15.35
+        ],
+        [
+          19.4,
+          15.35
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.4,
+          15.35
+        ],
+        [
+          19.4,
+          16.05
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.4,
+          16.05
+        ],
+        [
+          19.9,
+          16.55
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          16.399999,
+          13.45
+        ],
+        [
+          16.399999,
+          13.85
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          16.399999,
+          13.85
+        ],
+        [
+          16.8,
+          14.25
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          16.8,
+          14.25
+        ],
+        [
+          16.8,
+          14.4
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.56,
+          16.89
+        ],
+        [
+          19.3,
+          16.89
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.9,
+          16.55
+        ],
+        [
+          19.56,
+          16.89
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          2.5,
+          1.1
+        ],
+        [
+          3.9,
+          2.5
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          3.9,
+          2.5
+        ],
+        [
+          3.9,
+          8.95
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          3.9,
+          8.95
+        ],
+        [
+          4.2,
+          9.25
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          4.2,
+          9.25
+        ],
+        [
+          4.2,
+          10.25
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          7.13,
+          10.48
+        ],
+        [
+          7.8,
+          10.48
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          7.8,
+          10.48
+        ],
+        [
+          9.3,
+          12.0
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          9.3,
+          12.0
+        ],
+        [
+          9.3,
+          12.3
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          9.3,
+          12.3
+        ],
+        [
+          9.3,
+          12.65
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          9.3,
+          12.65
+        ],
+        [
+          10.5,
+          13.85
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          10.5,
+          13.85
+        ],
+        [
+          10.85,
+          13.85
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          10.85,
+          13.85
+        ],
+        [
+          13.1,
+          13.85
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          13.1,
+          13.85
+        ],
+        [
+          14.4,
+          15.15
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          14.4,
+          15.15
+        ],
+        [
+          15.4,
+          15.15
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          15.4,
+          15.15
+        ],
+        [
+          17.55,
+          17.3
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          17.55,
+          17.3
+        ],
+        [
+          20.55,
+          17.3
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          20.55,
+          17.3
+        ],
+        [
+          20.55,
+          17.49
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          20.55,
+          17.49
+        ],
+        [
+          19.95,
+          18.09
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          1.3625,
+          1.1
+        ],
+        [
+          3.6375,
+          1.1
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.175,
+          9.25
+        ],
+        [
+          4.2,
+          9.25
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.175,
+          10.25
+        ],
+        [
+          4.2,
+          10.25
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.175,
+          10.25
+        ],
+        [
+          6.85,
+          10.25
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.85,
+          10.25
+        ],
+        [
+          7.13,
+          10.48
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.48,
+          18.09
+        ],
+        [
+          19.3,
+          17.91
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.95,
+          18.09
+        ],
+        [
+          19.48,
+          18.09
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          17.4,
+          14.4
+        ],
+        [
+          18.0,
+          14.43
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          18.0,
+          14.43
+        ],
+        [
+          18.4,
+          14.8
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          18.4,
+          14.8
+        ],
+        [
+          19.5,
+          14.8
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.5,
+          14.8
+        ],
+        [
+          19.7,
+          14.8
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.7,
+          14.8
+        ],
+        [
+          20.0,
+          14.5
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          16.8,
+          13.45
+        ],
+        [
+          16.8,
+          13.8
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          16.8,
+          13.8
+        ],
+        [
+          17.4,
+          14.4
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.3,
+          14.7
+        ],
+        [
+          19.3,
+          14.89
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.6,
+          14.4
+        ],
+        [
+          19.3,
+          14.7
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.9,
+          14.4
+        ],
+        [
+          19.6,
+          14.4
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.9,
+          14.4
+        ],
+        [
+          20.0,
+          14.5
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          2.5,
+          3.0
+        ],
+        [
+          3.3,
+          3.8
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          3.3,
+          3.8
+        ],
+        [
+          3.3,
+          11.0
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          3.3,
+          11.0
+        ],
+        [
+          4.75,
+          11.0
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          4.75,
+          9.75
+        ],
+        [
+          4.75,
+          10.75
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          4.75,
+          11.0
+        ],
+        [
+          4.75,
+          10.75
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          10.4,
+          13.0
+        ],
+        [
+          10.4,
+          13.1
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          10.4,
+          13.1
+        ],
+        [
+          10.85,
+          13.55
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          10.85,
+          13.55
+        ],
+        [
+          11.2,
+          13.55
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          11.2,
+          13.55
+        ],
+        [
+          13.4,
+          13.55
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          13.4,
+          13.55
+        ],
+        [
+          14.7,
+          14.85
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          14.7,
+          14.85
+        ],
+        [
+          15.7,
+          14.85
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          15.7,
+          14.85
+        ],
+        [
+          17.85,
+          17.0
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          17.85,
+          17.0
+        ],
+        [
+          19.95,
+          17.0
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.95,
+          17.0
+        ],
+        [
+          20.1,
+          17.0
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          20.1,
+          17.0
+        ],
+        [
+          20.4,
+          16.7
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          20.4,
+          16.2
+        ],
+        [
+          20.1,
+          15.9
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          20.4,
+          16.7
+        ],
+        [
+          20.4,
+          16.2
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          1.3625,
+          3.0
+        ],
+        [
+          3.6375,
+          3.0
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.175,
+          9.75
+        ],
+        [
+          4.75,
+          9.75
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.175,
+          10.75
+        ],
+        [
+          4.75,
+          10.75
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.175,
+          10.75
+        ],
+        [
+          6.725,
+          10.75
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.725,
+          10.75
+        ],
+        [
+          6.975,
+          11.0
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.975,
+          11.0
+        ],
+        [
+          6.975,
+          13.45
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.975,
+          13.45
+        ],
+        [
+          10.3,
+          13.45
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          10.3,
+          13.45
+        ],
+        [
+          10.4,
+          13.35
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          10.4,
+          13.35
+        ],
+        [
+          10.4,
+          13.0
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          19.31,
+          15.9
+        ],
+        [
+          19.3,
+          15.91
+        ]
+      ]
+    },
+    {
+      "net": "USB_DP_CONN",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          20.1,
+          15.9
+        ],
+        [
+          19.31,
+          15.9
+        ]
+      ]
+    }
+  ],
+  "vias": [
+    {
+      "net": "CC1",
+      "at": [
+        4.6,
+        8.75
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "CC1",
+      "at": [
+        5.9,
+        2.1
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DM",
+      "at": [
+        16.8,
+        14.4
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DM",
+      "at": [
+        19.9,
+        16.55
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DM_CONN",
+      "at": [
+        2.5,
+        1.1
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DM_CONN",
+      "at": [
+        4.2,
+        9.25
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DM_CONN",
+      "at": [
+        4.2,
+        10.25
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DM_CONN",
+      "at": [
+        7.13,
+        10.48
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DM_CONN",
+      "at": [
+        19.95,
+        18.09
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DP",
+      "at": [
+        17.4,
+        14.4
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DP",
+      "at": [
+        20.0,
+        14.5
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DP_CONN",
+      "at": [
+        2.5,
+        3.0
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DP_CONN",
+      "at": [
+        4.75,
+        9.75
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DP_CONN",
+      "at": [
+        4.75,
+        10.75
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DP_CONN",
+      "at": [
+        10.4,
+        13.0
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "USB_DP_CONN",
+      "at": [
+        20.1,
+        15.9
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    }
+  ],
+  "notes": [
+    "Two passive 5.1k CC resistors identify a 5V sink. No USB PD controller is fitted.",
+    "The USB data routes support the ESP32-S3 full-speed interface. They are not a controlled 90ohm high-speed differential pair.",
+    "The ESD branches are approximately 12mm; validate USB enumeration, sustained transfer and ESD immunity on first articles.",
+    "The external USB data runs use paired 0.15mm tracks where space permits; the local MCU escapes and connector ESD branches are nonuniform.",
+    "J1 has plated shell stakes and uses pin-in-paste assembly; its native footprint attribute is through-hole and the assembly exporter explicitly retains it.",
+    "USB_5V and connector GND copper is in power_distribution_layout.json."
+  ]
+}

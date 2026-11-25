@@ -1,0 +1,1781 @@
+[
+  {
+    "ref": "U1",
+    "libname": "MCU_Espressif:ESP32-S3",
+    "value": "ESP32-S3FH4R2",
+    "footprint": "Core:ESP32_S3FH4R2_QFN56_7x7_EP5p7",
+    "lcsc": "C3013940",
+    "pins": {
+      "1": "RF_CHIP",
+      "2": "VDD3P3_RF",
+      "3": "VDD3P3_RF",
+      "4": "ESP_EN",
+      "5": "BOOT",
+      "20": "+3V3",
+      "22": "GPIO16",
+      "23": "GPIO17",
+      "24": "GPIO18_BUTTON",
+      "25": "USB_DM",
+      "26": "USB_DP",
+      "29": "VDD_SPI",
+      "46": "+3V3",
+      "52": "STRAP46",
+      "53": "XTAL_N",
+      "54": "XTAL_P",
+      "55": "+3V3_ANALOG",
+      "56": "+3V3_ANALOG",
+      "57": "GND"
+    },
+    "sch": [
+      182.88,
+      137.16
+    ],
+    "place": [
+      15.0,
+      10.0,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "ESP32-S3FH4R2",
+    "source_url": "https://jlcpcb.com/partdetail/EspressifSystems-ESP32_S3FH4R2/C3013940",
+    "unit_usd_at_100": 2.3901,
+    "jlc_stock_checked": 5824,
+    "jlc_stock_date": "2026-11-25",
+    "datasheet": "https://documentation.espressif.com/esp32_s3_datasheet_en.pdf",
+    "memory": {
+      "flash_bytes": 4194304,
+      "flash_location": "in-package",
+      "flash_bus": "Quad SPI",
+      "psram_bytes": 2097152,
+      "psram_location": "in-package",
+      "psram_bus": "Quad SPI",
+      "reserved_package_pins": [
+        "28",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35"
+      ]
+    },
+    "jlc_available_checked": 4868,
+    "uuid": "77c29207-dc09-53dc-ac6a-dfbe8e6ddde2",
+    "group": "mcu",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/b93a6c86-504f-51eb-8ebe-2ae258ddca6d"
+  },
+  {
+    "ref": "L100",
+    "libname": "Device:L",
+    "value": "2nH 900mA",
+    "footprint": "Inductor_SMD:L_0402_1005Metric",
+    "lcsc": "C18216",
+    "pins": {
+      "1": "+3V3",
+      "2": "VDD3P3_RF"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      7.98,
+      8.7,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "LQG15HS2N0S02D",
+    "source_url": "https://www.lcsc.com/product-detail/C18216.html",
+    "unit_usd_at_100": 0.0228,
+    "jlc_stock_checked": 53975,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "76c78706-e9fb-51bb-80f5-ff2bdacfdff0",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C100",
+    "libname": "Device:C",
+    "value": "10uF 10V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C19702",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      8.8,
+      11.05,
+      180.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL10A106KP8NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C19702.html",
+    "unit_usd_at_100": 0.0233,
+    "jlc_stock_checked": 9415651,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "45a90c9f-a2b6-5592-aebc-cfe587c21679",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C101",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      60.96
+    ],
+    "place": [
+      7.98,
+      9.75,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "77113b14-57c9-5986-87b1-b63bd59a1113",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C102",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "VDD3P3_RF",
+      "2": "GND"
+    },
+    "sch": [
+      325.12,
+      60.96
+    ],
+    "place": [
+      9.5,
+      9.05,
+      -90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "ecfe731f-2a4f-5ae9-82a3-7aaee478ba41",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C103",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      111.75999999999999
+    ],
+    "place": [
+      13.5,
+      14.7,
+      180.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "31d34816-855a-5af3-9175-5e907eabce92",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C104",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      111.75999999999999
+    ],
+    "place": [
+      19.4,
+      5.4,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "3dd4bac1-b8da-597f-a461-47192713f718",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C105",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "+3V3_ANALOG",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      111.75999999999999
+    ],
+    "place": [
+      10.78,
+      5.68,
+      180.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "832bbebe-e55c-56f5-8e2b-ddfdd176adae",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C106",
+    "libname": "Device:C",
+    "value": "1uF 25V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C52923",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      325.12,
+      111.75999999999999
+    ],
+    "place": [
+      7.8,
+      4.2,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05A105KA5NQNC",
+    "source_url": "https://www.lcsc.com/product-detail/C52923.html",
+    "unit_usd_at_100": 0.0057,
+    "jlc_stock_checked": 10734624,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "c71b00fe-131b-57a5-b407-ef68ee333466",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C107",
+    "libname": "Device:C",
+    "value": "10uF 10V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C19702",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      162.56
+    ],
+    "place": [
+      8.8,
+      12.65,
+      180.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL10A106KP8NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C19702.html",
+    "unit_usd_at_100": 0.0233,
+    "jlc_stock_checked": 9415651,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "7e5909fb-372e-53a5-b7ae-e5c5446d924c",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C108",
+    "libname": "Device:C",
+    "value": "100nF 16V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1525",
+    "pins": {
+      "1": "VDD_SPI",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      20.11,
+      13.8,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05B104KO5NNNC",
+    "source_url": "https://www.lcsc.com/product-detail/C1525.html",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 31341387,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "45b3b044-a5cc-5273-8a3b-a2235ba9fff4",
+    "group": "flash",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/59c12b93-5acf-5a8e-8636-a3c0937109a1"
+  },
+  {
+    "ref": "C109",
+    "libname": "Device:C",
+    "value": "1uF 25V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C52923",
+    "pins": {
+      "1": "VDD_SPI",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      22.24,
+      13.8,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05A105KA5NQNC",
+    "source_url": "https://www.lcsc.com/product-detail/C52923.html",
+    "unit_usd_at_100": 0.0057,
+    "jlc_stock_checked": 10734624,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "148895b0-ccb6-50be-bb12-b69243f2be3d",
+    "group": "flash",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/59c12b93-5acf-5a8e-8636-a3c0937109a1"
+  },
+  {
+    "ref": "R100",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "+3V3",
+      "2": "ESP_EN"
+    },
+    "sch": [
+      142.24,
+      162.56
+    ],
+    "place": [
+      1.3,
+      15.7,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://www.lcsc.com/product-detail/C25744.html",
+    "unit_usd_at_100": 0.001,
+    "jlc_stock_checked": 20665462,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "8570362b-4f8f-56b2-bafc-d09a5320a103",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C111",
+    "libname": "Device:C",
+    "value": "1uF 25V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C52923",
+    "pins": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      162.56
+    ],
+    "place": [
+      3.3,
+      15.7,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "CL05A105KA5NQNC",
+    "source_url": "https://www.lcsc.com/product-detail/C52923.html",
+    "unit_usd_at_100": 0.0057,
+    "jlc_stock_checked": 10734624,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "6ac1c1a5-a2a4-5761-b191-0c2d37f57806",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "R101",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "+3V3",
+      "2": "BOOT"
+    },
+    "sch": [
+      325.12,
+      162.56
+    ],
+    "place": [
+      24.72,
+      10.2,
+      -90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://www.lcsc.com/product-detail/C25744.html",
+    "unit_usd_at_100": 0.001,
+    "jlc_stock_checked": 20665462,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "8547bb04-3d36-511b-a21f-d8c86ce10fcf",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "R103",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "STRAP46",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      213.35999999999999
+    ],
+    "place": [
+      21.3,
+      2.6,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://www.lcsc.com/product-detail/C25744.html",
+    "unit_usd_at_100": 0.001,
+    "jlc_stock_checked": 20665462,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "7b5f2bc8-c736-5403-b3a9-a1d937e6551e",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "Y1",
+    "libname": "Device:Crystal_GND24",
+    "value": "40MHz 12pF 10ppm",
+    "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+    "lcsc": "C655034",
+    "pins": {
+      "1": "XTAL_P_CRYSTAL",
+      "2": "GND",
+      "3": "XTAL_N",
+      "4": "GND"
+    },
+    "sch": [
+      142.24,
+      213.35999999999999
+    ],
+    "place": [
+      17.8,
+      2.0,
+      180.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "7B040000M01",
+    "source_url": "https://jlcpcb.com/partdetail/HD-7B040000M01/C655034",
+    "unit_usd_at_100": 0.0532,
+    "jlc_stock_checked": 2714,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "2b09e537-f0c7-5284-add1-6e8d49f60822",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C112",
+    "libname": "Device:C",
+    "value": "18pF 50V C0G",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1549",
+    "pins": {
+      "1": "XTAL_P_CRYSTAL",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      213.35999999999999
+    ],
+    "place": [
+      20.9,
+      1.15,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402CG180J500NT",
+    "source_url": "https://www.lcsc.com/product-detail/C1549.html",
+    "unit_usd_at_100": 0.0018,
+    "jlc_stock_checked": 1087732,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "3c294a2d-008a-583a-bf3f-55b9b6b26f68",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "C113",
+    "libname": "Device:C",
+    "value": "18pF 50V C0G",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C1549",
+    "pins": {
+      "1": "XTAL_N",
+      "2": "GND"
+    },
+    "sch": [
+      325.12,
+      213.35999999999999
+    ],
+    "place": [
+      16.2,
+      4.6,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0402CG180J500NT",
+    "source_url": "https://www.lcsc.com/product-detail/C1549.html",
+    "unit_usd_at_100": 0.0018,
+    "jlc_stock_checked": 1087732,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "3b83f1bf-eb06-55e8-a45f-00b04830db62",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/daec6adb-aef8-5ee5-92f3-bb5bf5a55d50"
+  },
+  {
+    "ref": "L101",
+    "libname": "Device:L",
+    "value": "24nH",
+    "footprint": "Inductor_SMD:L_0402_1005Metric",
+    "lcsc": "C913699",
+    "pins": {
+      "1": "XTAL_P",
+      "2": "XTAL_P_CRYSTAL"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      15.0,
+      2.1,
+      90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "LQW15AN24NH00D",
+    "source_url": "https://www.lcsc.com/product-detail/C913699.html",
+    "unit_usd_at_100": 0.0944,
+    "jlc_stock_checked": 3032,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "e5418976-c7b3-5a21-900c-1cab48a81fe7",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/f20a1e81-3e16-5df8-8c35-448de6527dd4"
+  },
+  {
+    "ref": "C114",
+    "libname": "Device:C",
+    "value": "1.5pF 50V C0G",
+    "footprint": "Capacitor_SMD:C_0201_0603Metric",
+    "lcsc": "C161414",
+    "pins": {
+      "1": "RF_CHIP",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      10.5,
+      7.4,
+      90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "GRM0335C1H1R5BA01D",
+    "source_url": "https://www.lcsc.com/product-detail/C161414.html",
+    "unit_usd_at_100": 0.0125,
+    "jlc_stock_checked": 37841,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "0dc5c2e4-b668-53ee-86c2-932c81774c93",
+    "group": "rf",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/2d8299ab-939a-57dc-98f2-9fa6a233969d"
+  },
+  {
+    "ref": "L102",
+    "libname": "Device:L",
+    "value": "2.7nH",
+    "footprint": "Inductor_SMD:L_0201_0603Metric",
+    "lcsc": "C7216765",
+    "pins": {
+      "1": "RF_CHIP",
+      "2": "RF_50"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      9.4,
+      7.72,
+      180.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "LQP03HQ2N7B02D",
+    "source_url": "https://jlcpcb.com/partdetail/MurataElectronics-LQP03HQ2N7B02D/C7216765",
+    "unit_usd_at_100": 0.0456,
+    "jlc_stock_checked": 29824,
+    "jlc_stock_date": "2026-11-25",
+    "datasheet": "https://pim.murata.com/asset/pim4/inductor/JELF243C-0021_PDF_INDUCTOR",
+    "uuid": "de7b8b39-93b1-501f-aa27-7f6767d5a67e",
+    "group": "rf",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/2d8299ab-939a-57dc-98f2-9fa6a233969d"
+  },
+  {
+    "ref": "C115",
+    "libname": "Device:C",
+    "value": "1.5pF 50V C0G",
+    "footprint": "Capacitor_SMD:C_0201_0603Metric",
+    "lcsc": "C161414",
+    "pins": {
+      "1": "RF_50",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      60.96
+    ],
+    "place": [
+      8.1,
+      7.4,
+      -90.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "GRM0335C1H1R5BA01D",
+    "source_url": "https://www.lcsc.com/product-detail/C161414.html",
+    "unit_usd_at_100": 0.0125,
+    "jlc_stock_checked": 37841,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "72829853-d1a0-516c-9bb5-ad53bef5ca0f",
+    "group": "rf",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/2d8299ab-939a-57dc-98f2-9fa6a233969d"
+  },
+  {
+    "ref": "L104",
+    "libname": "Device:R",
+    "value": "DNP 0R antenna tune",
+    "footprint": "Core:Walsin_RFECA_Tuner_0402",
+    "lcsc": "C17168",
+    "pins": {
+      "1": "ANT_TUNE",
+      "2": "GND"
+    },
+    "sch": [
+      325.12,
+      60.96
+    ],
+    "place": [
+      6.8,
+      1.5,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": true,
+    "mpn": "0402WGF0000TCE",
+    "source_url": "https://jlcpcb.com/partdetail/-/C17168",
+    "unit_usd_at_100": 0.0012,
+    "jlc_stock_checked": 16051414,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "9c1d57c6-4822-5659-a13d-44b9fec2484c",
+    "group": "rf",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/2d8299ab-939a-57dc-98f2-9fa6a233969d"
+  },
+  {
+    "ref": "ANT1",
+    "libname": "LX0002:RFECA3216060A1T",
+    "value": "RFECA3216060A1T",
+    "footprint": "Core:Walsin_RFECA3216060A1T_Type1",
+    "lcsc": "C127620",
+    "pins": {
+      "1": "RF_50",
+      "2": "ANT_TUNE",
+      "3": "GND"
+    },
+    "sch": [
+      50.8,
+      111.75999999999999
+    ],
+    "place": [
+      10.2,
+      1.5,
+      0.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "RFECA3216060A1T",
+    "source_url": "https://jlcpcb.com/partdetail/Walsin_TechCorp-RFECA3216060A1T/C127620",
+    "unit_usd_at_100": 0.0443,
+    "jlc_stock_checked": 22288,
+    "jlc_stock_date": "2026-11-11",
+    "uuid": "b0c51f3d-c7e1-586c-bf90-5ed9ec52c6c4",
+    "group": "rf",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/2d8299ab-939a-57dc-98f2-9fa6a233969d"
+  },
+  {
+    "ref": "R106",
+    "libname": "Device:R",
+    "value": "0",
+    "footprint": "Resistor_SMD:R_0805_2012Metric",
+    "lcsc": "C17477",
+    "pins": {
+      "1": "+3V3",
+      "2": "+3V3_ANALOG"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      13.4,
+      4.65,
+      180.0
+    ],
+    "side": "Top",
+    "dnp": false,
+    "mpn": "0805W8F0000T5E",
+    "source_url": "https://jlcpcb.com/partdetail/0805W8F0000T5E/C17477",
+    "unit_usd_at_100": 0.0031,
+    "jlc_stock_checked": 3754075,
+    "jlc_stock_date": "2026-11-25",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F0000T5E_C17477.pdf",
+    "resistance_max_ohm": 0.05,
+    "rated_current_a": 2.0,
+    "purpose": "Front-side analog supply bridge across crystal traces; retains continuous lower ground reference",
+    "uuid": "b2b13983-b7ab-5762-84ce-82083a755261",
+    "group": "core",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/f20a1e81-3e16-5df8-8c35-448de6527dd4"
+  },
+  {
+    "ref": "J1",
+    "libname": "Connector:USB_C_Receptacle_USB2.0_16P",
+    "value": "USB-TYPE-C-018",
+    "footprint": "LX0002:USB_C_DEALON_USB_TYPE_C_018",
+    "lcsc": "C2927038",
+    "pins": {
+      "A1": "GND",
+      "A4": "USB_5V",
+      "A5": "CC1",
+      "A6": "USB_DP_CONN",
+      "A7": "USB_DM_CONN",
+      "A9": "USB_5V",
+      "A12": "GND",
+      "B1": "GND",
+      "B4": "USB_5V",
+      "B5": "CC2",
+      "B6": "USB_DP_CONN",
+      "B7": "USB_DM_CONN",
+      "B9": "USB_5V",
+      "B12": "GND",
+      "SH": "GND"
+    },
+    "sch": [
+      50.8,
+      48.260000000000005
+    ],
+    "place": [
+      2.5,
+      10.0,
+      -90.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121330_DEALON-USB-TYPE-C-018_C2927038.pdf",
+    "uuid": "287b64a3-ab58-5bd7-ba1f-7bb98fd0a4e4",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/4159179b-64ec-5e8b-9991-4e76442693e2"
+  },
+  {
+    "ref": "R1",
+    "libname": "Device:R",
+    "value": "5.1k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25905",
+    "pins": {
+      "1": "CC1",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      5.2,
+      1.5,
+      90.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "mpn": "0402WGF5101TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25905",
+    "uuid": "111beed5-a678-5545-af6d-9c20db8c5fdc",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/4159179b-64ec-5e8b-9991-4e76442693e2"
+  },
+  {
+    "ref": "R2",
+    "libname": "Device:R",
+    "value": "5.1k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25905",
+    "pins": {
+      "1": "CC2",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      60.96
+    ],
+    "place": [
+      5.2,
+      3.5,
+      90.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "mpn": "0402WGF5101TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25905",
+    "uuid": "468756c9-eed8-57e1-a09b-7073d773a129",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/4159179b-64ec-5e8b-9991-4e76442693e2"
+  },
+  {
+    "ref": "R3",
+    "libname": "Device:R",
+    "value": "22",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25092",
+    "pins": {
+      "1": "USB_DM_CONN",
+      "2": "USB_DM"
+    },
+    "sch": [
+      325.12,
+      60.96
+    ],
+    "place": [
+      19.3,
+      17.4,
+      90.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "mpn": "0402WGF220JTCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25092",
+    "uuid": "80072698-f165-5c1e-be6e-e5338c37916b",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/4159179b-64ec-5e8b-9991-4e76442693e2"
+  },
+  {
+    "ref": "R4",
+    "libname": "Device:R",
+    "value": "22",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25092",
+    "pins": {
+      "1": "USB_DP_CONN",
+      "2": "USB_DP"
+    },
+    "sch": [
+      50.8,
+      111.75999999999999
+    ],
+    "place": [
+      19.3,
+      15.4,
+      90.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "mpn": "0402WGF220JTCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25092",
+    "uuid": "fd313039-e51e-51fa-9aab-4b7f8715ceea",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/4159179b-64ec-5e8b-9991-4e76442693e2"
+  },
+  {
+    "ref": "U2",
+    "libname": "Power_Protection:USBLC6-2SC6",
+    "value": "USBLC6-2SC6",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "lcsc": "C7519",
+    "pins": {
+      "1": "USB_DM_CONN",
+      "2": "GND",
+      "3": "USB_DP_CONN",
+      "4": "USB_DP_CONN",
+      "5": "USB_5V",
+      "6": "USB_DM_CONN"
+    },
+    "sch": [
+      142.24,
+      111.75999999999999
+    ],
+    "place": [
+      2.5,
+      2.05,
+      0.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "uuid": "7a57cb05-4790-50fb-b870-e8ed6f2db944",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/4159179b-64ec-5e8b-9991-4e76442693e2"
+  },
+  {
+    "ref": "C6",
+    "libname": "Device:C",
+    "value": "1uF 25V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C52923",
+    "pins": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      111.75999999999999
+    ],
+    "place": [
+      2.5,
+      4.3,
+      180.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "mpn": "CL05A105KA5NQNC",
+    "source_url": "https://jlcpcb.com/partdetail/C52923",
+    "uuid": "cb9a4ba0-0eff-5325-b28d-e891dfae2f5c",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/4159179b-64ec-5e8b-9991-4e76442693e2"
+  },
+  {
+    "ref": "U6",
+    "libname": "LX0002:LMR51410YFDBVR",
+    "value": "LMR51410YFDBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "lcsc": "C32347484",
+    "pins": {
+      "1": "BUCK_BST",
+      "2": "GND",
+      "3": "BUCK_FB",
+      "4": "USB_5V",
+      "5": "USB_5V",
+      "6": "BUCK_SW"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      7.5,
+      17.5,
+      -90.0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "uuid": "84a38787-ac0c-508d-b503-d7007168232d",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c"
+  },
+  {
+    "ref": "C8",
+    "libname": "Device:C",
+    "value": "10uF 10V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C19702",
+    "pins": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      4.8,
+      17.8,
+      90.0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "mpn": "CL10A106KP8NNNC",
+    "source_url": "https://jlcpcb.com/partdetail/C19702",
+    "uuid": "2f788f23-fe67-5df5-852a-296100e24152",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c"
+  },
+  {
+    "ref": "C19",
+    "libname": "Device:C",
+    "value": "10uF 10V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C19702",
+    "pins": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      60.96
+    ],
+    "place": [
+      3.2,
+      17.8,
+      90.0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "mpn": "CL10A106KP8NNNC",
+    "source_url": "https://jlcpcb.com/partdetail/C19702",
+    "uuid": "566f7868-7d6e-535f-9f1b-8422ddf14ab1",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c"
+  },
+  {
+    "ref": "C9",
+    "libname": "Device:C",
+    "value": "100nF 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C14663",
+    "pins": {
+      "1": "BUCK_BST",
+      "2": "BUCK_SW"
+    },
+    "sch": [
+      325.12,
+      60.96
+    ],
+    "place": [
+      8.6,
+      14.45,
+      0.0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "uuid": "d6852bd6-f810-5dc5-8729-a836d3cf67d3",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c"
+  },
+  {
+    "ref": "L1",
+    "libname": "Device:L",
+    "value": "10uH 1.5A Isat1.95A",
+    "footprint": "Inductor_SMD:L_Sunlord_SWPA4030S",
+    "lcsc": "C38117",
+    "pins": {
+      "1": "BUCK_SW",
+      "2": "+3V3"
+    },
+    "sch": [
+      50.8,
+      111.75999999999999
+    ],
+    "place": [
+      11.55,
+      17.5,
+      0.0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "uuid": "0587084e-e6d4-5cdb-aae7-e5c99a78c58d",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c"
+  },
+  {
+    "ref": "C10",
+    "libname": "Device:C",
+    "value": "22uF 25V",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "lcsc": "C45783",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      111.75999999999999
+    ],
+    "place": [
+      14.95,
+      17.5,
+      90.0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "uuid": "41ca123f-930e-5b2d-a3cc-01db021b007c",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c"
+  },
+  {
+    "ref": "C11",
+    "libname": "Device:C",
+    "value": "22uF 25V",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "lcsc": "C45783",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      111.75999999999999
+    ],
+    "place": [
+      17.05,
+      17.5,
+      90.0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "uuid": "cafbe511-6799-5552-aa3f-1c68ef389091",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c"
+  },
+  {
+    "ref": "R22",
+    "libname": "Device:R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25741",
+    "pins": {
+      "1": "+3V3",
+      "2": "BUCK_FB"
+    },
+    "sch": [
+      325.12,
+      111.75999999999999
+    ],
+    "place": [
+      1.3,
+      17.05,
+      0.0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "mpn": "0402WGF1003TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25741",
+    "uuid": "e4dbc546-3c86-5104-b580-e6f1c9a6f667",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c"
+  },
+  {
+    "ref": "R23",
+    "libname": "Device:R",
+    "value": "22k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25768",
+    "pins": {
+      "1": "BUCK_FB",
+      "2": "BUCK_FB_LOW"
+    },
+    "sch": [
+      50.8,
+      162.56
+    ],
+    "place": [
+      1.3,
+      18.05,
+      180.0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "mpn": "0402WGF2202TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25768",
+    "uuid": "bf72338e-6233-53f8-bb7e-468846719fd7",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c"
+  },
+  {
+    "ref": "R24",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "BUCK_FB_LOW",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      162.56
+    ],
+    "place": [
+      1.3,
+      19.05,
+      0.0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25744",
+    "uuid": "5dbfce19-f3b7-57f3-a56a-3b746c4e990a",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/36a636d7-c28f-5751-8ed4-c03ca0234c9c"
+  },
+  {
+    "ref": "U8",
+    "libname": "74xGxx:74AHCT1G125",
+    "value": "SN74AHCT1G125DBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "lcsc": "C7484",
+    "pins": {
+      "1": "GND",
+      "2": "GPIO16",
+      "3": "GND",
+      "4": "DATA16_5V",
+      "5": "USB_5V"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      25.35,
+      14.47,
+      180.0
+    ],
+    "side": "Top",
+    "group": "outputs",
+    "uuid": "f2e099b7-1b1f-5e2f-bcd9-517b173b55d0",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413"
+  },
+  {
+    "ref": "R16",
+    "libname": "Device:R",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "lcsc": "C22775",
+    "pins": {
+      "1": "DATA16_5V",
+      "2": "DATA16_OUT"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      24.34,
+      11.92,
+      0.0
+    ],
+    "side": "Top",
+    "group": "outputs",
+    "uuid": "eac05385-0de6-5a25-a284-741f4e66ecaa",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413"
+  },
+  {
+    "ref": "R18",
+    "libname": "Device:R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "lcsc": "C25803",
+    "pins": {
+      "1": "GPIO16",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      60.96
+    ],
+    "place": [
+      26.62,
+      11.05,
+      90.0
+    ],
+    "side": "Top",
+    "group": "outputs",
+    "uuid": "a9de115b-8133-5cfa-af6c-ee0b8ba1b46f",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413"
+  },
+  {
+    "ref": "C14",
+    "libname": "Device:C",
+    "value": "100nF 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C14663",
+    "pins": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      325.12,
+      60.96
+    ],
+    "place": [
+      21.7,
+      15.32,
+      180.0
+    ],
+    "side": "Top",
+    "group": "outputs",
+    "uuid": "d6bab86d-7fc0-525a-b66e-3b94c409d51b",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413"
+  },
+  {
+    "ref": "SW1",
+    "libname": "Switch:SW_Push",
+    "value": "TS-1088-AR02016",
+    "footprint": "LX0002:SW_TS-1088-AR02016",
+    "lcsc": "C720477",
+    "pins": {
+      "1": "BUTTON_COMMON",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      21.0,
+      10.0,
+      90.0
+    ],
+    "side": "Top",
+    "group": "button",
+    "uuid": "78c90290-1386-5670-9862-2e60ddec17b7",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/067874be-c251-5de6-aa26-96b93969ad7a"
+  },
+  {
+    "ref": "U9",
+    "libname": "74xGxx:74AHCT1G125",
+    "value": "SN74AHCT1G125DBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "lcsc": "C7484",
+    "pins": {
+      "1": "GND",
+      "2": "GPIO17",
+      "3": "GND",
+      "4": "DATA17_5V",
+      "5": "USB_5V"
+    },
+    "sch": [
+      50.8,
+      111.75999999999999
+    ],
+    "place": [
+      25.22,
+      17.88,
+      180.0
+    ],
+    "side": "Top",
+    "group": "outputs",
+    "uuid": "1915380f-04a0-587e-95af-da33bcb65737",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413"
+  },
+  {
+    "ref": "R27",
+    "libname": "Device:R",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "lcsc": "C22775",
+    "pins": {
+      "1": "DATA17_5V",
+      "2": "DATA17_OUT"
+    },
+    "sch": [
+      142.24,
+      111.75999999999999
+    ],
+    "place": [
+      21.51,
+      17.45,
+      180.0
+    ],
+    "side": "Top",
+    "group": "outputs",
+    "uuid": "a2988ea1-9fc3-54e9-ac54-4381a8c7c8e4",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413"
+  },
+  {
+    "ref": "R29",
+    "libname": "Device:R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "lcsc": "C25803",
+    "pins": {
+      "1": "GPIO17",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      111.75999999999999
+    ],
+    "place": [
+      21.62,
+      4.91,
+      -90.0
+    ],
+    "side": "Top",
+    "group": "outputs",
+    "uuid": "65d4ff8e-11d3-51a2-85e2-cfdc220a1430",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413"
+  },
+  {
+    "ref": "C17",
+    "libname": "Device:C",
+    "value": "100nF 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C14663",
+    "pins": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      325.12,
+      111.75999999999999
+    ],
+    "place": [
+      21.53,
+      18.99,
+      180.0
+    ],
+    "side": "Top",
+    "group": "outputs",
+    "uuid": "2e838626-e714-5047-af2b-d3d7ecc16850",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413"
+  },
+  {
+    "ref": "J3",
+    "libname": "Connector_Generic:Conn_01x02",
+    "value": "2060-452-HDGC",
+    "footprint": "LX0002:HDGC_2060_452",
+    "lcsc": "C55251566",
+    "pins": {
+      "1": "DATA16_OUT",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      162.56
+    ],
+    "place": [
+      35.5,
+      5.75,
+      90.0
+    ],
+    "side": "Top",
+    "group": "outputs",
+    "uuid": "d10c8e14-0ce6-5634-a1fd-de215a5a6f9a",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413"
+  },
+  {
+    "ref": "J4",
+    "libname": "Connector_Generic:Conn_01x02",
+    "value": "2060-452-HDGC",
+    "footprint": "LX0002:HDGC_2060_452",
+    "lcsc": "C55251566",
+    "pins": {
+      "1": "USB_5V",
+      "2": "DATA17_OUT"
+    },
+    "sch": [
+      142.24,
+      162.56
+    ],
+    "place": [
+      35.5,
+      14.25,
+      90.0
+    ],
+    "side": "Top",
+    "group": "outputs",
+    "uuid": "5179596f-255f-599c-8d51-d38c04858dcd",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/01620736-5956-5d84-b5f2-3f04d823e413"
+  },
+  {
+    "ref": "D4",
+    "libname": "Diode:BAT54C",
+    "value": "BAT54C",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "lcsc": "C2135",
+    "pins": {
+      "1": "BOOT",
+      "2": "GPIO18_BUTTON",
+      "3": "BUTTON_COMMON"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      25.01,
+      7.21,
+      0.0
+    ],
+    "side": "Top",
+    "group": "button",
+    "uuid": "f446c1c6-52d0-5050-a229-a64deb193c7b",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/067874be-c251-5de6-aa26-96b93969ad7a"
+  },
+  {
+    "ref": "R30",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "+3V3",
+      "2": "GPIO18_BUTTON"
+    },
+    "sch": [
+      233.68,
+      60.96
+    ],
+    "place": [
+      23.4,
+      10.18,
+      -90.0
+    ],
+    "side": "Top",
+    "group": "button",
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25744",
+    "uuid": "1ed5affb-19f5-50ba-a26a-1063e7ad2382",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/067874be-c251-5de6-aa26-96b93969ad7a"
+  },
+  {
+    "ref": "TP1",
+    "libname": "Connector:TestPoint",
+    "value": "GND",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "GND"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      39.0,
+      2.0,
+      0.0
+    ],
+    "side": "Bottom",
+    "group": "test",
+    "uuid": "3a548708-ffef-5322-ad88-f21092b4225f",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/3f669d52-3413-54c5-8364-bea622d1fee6"
+  },
+  {
+    "ref": "TP2",
+    "libname": "Connector:TestPoint",
+    "value": "+3V3",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "+3V3"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      23.0,
+      9.8,
+      0.0
+    ],
+    "side": "Bottom",
+    "group": "test",
+    "uuid": "9aff4cdf-c007-549c-8f75-c809da4fb7e7",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/3f669d52-3413-54c5-8364-bea622d1fee6"
+  },
+  {
+    "ref": "TP3",
+    "libname": "Connector:TestPoint",
+    "value": "ESP_EN",
+    "footprint": "LX0002:TestPoint_Pad_D0.5mm",
+    "lcsc": "",
+    "pins": {
+      "1": "ESP_EN"
+    },
+    "sch": [
+      233.68,
+      60.96
+    ],
+    "place": [
+      5.7,
+      4.5,
+      0.0
+    ],
+    "side": "Bottom",
+    "group": "test",
+    "uuid": "6d4c27e3-0b61-55c8-8d08-2c349ca54e4d",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/3f669d52-3413-54c5-8364-bea622d1fee6"
+  },
+  {
+    "ref": "TP6",
+    "libname": "Connector:TestPoint",
+    "value": "GPIO16",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "GPIO16"
+    },
+    "sch": [
+      325.12,
+      60.96
+    ],
+    "place": [
+      29.0,
+      8.0,
+      0.0
+    ],
+    "side": "Bottom",
+    "group": "test",
+    "uuid": "e7065886-f0ae-550a-bf61-c64cbecd8c8a",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/3f669d52-3413-54c5-8364-bea622d1fee6"
+  },
+  {
+    "ref": "TP7",
+    "libname": "Connector:TestPoint",
+    "value": "GPIO17",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "GPIO17"
+    },
+    "sch": [
+      50.8,
+      111.75999999999999
+    ],
+    "place": [
+      29.0,
+      10.0,
+      0.0
+    ],
+    "side": "Bottom",
+    "group": "test",
+    "uuid": "8c6ec9d0-4fc5-574d-8436-c720f8ccadcf",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/3f669d52-3413-54c5-8364-bea622d1fee6"
+  },
+  {
+    "ref": "TP8",
+    "libname": "Connector:TestPoint",
+    "value": "USB_5V",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "USB_5V"
+    },
+    "sch": [
+      142.24,
+      111.75999999999999
+    ],
+    "place": [
+      38.0,
+      17.5,
+      0.0
+    ],
+    "side": "Bottom",
+    "group": "test",
+    "uuid": "a2ce154e-656a-5d5c-a58c-5e2e067ffaaa",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/3f669d52-3413-54c5-8364-bea622d1fee6"
+  },
+  {
+    "ref": "TP9",
+    "libname": "Connector:TestPoint",
+    "value": "USB_5V",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "USB_5V"
+    },
+    "sch": [
+      233.68,
+      111.75999999999999
+    ],
+    "place": [
+      39.5,
+      15.0,
+      0.0
+    ],
+    "side": "Bottom",
+    "group": "test",
+    "uuid": "d79402e6-2c68-52a6-bbaa-2f6c77c3b347",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/3f669d52-3413-54c5-8364-bea622d1fee6"
+  },
+  {
+    "ref": "TP10",
+    "libname": "Connector:TestPoint",
+    "value": "GPIO18_BUTTON",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "GPIO18_BUTTON"
+    },
+    "sch": [
+      325.12,
+      111.75999999999999
+    ],
+    "place": [
+      29.0,
+      12.0,
+      0.0
+    ],
+    "side": "Bottom",
+    "group": "test",
+    "uuid": "0d37f250-3f50-5e84-a8ee-5a1f86398a10",
+    "sheet_path": "/2eb57172-b948-530d-9eb9-44ed48171e4d/3f669d52-3413-54c5-8364-bea622d1fee6"
+  }
+]

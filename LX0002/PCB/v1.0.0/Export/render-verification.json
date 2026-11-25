@@ -1,0 +1,26 @@
+{
+  "source_glb": "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Export/LX0002-assembled.glb",
+  "source_glb_sha256": "0edca5c1bd0519c7a3eacb7dae0b8b3684666f4830f158e8835caf84beb85ffc",
+  "bounds_mm": [
+    [
+      -1.1750000070780542,
+      -19.999999552965164,
+      -0.07500000356230885
+    ],
+    [
+      41.999999433755875,
+      -0.0,
+      6.094999988079071
+    ]
+  ],
+  "material_groups": 28,
+  "projection": "orthographic; isometric camera has equal axis components",
+  "underside_transform": "180-degree rotation about long X axis; determinant +1",
+  "views": [
+    "isometric-top",
+    "isometric-bottom",
+    "centered-input-end",
+    "top",
+    "bottom"
+  ]
+}

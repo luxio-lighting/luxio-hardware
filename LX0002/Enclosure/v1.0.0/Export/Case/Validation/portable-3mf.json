@@ -1,0 +1,65 @@
+{
+  "file": "LX0002-case-print-layout.3mf",
+  "sha256": "33aee639467b3f895f2e8464001f66e45c8d15788b6b28fbc2b9d0402bce0688",
+  "geometry_only": true,
+  "units": "mm",
+  "models": {
+    "base": {
+      "stl_sha256": "69c09ac7f11872039fc5c684b5a19b8891ca8829133a07d64b8ed3627abdbeb6",
+      "vertices": 2286,
+      "triangles": 4568,
+      "translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    "lid": {
+      "stl_sha256": "f2e6105408c1a36957424e622abfc314089b4ac2a737dbfde5bcd844b9caf25a",
+      "vertices": 1488,
+      "triangles": 2972,
+      "translation_mm": [
+        0,
+        35,
+        0
+      ]
+    }
+  },
+  "mesh_roundtrip_checks": [
+    {
+      "part": "base",
+      "maximum_vertex_roundtrip_error_mm": 4.998779310483314e-07,
+      "build_transform_determinant": 1,
+      "translation_only": true,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "part": "lid",
+      "maximum_vertex_roundtrip_error_mm": 4.998779310483314e-07,
+      "build_transform_determinant": 1,
+      "translation_only": true,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  ],
+  "bambu_cli_import": {
+    "succeeded": true,
+    "manifold_models": 2,
+    "model_count": 2,
+    "log": "portable-3mf-import.log",
+    "command": [
+      "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+      "--debug",
+      "3",
+      "--datadir",
+      "/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0002-3mf-import-2tzuqayb/data",
+      "--orient",
+      "0",
+      "--arrange",
+      "0",
+      "--info",
+      "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/Enclosure/v1.0.0/Export/Case/LX0002-case-print-layout.3mf"
+    ]
+  }
+}

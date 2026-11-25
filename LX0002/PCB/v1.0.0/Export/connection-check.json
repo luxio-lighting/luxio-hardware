@@ -1,0 +1,36 @@
+{
+  "pass": true,
+  "board_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "netlist_sha256": "9b56aa9080d3d6d764409ef5ac2bbaca289e903a1b41c268086e815e0fff4671",
+  "electrical_footprints": 64,
+  "populated_top_components": 55,
+  "mounting_holes": 1,
+  "mapped_pins_checked": 168,
+  "board_mm": [
+    42,
+    20,
+    1.6
+  ],
+  "copper_layers": 2,
+  "outer_copper_oz": 1,
+  "mask": "black",
+  "via_count": 102,
+  "minimum_via_drill_mm": 0.3,
+  "via_tenting_flags": "Both sides requested; overlapping mask openings are reviewed separately",
+  "mcu_exposed_pad_mm": [
+    5.7,
+    5.7
+  ],
+  "reserved_memory_pads": [
+    "28",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35"
+  ],
+  "direct_usb_to_led_vcc": true,
+  "errors": [],
+  "scope": "Saved CAD, schematic-netlist agreement and fabrication geometry; RF, USB and assembled thermal qualification remain separate"
+}

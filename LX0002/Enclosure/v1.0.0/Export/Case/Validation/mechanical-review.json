@@ -1,0 +1,345 @@
+{
+  "reviewed_at_utc": "2026-11-25T15:22:18.700805+00:00",
+  "scope": "Exact exported-solid assembly, full upward capture movement, original PCB handedness, and printable mesh audit. No physical fit, force, fatigue or thermal test.",
+  "source_hashes_sha256": {
+    "Enclosure/v1.0.0/Source/verify_mechanical.py": "7c9f0f83f162c4876653791331053e715608fdd5c407d541da3f1113b1c4f2ef",
+    "Enclosure/v1.0.0/Source/enclosure.py": "bf22feefc6969234749393867ce39427668b727283402e8c095490121300a4e6",
+    "Enclosure/v1.0.0/Source/parameters.json": "4370cbf48964154f142c8c3c340ee906598eb078ced8bbbbc7c3556ce3a27e8b",
+    "Enclosure/v1.0.0/Assets/enclosure-geometry.json": "cfc031bc1193fa96990157f0d953bfc5f0c74cddccb7e3f65554507b9e0c9775",
+    "Enclosure/v1.0.0/Assets/assembled-export-verification.json": "1c71bc7b86ef92a07d33ac57cfd1e237cf10764671e5c660c49e39e8868d945e",
+    "Enclosure/v1.0.0/Assets/LX0002-assembled.step": "cae8543656d284fe57d65cf22dd49559c87d3d089547b90217cf7f47fbea75de",
+    "Enclosure/v1.0.0/Assets/LX0002-assembled-mm.stl": "a1d7f1b8addc9d3a1a275f170209aef73259ccc44371f32d822025f965c0c186",
+    "PCB/v1.0.0/Source/LX0002.kicad_pcb": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+    "PCB/v1.0.0/Source/mechanical.json": "7681b4053f366caca79bdccd03bdcd3dbb4d08d810b81ea1f182d95fa23131e3",
+    "PCB/v1.0.0/Source/parts.json": "457aadcfec35679259550f1d349a70603921bda1def905e341478cbc2b8f1ed3",
+    "Enclosure/v1.0.0/Export/Case/base.step": "e0d78501a70fe8b534b3f12cdd77a37b072a5383f25c11d4c994dc022a9c80cb",
+    "Enclosure/v1.0.0/Export/Case/lid.step": "c24ae2f13ad9f8c4c514e370b2ed39c7e16c488013470e2bbd1cf39633d60b30",
+    "Enclosure/v1.0.0/Export/Case/LX0002-case-assembly.step": "8556b3df9e9ce58ebab840e8511113c247b785c6c2d3e1f2d988b5f6f51def0c",
+    "Enclosure/v1.0.0/Export/Case/base-assembly.stl": "f2fc35c4603e47aa4f02a4e7f0508943a720f2412a2e23f29c7f124f32f436e9",
+    "Enclosure/v1.0.0/Export/Case/base.stl": "69c09ac7f11872039fc5c684b5a19b8891ca8829133a07d64b8ed3627abdbeb6",
+    "Enclosure/v1.0.0/Export/Case/lid-assembly.stl": "954d18b042d260b82c80402cf0f4f234f51e4124bf053ca17719cc0a5cb9149a",
+    "Enclosure/v1.0.0/Export/Case/lid.stl": "f2e6105408c1a36957424e622abfc314089b4ac2a737dbfde5bcd844b9caf25a",
+    "Enclosure/v1.0.0/Export/Case/pcb-reference.stl": "888505632515b4599150e29b166686ac78d0eeb6bb8bd3c1dff2e8c2ae90a99f"
+  },
+  "physical_handedness": {
+    "pass": true,
+    "pcb_holes_native_xy_mm": [
+      [
+        24.8,
+        -3.0
+      ]
+    ],
+    "base_pins_native_xy_mm": [
+      [
+        24.8,
+        -3.0
+      ]
+    ],
+    "pcb_transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.7988
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "pcb_transform_determinant": 1,
+    "pcb_reference_vertex_error_mm": 2.3002624516266224e-07,
+    "assembly_to_print": {
+      "base": {
+        "determinant": 1,
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            22.8
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "maximum_vertex_error_mm": 2.063250745151405e-06
+      },
+      "lid": {
+        "determinant": 1,
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0,
+            2.8
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0,
+            7.9
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "maximum_vertex_error_mm": 1.492736419348576e-06
+      }
+    }
+  },
+  "results": {
+    "nominal_collision_check_pass": true,
+    "full_upward_pcb_float_mm": 0.2,
+    "base_lid_overlap_mm3": 0,
+    "component_case_intersections": [],
+    "support_seat_datum_overlap": [
+      {
+        "case": "base",
+        "pcb_solid_index": 137,
+        "volume_mm3": 0.019983715789783793,
+        "body_bounds_mm": [
+          0.0,
+          -20.0,
+          -1.6012,
+          42.0,
+          0.0,
+          -0.09119999999999995
+        ],
+        "overlap_depth_mm": 0.0012000000000000899
+      }
+    ],
+    "step_core_thickness_mm": 1.51,
+    "finished_board_envelope_thickness_mm": 1.6,
+    "finished_board_envelope_collision_free": true,
+    "datum_note": "KiCad STEP contains the dielectric core. Its bottom differs from the nominal support datum by up to1.2\u00b5m; only this substrate-seat contact is accepted. The complete nominal1.60mm finished-board envelope is checked independently.",
+    "print_meshes": {
+      "base": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "connected_bodies": 1,
+        "bounds_mm": [
+          [
+            -2.220446049250313e-16,
+            0.0,
+            0.0
+          ],
+          [
+            45.45000076293945,
+            25.600000381469727,
+            6.0
+          ]
+        ],
+        "triangles": 4568
+      },
+      "lid": {
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_volume": true,
+        "connected_bodies": 1,
+        "bounds_mm": [
+          [
+            -2.220446049250313e-16,
+            -4.440892098500626e-16,
+            -2.811244330180136e-15
+          ],
+          [
+            45.45000076293945,
+            25.600000381469727,
+            6.699999809265137
+          ]
+        ],
+        "triangles": 2972
+      }
+    },
+    "pcb_component_solids": 137,
+    "manufacturer_height_envelopes": [
+      {
+        "reference": "L102",
+        "mpn": "LQP03HQ2N7B02D",
+        "maximum_height_mm": 0.42,
+        "checked_xy_envelope_mm": [
+          0.8,
+          0.5
+        ],
+        "nominal_body_xy_mm": [
+          0.6,
+          0.3
+        ],
+        "per_side_xy_allowance_mm": 0.1,
+        "source": "https://pim.murata.com/asset/pim4/inductor/JELF243C-0021_PDF_INDUCTOR",
+        "collision_free_at_maximum_board_lift": true
+      }
+    ]
+  },
+  "assembled_envelope_mm": [
+    45.45,
+    25.6,
+    7.9
+  ],
+  "retention": {
+    "locating_holes": [
+      [
+        24.8,
+        -3
+      ]
+    ],
+    "pin_diameter_mm": 1.8,
+    "edge_capture_x_mm": [
+      3.8,
+      30.3
+    ],
+    "edge_overlap_mm": 0.55,
+    "capture_gap_mm": 1.8,
+    "screws": 0
+  },
+  "button": {
+    "center_drawing_xy_mm": [
+      21,
+      10
+    ],
+    "membrane_size_mm": [
+      15,
+      18
+    ],
+    "membrane_thickness_mm": 0.4,
+    "nominal_switch_gap_mm": 0.6000000000000001,
+    "gap_at_max_lift_mm": 0.4000000000000001,
+    "force_and_travel_physically_tested": false
+  },
+  "ports": {
+    "probes": [
+      {
+        "port": "USB",
+        "point_mm": [
+          -0.75,
+          -10,
+          1.5
+        ],
+        "overlap_mm3": 0
+      },
+      {
+        "port": "OUT_GND",
+        "point_mm": [
+          42.75,
+          -3.75,
+          2.5
+        ],
+        "overlap_mm3": 0
+      },
+      {
+        "port": "OUT_D16",
+        "point_mm": [
+          42.75,
+          -7.75,
+          2.5
+        ],
+        "overlap_mm3": 0
+      },
+      {
+        "port": "OUT_D17",
+        "point_mm": [
+          42.75,
+          -12.25,
+          2.5
+        ],
+        "overlap_mm3": 0
+      },
+      {
+        "port": "OUT_5V",
+        "point_mm": [
+          42.75,
+          -16.25,
+          2.5
+        ],
+        "overlap_mm3": 0
+      }
+    ],
+    "usb_opening_mm": [
+      9.54,
+      3.7600000000000002
+    ],
+    "usb_corner_radius_note": "Nominal1.0mm connector corner radius is inferred from supplier model, not dimensioned by DEALON.",
+    "terminal_top_access": true,
+    "terminal_end_wall_planes": [
+      {
+        "y_mm": -1.3,
+        "x_span_mm": [
+          30.15,
+          43.95
+        ]
+      },
+      {
+        "y_mm": -18.7,
+        "x_span_mm": [
+          30.15,
+          43.95
+        ]
+      }
+    ]
+  },
+  "flat_long_sides": [
+    {
+      "y_mm": 2.799999999999999,
+      "x_span_mm": [
+        -0.30000000000000004,
+        42.75
+      ],
+      "z_span_mm": [
+        -2.2000000000000006,
+        4.5
+      ]
+    },
+    {
+      "y_mm": -22.8,
+      "x_span_mm": [
+        -0.30000000000000004,
+        42.75
+      ],
+      "z_span_mm": [
+        -2.1999999999999975,
+        4.500000000000005
+      ]
+    }
+  ],
+  "physical_fit_tested": false
+}

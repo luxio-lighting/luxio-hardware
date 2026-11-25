@@ -1,0 +1,68 @@
+LX0002 USB copper-path review
+PCB SHA256: d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448
+Board: /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Source/LX0002.kicad_pcb
+Generated UTC: 2026-11-25T15:22:50.738406+00:00
+Status: routed snapshot, zero unconnected items in fresh DRC
+
+3A total USB connector ceiling; both actual 35um copper layers, 1.6mm full through-barrel model.
+USB_5V: J1 VBUS contacts to J4 VCC. GND: J3 ground to J1 ground contacts.
+USB cable shield is not assumed to carry return current; shell stakes still provide PCB interlayer copper.
+The entire 3A is assigned to the strip loop; actual controller current reduces allowable strip current.
+Copper/barrel dissipation only: no cable, connector/contact, solder, controller or regulator losses.
+No temperature, continuous-current qualification or fault-clearing claim is made.
+
+Adaptive convergence: USB_5V uses 0.025mm, checked against 0.05mm; GND uses 0.05mm, checked against 0.10mm. Each net meets the preset 5% grid-change limit.
+All three grids were extracted anew from this exact PCB snapshot and solved with the SciPy sparse conductance solver.
+
+25um wall: loop 20.6421mOhm, 61.926mV, 0.18578W at 3A and 20C.
+Uniform 60C copper sensitivity only: 23.8870mOhm, 71.661mV, 0.21498W. This is not a predicted temperature.
+  USB_5V: 14.7526mOhm; planar0.12747W, barrels0.00530W.
+  Largest barrel current1.145A at(32.000,16.250)mm; drill0.30mm; barrel loss0.001417W.
+  GND: 5.8895mOhm; planar0.04870W, barrels0.00431W.
+  Largest barrel current1.079A at(5.625,5.675)mm; drill1.31mm; barrel loss0.000307W.
+20um wall: loop 20.9274mOhm, 62.782mV, 0.18835W at 3A and 20C.
+Uniform 60C copper sensitivity only: 24.2172mOhm, 72.652mV, 0.21795W. This is not a predicted temperature.
+  USB_5V: 14.9099mOhm; planar0.12758W, barrels0.00661W.
+  Largest barrel current1.099A at(32.000,16.250)mm; drill0.30mm; barrel loss0.001657W.
+  GND: 6.0175mOhm; planar0.04874W, barrels0.00542W.
+  Largest barrel current1.094A at(5.625,5.675)mm; drill1.31mm; barrel loss0.000395W.
+18um wall: loop 21.0845mOhm, 63.254mV, 0.18976W at 3A and 20C.
+Uniform 60C copper sensitivity only: 24.3990mOhm, 73.197mV, 0.21959W. This is not a predicted temperature.
+  USB_5V: 14.9963mOhm; planar0.12763W, barrels0.00734W.
+  Largest barrel current1.078A at(32.000,16.250)mm; drill0.30mm; barrel loss0.001782W.
+  GND: 6.0882mOhm; planar0.04876W, barrels0.00603W.
+  Largest barrel current1.101A at(5.625,5.675)mm; drill1.31mm; barrel loss0.000445W.
+
+USB VBUS fanout / narrow-branch review:
+upper: 0.330mm F.Cu neck, path length1.620mm to furthest via; two 0.30mm drilled vias. Analytic full 3A branch bound7.254mV/0.02176W, excluding pad widening.
+  25um wall: bank1.410A; individual vias0.555A/0.855A; conservative neck loss at that share0.00481W.
+  20um wall: bank1.415A; individual vias0.575A/0.840A; conservative neck loss at that share0.00484W.
+  18um wall: bank1.418A; individual vias0.585A/0.833A; conservative neck loss at that share0.00486W.
+lower: 0.330mm F.Cu neck, path length2.179mm to furthest via; two 0.30mm drilled vias. Analytic full 3A branch bound9.760mV/0.02928W, excluding pad widening.
+  25um wall: bank1.590A; individual vias0.550A/1.040A; conservative neck loss at that share0.00823W.
+  20um wall: bank1.585A; individual vias0.577A/1.008A; conservative neck loss at that share0.00817W.
+  18um wall: bank1.582A; individual vias0.589A/0.993A; conservative neck loss at that share0.00814W.
+Two branch currents sum to total source current; do not add independent nominal via/trace ampacities.
+Normal current sharing assumes equipotential USB VBUS contacts. A single-input-pad stress model can be run with --usb-contact-group upper or lower.
+Short-neck Joule losses are computed explicitly; a long isolated-track ampacity chart does not establish these short necks enclosure temperatures.
+
+Assumptions and limitations:
+25um is the requested nominal assumption;20um and18um are sensitivity cases. None is a guaranteed local minimum.
+JLCPCB current capabilities list18um average hole plating: https://jlcpcb.com/capabilities/pcb-capabilities
+Planar35um is the specified saved stackup, not a measured finished copper thickness.
+Grid error, local current crowding, etch/plating tolerances and connector/contact resistance remain.
+Bench validation must measure total USB input current, board/cable voltage drop and connector/neck/buck temperatures inside the closed enclosure.
+
+Grid comparison:
+{"change_percent": 0.3095089249212585, "coarse_mm": 0.05, "fine_mm": 0.025, "net": "USB_5V", "wall_um": 25}
+{"change_percent": 1.6144519615869835, "coarse_mm": 0.1, "fine_mm": 0.05, "net": "GND", "wall_um": 25}
+{"change_percent": 0.3187653044903317, "coarse_mm": 0.05, "fine_mm": 0.025, "net": "USB_5V", "wall_um": 20}
+{"change_percent": 1.5922168636651275, "coarse_mm": 0.1, "fine_mm": 0.05, "net": "GND", "wall_um": 20}
+{"change_percent": 0.3224001680903585, "coarse_mm": 0.05, "fine_mm": 0.025, "net": "USB_5V", "wall_um": 18}
+{"change_percent": 1.5797595626317908, "coarse_mm": 0.1, "fine_mm": 0.05, "net": "GND", "wall_um": 18}
+
+Provenance: fresh current-board meshes; no conductance results reused from earlier revisions.
+
+Fresh DRC unconnected count: 0; electrical violations: 0.
+Other DRC categories: {}
+Re-run after every copper, via, placement or fill change.

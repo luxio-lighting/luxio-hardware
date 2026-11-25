@@ -1,0 +1,61 @@
+{
+  "source": "Espressif ESP32-S3 datasheet v2.2 Figure7-2, page78",
+  "source_url": "https://documentation.espressif.com/esp32_s3_datasheet_en.pdf",
+  "scope": "Nominal package model and project land pattern; not a supplier STEP or an assembly-process qualification",
+  "package_mm": [
+    7,
+    7,
+    0.85
+  ],
+  "package_height_range_mm": [
+    0.8,
+    0.9
+  ],
+  "exposed_pad_mm": [
+    5.7,
+    5.7
+  ],
+  "exposed_pad_range_mm": [
+    5.6,
+    5.8
+  ],
+  "pitch_mm": 0.4,
+  "lead_mm": [
+    0.4,
+    0.2
+  ],
+  "perimeter_land_mm": [
+    0.8,
+    0.2
+  ],
+  "perimeter_pad_center_offset_mm": 3.45,
+  "ep_to_perimeter_land_gap_mm": 0.2,
+  "paste_windows": {
+    "count": 16,
+    "size_mm": [
+      1.02,
+      1.02
+    ],
+    "radius_mm": 0.1,
+    "centers_each_axis_mm": [
+      -2.1,
+      -0.7,
+      0.7,
+      2.1
+    ]
+  },
+  "ep_paste_coverage_percent": 50.81272645298358,
+  "ground_via_grid_offsets_mm": [
+    -1.4,
+    0,
+    1.4
+  ],
+  "via_diameter_mm": 0.45,
+  "via_drill_mm": 0.3,
+  "bounding_rectangle_min_drill_to_paste_mm": 0.118700576850888,
+  "model_solids": 59,
+  "sha256": {
+    "libraries/Core.pretty/ESP32_S3FH4R2_QFN56_7x7_EP5p7.kicad_mod": "7d26d4e59622a9aff39107498f653e244c6957b0b4c377811b8bfeb127431cff",
+    "libraries/models/ESP32_S3FH4R2_QFN56_7x7_EP5p7.step": "c9cf2e77f2ab5541470bca3e32dc66e7d651ca55f5d84af50aa90a40541a3f02"
+  }
+}

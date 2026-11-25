@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-25",
+  "input_capacitors": {
+    "references": [
+      "C8",
+      "C19"
+    ],
+    "part": "Samsung CL10A106KP8NNNC / C19702",
+    "nominal_each": "10\u00b5F 10V X5R 0603",
+    "rationale": "Two in parallel provide margin after DC-bias reduction; one 10\u00b5F0603 part is borderline against the TI2.2\u00b5F recommended effective input decoupling once bias, tolerance and temperature are included.",
+    "bias_estimate_at_5V": "Approximately27% of nominal, from manufacturer typical curve; not a guaranteed production minimum.",
+    "sources": [
+      "https://product.samsungsem.com/mlcc/CL10A106KP8NNN.do",
+      "https://datasheet.octopart.com/CL10A106KP8NNNC-Samsung-Electro-Mechanics-datasheet-181960519.pdf",
+      "https://www.ti.com/lit/ds/symlink/lmr51410.pdf"
+    ]
+  },
+  "feedback_resistors": [
+    {
+      "ref": "R22",
+      "value": "100k\u03a9 \u00b11%",
+      "package": "0402",
+      "mpn": "0402WGF1003TCE",
+      "lcsc": "C25741",
+      "url": "https://jlcpcb.com/partdetail/C25741"
+    },
+    {
+      "ref": "R23",
+      "value": "22k\u03a9 \u00b11%",
+      "package": "0402",
+      "mpn": "0402WGF2202TCE",
+      "lcsc": "C25768",
+      "url": "https://jlcpcb.com/partdetail/26511-0402WGF2202TCE/C25768"
+    },
+    {
+      "ref": "R24",
+      "value": "10k\u03a9 \u00b11%",
+      "package": "0402",
+      "mpn": "0402WGF1002TCE",
+      "lcsc": "C25744",
+      "url": "https://jlcpcb.com/partdetail/C25744"
+    }
+  ],
+  "regulator": "Original LMR51410YFDBVR, bootstrap capacitor, inductor and output network retained; feedback values unchanged."
+}

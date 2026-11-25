@@ -1,0 +1,584 @@
+{
+  "purpose": "Offline support-free slicing review; X1C reference settings, not a machine-specific print release.",
+  "slicer": "Bambu Studio",
+  "reference_presets": {
+    "machine": {
+      "name": "Bambu Lab X1 Carbon 0.4 nozzle",
+      "source_files": [
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab X1 Carbon 0.4 nozzle.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine/fdm_bbl_3dp_001_common.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine/fdm_machine_common.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab X1 Carbon 0.4 nozzle template machine_start_gcode.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab X1 Carbon 0.4 nozzle template machine_end_gcode.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab X1 Carbon 0.4 nozzle template time_lapse_gcode.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab X1 Carbon 0.4 nozzle template change_filament_gcode.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/machine/Bambu Lab X1 Carbon 0.4 nozzle template layer_change_gcode.json"
+      ]
+    },
+    "process": {
+      "name": "0.20mm Standard @BBL X1C",
+      "source_files": [
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/process/0.20mm Standard @BBL X1C.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/process/fdm_process_single_0.20.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/process/fdm_process_single_common.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/process/fdm_process_common.json"
+      ],
+      "overrides": {
+        "enable_support": "0",
+        "brim_type": "no_brim",
+        "layer_height": "0.1",
+        "initial_layer_print_height": "0.1",
+        "bottom_shell_layers": "6",
+        "top_shell_layers": "10",
+        "bottom_shell_thickness": "0.6",
+        "top_shell_thickness": "1",
+        "name": "LX0002 0.10mm PLA no-support reference",
+        "print_settings_id": "LX0002 0.10mm PLA no-support reference"
+      }
+    },
+    "filament": {
+      "name": "Bambu PLA Basic @BBL X1C",
+      "source_files": [
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/filament/Bambu PLA Basic @BBL X1C.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/filament/Bambu PLA Basic @base.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/filament/fdm_filament_pla.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/filament/fdm_filament_common.json",
+        "/Applications/BambuStudio.app/Contents/Resources/profiles/BBL/filament/fdm_filament_template_direct_dual.json"
+      ]
+    }
+  },
+  "temporary_gcode_directory": "/var/folders/ww/j7b6ssms7v5d4mx_xdcczfk00000gn/T/lx0002-reference-slice-91uu8vz8",
+  "layer_mm": 0.1,
+  "initial_layer_mm": 0.1,
+  "nozzle_mm": 0.4,
+  "supports_enabled": false,
+  "parts": {
+    "base": {
+      "stl_sha256": "69c09ac7f11872039fc5c684b5a19b8891ca8829133a07d64b8ed3627abdbeb6",
+      "gcode_sha256": "a073cac5bf4c37218bf7081df4695ab67f781fc881b206de82683e54581360ee",
+      "layers": 60,
+      "feature_move_counts": {
+        "Inner wall": 264,
+        "Outer wall": 2702,
+        "Bottom surface": 192,
+        "Internal solid infill": 2525,
+        "Gap infill": 194,
+        "Top surface": 220
+      },
+      "bridge_paths": [],
+      "whole_floating_islands": [],
+      "raster_pixel_mm": 0.05,
+      "support_contact_tolerance_mm": 0.1,
+      "nominal_mesh_height_mm": 6.0,
+      "last_print_z_mm": 6.0,
+      "height_quantization_mm": 0.0,
+      "slicer_warning": "",
+      "filament_g": 2.6420726776123047,
+      "model_print_seconds": 516.185791015625
+    },
+    "lid": {
+      "stl_sha256": "f2e6105408c1a36957424e622abfc314089b4ac2a737dbfde5bcd844b9caf25a",
+      "gcode_sha256": "a531cf71326231f0ff80de7d515b68600510ad3b985e3199d6743a866539b277",
+      "layers": 67,
+      "feature_move_counts": {
+        "Inner wall": 200,
+        "Outer wall": 2752,
+        "Bottom surface": 243,
+        "Internal solid infill": 2682,
+        "Bridge": 33,
+        "Gap infill": 2609,
+        "Top surface": 309
+      },
+      "bridge_paths": [
+        {
+          "z_mm": 0.3,
+          "length_mm": 1.0209999999999866,
+          "maximum_unbacked_centerline_run_mm": 0.0498,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            126.921,
+            124.14
+          ],
+          "end_xy": [
+            127.942,
+            124.14
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.21029740844814426,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            127.942,
+            124.14
+          ],
+          "end_xy": [
+            128.15,
+            124.171
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.2732123716086123,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            128.15,
+            124.171
+          ],
+          "end_xy": [
+            128.413,
+            124.245
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.20562587385831466,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            128.413,
+            124.245
+          ],
+          "end_xy": [
+            128.602,
+            124.326
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.21185136298829874,
+          "maximum_unbacked_centerline_run_mm": 0.0471,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            128.602,
+            124.326
+          ],
+          "end_xy": [
+            128.786,
+            124.431
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.20983088428540947,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            128.786,
+            124.431
+          ],
+          "end_xy": [
+            128.956,
+            124.554
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 2.3619999999999948,
+          "maximum_unbacked_centerline_run_mm": 0.1243,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            128.956,
+            124.554
+          ],
+          "end_xy": [
+            126.594,
+            124.554
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.2652790983096858,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            126.594,
+            124.554
+          ],
+          "end_xy": [
+            126.401,
+            124.736
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.2934655005277393,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            126.401,
+            124.736
+          ],
+          "end_xy": [
+            126.22,
+            124.967
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 3.1100000000000136,
+          "maximum_unbacked_centerline_run_mm": 0.0498,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            126.22,
+            124.967
+          ],
+          "end_xy": [
+            129.33,
+            124.967
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.2677928303745187,
+          "maximum_unbacked_centerline_run_mm": 0.0243,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            129.33,
+            124.967
+          ],
+          "end_xy": [
+            129.462,
+            125.2
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.19461757371830313,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            129.462,
+            125.2
+          ],
+          "end_xy": [
+            129.536,
+            125.38
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 3.5220000000000056,
+          "maximum_unbacked_centerline_run_mm": 0.05,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            129.536,
+            125.38
+          ],
+          "end_xy": [
+            126.014,
+            125.38
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.42356227405188945,
+          "maximum_unbacked_centerline_run_mm": 0.0498,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            126.014,
+            125.38
+          ],
+          "end_xy": [
+            125.92,
+            125.793
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 3.7109999999999985,
+          "maximum_unbacked_centerline_run_mm": 1.1706,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            125.92,
+            125.793
+          ],
+          "end_xy": [
+            129.631,
+            125.793
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.21028789789238295,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            129.631,
+            125.793
+          ],
+          "end_xy": [
+            129.642,
+            126.003
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.20441379601190693,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            129.642,
+            126.003
+          ],
+          "end_xy": [
+            129.629,
+            126.207
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 3.7069999999999936,
+          "maximum_unbacked_centerline_run_mm": 1.1693,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            129.629,
+            126.207
+          ],
+          "end_xy": [
+            125.922,
+            126.207
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.195166595502418,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            125.922,
+            126.207
+          ],
+          "end_xy": [
+            125.951,
+            126.4
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.22912005586591588,
+          "maximum_unbacked_centerline_run_mm": 0.0229,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            125.951,
+            126.4
+          ],
+          "end_xy": [
+            126.015,
+            126.62
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 3.521000000000001,
+          "maximum_unbacked_centerline_run_mm": 0.0999,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            126.015,
+            126.62
+          ],
+          "end_xy": [
+            129.536,
+            126.62
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.24239224410034108,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            129.536,
+            126.62
+          ],
+          "end_xy": [
+            129.441,
+            126.843
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.22004772209681453,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            129.441,
+            126.843
+          ],
+          "end_xy": [
+            129.33,
+            127.033
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 3.1100000000000136,
+          "maximum_unbacked_centerline_run_mm": 0.199,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            129.33,
+            127.033
+          ],
+          "end_xy": [
+            126.22,
+            127.033
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.25601757752155035,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            126.22,
+            127.033
+          ],
+          "end_xy": [
+            126.376,
+            127.236
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.3055879578779157,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            126.376,
+            127.236
+          ],
+          "end_xy": [
+            126.598,
+            127.446
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 2.355000000000004,
+          "maximum_unbacked_centerline_run_mm": 0.1487,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            126.598,
+            127.446
+          ],
+          "end_xy": [
+            128.953,
+            127.446
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.1836001089324223,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            128.953,
+            127.446
+          ],
+          "end_xy": [
+            128.806,
+            127.556
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.24100000000000502,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            128.806,
+            127.556
+          ],
+          "end_xy": [
+            128.597,
+            127.676
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.25385231927246027,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            128.597,
+            127.676
+          ],
+          "end_xy": [
+            128.362,
+            127.772
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.22777401080895776,
+          "maximum_unbacked_centerline_run_mm": 0.0683,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            128.362,
+            127.772
+          ],
+          "end_xy": [
+            128.142,
+            127.831
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.2228945939227668,
+          "maximum_unbacked_centerline_run_mm": 0.0248,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            128.142,
+            127.831
+          ],
+          "end_xy": [
+            127.921,
+            127.86
+          ]
+        },
+        {
+          "z_mm": 0.3,
+          "length_mm": 0.9990000000000094,
+          "maximum_unbacked_centerline_run_mm": 0.0,
+          "unsupported_span_method": "0.025mm centerline samples against preceding extrusion footprint at0.05mm raster resolution; extrusion move length includes anchors.",
+          "start_xy": [
+            127.921,
+            127.86
+          ],
+          "end_xy": [
+            126.922,
+            127.86
+          ]
+        }
+      ],
+      "whole_floating_islands": [],
+      "raster_pixel_mm": 0.05,
+      "support_contact_tolerance_mm": 0.1,
+      "nominal_mesh_height_mm": 6.7,
+      "last_print_z_mm": 6.7,
+      "height_quantization_mm": 0.0,
+      "slicer_warning": "",
+      "filament_g": 2.131758689880371,
+      "model_print_seconds": 499.2049560546875
+    }
+  },
+  "physical_print_tested": false,
+  "slicer_version": "02.08.02.61",
+  "bridge_assessment": {
+    "base": {
+      "bridge_layer_z_mm": [],
+      "maximum_bridge_labeled_move_mm": 0,
+      "maximum_unbacked_centerline_run_mm": 0
+    },
+    "lid": {
+      "bridge_layer_z_mm": [
+        0.3
+      ],
+      "maximum_bridge_labeled_move_mm": 3.7109999999999985,
+      "maximum_unbacked_centerline_run_mm": 1.1706
+    }
+  },
+  "interpretation": "Supports-disabled slicing succeeds. Raster connectivity checks for whole floating islands; bridge paths are listed for visual review. This does not validate snap durability, PLA diaphragm force, tolerances, bed adhesion, or a physical print."
+}

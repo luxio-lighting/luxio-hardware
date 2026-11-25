@@ -1,0 +1,36 @@
+{
+  "source_board": "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Source/LX0002.kicad_pcb",
+  "source_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "rebuilt_board": "/tmp/lx0002-final-rebuild/Source/LX0002.kicad_pcb",
+  "rebuilt_sha256": "c54e9a375070edee78560691d8bba47e9724a0f1b6c42640f0ba8f8e39d98921",
+  "counts": {
+    "tracks": 764,
+    "pads": 243,
+    "reference_areas": 9,
+    "labels": 13
+  },
+  "differences": {
+    "tracks": {
+      "source_only": [],
+      "rebuild_only": []
+    },
+    "pads": {
+      "source_only": [],
+      "rebuild_only": []
+    },
+    "reference_areas": {
+      "source_only": [],
+      "rebuild_only": []
+    },
+    "labels": {
+      "source_only": [],
+      "rebuild_only": []
+    }
+  },
+  "native_rebuild_drc_counts": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "pass": true
+}

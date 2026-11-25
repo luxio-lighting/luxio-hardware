@@ -1,0 +1,881 @@
+[
+  {
+    "ref": "J1",
+    "libname": "Connector:USB_C_Receptacle_USB2.0_16P",
+    "value": "USB-TYPE-C-018",
+    "footprint": "LX0002:USB_C_DEALON_USB_TYPE_C_018",
+    "lcsc": "C2927038",
+    "pins": {
+      "A1": "GND",
+      "A4": "USB_5V",
+      "A5": "CC1",
+      "A6": "USB_DP_CONN",
+      "A7": "USB_DM_CONN",
+      "A9": "USB_5V",
+      "A12": "GND",
+      "B1": "GND",
+      "B4": "USB_5V",
+      "B5": "CC2",
+      "B6": "USB_DP_CONN",
+      "B7": "USB_DM_CONN",
+      "B9": "USB_5V",
+      "B12": "GND",
+      "SH": "GND"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      2.5,
+      10,
+      -90
+    ],
+    "side": "Top",
+    "group": "usb",
+    "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121330_DEALON-USB-TYPE-C-018_C2927038.pdf"
+  },
+  {
+    "ref": "R1",
+    "libname": "Device:R",
+    "value": "5.1k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25905",
+    "pins": {
+      "1": "CC1",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      9.0,
+      4.8,
+      0.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "mpn": "0402WGF5101TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25905"
+  },
+  {
+    "ref": "R2",
+    "libname": "Device:R",
+    "value": "5.1k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25905",
+    "pins": {
+      "1": "CC2",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      60.96
+    ],
+    "place": [
+      16.45,
+      14.1,
+      0.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "mpn": "0402WGF5101TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25905"
+  },
+  {
+    "ref": "R3",
+    "libname": "Device:R",
+    "value": "22",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25092",
+    "pins": {
+      "1": "USB_DM_CONN",
+      "2": "USB_DM"
+    },
+    "sch": [
+      325.12,
+      60.96
+    ],
+    "place": [
+      25.2,
+      15.7,
+      90.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "mpn": "0402WGF220JTCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25092"
+  },
+  {
+    "ref": "R4",
+    "libname": "Device:R",
+    "value": "22",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25092",
+    "pins": {
+      "1": "USB_DP_CONN",
+      "2": "USB_DP"
+    },
+    "sch": [
+      50.8,
+      111.75999999999999
+    ],
+    "place": [
+      27.0,
+      15.7,
+      90.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "mpn": "0402WGF220JTCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25092"
+  },
+  {
+    "ref": "U2",
+    "libname": "Power_Protection:USBLC6-2SC6",
+    "value": "USBLC6-2SC6",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "lcsc": "C7519",
+    "pins": {
+      "1": "USB_DM_CONN",
+      "2": "GND",
+      "3": "USB_DP_CONN",
+      "4": "USB_DP_CONN",
+      "5": "USB_5V",
+      "6": "USB_DM_CONN"
+    },
+    "sch": [
+      142.24,
+      111.75999999999999
+    ],
+    "place": [
+      9.75,
+      12.85,
+      0.0
+    ],
+    "side": "Top",
+    "group": "usb"
+  },
+  {
+    "ref": "C6",
+    "libname": "Device:C",
+    "value": "1uF 25V",
+    "footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "lcsc": "C52923",
+    "pins": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      233.68,
+      111.75999999999999
+    ],
+    "place": [
+      5.0,
+      18.7,
+      0.0
+    ],
+    "side": "Top",
+    "group": "usb",
+    "mpn": "CL05A105KA5NQNC",
+    "source_url": "https://jlcpcb.com/partdetail/C52923"
+  },
+  {
+    "ref": "U6",
+    "libname": "LX0002:LMR51410YFDBVR",
+    "value": "LMR51410YFDBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "lcsc": "C32347484",
+    "pins": {
+      "1": "BUCK_BST",
+      "2": "GND",
+      "3": "BUCK_FB",
+      "4": "USB_5V",
+      "5": "USB_5V",
+      "6": "BUCK_SW"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      31.0,
+      6.5,
+      0.0
+    ],
+    "side": "Top",
+    "group": "regulators"
+  },
+  {
+    "ref": "C8",
+    "libname": "Device:C",
+    "value": "10uF 10V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C19702",
+    "pins": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      4.8,
+      17.8,
+      90
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "mpn": "CL10A106KP8NNNC",
+    "source_url": "https://jlcpcb.com/partdetail/C19702"
+  },
+  {
+    "ref": "C19",
+    "libname": "Device:C",
+    "value": "10uF 10V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C19702",
+    "pins": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      3.2,
+      17.8,
+      90
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "mpn": "CL10A106KP8NNNC",
+    "source_url": "https://jlcpcb.com/partdetail/C19702"
+  },
+  {
+    "ref": "C9",
+    "libname": "Device:C",
+    "value": "100nF 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C14663",
+    "pins": {
+      "1": "BUCK_BST",
+      "2": "BUCK_SW"
+    },
+    "sch": [
+      233.68,
+      60.96
+    ],
+    "place": [
+      31.5,
+      9.2,
+      0.0
+    ],
+    "side": "Top",
+    "group": "regulators"
+  },
+  {
+    "ref": "L1",
+    "libname": "Device:L",
+    "value": "10uH 1.5A Isat1.95A",
+    "footprint": "Inductor_SMD:L_Sunlord_SWPA4030S",
+    "lcsc": "C38117",
+    "pins": {
+      "1": "BUCK_SW",
+      "2": "+3V3"
+    },
+    "sch": [
+      325.12,
+      60.96
+    ],
+    "place": [
+      35.5,
+      10.0,
+      0.0
+    ],
+    "side": "Top",
+    "group": "regulators"
+  },
+  {
+    "ref": "C10",
+    "libname": "Device:C",
+    "value": "22uF 25V",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "lcsc": "C45783",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      111.75999999999999
+    ],
+    "place": [
+      39.8,
+      9.5,
+      90.0
+    ],
+    "side": "Top",
+    "group": "regulators"
+  },
+  {
+    "ref": "C11",
+    "libname": "Device:C",
+    "value": "22uF 25V",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "lcsc": "C45783",
+    "pins": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "sch": [
+      142.24,
+      111.75999999999999
+    ],
+    "place": [
+      39.8,
+      13.1,
+      -90.0
+    ],
+    "side": "Top",
+    "group": "regulators"
+  },
+  {
+    "ref": "R22",
+    "libname": "Device:R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25741",
+    "pins": {
+      "1": "+3V3",
+      "2": "BUCK_FB"
+    },
+    "sch": [
+      233.68,
+      111.75999999999999
+    ],
+    "place": [
+      1.3,
+      16.2,
+      0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "mpn": "0402WGF1003TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25741"
+  },
+  {
+    "ref": "R23",
+    "libname": "Device:R",
+    "value": "22k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25768",
+    "pins": {
+      "1": "BUCK_FB",
+      "2": "BUCK_FB_LOW"
+    },
+    "sch": [
+      325.12,
+      111.75999999999999
+    ],
+    "place": [
+      1.3,
+      17.5,
+      180
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "mpn": "0402WGF2202TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25768"
+  },
+  {
+    "ref": "R24",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "BUCK_FB_LOW",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      162.56
+    ],
+    "place": [
+      1.3,
+      18.8,
+      0
+    ],
+    "side": "Top",
+    "group": "regulators",
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25744"
+  },
+  {
+    "ref": "U8",
+    "libname": "74xGxx:74AHCT1G125",
+    "value": "SN74AHCT1G125DBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "lcsc": "C7484",
+    "pins": {
+      "1": "GND",
+      "2": "GPIO16",
+      "3": "GND",
+      "4": "DATA16_5V",
+      "5": "USB_5V"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      51.0,
+      4.0,
+      180.0
+    ],
+    "side": "Top",
+    "group": "outputs"
+  },
+  {
+    "ref": "R16",
+    "libname": "Device:R",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "lcsc": "C22775",
+    "pins": {
+      "1": "DATA16_5V",
+      "2": "DATA16_OUT"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      50.23,
+      8.33,
+      0.0
+    ],
+    "side": "Top",
+    "group": "outputs"
+  },
+  {
+    "ref": "R18",
+    "libname": "Device:R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "lcsc": "C25803",
+    "pins": {
+      "1": "GPIO16",
+      "2": "GND"
+    },
+    "sch": [
+      325.12,
+      60.96
+    ],
+    "place": [
+      50.81,
+      1.04,
+      0.0
+    ],
+    "side": "Top",
+    "group": "outputs"
+  },
+  {
+    "ref": "C14",
+    "libname": "Device:C",
+    "value": "100nF 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C14663",
+    "pins": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      111.75999999999999
+    ],
+    "place": [
+      47.8,
+      4.0,
+      90.0
+    ],
+    "side": "Top",
+    "group": "outputs"
+  },
+  {
+    "ref": "SW1",
+    "libname": "Switch:SW_Push",
+    "value": "TS-1088-AR02016",
+    "footprint": "LX0002:SW_TS-1088-AR02016",
+    "lcsc": "C720477",
+    "pins": {
+      "1": "BUTTON_COMMON",
+      "2": "GND"
+    },
+    "sch": [
+      325.12,
+      213.35999999999999
+    ],
+    "place": [
+      20,
+      10,
+      180
+    ],
+    "side": "Top",
+    "group": "button"
+  },
+  {
+    "ref": "U9",
+    "libname": "74xGxx:74AHCT1G125",
+    "value": "SN74AHCT1G125DBVR",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "lcsc": "C7484",
+    "pins": {
+      "1": "GND",
+      "2": "GPIO17",
+      "3": "GND",
+      "4": "DATA17_5V",
+      "5": "USB_5V"
+    },
+    "sch": [
+      50.8,
+      60.96
+    ],
+    "place": [
+      54.0,
+      8.0,
+      180.0
+    ],
+    "side": "Top",
+    "group": "outputs"
+  },
+  {
+    "ref": "R27",
+    "libname": "Device:R",
+    "value": "100",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "lcsc": "C22775",
+    "pins": {
+      "1": "DATA17_5V",
+      "2": "DATA17_OUT"
+    },
+    "sch": [
+      142.24,
+      60.96
+    ],
+    "place": [
+      47.77,
+      6.65,
+      0.0
+    ],
+    "side": "Top",
+    "group": "outputs"
+  },
+  {
+    "ref": "R29",
+    "libname": "Device:R",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "lcsc": "C25803",
+    "pins": {
+      "1": "GPIO17",
+      "2": "GND"
+    },
+    "sch": [
+      325.12,
+      60.96
+    ],
+    "place": [
+      46.3,
+      1.5,
+      0.0
+    ],
+    "side": "Top",
+    "group": "outputs"
+  },
+  {
+    "ref": "C17",
+    "libname": "Device:C",
+    "value": "100nF 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "lcsc": "C14663",
+    "pins": {
+      "1": "USB_5V",
+      "2": "GND"
+    },
+    "sch": [
+      50.8,
+      111.75999999999999
+    ],
+    "place": [
+      57.0,
+      8.0,
+      90.0
+    ],
+    "side": "Top",
+    "group": "outputs"
+  },
+  {
+    "ref": "J3",
+    "libname": "Connector_Generic:Conn_01x02",
+    "value": "2060-452-HDGC",
+    "footprint": "LX0002:HDGC_2060_452",
+    "lcsc": "C55251566",
+    "pins": {
+      "1": "DATA16_OUT",
+      "2": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      33.5,
+      5.75,
+      90
+    ],
+    "side": "Top",
+    "group": "outputs"
+  },
+  {
+    "ref": "J4",
+    "libname": "Connector_Generic:Conn_01x02",
+    "value": "2060-452-HDGC",
+    "footprint": "LX0002:HDGC_2060_452",
+    "lcsc": "C55251566",
+    "pins": {
+      "1": "USB_5V",
+      "2": "DATA17_OUT"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      33.5,
+      14.25,
+      90
+    ],
+    "side": "Top",
+    "group": "outputs"
+  },
+  {
+    "ref": "D4",
+    "libname": "Diode:BAT54C",
+    "value": "BAT54C",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "lcsc": "C2135",
+    "pins": {
+      "1": "BOOT",
+      "2": "GPIO18_BUTTON",
+      "3": "BUTTON_COMMON"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      30.64,
+      14.18,
+      0.0
+    ],
+    "side": "Top",
+    "group": "button"
+  },
+  {
+    "ref": "R30",
+    "libname": "Device:R",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0402_1005Metric",
+    "lcsc": "C25744",
+    "pins": {
+      "1": "+3V3",
+      "2": "GPIO18_BUTTON"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      33.68,
+      14.79,
+      90.0
+    ],
+    "side": "Top",
+    "group": "button",
+    "mpn": "0402WGF1002TCE",
+    "source_url": "https://jlcpcb.com/partdetail/C25744"
+  },
+  {
+    "ref": "TP1",
+    "libname": "Connector:TestPoint",
+    "value": "GND",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "GND"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      5.0,
+      3.3,
+      0.0
+    ],
+    "side": "Top",
+    "group": "test"
+  },
+  {
+    "ref": "TP2",
+    "libname": "Connector:TestPoint",
+    "value": "+3V3",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "+3V3"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      25.3,
+      6.3,
+      0.0
+    ],
+    "side": "Top",
+    "group": "test"
+  },
+  {
+    "ref": "TP3",
+    "libname": "Connector:TestPoint",
+    "value": "ESP_EN",
+    "footprint": "LX0002:TestPoint_Pad_D0.5mm",
+    "lcsc": "",
+    "pins": {
+      "1": "ESP_EN"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      25.55,
+      4.65,
+      0.0
+    ],
+    "side": "Top",
+    "group": "test"
+  },
+  {
+    "ref": "TP6",
+    "libname": "Connector:TestPoint",
+    "value": "GPIO16",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "GPIO16"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      58.7,
+      8.0,
+      0.0
+    ],
+    "side": "Top",
+    "group": "test"
+  },
+  {
+    "ref": "TP7",
+    "libname": "Connector:TestPoint",
+    "value": "GPIO17",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "GPIO17"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      57.84,
+      11.55,
+      0.0
+    ],
+    "side": "Top",
+    "group": "test"
+  },
+  {
+    "ref": "TP8",
+    "libname": "Connector:TestPoint",
+    "value": "USB_5V",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "USB_5V"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      58.7,
+      15.8,
+      0.0
+    ],
+    "side": "Top",
+    "group": "test"
+  },
+  {
+    "ref": "TP9",
+    "libname": "Connector:TestPoint",
+    "value": "USB_5V",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "USB_5V"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      33.4,
+      18.35,
+      0.0
+    ],
+    "side": "Top",
+    "group": "test"
+  },
+  {
+    "ref": "TP10",
+    "libname": "Connector:TestPoint",
+    "value": "GPIO18_BUTTON",
+    "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+    "lcsc": "",
+    "pins": {
+      "1": "GPIO18_BUTTON"
+    },
+    "sch": [
+      0,
+      0
+    ],
+    "place": [
+      58.7,
+      1.6,
+      0.0
+    ],
+    "side": "Top",
+    "group": "test"
+  }
+]

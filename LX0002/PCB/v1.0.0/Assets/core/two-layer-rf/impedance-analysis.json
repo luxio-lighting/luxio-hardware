@@ -1,0 +1,71 @@
+{
+  "nominal_width_mm": 0.8,
+  "nominal_coplanar_gap_mm": 0.2,
+  "nominal_impedance_ohm": 49.91732308080975,
+  "status": "nominal_model_not_manufacturer_controlled_impedance_or_RF_qualification",
+  "source_files": [
+    "estimate.py",
+    "field-solver-results.json"
+  ],
+  "geometry": {
+    "finished_board_thickness_mm": 1.6,
+    "F_Cu_mm": 0.035,
+    "B_Cu_mm": 0.035,
+    "substrate_mm": 1.51,
+    "mask_above_copper_each_side_mm": 0.01,
+    "substrate_er": 4.5,
+    "substrate_er_sensitivity": [
+      4.2,
+      4.8
+    ],
+    "mask_er_assumed": 4.4
+  },
+  "mesh_convergence": {
+    "pitch_mm": [
+      0.005,
+      0.0025,
+      0.00125
+    ],
+    "Z0_ohm": [
+      49.83198319434143,
+      49.8928460080651,
+      49.91732308080975
+    ],
+    "last_refinement_delta_ohm": 0.024477072744652162
+  },
+  "analytic_zero_metal_thickness_crosscheck": {
+    "method": "Qucs groundedCPW ellipticintegral conformalmapping",
+    "source_url": "https://qucs.github.io/tech/node86.html",
+    "Z0_ohm": 57.64289680513163,
+    "finite_volume_Z0_ohm": 57.40864004600008,
+    "relative_difference_percent": -0.4063931067230686
+  },
+  "sensitivity": {
+    "er4_2_Z0_ohm": 51.094379235626,
+    "er4_8_Z0_ohm": 48.772864243026255,
+    "20um_mask_above_copper_Z0_ohm": 49.24609575770001
+  },
+  "limitations": [
+    "Uniformstraightline model only. Componentlaunches, bends, splitfeedland and shortantenna transition are not50ohm uniformcrosssections.",
+    "Infinite coplanarground approximation with finite farboundary. Completedboard groundpour continuity and viafence must be inspected.",
+    "Actual FR4/mask permittivity,copper thickness,maskshape,etch andfinish are unknown for budget2layer fabrication. Model values are assumptions,not JLCPCBcertified values.",
+    "Changing LX0001 groundplane from60mm4layer toshorter2layer altersantennamatching; retainingvalues is a startingpoint,notqualification. Finalenclosurefirstarticle requiresRFthroughput/rangetest and preferablyVNA/matchingmeasurements."
+  ],
+  "design_references": [
+    {
+      "file": "LX0001/PCB/v1.0.0/Assets/core/Walsin-RFECA3216060A1T-V09.pdf",
+      "page": 3,
+      "requirement": "Type1 land pattern;8x3mm edgeclearance;L>30mm;D>6mm fromboardend toclearancewindow."
+    },
+    {
+      "file": "LX0001/PCB/v1.0.0/Assets/core/esp32-s3-hardware-guidelines.pdf",
+      "pages": [
+        20,
+        22,
+        24,
+        26
+      ],
+      "requirement": "Two-layer permitted with continuousground underchip,RFandcrystal;RF50ohm outerlayer novias;crystaltraces novias;CLCcapsopposeddirections."
+    }
+  ]
+}

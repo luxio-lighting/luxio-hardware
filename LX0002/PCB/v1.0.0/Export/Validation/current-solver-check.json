@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "scope": "Analytic resistor-network numerical checks only; no LX0002 board analysis",
+  "solver_sha256": "799b6e8374fe27fe20ab6a2455e35857a8109d777d9a0003352ae963a69eff8b",
+  "checks": [
+    {
+      "case": "four_squares_plus_one_barrel",
+      "passed": true,
+      "expected_ohm": 0.003050933086654168,
+      "actual_ohm": 0.0030509330866541682,
+      "relative_error": 1.4214696182334226e-16
+    },
+    {
+      "case": "two_four_square_layers_parallel",
+      "passed": true,
+      "expected_ohm": 0.0009851428571428572,
+      "actual_ohm": 0.0009851428571428572,
+      "relative_error": 0.0
+    },
+    {
+      "case": "disconnected_layers",
+      "passed": true,
+      "expected": "disconnected rejected"
+    }
+  ]
+}

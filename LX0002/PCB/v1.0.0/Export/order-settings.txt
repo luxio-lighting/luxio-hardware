@@ -1,0 +1,36 @@
+LX0002 v1.0.0 ordering settings
+
+Board: 42 × 20mm, 1.60mm FR-4, 2 copper layers.
+Copper: 1oz outside on both layers.
+Mask: black; silkscreen: white.
+Surface finish: OSP. Standard +/-0.2mm outline tolerance.
+Minimum via drill: 0.30mm. Both-side tenting requested for routing vias.
+The MCU exposed-pad mask opening exposes its thermal-via tops; the holes
+clear the paste windows. Tenting flags do not override component mask openings.
+Assembly: TOP SIDE ONLY, 55 fitted parts; no bottom-side assembly.
+Upload Gerber ZIP, JLCPCB-BOM.csv and JLCPCB-CPL.csv from the same package.
+The per-board footprint is 42 × 20mm; assembly rails may enlarge the production
+panel quoted by JLCPCB. Let JLC add the necessary rails/fiducials. Request
+depaneling before delivery when finished individual boards are needed.
+
+No impedance-control order option is specified. The short RF feed was modeled
+and reviewed for this nominal 1.6mm two-layer stackup; the antenna, matching and
+actual RF performance still require first-article testing in the final case.
+Do not change stackup thickness or copper weight without reviewing the layout.
+
+Retain electrical testing of the bare boards. Confirm production files and
+component placement for the first run, comparing polarity/pin 1 and connector
+orientation with the included assembly drawing. This does not approve
+unreviewed factory substitutions or a modified footprint.
+
+J1 is USB-TYPE-C-018/C2927038: top-side SMT contacts with plated shell stakes.
+Its normal pin-in-paste apertures are intentional; no routing-via-to-paste
+exceptions are present. L104 is not populated. Testpads and H2 are not BOM parts.
+
+Electrical use: USB 5V only, direct strip supply, no power-path diode or current
+limiter. J1 is rated 3A total including controller, subject to adapter/cable
+capability and actual assembled temperature. No USB PD or current negotiation.
+Both CC pins have independent 5.1kΩ pull-downs. Use only 5V strips.
+
+Start with first articles and the included validation checklist. Zero CAD
+findings do not demonstrate power, RF, firmware or enclosure qualification.

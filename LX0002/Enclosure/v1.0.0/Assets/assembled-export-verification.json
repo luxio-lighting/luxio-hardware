@@ -1,0 +1,101 @@
+{
+  "checked_at_utc": "2026-11-25T15:21:25.070226+00:00",
+  "pcb_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "fitted_component_count": 55,
+  "fitted_refs": [
+    "ANT1",
+    "C10",
+    "C100",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C109",
+    "C11",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C14",
+    "C17",
+    "C19",
+    "C6",
+    "C8",
+    "C9",
+    "D4",
+    "J1",
+    "J3",
+    "J4",
+    "L1",
+    "L100",
+    "L101",
+    "L102",
+    "R1",
+    "R100",
+    "R101",
+    "R103",
+    "R106",
+    "R16",
+    "R18",
+    "R2",
+    "R22",
+    "R23",
+    "R24",
+    "R27",
+    "R29",
+    "R3",
+    "R30",
+    "R4",
+    "SW1",
+    "U1",
+    "U2",
+    "U6",
+    "U8",
+    "U9",
+    "Y1"
+  ],
+  "missing_models": [],
+  "solid_count": 138,
+  "all_solids_valid": true,
+  "units": "mm",
+  "step_bounds_mm": [
+    [
+      -1.1750000000000012,
+      -20.0,
+      0.0
+    ],
+    [
+      42.0,
+      0.0,
+      6.095000100000001
+    ]
+  ],
+  "glb_bounds_mm": [
+    [
+      -1.1750000070780542,
+      -19.999999552965164,
+      -0.07500000356230885
+    ],
+    [
+      41.999999433755875,
+      -0.0,
+      6.094999988079071
+    ]
+  ],
+  "coordinates": "Native KiCad STEP: X right, Y negative, dielectric core Z=0..1.51mm; nominal finished PCB 1.6mm; no reflection",
+  "preview_models": [
+    "ANT1 and SW1 STEP geometry converted exactly from existing approximate VRML models",
+    "U1 FH4R2 nominal package model from Espressif datasheet v2.2 Figure7-2; not a supplier STEP"
+  ],
+  "supplier_models": "J1 USB and J3/J4 terminals are supplier visualization models; drawings govern fit",
+  "sha256": {
+    "LX0002-assembled.step": "cae8543656d284fe57d65cf22dd49559c87d3d089547b90217cf7f47fbea75de",
+    "LX0002-assembled-mm.stl": "a1d7f1b8addc9d3a1a275f170209aef73259ccc44371f32d822025f965c0c186",
+    "LX0002-assembled.glb": "0edca5c1bd0519c7a3eacb7dae0b8b3684666f4830f158e8835caf84beb85ffc"
+  }
+}

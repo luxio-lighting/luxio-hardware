@@ -1,0 +1,157 @@
+{
+  "board_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "current_a": 3,
+  "usb_contact_group": "all",
+  "copper_um": [
+    35,
+    35
+  ],
+  "net_resolutions_mm": {
+    "USB_5V": 0.025,
+    "GND": 0.05
+  },
+  "grid_comparison": [
+    {
+      "net": "USB_5V",
+      "wall_um": 25,
+      "coarse_mm": 0.05,
+      "fine_mm": 0.025,
+      "change_percent": 0.3095089249212585
+    },
+    {
+      "net": "GND",
+      "wall_um": 25,
+      "coarse_mm": 0.1,
+      "fine_mm": 0.05,
+      "change_percent": 1.6144519615869835
+    },
+    {
+      "net": "USB_5V",
+      "wall_um": 20,
+      "coarse_mm": 0.05,
+      "fine_mm": 0.025,
+      "change_percent": 0.3187653044903317
+    },
+    {
+      "net": "GND",
+      "wall_um": 20,
+      "coarse_mm": 0.1,
+      "fine_mm": 0.05,
+      "change_percent": 1.5922168636651275
+    },
+    {
+      "net": "USB_5V",
+      "wall_um": 18,
+      "coarse_mm": 0.05,
+      "fine_mm": 0.025,
+      "change_percent": 0.3224001680903585
+    },
+    {
+      "net": "GND",
+      "wall_um": 18,
+      "coarse_mm": 0.1,
+      "fine_mm": 0.05,
+      "change_percent": 1.5797595626317908
+    }
+  ],
+  "fanout": [
+    {
+      "branch": "upper",
+      "width_mm": 0.33,
+      "path_length_mm": 1.6199747468305832,
+      "full_3a_trace_bound_mohm": 2.4180402281696325,
+      "full_3a_trace_bound_loss_w": 0.021762362053526694,
+      "cases": [
+        {
+          "plating_um": 25,
+          "bank_total_a": 1.409683433610822,
+          "via_currents_a": [
+            0.5550025474832037,
+            0.8546808861276183
+          ],
+          "via_losses_w": [
+            0.00033286946263424945,
+            0.0007893906626712044
+          ],
+          "branch_trace_loss_bound_w": 0.004805147393801953
+        },
+        {
+          "plating_um": 20,
+          "bank_total_a": 1.415124975196068,
+          "via_currents_a": [
+            0.5753630189677568,
+            0.8397619562283113
+          ],
+          "via_losses_w": [
+            0.0004541625152666054,
+            0.0009674750841457344
+          ],
+          "branch_trace_loss_bound_w": 0.0048423158456099005
+        },
+        {
+          "plating_um": 18,
+          "bank_total_a": 1.4177989720755506,
+          "via_currents_a": [
+            0.5848104728679261,
+            0.8329884992076245
+          ],
+          "via_losses_w": [
+            0.0005246117690057726,
+            0.0010643531674816174
+          ],
+          "branch_trace_loss_bound_w": 0.004860633055991395
+        }
+      ]
+    },
+    {
+      "branch": "lower",
+      "width_mm": 0.33,
+      "path_length_mm": 2.1794789992039036,
+      "full_3a_trace_bound_mohm": 3.253179042967559,
+      "full_3a_trace_bound_loss_w": 0.02927861138670803,
+      "cases": [
+        {
+          "plating_um": 25,
+          "bank_total_a": 1.5903165662876892,
+          "via_currents_a": [
+            0.5498295611499151,
+            1.0404870051377741
+          ],
+          "via_losses_w": [
+            0.0003266932588085736,
+            0.0011699231183659121
+          ],
+          "branch_trace_loss_bound_w": 0.008227637177405838
+        },
+        {
+          "plating_um": 20,
+          "bank_total_a": 1.5848750331545174,
+          "via_currents_a": [
+            0.576693745654131,
+            1.0081812875003864
+          ],
+          "via_losses_w": [
+            0.0004562657616079572,
+            0.0013944555085721832
+          ],
+          "branch_trace_loss_bound_w": 0.008171429041735893
+        },
+        {
+          "plating_um": 18,
+          "bank_total_a": 1.5822010351221283,
+          "via_currents_a": [
+            0.5889422880690776,
+            0.9932587470530507
+          ],
+          "via_losses_w": [
+            0.0005320509523491307,
+            0.0015133261720964239
+          ],
+          "branch_trace_loss_bound_w": 0.008143878664880566
+        }
+      ]
+    }
+  ],
+  "successful": true,
+  "unconnected": 0
+}

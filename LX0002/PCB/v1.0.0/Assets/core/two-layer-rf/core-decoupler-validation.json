@@ -1,0 +1,127 @@
+{
+  "scope": "RF,clock,8coredecouplers+U1,J1,U10,SW1,C103,C9,L1,C10,C11;noGNDzones. Otherparts mustbeintegratedandfullDRCrun. Nowincludes6EPgroundvias.",
+  "layout_sha256": "21bcd2f5f79c4eee8ad5869f681bce0c6c150d35e807ed90e888f7d9cfb77ba1",
+  "electrical_courtyard_edge_mask_errors": [],
+  "drill_paste_minimum_mm": 0.1199999999999993,
+  "drill_paste_nearest": [
+    [
+      0.1199999999999993,
+      "C115",
+      "",
+      7.65,
+      7.72
+    ],
+    [
+      0.14000000000000143,
+      "C113",
+      "2",
+      19.8,
+      5.18
+    ],
+    [
+      0.15207614933986405,
+      "C100",
+      "2",
+      8.6,
+      10.5
+    ],
+    [
+      0.15207614933986405,
+      "C107",
+      "2",
+      8.6,
+      12.1
+    ],
+    [
+      0.19000000000000097,
+      "C105",
+      "2",
+      10.2,
+      5.6
+    ],
+    [
+      0.24528470752104684,
+      "C100",
+      "2",
+      8.6,
+      12.1
+    ],
+    [
+      0.2459999999999997,
+      "C114",
+      "",
+      10.5,
+      6.5
+    ],
+    [
+      0.2502499219237897,
+      "C113",
+      "2",
+      18.8,
+      5.85
+    ],
+    [
+      0.27719983614346055,
+      "Y1",
+      "2",
+      14.8,
+      4.6
+    ],
+    [
+      0.29000000000000004,
+      "C101",
+      "2",
+      8.6,
+      10.5
+    ]
+  ],
+  "expected_incomplete": [
+    "NoGNDzones:scratchGNDviasdangling",
+    "Left3V3clusterportal(9.575,13.6)mustconnecttobuck3V3output",
+    "MCU3V3portal(14.4,13.45)mustconnectthroughC103tobuck3V3output",
+    "Native-librarymismatchwarningsfromdonorfootprintsinstandalonescratchproject"
+  ],
+  "signal_gaps": [],
+  "exposed_pad_vias": {
+    "count": 6,
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "positions_mm": [
+      [
+        15.4,
+        12.55
+      ],
+      [
+        16.5,
+        12.55
+      ],
+      [
+        17.55,
+        8.5
+      ],
+      [
+        17.55,
+        9.5
+      ],
+      [
+        17.55,
+        10.5
+      ],
+      [
+        17.55,
+        11.5
+      ]
+    ],
+    "minimum_drill_paste_margin_mm": 0.34999999999999853,
+    "minimum_paste_margin_item": [
+      0.34999999999999853,
+      "U1",
+      "25",
+      16.5,
+      12.55
+    ],
+    "connectivity": "ShortF.CugroundstubsfromEPtopad;B.CuGNDpourrequired"
+  },
+  "status": "superseded_by_core_escape_validation",
+  "superseded_by": "core-escape-validation.json"
+}

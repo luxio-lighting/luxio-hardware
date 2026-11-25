@@ -1,0 +1,777 @@
+{
+  "status": "Final native routing snapshot; validate with the current Export reports.",
+  "coordinate_system": "KiCad board millimeters: X right, Y down; KiCad rotation degrees.",
+  "source_board_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "placements": {
+    "ANT1": [
+      10.2,
+      1.5,
+      0.0
+    ],
+    "C100": [
+      8.8,
+      11.05,
+      180.0
+    ],
+    "C101": [
+      7.98,
+      9.75,
+      0.0
+    ],
+    "C102": [
+      9.5,
+      9.05,
+      -90.0
+    ],
+    "C104": [
+      19.4,
+      5.4,
+      0.0
+    ],
+    "C105": [
+      10.78,
+      5.68,
+      180.0
+    ],
+    "C106": [
+      7.8,
+      4.2,
+      0.0
+    ],
+    "C107": [
+      8.8,
+      12.65,
+      180.0
+    ],
+    "C112": [
+      20.9,
+      1.15,
+      0.0
+    ],
+    "C113": [
+      16.2,
+      4.6,
+      0.0
+    ],
+    "C114": [
+      10.5,
+      7.4,
+      90.0
+    ],
+    "C115": [
+      8.1,
+      7.4,
+      -90.0
+    ],
+    "L100": [
+      7.98,
+      8.7,
+      0.0
+    ],
+    "L101": [
+      15.0,
+      2.1,
+      90.0
+    ],
+    "L102": [
+      9.4,
+      7.72,
+      180.0
+    ],
+    "L104": [
+      6.8,
+      1.5,
+      0.0
+    ],
+    "U1": [
+      15.0,
+      10.0,
+      0.0
+    ],
+    "Y1": [
+      17.8,
+      2.0,
+      180.0
+    ]
+  },
+  "routes": [
+    {
+      "net": "RF_50",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "points": [
+        [
+          8.1,
+          6.4
+        ],
+        [
+          10.8,
+          3.7
+        ]
+      ]
+    },
+    {
+      "net": "RF_50",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          8.1,
+          7.08
+        ],
+        [
+          8.1,
+          6.4
+        ]
+      ]
+    },
+    {
+      "net": "RF_50",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          8.44,
+          7.08
+        ],
+        [
+          8.1,
+          7.08
+        ]
+      ]
+    },
+    {
+      "net": "RF_50",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          9.08,
+          7.72
+        ],
+        [
+          8.44,
+          7.08
+        ]
+      ]
+    },
+    {
+      "net": "RF_50",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "points": [
+        [
+          10.8,
+          3.7
+        ],
+        [
+          11.4,
+          3.7
+        ]
+      ]
+    },
+    {
+      "net": "RF_50",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "points": [
+        [
+          11.4,
+          3.7
+        ],
+        [
+          12.5,
+          2.6
+        ]
+      ]
+    },
+    {
+      "net": "RF_50",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "points": [
+        [
+          12.5,
+          2.6
+        ],
+        [
+          14.2,
+          1.975
+        ]
+      ]
+    },
+    {
+      "net": "RF_CHIP",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          10.5,
+          7.72
+        ],
+        [
+          9.72,
+          7.72
+        ]
+      ]
+    },
+    {
+      "net": "RF_CHIP",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          10.58,
+          7.72
+        ],
+        [
+          10.5,
+          7.72
+        ]
+      ]
+    },
+    {
+      "net": "RF_CHIP",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          10.9,
+          7.4
+        ],
+        [
+          10.58,
+          7.72
+        ]
+      ]
+    },
+    {
+      "net": "RF_CHIP",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "points": [
+        [
+          11.55,
+          7.4
+        ],
+        [
+          10.9,
+          7.4
+        ]
+      ]
+    },
+    {
+      "net": "VDD3P3_RF",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          8.465,
+          8.7
+        ],
+        [
+          8.92,
+          8.7
+        ]
+      ]
+    },
+    {
+      "net": "VDD3P3_RF",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          8.92,
+          8.7
+        ],
+        [
+          9.05,
+          8.57
+        ]
+      ]
+    },
+    {
+      "net": "VDD3P3_RF",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          9.05,
+          8.57
+        ],
+        [
+          9.5,
+          8.57
+        ]
+      ]
+    },
+    {
+      "net": "VDD3P3_RF",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          9.5,
+          8.35
+        ],
+        [
+          9.69,
+          8.16
+        ]
+      ]
+    },
+    {
+      "net": "VDD3P3_RF",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          9.5,
+          8.57
+        ],
+        [
+          9.5,
+          8.35
+        ]
+      ]
+    },
+    {
+      "net": "VDD3P3_RF",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          9.69,
+          8.16
+        ],
+        [
+          11.0,
+          8.16
+        ]
+      ]
+    },
+    {
+      "net": "VDD3P3_RF",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          11.0,
+          8.16
+        ],
+        [
+          11.35,
+          7.8
+        ]
+      ]
+    },
+    {
+      "net": "VDD3P3_RF",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          11.35,
+          7.8
+        ],
+        [
+          11.35,
+          8.199999
+        ]
+      ]
+    },
+    {
+      "net": "VDD3P3_RF",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          11.35,
+          7.8
+        ],
+        [
+          11.55,
+          7.8
+        ]
+      ]
+    },
+    {
+      "net": "VDD3P3_RF",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          11.35,
+          8.199999
+        ],
+        [
+          11.55,
+          8.199999
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_N",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          13.6,
+          3.75
+        ],
+        [
+          15.8,
+          3.75
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_N",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          13.6,
+          6.55
+        ],
+        [
+          13.6,
+          3.75
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_N",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          15.72,
+          3.83
+        ],
+        [
+          15.72,
+          4.6
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_N",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          15.8,
+          3.75
+        ],
+        [
+          15.72,
+          3.83
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_N",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          15.8,
+          3.75
+        ],
+        [
+          16.7,
+          2.85
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_P",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          13.2,
+          3.25
+        ],
+        [
+          14.35,
+          3.25
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_P",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          13.2,
+          6.55
+        ],
+        [
+          13.2,
+          3.25
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_P",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          14.35,
+          3.25
+        ],
+        [
+          15.0,
+          2.585
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_P_CRYSTAL",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          15.0,
+          1.615
+        ],
+        [
+          15.385,
+          2.0
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_P_CRYSTAL",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          15.385,
+          2.0
+        ],
+        [
+          18.9,
+          2.0
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_P_CRYSTAL",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          18.9,
+          1.15
+        ],
+        [
+          20.42,
+          1.15
+        ]
+      ]
+    },
+    {
+      "net": "XTAL_P_CRYSTAL",
+      "layer": "F.Cu",
+      "width_mm": 0.127,
+      "points": [
+        [
+          18.9,
+          2.0
+        ],
+        [
+          18.9,
+          1.15
+        ]
+      ]
+    }
+  ],
+  "vias": [],
+  "antenna_all_layer_copper_keepout_mm": [
+    [
+      6.2,
+      0.0
+    ],
+    [
+      14.2,
+      0.0
+    ],
+    [
+      14.2,
+      3.0
+    ],
+    [
+      6.2,
+      3.0
+    ]
+  ],
+  "bottom_reference_regions_mm": [
+    [
+      [
+        7.2,
+        3.0
+      ],
+      [
+        12.3,
+        3.0
+      ],
+      [
+        12.3,
+        8.9
+      ],
+      [
+        7.2,
+        8.9
+      ]
+    ],
+    [
+      [
+        12.7,
+        3.0
+      ],
+      [
+        14.5,
+        3.0
+      ],
+      [
+        14.5,
+        0.3
+      ],
+      [
+        21.9,
+        0.3
+      ],
+      [
+        21.9,
+        1.9
+      ],
+      [
+        19.65,
+        1.9
+      ],
+      [
+        19.65,
+        4.4
+      ],
+      [
+        18.85,
+        5.2
+      ],
+      [
+        14.0,
+        5.2
+      ],
+      [
+        13.78,
+        5.42
+      ],
+      [
+        13.78,
+        7.15
+      ],
+      [
+        12.7,
+        7.15
+      ]
+    ],
+    [
+      [
+        12.15,
+        7.15
+      ],
+      [
+        17.57,
+        7.15
+      ],
+      [
+        17.57,
+        12.8
+      ],
+      [
+        17.52,
+        12.85
+      ],
+      [
+        12.2,
+        12.85
+      ],
+      [
+        12.15,
+        12.8
+      ]
+    ]
+  ],
+  "rf_nominal": {
+    "type": "grounded coplanar waveguide",
+    "width_mm": 0.8,
+    "gap_to_front_ground_mm": 0.2,
+    "reference": "B.Cu continuous GND",
+    "nominal_impedance_ohm": 49.917,
+    "analysis": "../Assets/core/two-layer-rf/impedance-analysis.json",
+    "scope": "straight uniform section only; launches, bends, and antenna match require RF measurement"
+  },
+  "ep_outer_rim_boot_allowance_mm": [
+    [
+      17.57,
+      7.15
+    ],
+    [
+      17.85,
+      7.15
+    ],
+    [
+      17.85,
+      12.85
+    ],
+    [
+      17.57,
+      12.85
+    ]
+  ],
+  "ep_corner_rounding_allowances_mm": [
+    [
+      [
+        12.15,
+        12.8
+      ],
+      [
+        12.2,
+        12.85
+      ],
+      [
+        12.15,
+        12.85
+      ]
+    ],
+    [
+      [
+        17.52,
+        12.85
+      ],
+      [
+        17.57,
+        12.8
+      ],
+      [
+        17.57,
+        12.85
+      ]
+    ]
+  ],
+  "notes": [
+    "RF and crystal signals stay on F.Cu without signal vias. B.Cu remains GND in the three protected regions.",
+    "The antenna window excludes copper pours on both layers. Only its manufacturer land pattern and feed transition occupy the top window.",
+    "RF_50 uniform sections use 0.80mm width and 0.20mm coplanar gap; component launches are nonuniform.",
+    "Nine direct exposed-pad GND vias form a 3x3 grid at offsets -1.4/0/+1.4mm inside the FH4R2 5.7mm exposed pad. Each uses a 0.45mm land and 0.30mm drill, clear of the 16 paste windows.",
+    "The exposed-pad solder-mask opening exposes the tops of these nine thermal vias despite their tenting flags. They are not specified as filled or capped.",
+    "Static BOOT routing may occupy the outer-right 0.28mm EP rim, with two bottom-corner pour-rounding chamfers bounded to 0.05mm. The full top exposed pad remains GND; the continuous bottom core and nine vias remain protected. Exact whole-EP ground coverage must be at least 95%, with no missing ground outside those explicit bounds.",
+    "This bounded EP-rim route is a documented compact two-layer deviation from Espressif complete-chip-ground guidance. Validate boot reliability and radio/power performance on assembled first articles.",
+    "All GND and common supply copper is captured in power_distribution_layout.json.",
+    "RF calculations and filled-reference sampling do not replace antenna matching and radio validation on assembled first articles."
+  ]
+}

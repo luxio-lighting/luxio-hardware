@@ -1,0 +1,37 @@
+(version 1)
+
+# The antenna land pattern contains feed and ground fingers. Keep all other
+# nets out of its manufacturer-specified clearance window. The rule area also
+# forbids copper pours; its opposite-side partner forbids all copper.
+(rule "Antenna window - only manufacturer feed and ground"
+    (layer F.Cu)
+    (condition "A.intersectsArea('Antenna radiator: no copper pour') && A.NetName != 'RF_50' && A.NetName != 'ANT_TUNE' && A.NetName != 'GND'")
+    (constraint disallow track via pad))
+
+# These B.Cu areas permit GND fills and GND stitching vias, but no signal or
+# supply tracks/pads. The additional rule below closes the via exception:
+# ordinary keepout areas cannot distinguish ground vias from other vias.
+(rule "Continuous RF clock and core ground - ground vias only"
+    (layer B.Cu)
+    (condition "A.NetName != 'GND' && (A.intersectsArea('RF ground reference 1') || A.intersectsArea('RF ground reference 2') || A.intersectsArea('RF ground reference 3'))")
+    (constraint disallow via))
+
+# Explicit compact-layout tradeoff: only the static BOOT signal may use the
+# outer-right 0.28mm EP rim. The nine-via central plane remains protected by
+# RF ground reference 3. The independent filled-area audit also checks the
+# entire exposed-pad projection and requires at least 95% connected GND.
+(rule "EP outer rim - static BOOT only"
+    (layer B.Cu)
+    (condition "A.intersectsArea('EP outer rim: BOOT only') && A.NetName != 'GND' && A.NetName != 'BOOT'")
+    (constraint disallow track via pad))
+
+# RF_50 uses 0.800 mm nominal main-line width and 0.200 mm coplanar gap on
+# the 1.6 mm two-layer board. Component launches and matching-network tracks
+# are nonuniform; see Assets/core/two-layer-rf for the stackup/model limits.
+
+# The standard 0201 land pattern has a 0.180 mm gap between its own pads.
+# Limit this clearance override to the two pads of each matching component;
+# surrounding RF tracks, other footprints, and GND pours retain 0.200 mm.
+(rule "RF matching 0201 own-pad clearance"
+    (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Reference == B.Reference && (A.Reference == 'L102' || A.Reference == 'C115')")
+    (constraint clearance (min 0.127mm)))

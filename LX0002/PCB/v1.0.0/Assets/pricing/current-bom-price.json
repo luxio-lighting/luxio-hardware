@@ -1,0 +1,508 @@
+{
+  "date": "2026-11-25",
+  "quantity_boards": 100,
+  "currency": "USD",
+  "parts_sha256": "457aadcfec35679259550f1d349a70603921bda1def905e341478cbc2b8f1ed3",
+  "basis": "JLCPCB public catalog snapshots, aggregate demand per SKU for 100 boards; excludes attrition, PCB fabrication, assembly, freight, tax and discounts",
+  "fitted_components": 55,
+  "unique_skus": 29,
+  "board_component_total_usd": "4.6469",
+  "batch_component_total_usd": "464.6900",
+  "rows": [
+    {
+      "ref": "U1",
+      "part": "ESP32-S3FH4R2",
+      "jlc": "C3013940",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "2.3901",
+      "price_observed_at_utc": "2026-11-25T13:57:40.342990+00:00"
+    },
+    {
+      "ref": "L100",
+      "part": "2nH 900mA",
+      "jlc": "C18216",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0228",
+      "price_observed_at_utc": "2026-11-25T13:11:29.773794+00:00"
+    },
+    {
+      "ref": "C100",
+      "part": "10uF 10V",
+      "jlc": "C19702",
+      "board_quantity_per_sku": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0105",
+      "price_observed_at_utc": "2026-11-25T13:11:29.900550+00:00"
+    },
+    {
+      "ref": "C101",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity_per_sku": 6,
+      "purchased_quantity_for_100_boards": 600,
+      "usd_each": "0.0029",
+      "price_observed_at_utc": "2026-11-25T13:11:29.774794+00:00"
+    },
+    {
+      "ref": "C102",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity_per_sku": 6,
+      "purchased_quantity_for_100_boards": 600,
+      "usd_each": "0.0029",
+      "price_observed_at_utc": "2026-11-25T13:11:29.774794+00:00"
+    },
+    {
+      "ref": "C103",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity_per_sku": 6,
+      "purchased_quantity_for_100_boards": 600,
+      "usd_each": "0.0029",
+      "price_observed_at_utc": "2026-11-25T13:11:29.774794+00:00"
+    },
+    {
+      "ref": "C104",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity_per_sku": 6,
+      "purchased_quantity_for_100_boards": 600,
+      "usd_each": "0.0029",
+      "price_observed_at_utc": "2026-11-25T13:11:29.774794+00:00"
+    },
+    {
+      "ref": "C105",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity_per_sku": 6,
+      "purchased_quantity_for_100_boards": 600,
+      "usd_each": "0.0029",
+      "price_observed_at_utc": "2026-11-25T13:11:29.774794+00:00"
+    },
+    {
+      "ref": "C106",
+      "part": "1uF 25V",
+      "jlc": "C52923",
+      "board_quantity_per_sku": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0055",
+      "price_observed_at_utc": "2026-11-25T13:11:30.301183+00:00"
+    },
+    {
+      "ref": "C107",
+      "part": "10uF 10V",
+      "jlc": "C19702",
+      "board_quantity_per_sku": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0105",
+      "price_observed_at_utc": "2026-11-25T13:11:29.900550+00:00"
+    },
+    {
+      "ref": "C108",
+      "part": "100nF 16V",
+      "jlc": "C1525",
+      "board_quantity_per_sku": 6,
+      "purchased_quantity_for_100_boards": 600,
+      "usd_each": "0.0029",
+      "price_observed_at_utc": "2026-11-25T13:11:29.774794+00:00"
+    },
+    {
+      "ref": "C109",
+      "part": "1uF 25V",
+      "jlc": "C52923",
+      "board_quantity_per_sku": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0055",
+      "price_observed_at_utc": "2026-11-25T13:11:30.301183+00:00"
+    },
+    {
+      "ref": "R100",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity_per_sku": 5,
+      "purchased_quantity_for_100_boards": 500,
+      "usd_each": "0.0009",
+      "price_observed_at_utc": "2026-11-25T13:11:30.071670+00:00"
+    },
+    {
+      "ref": "C111",
+      "part": "1uF 25V",
+      "jlc": "C52923",
+      "board_quantity_per_sku": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0055",
+      "price_observed_at_utc": "2026-11-25T13:11:30.301183+00:00"
+    },
+    {
+      "ref": "R101",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity_per_sku": 5,
+      "purchased_quantity_for_100_boards": 500,
+      "usd_each": "0.0009",
+      "price_observed_at_utc": "2026-11-25T13:11:30.071670+00:00"
+    },
+    {
+      "ref": "R103",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity_per_sku": 5,
+      "purchased_quantity_for_100_boards": 500,
+      "usd_each": "0.0009",
+      "price_observed_at_utc": "2026-11-25T13:11:30.071670+00:00"
+    },
+    {
+      "ref": "Y1",
+      "part": "40MHz 12pF 10ppm",
+      "jlc": "C655034",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0533",
+      "price_observed_at_utc": "2026-11-25T13:11:30.367413+00:00"
+    },
+    {
+      "ref": "C112",
+      "part": "18pF 50V C0G",
+      "jlc": "C1549",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0017",
+      "price_observed_at_utc": "2026-11-25T13:11:29.640464+00:00"
+    },
+    {
+      "ref": "C113",
+      "part": "18pF 50V C0G",
+      "jlc": "C1549",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0017",
+      "price_observed_at_utc": "2026-11-25T13:11:29.640464+00:00"
+    },
+    {
+      "ref": "L101",
+      "part": "24nH",
+      "jlc": "C913699",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0946",
+      "price_observed_at_utc": "2026-11-25T13:11:30.447180+00:00"
+    },
+    {
+      "ref": "C114",
+      "part": "1.5pF 50V C0G",
+      "jlc": "C161414",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0048",
+      "price_observed_at_utc": "2026-11-25T13:12:03.636611+00:00"
+    },
+    {
+      "ref": "L102",
+      "part": "2.7nH",
+      "jlc": "C7216765",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0456",
+      "price_observed_at_utc": "2026-11-25T14:51:05.153240+00:00"
+    },
+    {
+      "ref": "C115",
+      "part": "1.5pF 50V C0G",
+      "jlc": "C161414",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0048",
+      "price_observed_at_utc": "2026-11-25T13:12:03.636611+00:00"
+    },
+    {
+      "ref": "ANT1",
+      "part": "RFECA3216060A1T",
+      "jlc": "C127620",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0385",
+      "price_observed_at_utc": "2026-11-25T13:11:29.653446+00:00"
+    },
+    {
+      "ref": "R106",
+      "part": "0",
+      "jlc": "C17477",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0031",
+      "price_observed_at_utc": "2026-11-25T14:24:15.280387+00:00"
+    },
+    {
+      "ref": "J1",
+      "part": "USB-TYPE-C-018",
+      "jlc": "C2927038",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0507",
+      "price_observed_at_utc": "2026-11-25T13:12:11.072646+00:00"
+    },
+    {
+      "ref": "R1",
+      "part": "5.1k",
+      "jlc": "C25905",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0014",
+      "price_observed_at_utc": "2026-11-25T13:12:09.895224+00:00"
+    },
+    {
+      "ref": "R2",
+      "part": "5.1k",
+      "jlc": "C25905",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0014",
+      "price_observed_at_utc": "2026-11-25T13:12:09.895224+00:00"
+    },
+    {
+      "ref": "R3",
+      "part": "22",
+      "jlc": "C25092",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0011",
+      "price_observed_at_utc": "2026-11-25T13:11:29.929624+00:00"
+    },
+    {
+      "ref": "R4",
+      "part": "22",
+      "jlc": "C25092",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0011",
+      "price_observed_at_utc": "2026-11-25T13:11:29.929624+00:00"
+    },
+    {
+      "ref": "U2",
+      "part": "USBLC6-2SC6",
+      "jlc": "C7519",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.116",
+      "price_observed_at_utc": "2026-11-25T13:11:30.453748+00:00"
+    },
+    {
+      "ref": "C6",
+      "part": "1uF 25V",
+      "jlc": "C52923",
+      "board_quantity_per_sku": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0055",
+      "price_observed_at_utc": "2026-11-25T13:11:30.301183+00:00"
+    },
+    {
+      "ref": "U6",
+      "part": "LMR51410YFDBVR",
+      "jlc": "C32347484",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.9338",
+      "price_observed_at_utc": "2026-11-25T13:11:30.138253+00:00"
+    },
+    {
+      "ref": "C8",
+      "part": "10uF 10V",
+      "jlc": "C19702",
+      "board_quantity_per_sku": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0105",
+      "price_observed_at_utc": "2026-11-25T13:11:29.900550+00:00"
+    },
+    {
+      "ref": "C19",
+      "part": "10uF 10V",
+      "jlc": "C19702",
+      "board_quantity_per_sku": 4,
+      "purchased_quantity_for_100_boards": 400,
+      "usd_each": "0.0105",
+      "price_observed_at_utc": "2026-11-25T13:11:29.900550+00:00"
+    },
+    {
+      "ref": "C9",
+      "part": "100nF 50V",
+      "jlc": "C14663",
+      "board_quantity_per_sku": 3,
+      "purchased_quantity_for_100_boards": 300,
+      "usd_each": "0.0052",
+      "price_observed_at_utc": "2026-11-25T13:11:29.673085+00:00"
+    },
+    {
+      "ref": "L1",
+      "part": "10uH 1.5A Isat1.95A",
+      "jlc": "C38117",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0385",
+      "price_observed_at_utc": "2026-11-25T13:11:30.177283+00:00"
+    },
+    {
+      "ref": "C10",
+      "part": "22uF 25V",
+      "jlc": "C45783",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0874",
+      "price_observed_at_utc": "2026-11-25T13:11:30.296634+00:00"
+    },
+    {
+      "ref": "C11",
+      "part": "22uF 25V",
+      "jlc": "C45783",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0874",
+      "price_observed_at_utc": "2026-11-25T13:11:30.296634+00:00"
+    },
+    {
+      "ref": "R22",
+      "part": "100k",
+      "jlc": "C25741",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0009",
+      "price_observed_at_utc": "2026-11-25T13:11:30.038582+00:00"
+    },
+    {
+      "ref": "R23",
+      "part": "22k",
+      "jlc": "C25768",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.001",
+      "price_observed_at_utc": "2026-11-25T13:12:07.413706+00:00"
+    },
+    {
+      "ref": "R24",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity_per_sku": 5,
+      "purchased_quantity_for_100_boards": 500,
+      "usd_each": "0.0009",
+      "price_observed_at_utc": "2026-11-25T13:11:30.071670+00:00"
+    },
+    {
+      "ref": "U8",
+      "part": "SN74AHCT1G125DBVR",
+      "jlc": "C7484",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0787",
+      "price_observed_at_utc": "2026-11-25T13:12:12.329255+00:00"
+    },
+    {
+      "ref": "R16",
+      "part": "100",
+      "jlc": "C22775",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0017",
+      "price_observed_at_utc": "2026-11-25T13:12:06.144816+00:00"
+    },
+    {
+      "ref": "R18",
+      "part": "100k",
+      "jlc": "C25803",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0026",
+      "price_observed_at_utc": "2026-11-25T13:12:08.714548+00:00"
+    },
+    {
+      "ref": "C14",
+      "part": "100nF 50V",
+      "jlc": "C14663",
+      "board_quantity_per_sku": 3,
+      "purchased_quantity_for_100_boards": 300,
+      "usd_each": "0.0052",
+      "price_observed_at_utc": "2026-11-25T13:11:29.673085+00:00"
+    },
+    {
+      "ref": "SW1",
+      "part": "TS-1088-AR02016",
+      "jlc": "C720477",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0403",
+      "price_observed_at_utc": "2026-11-25T13:11:30.396699+00:00"
+    },
+    {
+      "ref": "U9",
+      "part": "SN74AHCT1G125DBVR",
+      "jlc": "C7484",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0787",
+      "price_observed_at_utc": "2026-11-25T13:12:12.329255+00:00"
+    },
+    {
+      "ref": "R27",
+      "part": "100",
+      "jlc": "C22775",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0017",
+      "price_observed_at_utc": "2026-11-25T13:12:06.144816+00:00"
+    },
+    {
+      "ref": "R29",
+      "part": "100k",
+      "jlc": "C25803",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.0026",
+      "price_observed_at_utc": "2026-11-25T13:12:08.714548+00:00"
+    },
+    {
+      "ref": "C17",
+      "part": "100nF 50V",
+      "jlc": "C14663",
+      "board_quantity_per_sku": 3,
+      "purchased_quantity_for_100_boards": 300,
+      "usd_each": "0.0052",
+      "price_observed_at_utc": "2026-11-25T13:11:29.673085+00:00"
+    },
+    {
+      "ref": "J3",
+      "part": "2060-452-HDGC",
+      "jlc": "C55251566",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.1664",
+      "price_observed_at_utc": "2026-11-25T13:11:30.276738+00:00"
+    },
+    {
+      "ref": "J4",
+      "part": "2060-452-HDGC",
+      "jlc": "C55251566",
+      "board_quantity_per_sku": 2,
+      "purchased_quantity_for_100_boards": 200,
+      "usd_each": "0.1664",
+      "price_observed_at_utc": "2026-11-25T13:11:30.276738+00:00"
+    },
+    {
+      "ref": "D4",
+      "part": "BAT54C",
+      "jlc": "C2135",
+      "board_quantity_per_sku": 1,
+      "purchased_quantity_for_100_boards": 100,
+      "usd_each": "0.0246",
+      "price_observed_at_utc": "2026-11-25T13:11:29.813046+00:00"
+    },
+    {
+      "ref": "R30",
+      "part": "10k",
+      "jlc": "C25744",
+      "board_quantity_per_sku": 5,
+      "purchased_quantity_for_100_boards": 500,
+      "usd_each": "0.0009",
+      "price_observed_at_utc": "2026-11-25T13:11:30.071670+00:00"
+    }
+  ]
+}

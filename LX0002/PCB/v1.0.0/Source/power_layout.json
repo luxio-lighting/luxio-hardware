@@ -1,0 +1,293 @@
+{
+  "status": "Final native routing snapshot; validate with the current Export reports.",
+  "coordinate_system": "KiCad board millimeters: X right, Y down; KiCad rotation degrees.",
+  "source_board_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "placements": {
+    "C10": [
+      14.95,
+      17.5,
+      90.0
+    ],
+    "C11": [
+      17.05,
+      17.5,
+      90.0
+    ],
+    "C19": [
+      3.2,
+      17.8,
+      90.0
+    ],
+    "C8": [
+      4.8,
+      17.8,
+      90.0
+    ],
+    "C9": [
+      8.6,
+      14.45,
+      0.0
+    ],
+    "L1": [
+      11.55,
+      17.5,
+      0.0
+    ],
+    "R22": [
+      1.3,
+      17.05,
+      0.0
+    ],
+    "R23": [
+      1.3,
+      18.05,
+      180.0
+    ],
+    "R24": [
+      1.3,
+      19.05,
+      0.0
+    ],
+    "U6": [
+      7.5,
+      17.5,
+      -90.0
+    ]
+  },
+  "routes": [
+    {
+      "net": "BUCK_BST",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          7.825,
+          14.45
+        ],
+        [
+          8.45,
+          15.075
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_BST",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "points": [
+        [
+          8.45,
+          15.075
+        ],
+        [
+          8.45,
+          16.3625
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_FB",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          2.3,
+          15.5
+        ],
+        [
+          6.4,
+          15.5
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_FB",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          2.3,
+          16.3
+        ],
+        [
+          2.3,
+          15.5
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_FB",
+      "layer": "B.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.55,
+          15.35
+        ],
+        [
+          6.4,
+          15.5
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_FB",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          1.81,
+          17.05
+        ],
+        [
+          1.81,
+          18.05
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_FB",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          2.3,
+          16.3
+        ],
+        [
+          2.3,
+          16.559999
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_FB",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          2.3,
+          16.559999
+        ],
+        [
+          1.81,
+          17.05
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_FB",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          6.55,
+          16.3625
+        ],
+        [
+          6.55,
+          15.35
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_FB_LOW",
+      "layer": "F.Cu",
+      "width_mm": 0.15,
+      "points": [
+        [
+          0.79,
+          18.05
+        ],
+        [
+          0.79,
+          19.05
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_SW",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "points": [
+        [
+          8.45,
+          18.6375
+        ],
+        [
+          10.05,
+          18.6375
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_SW",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "points": [
+        [
+          9.375,
+          14.45
+        ],
+        [
+          10.05,
+          15.125
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_SW",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "points": [
+        [
+          10.05,
+          15.125
+        ],
+        [
+          10.05,
+          17.5
+        ]
+      ]
+    },
+    {
+      "net": "BUCK_SW",
+      "layer": "F.Cu",
+      "width_mm": 0.65,
+      "points": [
+        [
+          10.05,
+          18.6375
+        ],
+        [
+          10.05,
+          17.5
+        ]
+      ]
+    }
+  ],
+  "vias": [
+    {
+      "net": "BUCK_FB",
+      "at": [
+        2.3,
+        16.3
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    },
+    {
+      "net": "BUCK_FB",
+      "at": [
+        6.55,
+        15.35
+      ],
+      "diameter": 0.45,
+      "drill": 0.3
+    }
+  ],
+  "notes": [
+    "Only BUCK_BST, BUCK_FB, BUCK_FB_LOW and BUCK_SW copper is in this table; common supply and GND copper is in power_distribution_layout.json.",
+    "Retain the short top switch-node route and the local input-capacitor return. The feedback divider uses the final lower-left placement."
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "source": "Walsin_RFECA3216060A1T_preview.wrl",
+    "source_sha256": "4accb1dcb8e4f87c99e369b4e1c1c6623e434a8d864d0e34e46aaade782221b0",
+    "step": "Walsin_RFECA3216060A1T_preview.step",
+    "step_sha256": "16136621fb5b95cd18dd680539bfa407811b07122a54b7ab4c3d041a4ddb6523",
+    "solids": 4,
+    "bounds_mm": [
+      -1.549999948,
+      -0.800000051,
+      -1.270000000164e-07,
+      1.549999948,
+      0.800000051,
+      0.61000005
+    ],
+    "scope": "Same approximate geometry as the retained VRML preview, converted at 2.54mm per WRL unit."
+  },
+  {
+    "source": "SW_TS_1088_AR02016_preview.wrl",
+    "source_sha256": "2f890b3fd9849e3127cc144a55414768c0eb62025a2ed07fba82b4ea26efb1d8",
+    "step": "SW_TS_1088_AR02016_preview.step",
+    "step_sha256": "de62144182c5c89965d929c9875814959c381da972ecbbbaa3762f91bf590704",
+    "solids": 5,
+    "bounds_mm": [
+      -2.674999984,
+      -1.500000048,
+      0.0,
+      2.674999984,
+      1.500000048,
+      2.000000064
+    ],
+    "scope": "Same approximate geometry as the retained VRML preview, converted at 2.54mm per WRL unit."
+  }
+]

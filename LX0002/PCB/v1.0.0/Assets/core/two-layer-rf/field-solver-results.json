@@ -1,0 +1,142 @@
+[
+  {
+    "width_mm": 0.8,
+    "gap_mm": 0.2,
+    "substrate_er": 4.5,
+    "dielectric_height_mm": 1.51,
+    "copper_thickness_mm": 0.035,
+    "mask_thickness_above_copper_mm": 0.01,
+    "mask_er": 4.4,
+    "impedance_ohm": 49.83198319434143,
+    "effective_er": 3.0215021402505036,
+    "mesh_nodes": 132281,
+    "mesh_min_pitch_mm": 0.005,
+    "mask_model": "uniform mask fills gaps to copper top plus specified mask thickness",
+    "finite_box_mm": [
+      -8.0,
+      8.0,
+      -1.51,
+      5.0
+    ]
+  },
+  {
+    "width_mm": 0.8,
+    "gap_mm": 0.2,
+    "substrate_er": 4.5,
+    "dielectric_height_mm": 1.51,
+    "copper_thickness_mm": 0.035,
+    "mask_thickness_above_copper_mm": 0.01,
+    "mask_er": 4.4,
+    "impedance_ohm": 49.8928460080651,
+    "effective_er": 3.0215210773948478,
+    "mesh_nodes": 293241,
+    "mesh_min_pitch_mm": 0.0025,
+    "mask_model": "uniform mask fills gaps to copper top plus specified mask thickness",
+    "finite_box_mm": [
+      -8.0,
+      8.0,
+      -1.51,
+      5.0
+    ]
+  },
+  {
+    "width_mm": 0.8,
+    "gap_mm": 0.2,
+    "substrate_er": 4.5,
+    "dielectric_height_mm": 1.51,
+    "copper_thickness_mm": 0.035,
+    "mask_thickness_above_copper_mm": 0.01,
+    "mask_er": 4.4,
+    "impedance_ohm": 49.91732308080975,
+    "effective_er": 3.0215143243518927,
+    "mesh_nodes": 759161,
+    "mesh_min_pitch_mm": 0.00125,
+    "mask_model": "uniform mask fills gaps to copper top plus specified mask thickness",
+    "finite_box_mm": [
+      -8.0,
+      8.0,
+      -1.51,
+      5.0
+    ]
+  },
+  {
+    "width_mm": 0.8,
+    "gap_mm": 0.2,
+    "substrate_er": 4.5,
+    "dielectric_height_mm": 1.51,
+    "copper_thickness_mm": 0,
+    "mask_thickness_above_copper_mm": 0,
+    "mask_er": 4.4,
+    "impedance_ohm": 57.40864004600008,
+    "effective_er": 2.7935607455544416,
+    "mesh_nodes": 759161,
+    "mesh_min_pitch_mm": 0.00125,
+    "mask_model": "uniform mask fills gaps to copper top plus specified mask thickness",
+    "finite_box_mm": [
+      -8.0,
+      8.0,
+      -1.51,
+      5.0
+    ]
+  },
+  {
+    "width_mm": 0.8,
+    "gap_mm": 0.2,
+    "substrate_er": 4.2,
+    "dielectric_height_mm": 1.51,
+    "copper_thickness_mm": 0.035,
+    "mask_thickness_above_copper_mm": 0.01,
+    "mask_er": 4.4,
+    "impedance_ohm": 51.094379235626,
+    "effective_er": 2.881084059504959,
+    "mesh_nodes": 293241,
+    "mesh_min_pitch_mm": 0.0025,
+    "mask_model": "uniform mask fills gaps to copper top plus specified mask thickness",
+    "finite_box_mm": [
+      -8.0,
+      8.0,
+      -1.51,
+      5.0
+    ]
+  },
+  {
+    "width_mm": 0.8,
+    "gap_mm": 0.2,
+    "substrate_er": 4.8,
+    "dielectric_height_mm": 1.51,
+    "copper_thickness_mm": 0.035,
+    "mask_thickness_above_copper_mm": 0.01,
+    "mask_er": 4.4,
+    "impedance_ohm": 48.772864243026255,
+    "effective_er": 3.161882029294554,
+    "mesh_nodes": 293241,
+    "mesh_min_pitch_mm": 0.0025,
+    "mask_model": "uniform mask fills gaps to copper top plus specified mask thickness",
+    "finite_box_mm": [
+      -8.0,
+      8.0,
+      -1.51,
+      5.0
+    ]
+  },
+  {
+    "width_mm": 0.8,
+    "gap_mm": 0.2,
+    "substrate_er": 4.5,
+    "dielectric_height_mm": 1.51,
+    "copper_thickness_mm": 0.035,
+    "mask_thickness_above_copper_mm": 0.02,
+    "mask_er": 4.4,
+    "impedance_ohm": 49.24609575770001,
+    "effective_er": 3.101405647427291,
+    "mesh_nodes": 293241,
+    "mesh_min_pitch_mm": 0.0025,
+    "mask_model": "uniform mask fills gaps to copper top plus specified mask thickness",
+    "finite_box_mm": [
+      -8.0,
+      8.0,
+      -1.51,
+      5.0
+    ]
+  }
+]

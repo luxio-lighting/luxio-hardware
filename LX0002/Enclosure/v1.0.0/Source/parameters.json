@@ -1,0 +1,59 @@
+{
+  "material": "PLA",
+  "nozzle_mm": 0.4,
+  "layer_mm": 0.1,
+  "outer_y_mm": [
+    -2.8,
+    22.8
+  ],
+  "floor_outer_z_mm": -3.4,
+  "floor_inner_z_mm": -2.2,
+  "roof_inner_z_mm": 3.5,
+  "roof_outer_z_mm": 4.5,
+  "outer_corner_radius_mm": 1.2,
+  "inner_wall_thickness_mm": 0.8,
+  "pcb_side_clearance_mm": 0.6,
+  "wall_fit_clearance_mm": 0.2,
+  "snap_centers_x_mm": [
+    8.0,
+    34.5
+  ],
+  "snap_beam_width_mm": 4.4,
+  "snap_slot_width_mm": 0.8,
+  "snap_root_z_mm": -1.8,
+  "snap_tip_z_mm": 2.6,
+  "snap_engagement_mm": 0.2,
+  "boss_diameter_mm": 4.2,
+  "locating_pin_diameter_mm": 1.8,
+  "pin_tip_z_mm": 0.6,
+  "pcb_capture_top_z_mm": 0.2,
+  "button_membrane_thickness_mm": 0.4,
+  "button_plunger_diameter_mm": 1.5,
+  "button_tip_z_mm": 2.6,
+  "notes": "Prototype fit values. Z=0 is nominal PCB top; drawing Y is downward and converted once to native physical Y before case export. One locating pin and four edge capture pads retain the PCB when the lid is closed.",
+  "end_seam_clearance_mm": 0.2,
+  "end_wall_side_margin_mm": 0.7,
+  "end_wall_side_fit_mm": 0.25,
+  "inner_corner_end_clearance_mm": 0.2,
+  "usb_clearance_per_side_mm": 0.3,
+  "usb_nominal_width_mm": 8.94,
+  "usb_nominal_height_mm": 3.16,
+  "usb_inferred_corner_radius_mm": 1.0,
+  "usb_opening_vertical_offset_mm": 0.1,
+  "usb_ceiling_z_mm": 3.6,
+  "terminal_top_clearance_mm": 0.4,
+  "pcb_edge_capture_centers_x_mm": [
+    3.8,
+    30.3
+  ],
+  "pcb_edge_capture_width_mm": 3.0,
+  "pcb_edge_capture_overlap_mm": 0.55,
+  "pcb_end_overhang_mm": [
+    1.5,
+    1.95
+  ],
+  "button_membrane_size_mm": [
+    15,
+    18
+  ]
+}

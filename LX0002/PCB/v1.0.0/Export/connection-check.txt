@@ -1,0 +1,3 @@
+64 electrical footprints; 55 populated top components; 168 mapped pins checked.
+PASS: schematic netlist, PCB and parts table agree.
+Two layers, 20mm width, centered USB/button, direct USB 5V output, black mask, 1oz copper, via drills >=0.30mm with both-side tenting flags. Mask-overlap coverage is separate.

@@ -1,0 +1,34 @@
+LX0002 v1.0.0 firmware interface
+
+ESP32-S3FH4R2, 4MB in-package Quad-SPI flash and 2MB Quad-SPI PSRAM.
+No off-package memory. The existing Luxio ESP32-S3 target uses 4MB partitions,
+DIO flash and optional Quad-SPI PSRAM probing at 80MHz; it can use this chip
+without a firmware pin remap. Confirm 4MB flash and 2MB usable PSRAM on the
+first assembled board. Keep flash clock at most 80MHz and auto-suspend off.
+GPIO16: LED data1, always-enabled SN74AHCT1G125 -> 100ohm -> D16.
+GPIO17: LED data2/clock, always-enabled SN74AHCT1G125 -> 100ohm -> D17.
+GPIO18: active-low user button with 10k pull-up, isolated from GPIO0.
+GPIO0: BOOT strap, 10k pull-up; hold the button during reset/power-up
+       to enter ROM download mode. The button does not assert ESP_EN.
+GPIO19/20: native USB D-/D+.
+GPIO26..32 / package pads 28,30..35: in-package flash/PSRAM; reserved, PCB pads NC.
+Do not use these signals as user GPIO or attach an external memory device.
+GPIO46: hardware boot strap pulled low; reserved.
+GPIO45: unconnected. FH4R2 factory eFuses fix VDD_SPI to 3.3V, so no external
+GPIO45 pull-down is required.
+GPIO21/43/44: unconnected. Optional UART testpads are omitted.
+
+No GPIO controls the power path, USB current limit, or data-output enables.
+USB5V directly powers the strip connector and data buffers. Both buffer
+inputs have 100k pull-downs, holding outputs low while MCU pins are high-Z.
+Two passive 5.1k CC resistors identify a USB-C sink. There is no USB PD or
+source-current negotiation in hardware, and no onboard current limiter.
+The regulator generates nominal3.3V for the MCU; strip voltage stays5V.
+
+Choose the correct LED protocol, color order and pixel/group count in firmware.
+For recovery, hold BOOT while reconnecting USB power and flash over native USB.
+The board is intended for an appropriately rated5V adapter/cable when driving
+a strip; computer-port enumeration/suspend current budgets are not enforced.
+
+Memory configuration source: Espressif ESP32-S3 datasheet v2.2, Table 1-1 / Section 2.6.
+https://documentation.espressif.com/esp32_s3_datasheet_en.pdf

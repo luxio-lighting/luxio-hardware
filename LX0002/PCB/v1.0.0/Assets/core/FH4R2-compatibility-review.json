@@ -1,0 +1,82 @@
+{
+  "review_date": "2026-11-25",
+  "part": "ESP32-S3FH4R2",
+  "lcsc": "C3013940",
+  "official_sources": [
+    "https://documentation.espressif.com/esp32_s3_datasheet_en.pdf",
+    "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html"
+  ],
+  "datasheet_version": "2.2",
+  "datasheet_sha256": "2d5a7cb7fd559d8d972bd88db32669c0196d23f22d7afaafb0f63d099b589a3f",
+  "memory": {
+    "flash_mb": 4,
+    "psram_mb": 2,
+    "both_bus": "Quad SPI",
+    "supply_v": 3.3,
+    "reserved_physical_pins": [
+      28,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  "package": {
+    "body_mm": [
+      7,
+      7
+    ],
+    "pitch_mm": 0.4,
+    "ep_nominal_mm": [
+      5.7,
+      5.7
+    ],
+    "ep_min_max_mm": [
+      5.6,
+      5.8
+    ],
+    "height_min_nom_max_mm": [
+      0.8,
+      0.85,
+      0.9
+    ],
+    "lead_width_min_nom_max_mm": [
+      0.15,
+      0.2,
+      0.25
+    ],
+    "lead_length_min_nom_max_mm": [
+      0.3,
+      0.4,
+      0.5
+    ],
+    "requires_custom_footprint": true
+  },
+  "firmware_review": {
+    "source_files_sha256": {
+      "targets.json": "e377f13d2f34f3ca896e30d051e3f0699b34c47988089bf2b7a9fd3ef6ac6205",
+      "Luxio/partitions.csv": "8409e8f32974475e6dfc8c4e4d1018373d407cf8df882be9d14ddfd4677c5e2c",
+      "Luxio/src/main.cpp": "0039157bcdd014b3bef8fc3f5cdb16a2dbbd24980f3cbd6b24a9c206784b969a",
+      ".sdk/arduino/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-f1a1df9b-v3/esp32s3/dio_qspi/include/sdkconfig.h": "d190c30058839ea9dfdd7f6f0d58812a0a9908b62f2bcd5b653dedbcd436d1b7"
+    },
+    "target": {
+      "chip": "esp32s3",
+      "imageChipId": 9,
+      "architecture": "xtensa",
+      "bootloaderAddress": 0,
+      "minimumFlashSize": 4194304,
+      "defaultGpio": 16,
+      "fqbn": "esp32:esp32:esp32s3:FlashSize=4M,FlashMode=dio,PSRAM=enabled,USBMode=hwcdc,CDCOnBoot=cdc",
+      "recoverySize": 1179648,
+      "applicationAddress": 1245184,
+      "applicationSize": 2621440,
+      "id": "esp32s3",
+      "target": "esp32s3-recovery-v1"
+    },
+    "sdk_psram_mode": "Quad SPI / auto detect /80MHz / CLK GPIO30 / CS GPIO26",
+    "application_psram_use": "Animation/Lua/crypto buffers use PSRAM when detected. Original ESP32-only GPIO16/17 restrictions are compile-gated and do not apply to ESP32-S3.",
+    "compatibility": "Current configuration is suitable; actual assembled-device flash/PSRAM detection and stress tests are still required. No firmware changes were made."
+  }
+}

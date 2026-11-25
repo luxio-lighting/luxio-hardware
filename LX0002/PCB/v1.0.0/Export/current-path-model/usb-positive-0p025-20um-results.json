@@ -1,0 +1,226 @@
+{
+  "power_source": "usb_direct",
+  "board_path": "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Source/LX0002.kicad_pcb",
+  "board_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "mesh_sha256": "f4aa59151eb472dd327e930d53524605ec8f6b87fe3701c7e5fee8d38a70fac1",
+  "solver_sha256": "e117bd69373d145aacbb169853c3e62cb5299c72b38ca1de60dc0d20fc6428a5",
+  "resolution_mm": 0.025,
+  "current_a": 3.0,
+  "copper_um": [
+    35.0
+  ],
+  "resistivity_ohm_m": 1.724e-08,
+  "board_thickness_mm": 1.6,
+  "via_plating_um": 20.0,
+  "segments": {
+    "USB_5V": {
+      "connected": true,
+      "source_ref": "J1",
+      "sink_ref": "J4",
+      "reached_sink_cells": 30400,
+      "total_sink_cells": 30400,
+      "results": [
+        {
+          "copper_um": 35.0,
+          "barrel_loss_w": 0.00661191268903155,
+          "planar_copper_loss_w": 0.12757714763812927,
+          "resistance_mohm": 14.909895591906757,
+          "drop_mv": 44.72968677572027,
+          "loss_w": 0.13418906032716083,
+          "iterations": 5219,
+          "residual": 9.738451205142048e-09,
+          "converged": true,
+          "via_currents": [
+            {
+              "x_mm": 4.7,
+              "y_mm": 7.95,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "447bc533-a1fa-417a-ac23-b2be1519eb81",
+              "current_a": 0.5753630189677568,
+              "signed_F_to_B_current_a": 0.5753630189677568,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 0.0004541625152666054
+            },
+            {
+              "x_mm": 32.0,
+              "y_mm": 16.25,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "467db9cf-af25-48ec-bc30-09831ddd2264",
+              "current_a": 1.0991481589255596,
+              "signed_F_to_B_current_a": -1.0991481589255596,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 0.0016574478439976695
+            },
+            {
+              "x_mm": 23.1,
+              "y_mm": 18.99,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "487ffb6d-e45b-4670-8678-04c892788160",
+              "current_a": 2.871267707485885e-08,
+              "signed_F_to_B_current_a": -2.871267707485885e-08,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 1.1310316825607293e-18
+            },
+            {
+              "x_mm": 33.4,
+              "y_mm": 16.25,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "5b13df45-8f70-460d-851c-9617bd68a59d",
+              "current_a": 0.5875345385923247,
+              "signed_F_to_B_current_a": -0.5875345385923247,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 0.00047358092495142066
+            },
+            {
+              "x_mm": 5.2,
+              "y_mm": 8.199999,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "617fb6c0-7774-45c6-a61f-120418d2c43f",
+              "current_a": 0.8397619562283113,
+              "signed_F_to_B_current_a": 0.8397619562283113,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 0.0009674750841457344
+            },
+            {
+              "x_mm": 23.25,
+              "y_mm": 15.42,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "71454b9b-1997-499d-b0ee-8720be8894a4",
+              "current_a": 1.757729337021287e-08,
+              "signed_F_to_B_current_a": 1.757729337021287e-08,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 4.2386875092081104e-19
+            },
+            {
+              "x_mm": 4.7,
+              "y_mm": 12.1,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "77d99b3a-22ea-4265-a591-48be58eef4b4",
+              "current_a": 1.0081812875003864,
+              "signed_F_to_B_current_a": 1.0081812875003864,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 0.0013944555085721832
+            },
+            {
+              "x_mm": 34.1,
+              "y_mm": 16.25,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "8df93b38-a4b3-4fd8-891e-4c1ec832a1f3",
+              "current_a": 0.5604761380647318,
+              "signed_F_to_B_current_a": -0.5604761380647318,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 0.0004309646539401404
+            },
+            {
+              "x_mm": 37.2,
+              "y_mm": 17.55,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "98a2015b-3288-4790-bf1f-562b6eb1987b",
+              "current_a": 0.0,
+              "signed_F_to_B_current_a": 0.0,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 0.0
+            },
+            {
+              "x_mm": 4.099999,
+              "y_mm": 12.1,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "b1058305-d6f4-4dd8-bcff-f8993f13fe6e",
+              "current_a": 0.576693745654131,
+              "signed_F_to_B_current_a": 0.576693745654131,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 0.0004562657616079572
+            },
+            {
+              "x_mm": 2.8,
+              "y_mm": 4.9,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "c8bfdc3d-f5c5-445a-9c63-cee09bbf43b0",
+              "current_a": 6.013818011000538e-10,
+              "signed_F_to_B_current_a": 6.013818011000538e-10,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 4.961670963011355e-22
+            },
+            {
+              "x_mm": 4.0,
+              "y_mm": 18.575,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "d64ce304-64f1-4b6a-8650-0578c22243c7",
+              "current_a": 6.118318410707157e-08,
+              "signed_F_to_B_current_a": 6.118318410707157e-08,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 5.135604221922997e-18
+            },
+            {
+              "x_mm": 32.7,
+              "y_mm": 16.25,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "ddffecb3-43de-4010-92b5-11ffd57f5908",
+              "current_a": 0.752841181416748,
+              "signed_F_to_B_current_a": -0.752841181416748,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 0.0007775603965498325
+            },
+            {
+              "x_mm": 2.65,
+              "y_mm": 12.4,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "e7787608-8442-4ba9-a846-c540ba70442b",
+              "current_a": 9.571584334007279e-09,
+              "signed_F_to_B_current_a": 9.571584334007279e-09,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 1.2568835952248407e-19
+            },
+            {
+              "x_mm": 2.5,
+              "y_mm": 2.049999,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "f341f5ab-6141-4ad6-ae4f-e17287387ac6",
+              "current_a": 1.9476106119796377e-09,
+              "signed_F_to_B_current_a": -1.9476106119796377e-09,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 5.203932586431735e-21
+            },
+            {
+              "x_mm": 38.7,
+              "y_mm": 14.95,
+              "drill_mm": 0.3,
+              "kind": "routing_via",
+              "uuid": "ff9729b3-285f-4301-ac74-e46f22e58321",
+              "current_a": 0.0,
+              "signed_F_to_B_current_a": 0.0,
+              "barrel_resistance_mohm": 1.3719156094521385,
+              "loss_w": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "totals": [
+    {
+      "copper_um": 35.0,
+      "resistance_mohm": 14.909895591906757,
+      "drop_mv": 44.72968677572027,
+      "loss_w": 0.1341890603271608
+    }
+  ],
+  "numerical_backend": "SciPy sparse CG with Jacobi preconditioner; absolute residual recomputed",
+  "usb_contact_group": "all",
+  "successful": true
+}

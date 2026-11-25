@@ -1,0 +1,372 @@
+{
+  "board": "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Source/LX0002.kicad_pcb",
+  "board_sha256": "d0a10279869ecc5148c814a8ca6f9e71f7244219f3bc38fed5c267d3aabd6448",
+  "rf_layout_sha256": "a9789699a7763d7d14c357aea815813a0ebceca63ad68325a36ffa2c3d00e478",
+  "method": "Native filled polygons, GND pads, and GND tracks/vias sampled in XY. GND via drill centers count as intentional ground-via locations.",
+  "limits": "Sampling is not a field solver or electrical connectivity proof. Run native DRC and inspect ground-island connectivity separately. Component launches, bends, and the antenna land pattern are not uniform transmission lines.",
+  "filled_ground_zones": {
+    "F.Cu": 1,
+    "B.Cu": 1
+  },
+  "native_reference_regions_mm": [
+    [
+      [
+        7.2,
+        3.0
+      ],
+      [
+        12.3,
+        3.0
+      ],
+      [
+        12.3,
+        8.9
+      ],
+      [
+        7.2,
+        8.9
+      ]
+    ],
+    [
+      [
+        12.7,
+        3.0
+      ],
+      [
+        14.5,
+        3.0
+      ],
+      [
+        14.5,
+        0.3
+      ],
+      [
+        21.9,
+        0.3
+      ],
+      [
+        21.9,
+        1.9
+      ],
+      [
+        19.65,
+        1.9
+      ],
+      [
+        19.65,
+        4.4
+      ],
+      [
+        18.85,
+        5.2
+      ],
+      [
+        14.0,
+        5.2
+      ],
+      [
+        13.78,
+        5.42
+      ],
+      [
+        13.78,
+        7.15
+      ],
+      [
+        12.7,
+        7.15
+      ]
+    ],
+    [
+      [
+        12.15,
+        7.15
+      ],
+      [
+        17.57,
+        7.15
+      ],
+      [
+        17.57,
+        12.8
+      ],
+      [
+        17.52,
+        12.85
+      ],
+      [
+        12.2,
+        12.85
+      ],
+      [
+        12.15,
+        12.8
+      ]
+    ]
+  ],
+  "uniform_rf_segments_mm": [
+    [
+      [
+        8.1,
+        6.4
+      ],
+      [
+        10.8,
+        3.7
+      ]
+    ]
+  ],
+  "bottom_ground_coverage": {
+    "bottom_reference_1": {
+      "samples": 2907,
+      "ground_samples": 2907,
+      "missing_count": 0,
+      "missing_xy_mm": []
+    },
+    "bottom_reference_2": {
+      "samples": 3422,
+      "ground_samples": 3422,
+      "missing_count": 0,
+      "missing_xy_mm": []
+    },
+    "bottom_reference_3": {
+      "samples": 3078,
+      "ground_samples": 3078,
+      "missing_count": 0,
+      "missing_xy_mm": []
+    },
+    "RF_bottom_reference": {
+      "samples": 40,
+      "ground_samples": 40,
+      "missing_count": 0,
+      "missing_xy_mm": []
+    },
+    "clock_bottom_reference": {
+      "samples": 2325,
+      "ground_samples": 2325,
+      "missing_count": 0,
+      "missing_xy_mm": []
+    }
+  },
+  "rf_cross_sections": [
+    {
+      "segment": 1,
+      "center_mm": [
+        8.4889087296526,
+        6.011091270347399
+      ],
+      "sides": {
+        "-1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        },
+        "1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        }
+      }
+    },
+    {
+      "segment": 1,
+      "center_mm": [
+        8.736396103067893,
+        5.763603896932108
+      ],
+      "sides": {
+        "-1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        },
+        "1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        }
+      }
+    },
+    {
+      "segment": 1,
+      "center_mm": [
+        8.983883476483184,
+        5.516116523516816
+      ],
+      "sides": {
+        "-1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        },
+        "1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        }
+      }
+    },
+    {
+      "segment": 1,
+      "center_mm": [
+        9.231370849898475,
+        5.268629150101525
+      ],
+      "sides": {
+        "-1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        },
+        "1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        }
+      }
+    },
+    {
+      "segment": 1,
+      "center_mm": [
+        9.478858223313768,
+        5.021141776686233
+      ],
+      "sides": {
+        "-1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        },
+        "1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        }
+      }
+    },
+    {
+      "segment": 1,
+      "center_mm": [
+        9.72634559672906,
+        4.773654403270942
+      ],
+      "sides": {
+        "-1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        },
+        "1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        }
+      }
+    },
+    {
+      "segment": 1,
+      "center_mm": [
+        9.97383297014435,
+        4.52616702985565
+      ],
+      "sides": {
+        "-1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        },
+        "1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        }
+      }
+    },
+    {
+      "segment": 1,
+      "center_mm": [
+        10.221320343559643,
+        4.278679656440358
+      ],
+      "sides": {
+        "-1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        },
+        "1": {
+          "first_ground_distance_from_center_mm": 0.605,
+          "inferred_gap_from_nominal_trace_edge_mm": 0.205
+        }
+      }
+    }
+  ],
+  "non_ground_vias_touching_reference_regions": [],
+  "antenna_ground_fill": [
+    {
+      "layer": "F.Cu",
+      "ground_fill_samples_inside_window": 0,
+      "examples_xy_mm": []
+    },
+    {
+      "layer": "B.Cu",
+      "ground_fill_samples_inside_window": 0,
+      "examples_xy_mm": []
+    }
+  ],
+  "ep_ground_reference": {
+    "method": "Exact native filled-GND polygon intersection with the full 5.7mm exposed-pad projection; intentional GND via drill locations remain reference connections.",
+    "full_projection_area_mm2": 32.49,
+    "bottom_ground_area_mm2": 30.955072306689,
+    "bottom_ground_coverage_percent": 95.27569192578947,
+    "minimum_accepted_coverage_percent": 95,
+    "missing_ground_outside_documented_allowance_mm2": 0.0,
+    "allowed_bottom_corner_chamfer_max_mm": 0.05,
+    "covered_projection_connected_outlines": 1,
+    "full_front_exposed_pad_ground": true,
+    "central_ground_vias_xy_diameter_drill_mm": [
+      [
+        13.6,
+        8.6,
+        0.45,
+        0.3
+      ],
+      [
+        13.6,
+        10.0,
+        0.45,
+        0.3
+      ],
+      [
+        13.6,
+        11.4,
+        0.45,
+        0.3
+      ],
+      [
+        15.0,
+        8.6,
+        0.45,
+        0.3
+      ],
+      [
+        15.0,
+        10.0,
+        0.45,
+        0.3
+      ],
+      [
+        15.0,
+        11.4,
+        0.45,
+        0.3
+      ],
+      [
+        16.4,
+        8.6,
+        0.45,
+        0.3
+      ],
+      [
+        16.4,
+        10.0,
+        0.45,
+        0.3
+      ],
+      [
+        16.4,
+        11.4,
+        0.45,
+        0.3
+      ]
+    ],
+    "documented_tradeoff": "Static BOOT routing occupies the outer-right 0.28mm EP rim; two bottom-corner pour-rounding chamfers are bounded to 0.05mm each. This is a compact two-layer deviation from Espressif complete-chip-ground guidance, not production/RF qualification.",
+    "status": "pass"
+  },
+  "status": "sampled_geometry_pass"
+}

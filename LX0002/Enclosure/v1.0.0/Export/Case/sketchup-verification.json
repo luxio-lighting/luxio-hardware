@@ -1,0 +1,175 @@
+{
+  "generated_utc": "2026-11-25T15:23:49.336640+00:00",
+  "source_stl_sha256": {
+    "base-assembly.stl": "f2fc35c4603e47aa4f02a4e7f0508943a720f2412a2e23f29c7f124f32f436e9",
+    "base.stl": "69c09ac7f11872039fc5c684b5a19b8891ca8829133a07d64b8ed3627abdbeb6",
+    "lid-assembly.stl": "954d18b042d260b82c80402cf0f4f234f51e4124bf053ca17719cc0a5cb9149a",
+    "lid.stl": "f2e6105408c1a36957424e622abfc314089b4ac2a737dbfde5bcd844b9caf25a",
+    "pcb-reference.stl": "888505632515b4599150e29b166686ac78d0eeb6bb8bd3c1dff2e8c2ae90a99f"
+  },
+  "geometry_scale": 1000.0,
+  "model_units": "millimetres",
+  "coordinate_tolerance_mm": 0.0001,
+  "exporter_source_sha256": "afa17b0cf73a3738c891c491e9b050044e0e86490ff9e3ed77ff536cb457a217",
+  "wrapper_source_sha256": "d82d7cd702697a0089a83e57f60e3d15e67111ea60f4a5992868c42160f6280c",
+  "models": [
+    {
+      "file": "LX0002-case.skp",
+      "sha256": "87582eac851fab8903ab845f4c2eaa9b48ee9084d10f50dec88f4d1ae70fbfbf",
+      "manifest": "assembly.tsv",
+      "manifest_sha256": "69d1f967a435c1c60871f2dcf50c52c641d7e0a1ea3662e7785bf625e2241efa",
+      "saved_and_reloaded": true,
+      "group_count": 3,
+      "unchanged_face_edge_counts_and_bounds": true,
+      "printable_group_topology": {
+        "Base": {
+          "stl_triangles": 4568,
+          "shared_vertices": 2286,
+          "faces": 4568,
+          "edges": 6852,
+          "hidden_coplanar_edges": 3303,
+          "degenerate_triangles_removed": 0,
+          "duplicate_triangles_removed": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        "Lid": {
+          "stl_triangles": 2972,
+          "shared_vertices": 1488,
+          "faces": 2972,
+          "edges": 4458,
+          "hidden_coplanar_edges": 2036,
+          "degenerate_triangles_removed": 0,
+          "duplicate_triangles_removed": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      "verification_log": [
+        "Base: 4568 STL triangles, 2286 shared vertices, 4568 faces, 6852 edges, 3303 coplanar edges hidden; 0 degenerate / 0 duplicate triangles removed; 0 boundary / 0 nonmanifold edges",
+        "Lid: 2972 STL triangles, 1488 shared vertices, 2972 faces, 4458 edges, 2036 coplanar edges hidden; 0 degenerate / 0 duplicate triangles removed; 0 boundary / 0 nonmanifold edges",
+        "PCB reference: 8 reference-only facets merged by SDK; surface area difference 0.00345275485055mm2",
+        "PCB reference: 361674 STL triangles, 179367 shared vertices, 359692 faces, 538520 edges, 201636 coplanar edges hidden; 6 degenerate / 1968 duplicate triangles removed; 24 boundary / 1701 nonmanifold edges",
+        "Verified Base bounds mm: [-1.5000, -22.8000, 0.0000] .. [43.9500, 2.8000, 6.0000]",
+        "Verified Lid bounds mm: [-1.5000, -22.8000, 1.2000] .. [43.9500, 2.8000, 7.9000]",
+        "Verified PCB reference bounds mm: [-1.1750, -20.0000, 1.7988] .. [42.0000, 0.0000, 7.8938]",
+        "PASS: saved and reopened \"/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/Enclosure/v1.0.0/Export/Case/LX0002-case.skp\"; 3 named groups, unchanged face/edge counts and bounds, millimetre units."
+      ],
+      "pcb_reference_facet_merges": [
+        {
+          "facets": 8,
+          "surface_area_difference_mm2": 0.00345275485055
+        }
+      ]
+    },
+    {
+      "file": "LX0002-case-exploded.skp",
+      "sha256": "3e6470dd9b80efb76cfe8daf5d2f2803a148bfadff114daeebb1f825e7cb8dda",
+      "manifest": "exploded.tsv",
+      "manifest_sha256": "8921b2376c2aa6532bfceb604d0544d12c789961d5d77761f51570efb2fd1aa6",
+      "saved_and_reloaded": true,
+      "group_count": 3,
+      "unchanged_face_edge_counts_and_bounds": true,
+      "printable_group_topology": {
+        "Base": {
+          "stl_triangles": 4568,
+          "shared_vertices": 2286,
+          "faces": 4568,
+          "edges": 6852,
+          "hidden_coplanar_edges": 3303,
+          "degenerate_triangles_removed": 0,
+          "duplicate_triangles_removed": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        "Lid": {
+          "stl_triangles": 2972,
+          "shared_vertices": 1488,
+          "faces": 2972,
+          "edges": 4458,
+          "hidden_coplanar_edges": 2036,
+          "degenerate_triangles_removed": 0,
+          "duplicate_triangles_removed": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      "verification_log": [
+        "Base: 4568 STL triangles, 2286 shared vertices, 4568 faces, 6852 edges, 3303 coplanar edges hidden; 0 degenerate / 0 duplicate triangles removed; 0 boundary / 0 nonmanifold edges",
+        "Lid: 2972 STL triangles, 1488 shared vertices, 2972 faces, 4458 edges, 2036 coplanar edges hidden; 0 degenerate / 0 duplicate triangles removed; 0 boundary / 0 nonmanifold edges",
+        "PCB reference: 8 reference-only facets merged by SDK; surface area difference 0.00345275485055mm2",
+        "PCB reference: 361674 STL triangles, 179367 shared vertices, 359692 faces, 538520 edges, 201636 coplanar edges hidden; 6 degenerate / 1968 duplicate triangles removed; 24 boundary / 1701 nonmanifold edges",
+        "Verified Base bounds mm: [-1.5000, -22.8000, 0.0000] .. [43.9500, 2.8000, 6.0000]",
+        "Verified Lid bounds mm: [-1.5000, -22.8000, 17.2000] .. [43.9500, 2.8000, 23.9000]",
+        "Verified PCB reference bounds mm: [-1.1750, -20.0000, 1.7988] .. [42.0000, 0.0000, 7.8938]",
+        "PASS: saved and reopened \"/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/Enclosure/v1.0.0/Export/Case/LX0002-case-exploded.skp\"; 3 named groups, unchanged face/edge counts and bounds, millimetre units."
+      ],
+      "pcb_reference_facet_merges": [
+        {
+          "facets": 8,
+          "surface_area_difference_mm2": 0.00345275485055
+        }
+      ]
+    },
+    {
+      "file": "LX0002-case-print-layout.skp",
+      "sha256": "b462ea5f18803d89701d1b68fbfcd988a6967ae07aa285c06d1158f12a401607",
+      "manifest": "print-layout.tsv",
+      "manifest_sha256": "d226dc83cbdc58853b292a66d266e5611dae59680e667aad284ef0a183e431a5",
+      "saved_and_reloaded": true,
+      "group_count": 2,
+      "unchanged_face_edge_counts_and_bounds": true,
+      "printable_group_topology": {
+        "Base": {
+          "stl_triangles": 4568,
+          "shared_vertices": 2286,
+          "faces": 4568,
+          "edges": 6852,
+          "hidden_coplanar_edges": 3303,
+          "degenerate_triangles_removed": 0,
+          "duplicate_triangles_removed": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        },
+        "Lid": {
+          "stl_triangles": 2972,
+          "shared_vertices": 1488,
+          "faces": 2972,
+          "edges": 4458,
+          "hidden_coplanar_edges": 2036,
+          "degenerate_triangles_removed": 0,
+          "duplicate_triangles_removed": 0,
+          "boundary_edges": 0,
+          "nonmanifold_edges": 0
+        }
+      },
+      "verification_log": [
+        "Base: 4568 STL triangles, 2286 shared vertices, 4568 faces, 6852 edges, 3303 coplanar edges hidden; 0 degenerate / 0 duplicate triangles removed; 0 boundary / 0 nonmanifold edges",
+        "Lid: 2972 STL triangles, 1488 shared vertices, 2972 faces, 4458 edges, 2036 coplanar edges hidden; 0 degenerate / 0 duplicate triangles removed; 0 boundary / 0 nonmanifold edges",
+        "Verified Base bounds mm: [-0.0000, 0.0000, 0.0000] .. [45.4500, 25.6000, 6.0000]",
+        "Verified Lid bounds mm: [-0.0000, 35.0000, -0.0000] .. [45.4500, 60.6000, 6.7000]",
+        "PASS: saved and reopened \"/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/Enclosure/v1.0.0/Export/Case/LX0002-case-print-layout.skp\"; 2 named groups, unchanged face/edge counts and bounds, millimetre units."
+      ],
+      "pcb_reference_facet_merges": []
+    }
+  ],
+  "renders": {
+    "case-closed.png": {
+      "sha256": "db2cd5dad915a7ce527c4538d78862e3c01f5075e70754f4108391fcea7ca6f4",
+      "width_px": 1800,
+      "height_px": 1200
+    },
+    "case-exploded.png": {
+      "sha256": "fedd895be09ef8975e9be1acb73a1ac3ce9b5df4938ab5de2746808e4db082ed",
+      "width_px": 1800,
+      "height_px": 1200
+    },
+    "case-inside.png": {
+      "sha256": "477cfd02a8e6e468cea6d2606c3c3979e34f88ba30d618204fd9a27da796b639",
+      "width_px": 1800,
+      "height_px": 1200
+    }
+  },
+  "render_source_sha256": "03a72b353154ab77721d8828abcdcd4e085f98edf01cccd1ddde9ad770aec535",
+  "pcb_color_reference_sha256": "0edca5c1bd0519c7a3eacb7dae0b8b3684666f4830f158e8835caf84beb85ffc"
+}

@@ -1,0 +1,48 @@
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/emile/.cache/fontconfig
+	/Users/emile/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/emile/.cache/fontconfig
+	/Users/emile/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/emile/.cache/fontconfig
+	/Users/emile/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/emile/.cache/fontconfig
+	/Users/emile/.fontconfig
+Found 0 violations
+Found 0 unconnected items
+Saved DRC Report to /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Export/current-path-model/current-board-drc.json
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+USB_5V: 10276 copper cells, 16 vias
+GND: 98148 copper cells, 53 vias
+Saved /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Export/current-path-model/usb-all-0p1-mesh.json; PCB unchanged
+USB_5V       35µm:  17.5336mΩ,   52.601mV, 0.15780W at3A; residual8.9e-08
+GND          35µm:   7.7051mΩ,   23.115mV, 0.06935W at3A; residual9.9e-08
+Saved /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Export/current-path-model/usb-all-0p1-25um-results.txt
+USB_5V       35µm:  17.6946mΩ,   53.084mV, 0.15925W at3A; residual9.5e-08
+GND          35µm:   7.8785mΩ,   23.635mV, 0.07091W at3A; residual1e-07
+Saved /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Export/current-path-model/usb-all-0p1-20um-results.txt
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+USB_5V: 42041 copper cells, 16 vias
+GND: 392762 copper cells, 53 vias
+Saved /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Export/current-path-model/usb-all-0p05-mesh.json; PCB unchanged
+USB_5V       35µm:  16.4401mΩ,   49.320mV, 0.14796W at3A; residual9.7e-08
+GND          35µm:   7.6216mΩ,   22.865mV, 0.06859W at3A; residual9.9e-08
+Saved /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Export/current-path-model/usb-all-0p05-25um-results.txt
+USB_5V       35µm:  16.5993mΩ,   49.798mV, 0.14939W at3A; residual9.6e-08
+GND          35µm:   7.7905mΩ,   23.371mV, 0.07011W at3A; residual9.9e-08
+Saved /Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Export/current-path-model/usb-all-0p05-20um-results.txt
+Traceback (most recent call last):
+  File "/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/PCB/v1.0.0/Source/tools/review_current_paths.py", line 63, in <module>
+    assert all(change <= args.max_grid_change_percent for change in per_net.values()), f'Per-net grid sensitivity too high: {per_net}; refine mesh'
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Per-net grid sensitivity too high: {'USB_5V': 6.651251664193504, 'GND': 1.0954999054417547}; refine mesh

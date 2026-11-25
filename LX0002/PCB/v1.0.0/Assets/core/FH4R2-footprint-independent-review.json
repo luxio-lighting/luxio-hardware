@@ -1,0 +1,13 @@
+{
+  "scope": "Independent loaded-footprint geometry review against Espressif ESP32-S3 datasheet v2.2 Figure7-2. Stencil process remains subject to assembly validation.",
+  "result": "PASS",
+  "footprint_sha256": "7d26d4e59622a9aff39107498f653e244c6957b0b4c377811b8bfeb127431cff",
+  "checks": [
+    "56 perimeter pads preserve counterclockwise numbering,0.4mm pitch and0.20x0.80mm lands",
+    "EP57 is5.7x5.7mm copper/mask with independent paste windows and0.20mm land gap"
+  ],
+  "planned_via_drill_mm": 0.3,
+  "minimum_bounding_drill_to_paste_mm": 0.118700576850888,
+  "paste_coverage_percent": 50.8127264529836,
+  "datasheet_sha256": "2d5a7cb7fd559d8d972bd88db32669c0196d23f22d7afaafb0f63d099b589a3f"
+}

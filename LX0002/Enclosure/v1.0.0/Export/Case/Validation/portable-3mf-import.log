@@ -1,0 +1,111 @@
+[2026-11-25 16:22:06.602666] [0x00000001ee41d300] [trace]   Initializing StaticPrintConfigs
+[2026-11-25 16:22:06.609085] [0x00000001ee41d300] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-11-25 16:22:06.609202] [0x00000001ee41d300] [info]    Will start to read model file now, file count :1
+
+[2026-11-25 16:22:06.609297] [0x00000001ee41d300] [info]    allow_multicolor_oneplate 1, allow_rotations 1 skip_modified_gcodes 0 avoid_extrusion_cali_region 0 loaded_filament_ids size 0, clone_objects size 0, skip_useless_pick 0, allow_newer_file 0, allow_mix_temp 0
+[2026-11-25 16:22:06.609378] [0x00000001ee41d300] [info]    plate_to_slice=0, normative_check=1, use_first_fila_as_default=0
+[2026-11-25 16:22:06.609478] [0x00000001ee41d300] [info]    read model file:/Users/emile/Git/@luxio-lighting/luxio-hardware/LX0002/Enclosure/v1.0.0/Export/Case/LX0002-case-print-layout.3mf
+
+[2026-11-25 16:22:06.610474] [0x00000001ee41d300] [info]    model 0x16aecfc08, id 3, backup_path empty, set to 16_22_06#98766#3
+[2026-11-25 16:22:06.610593] [0x00000001ee41d300] [info]    create /3D/Objects in 16_22_06#98766#3
+[2026-11-25 16:22:06.610868] [0x00000001ee41d300] [info]    create /Metadata in 16_22_06#98766#3
+[2026-11-25 16:22:06.611005] [0x00000001ee41d300] [info]    create /lock.txt in 16_22_06#98766#3
+[2026-11-25 16:22:06.611205] [0x00000001ee41d300] [info]    _load_model_from_file:1799import 3mf IMPORT_STAGE_OPEN, m_load_restore=0
+
+[2026-11-25 16:22:06.611337] [0x00000001ee41d300] [info]    _load_model_from_file:1835import 3mf IMPORT_STAGE_READ_FILES
+
+[2026-11-25 16:22:06.618479] [0x00000001ee41d300] [info]    _load_model_from_file:1991extract 1th file [Content_Types].xml, total=3
+[2026-11-25 16:22:06.618585] [0x00000001ee41d300] [info]    _load_model_from_file:2102, [Content_Types].xml skipped, already parsed or a directory or not supported
+
+[2026-11-25 16:22:06.618744] [0x00000001ee41d300] [info]    _load_model_from_file:1991extract 2th file .rels, total=3
+[2026-11-25 16:22:06.618822] [0x00000001ee41d300] [info]    _load_model_from_file:2102, _rels/.rels skipped, already parsed or a directory or not supported
+
+[2026-11-25 16:22:06.618973] [0x00000001ee41d300] [info]    _load_model_from_file:1991extract 3th file 3dmodel.model, total=3
+[2026-11-25 16:22:06.619047] [0x00000001ee41d300] [info]    _load_model_from_file:2102, 3D/3dmodel.model skipped, already parsed or a directory or not supported
+
+[2026-11-25 16:22:06.619123] [0x00000001ee41d300] [info]    _load_model_from_file:2112, found 3mf from other vendor, split as instance
+[2026-11-25 16:22:06.619198] [0x00000001ee41d300] [info]    _load_model_from_file:2154, process group colors, size 0
+
+[2026-11-25 16:22:06.619272] [0x00000001ee41d300] [info]    _load_model_from_file:2176, begin to assemble objects, size 2
+
+[2026-11-25 16:22:06.624868] [0x00000001ee41d300] [info]    _load_model_from_file:2395import 3mf IMPORT_STAGE_LOADING_PLATES, m_plater_data size 0, m_backup_path 16_22_06#98766#3
+
+[2026-11-25 16:22:06.625024] [0x00000001ee41d300] [info]    _load_model_from_file:2510import 3mf IMPORT_STAGE_FINISH
+
+[2026-11-25 16:22:06.625318] [0x00000001ee41d300] [info]    object base, id :5, from stl or other 3mf
+
+[2026-11-25 16:22:06.625404] [0x00000001ee41d300] [info]    object lid, id :9, from stl or other 3mf
+
+[2026-11-25 16:22:06.625491] [0x00000001ee41d300] [info]    run:before load settings, file count=0
+
+[2026-11-25 16:22:06.625577] [0x00000001ee41d300] [info]    current printer , new printer , current process , new process 
+[2026-11-25 16:22:06.625659] [0x00000001ee41d300] [info]    current printer inherits , new printer inherits , current process inherits , new process inherits 
+[2026-11-25 16:22:06.625739] [0x00000001ee41d300] [info]    old 3mf, no compatible printers, set to compatible
+[2026-11-25 16:22:06.625821] [0x00000001ee41d300] [info]    old printer , inherited from , old process , inherited from  ,compatible 1
+[2026-11-25 16:22:06.625916] [0x00000001ee41d300] [info]    3435: nozzle_volume_type not found, use standard by default, new_printer_name  extruder_count 1
+[2026-11-25 16:22:06.625997] [0x00000001ee41d300] [warning] no filament colors found in projects
+[2026-11-25 16:22:06.626077] [0x00000001ee41d300] [info]    total 1 models, 0 objects
+
+[2026-11-25 16:22:06.626874] [0x00000001ee41d300] [info]    4160, remove_wrapping_detect 0, old value 0
+[2026-11-25 16:22:06.627060] [0x00000001ee41d300] [info]    translate_old 0, shrink_to_new_bed 0, old bed size {200, 200, 100}
+[2026-11-25 16:22:06.627136] [0x00000001ee41d300] [info]    reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+[2026-11-25 16:22:06.627211] [0x00000001ee41d300] [info]    reset_size:after size: plate_width 200, plate_depth 200, plate_height 100
+[2026-11-25 16:22:06.627288] [0x00000001ee41d300] [info]    set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-11-25 16:22:06.627364] [0x00000001ee41d300] [info]    set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 200, plate_depth 200, plate_height 100
+[2026-11-25 16:22:06.627438] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-11-25 16:22:06.627513] [0x00000001ee41d300] [info]    set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-11-25 16:22:06.627589] [0x00000001ee41d300] [info]    set_pos_and_size: with_instance_move 0, after, origin {240,0,0}, plate_width 200, plate_depth 200, plate_height 100
+[2026-11-25 16:22:06.627663] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-11-25 16:22:06.627746] [0x00000001ee41d300] [info]    will start transforms, commands count 2
+
+[2026-11-25 16:22:06.627819] [0x00000001ee41d300] [info]    process transform orient
+
+[2026-11-25 16:22:06.627894] [0x00000001ee41d300] [info]    object base, id :5, no need to orient when setting orient to 0
+
+[2026-11-25 16:22:06.627967] [0x00000001ee41d300] [info]    object lid, id :9, no need to orient when setting orient to 0
+
+[2026-11-25 16:22:06.628040] [0x00000001ee41d300] [info]    orient_option 0
+[2026-11-25 16:22:06.628113] [0x00000001ee41d300] [info]    process transform arrange
+
+[2026-11-25 16:22:06.628187] [0x00000001ee41d300] [info]    finished model pre-process commands
+
+[2026-11-25 16:22:06.628264] [0x00000001ee41d300] [info]    before arrange, need_arrange=0, duplicate_count 0, filament_color_changed 0
+[LX0002-case-print-layout.3mf]
+size_x = 45.450001
+size_y = 25.600000
+size_z = 6.000000
+min_x = -22.725000
+min_y = -12.800000
+min_z = -3.000000
+max_x = 22.725000
+max_y = 12.800000
+max_z = 3.000000
+number_of_facets = 4568
+manifold = yes
+number_of_parts =  1
+volume = 1875.606079
+[LX0002-case-print-layout.3mf]
+size_x = 45.450001
+size_y = 25.600000
+size_z = 6.700000
+min_x = -22.725000
+min_y = -12.800000
+min_z = -3.350000
+max_x = 22.725000
+max_y = 12.800000
+max_z = 3.350000
+number_of_facets = 2972
+manifold = yes
+number_of_parts =  1
+volume = 1464.512329
+[2026-11-25 16:22:06.628403] [0x00000001ee41d300] [info]    run, Finished
+
+[2026-11-25 16:22:06.628597] [0x00000001ee41d300] [info]    record_exit_reson:604, saved config to result.json
+
+[2026-11-25 16:22:06.628681] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-11-25 16:22:06.628756] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-11-25 16:22:06.628877] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-11-25 16:22:06.628982] [0x00000001ee41d300] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-11-25 16:22:06.629072] [0x00000001ee41d300] [info]    _BBS_Backup_Manager inital and interval = 60
+[2026-11-25 16:22:06.629180] [0x00000001ee41d300] [info]    remove_backup 16_22_06#98766#3, true
+[2026-11-25 16:22:06.629268] [0x000000016b07b000] [info]    process_task{ type:RemoveBackup, id:3, path:16_22_06#98766#3, object:0, extra:1}
